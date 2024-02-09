@@ -1,0 +1,300 @@
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+}
+.navigation {
+  height: 320px;
+  display: flex;
+  gap: 296px;
+  align-items: center;
+}
+.logo-icon {
+  fill: rgb(91,41,147);
+  margin-right: 20px;
+}
+.logo-text {
+  fill: 413D45;
+  margin-bottom: 17px;
+}
+.nav-list {
+  display: flex;
+  gap: 20px;
+}
+/* main */
+.hero {
+  display: flex;
+  align-items: end;
+  gap: 387px;
+  width: 1778px;
+  height: 816px;
+  border-radius: 24px;
+  padding-bottom: 89px;
+
+  background-image:
+  url("./images/background-img.jpg");
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 44px;
+}
+.hero-text-container{
+  width: 614px;
+ 
+  text-align: center;
+}
+.hero-text {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: white;
+}
+.social-media-list{
+  display: flex;
+  gap: 20px;
+}
+.social-media-item-icon {
+  fill: white;
+}
+.subscribing-link {
+  display: block;
+  width: 350px;
+  height: 80px;
+  border-radius: 1000px;
+  background-color: rgb(91,41,147);
+  padding: 28px 39px 28px 93px;
+}
+.subscribing-link-text{
+  color: white;
+}
+
+/* ABOUT SCOUTS */
+.about-scouts {
+  position: relative;
+  width: 1778px;
+  height: 967px;
+  
+}
+.about-scouts-block {
+  display: flex;
+  gap: 32px;
+  margin-top: 116px;
+  padding-left: 337px;
+  padding-right: 337px;
+}
+.about-scouts-background-block {
+  width: 772px;
+  height: 601px;
+  border-radius: 24px;
+ 
+  background-image:
+  url("./images/background-img2.jpg");
+}
+/* .about-scouts-discribing-block {
+ 
+} */
+.about-scouts-title {
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+.about-scouts-text {
+  width: 442px;
+height: 216px;
+
+}
+.about-scouts-cards-list {
+  position: absolute;
+  z-index: 10;
+
+  top: 383px;
+  left: 185px;
+  display: flex;
+  gap: 24px;
+}
+.about-scouts-card {
+  width: 355px;
+  height: 477px;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: rgb(245,245,245);
+}
+
+
+/* MAIN SECTION */
+.main-part {
+  width: 1778px;
+}
+.main-title {
+font-size: 80px;
+text-transform: uppercase;
+text-align: center;
+color: rgb(91,41,147);
+margin-bottom: 48px;
+}
+.main-part-section-img {
+  margin-bottom: 72px;
+}
+.main-iformation-block {
+  display: flex;
+  width:  1564px;
+  justify-content: space-around;
+}
+.iformation-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.number-iformation {
+  font-size: 60px;
+  color: rgb(91,41,147);
+}
+.text-iformation {
+  font-size: 30px;
+  margin-bottom: 73px;
+}
+
+/* EVENTS */
+.events {
+  width: 1778px;
+}
+.events-title {
+  font-size: 40px;
+  margin-bottom: 69px;
+  text-align: center;
+}
+.events-list {
+  display: flex;
+  gap: 40px;
+  width: 1558px;
+justify-content: space-around;
+margin-bottom: 100px;
+}
+.events-item {
+  display: flex;
+  flex-direction: column;
+  width: 355px;
+  height: 716px;
+  border-radius: 20px;
+  background-color: rgb(245,245,245);
+  padding-top: 40px;
+  gap: 36px;
+}
+
+.events-img {
+  width: 370px;
+  height: 370px;
+ }
+.events-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* object-position: 50% 50%; */
+ 
+}
+.events-item >.events-img {
+  object-position: center;
+}
+
+/* invitation */
+.invitation {
+  width: 1880px;
+  height: 705px;
+  background-color:rgb(245,245,245); 
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.invitation-information {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  text-align: center;
+}
+.invitation-title {
+  font-size: 40px;
+  color: rgb(91,41,147)  
+}
+.invitation-text {
+  font-size: 24px;
+}
+.invitation-section-img {
+  display: flex;
+}
+.footer {
+  width: 1920px;
+}
+.footer-white-part {
+text-align: center;
+}
+.footer-white-part-text {
+  font-size: 50px;
+  color: rgb(91,41,147)  
+}
+.footer-dark-part {
+  height: 572px;
+  background-color:  rgb(91,41,147) ;
+  display: flex;
+  gap: 145px;
+}
+.contact-footer-part {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: baseline;
+  margin-left: 338px;
+  margin-top: 66px;
+}
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  
+  /* align-items: center; */
+}
+.footer-logo-icon {
+  fill: white;
+}
+.footer-logo-text {
+  fill: white;
+}
+.footer-social-media-text {
+  width: 250px;
+  font-size: 20px;
+  color: white;
+}
+.nav-footer-list {
+  display: flex;
+  gap: 10px;
+  margin-top: 149px;
+  color: white;
+}

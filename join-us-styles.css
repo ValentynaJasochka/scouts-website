@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+}
+.heder {
+  width: 1920px;
+  height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navigation {
+ 
+  display: flex;
+  gap: 296px;
+  align-items: center;
+}
+.logo-icon {
+  fill: rgb(91,41,147);
+  margin-right: 20px;
+}
+.logo-text {
+  fill: 413D45;
+  margin-bottom: 17px;
+}
+.nav-list {
+  display: flex;
+  gap: 20px;
+}
+.banner {
+  width: 2156px;
+  height: 1022px;
+background-repeat: no-repeat;
+  background-image: 
+  url("./images/join-us.jpg");
+}
+.invitation-section {
+  width: 2156px;
+  text-align: center;
+}
+.main-title {
+  font-size: 80px;
+  color: rgb(91,41,147) ;
+  margin-top: 24px;
+}
+.invitation-text {
+  font-size: 24px;
+}
+
+.join-list {
+  display: flex;
+  gap: 64px;
+  justify-content: center;
+}
+.join-item {
+  width: 550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  width: 1920px;
+}
+.footer-white-part {
+text-align: center;
+}
+.footer-white-part-text {
+  font-size: 50px;
+  color: rgb(91,41,147)  
+}
+.footer-dark-part {
+  height: 572px;
+  background-color:  rgb(91,41,147) ;
+  display: flex;
+  gap: 145px;
+}
+.social-media-list{
+  display: flex;
+  gap: 20px;
+}
+.social-media-item-icon {
+  fill: white;
+}
+.contact-footer-part {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: baseline;
+  margin-left: 338px;
+  margin-top: 66px;
+}
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  
+  /* align-items: center; */
+}
+.footer-logo-icon {
+  fill: white;
+}
+.footer-logo-text {
+  fill: white;
+}
+.footer-social-media-text {
+  width: 250px;
+  font-size: 20px;
+  color: white;
+}
+.nav-footer-list {
+  display: flex;
+  gap: 10px;
+  margin-top: 149px;
+  color: white;
+}
