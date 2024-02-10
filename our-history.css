@@ -56,110 +56,17 @@ a {
   display: flex;
   gap: 20px;
 }
-.banner {
-  width: 2156px;
-  height: 1022px;
-background-repeat: no-repeat;
-  background-image: 
-  url("./images/join-us.jpg");
-}
-.invitation-section {
-  width: 2156px;
-  text-align: center;
-  padding-bottom: 156px;
-}
-.main-title {
-  font-size: 80px;
-  color: rgb(91,41,147) ;
-  margin-top: 24px;
-}
-.invitation-text {
-  font-size: 24px;
-}
 
-.join-list {
-  display: flex;
-  gap: 64px;
-  justify-content: center;
-}
-.join-item {
-  width: 550px;
-}
-.join-link {
-  box-sizing: border-box;
-  display: inline-block;
-  padding: 38px 96px;
-  background-color: rgb(91,41,147);
-  border-radius: 1000px;
-  margin-top: 48px;
-}
-
-/* advantages */
-.advantages {
-  width: 1920px;
-  background-color: rgb(91,41,147);
-  padding: 150px 330px 48px 330px;
-}
-.advantages-title {
-  font-size: 40px;
-  color: white;
-  text-align: center;
-}
-.advantages-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-.advantages-item {
-  width: 609px;
-  padding: 90px 60px 48px 60px;
-}
-.advantages-item-title{
-  font-size: 24px;
-  color: white;
-  margin-bottom: 30px;
-}
-.advantages-item-text {
-  font-size: 18px;
-  color: white;
-}
-
-
-/* connect */
-.connect {
+/* history */
+.history-wrapper{
   width: 1920px;
   display: flex;
-  padding: 112px 180px 0 187px;
+  flex-direction: column;
+  gap: 48px;
 }
-.for-photo {
-  width: 231px;
-  height: 495px;
-}
-
-
-
-/* leadership */
-.leadership {
-  width: 1920px;
-}
-.leadership-wrapper{
+.history-points-wrapper {
   display: flex;
-  gap: 24px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -32,7 +32,7 @@ a {
   margin-right: auto;
   padding: 0 16px;
 }
-.heder {
+.header {
   width: 1920px;
   height: 320px;
   margin-left: auto;
@@ -56,109 +56,89 @@ a {
   display: flex;
   gap: 20px;
 }
-.banner {
-  width: 2156px;
-  height: 1022px;
-background-repeat: no-repeat;
-  background-image: 
-  url("./images/join-us.jpg");
-}
-.invitation-section {
-  width: 2156px;
-  text-align: center;
-  padding-bottom: 156px;
-}
-.main-title {
-  font-size: 80px;
-  color: rgb(91,41,147) ;
-  margin-top: 24px;
-}
-.invitation-text {
-  font-size: 24px;
-}
 
-.join-list {
+.scouts-methods {
+  width: 1558px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* scouts-methods-elements */
+/* .scouts-methods-elements {
+width: 1558px;
+} */
+.scouts-methods-elements-list {
   display: flex;
-  gap: 64px;
-  justify-content: center;
-}
-.join-item {
-  width: 550px;
-}
-.join-link {
-  box-sizing: border-box;
-  display: inline-block;
-  padding: 38px 96px;
-  background-color: rgb(91,41,147);
-  border-radius: 1000px;
-  margin-top: 48px;
-}
-
-/* advantages */
-.advantages {
-  width: 1920px;
-  background-color: rgb(91,41,147);
-  padding: 150px 330px 48px 330px;
-}
-.advantages-title {
-  font-size: 40px;
-  color: white;
-  text-align: center;
-}
-.advantages-list {
-  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  column-gap: 43px;
+  height: 933px;
 }
-.advantages-item {
-  width: 609px;
-  padding: 90px 60px 48px 60px;
+.scouts-methods-elements-item {
+width: 595px;
+height: 224px;
 }
-.advantages-item-title{
+
+/* scouts-promises*/
+.scouts-promises-main {
+  background-color: rgb(245,245,245);
+}
+.scouts-promises-header {
+  font-size: 40px;
+  color: rgb(91,41,147);
+  text-align: center;
+}
+.scouts-promises-main-text {
   font-size: 24px;
-  color: white;
-  margin-bottom: 30px;
+  text-align: center;
 }
-.advantages-item-text {
+.scouts-promises-wrapper {
+  display: flex;
+}
+
+
+.need-to-know-title{
+  font-size: 24px;
+}
+
+
+/* scouts-principles-header */
+.scouts-principles-header{
+  font-size: 40px;
+  color: rgb(91,41,147);
+  text-align: center;
+}
+.scouts-principles-main-text{
   font-size: 18px;
-  color: white;
+  text-align: center;
+  margin-bottom: 34px;
 }
-
-
-/* connect */
-.connect {
-  width: 1920px;
+.scouts-principles-list {
   display: flex;
-  padding: 112px 180px 0 187px;
+  gap: 89px;
+ justify-content: center;
 }
-.for-photo {
-  width: 231px;
-  height: 495px;
+.scouts-principles-item {
+  width: 330px;
+  /* margin-bottom: 40px; */
 }
-
-
-
-/* leadership */
-.leadership {
-  width: 1920px;
+.scouts-principles-item::before {
+  display: block;
+  content: "";
+  width: 330px;
+  height: 1px;
+  border: 1px solid rgba(64, 61, 68, 0.6);
+   /* background-color: rgba(64, 61, 68, 0.6); */
+   margin-bottom: 40px;
 }
-.leadership-wrapper{
-  display: flex;
-  gap: 24px;
+.scouts-principles-title{
+  font-size: 24px;
+  color: rgb(64, 61, 68);
+  margin-bottom: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.scouts-principles-text{
+  font-size: 18px;
+  color: rgba(64, 61, 68, 0.6);
+}
 
 
 
