@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+}
+.navigation {
+  height: 320px;
+  display: flex;
+  gap: 296px;
+  align-items: center;
+}
+.logo-icon {
+  fill: rgb(91,41,147);
+  margin-right: 20px;
+}
+.logo-text {
+  fill: 413D45;
+  margin-bottom: 17px;
+}
+.nav-list {
+  display: flex;
+  gap: 20px;
+}
+
+.header {
+  width: 1920px;
+  height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* BOРС  запозичені стилі, бо продублюються */
+
+.mission-vision-wrapper {
+  width: 1244px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.our-events-header{
+  font-size: 40px;
+  text-align: center;
+  color: rgb(91,41,147);
+  margin-bottom: 123px; 
+}
+
+.our-events-header::after{
+  display: block;
+  content: "";
+  width: 1564px;
+  height: 1px;
+  border: 1px solid rgba(64, 61, 68, 0.2);
+  /* background-color: rgba(64, 61, 68, 0.2); */
+  margin-top: 78px;
+   margin-bottom: 123px;
+}
+.mission-vision-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 24px;
+}
+.event-item {
+  width: 614px;
+  /* display: flex;
+  gap: 24px; */
+}
+.event-item-img {
+  width: 612px;
+}
+
+.event-item-title {
+  font-size: 24px;
+}
+.event-item-text {
+  font-size: 22px;
+}
+
+
+/*headquarters */
+.headquarters {
+width: 1587px;
+height: 718px;
+margin-left: auto;
+margin-right: auto;
+background-color: rgb(242,242,242);
+display: flex;
+padding: 105px 60px 80px 180px;
+gap: 85px;
+} 
+.headquarters-information {
+  width: 612px;
+}
+.headquarters-information-title {
+  font-size: 40px;
+  color: rgb(91,41,147);
+  text-align: center;
+}
+.headquarters-information-text {
+  font-size: 24px;
+  text-align: center;
+}
+.headquarters-adress-bord {
+ width: 557px;
+}
+.headquarters-adress-bord-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.headquarters-adress-bord-item {
+  width: 270px;
+  height: 165px;
+  background-color: rgba(98,37,153, 0.8);
+  border-radius: 20px;
+  padding: 32px 24px;
+}
+.headquarters-adress-bord-item:nth-child(3) {
+  width:559px ;
+}
+.adress-bord-item-region {
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  text-align: start;
+}
+.adress-bord-item-country {
+  font-size: 20px;
+  color: white; 
+  text-align: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.social-media-list{
+  display: flex;
+  gap: 20px;
+}
+.social-media-item-icon {
+  fill: white;
+}
+.footer {
+  width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-white-part {
+text-align: center;
+}
+.footer-white-part-text {
+  font-size: 50px;
+  color: rgb(91,41,147)  
+}
+.footer-dark-part {
+  height: 572px;
+  background-color:  rgb(91,41,147) ;
+  display: flex;
+  gap: 145px;
+}
+.contact-footer-part {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: baseline;
+  margin-left: 338px;
+  margin-top: 66px;
+}
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  
+  /* align-items: center; */
+}
+.footer-logo-icon {
+  fill: white;
+}
+.footer-logo-text {
+  fill: white;
+}
+.footer-social-media-text {
+  width: 250px;
+  font-size: 20px;
+  color: white;
+}
+.nav-footer-list {
+  display: flex;
+  gap: 10px;
+  margin-top: 149px;
+  color: white;
+}
