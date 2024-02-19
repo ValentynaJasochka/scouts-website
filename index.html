@@ -4,22 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scouts Ukraine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <nav class="navigation">
-          <a class="logo" href="./index.html">
-            <svg class="logo-icon" width="151px" height="153px">
+        <nav class="header-navigation">
+          <a class="header-logo" href="./index.html">
+            <svg class="header-logo-icon" width="151px" height="153px">
               <use href="./images/sprite-title-page.svg#Logo-img-part"></use>
             </svg>
-            <svg class="logo-text" width="220px" height="92px">
+            <svg class="header-logo-text" width="220px" height="92px">
               <use href="./images/sprite-title-page.svg#Logo-text-part"></use>
             </svg>
           </a>
-          <ul class="nav-list">
-            <li>
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
               Про нас
               <ul>
                 <li class="">
@@ -33,7 +39,7 @@
                 </li>
               </ul>
             </li>
-            <li>
+            <li class="header-nav-item">
               Всесвітній Скаутинг
               <ul>
                 <li class="">
@@ -41,14 +47,14 @@
                 </li>
 
                 <li class="">
-                  <a class="" href="./scouting-history.html"
+                  <a class="" href="./our-history.html"
                     >Історія Скаутингу</a
                   >
                 </li>
               </ul>
             </li>
-            <li>Допомога українцям</li>
-            <li>
+            <li class="header-nav-item">Допомога українцям</li>
+            <li class="header-nav-item">
               Приєднатись
               <ul>
                 <li class="">
@@ -105,13 +111,13 @@
           <div class="about-scouts-block">
             <div class="about-scouts-background-block"></div>
             <div class="about-scouts-discribing-block">
-              <h2 class="about-scouts-title">Про нас</h2>
+              <h2 class="sub-title">Про нас</h2>
               <p class="about-scouts-text">
-                Наша Місія – це сприяння вихованню молоді України за системою
-                цінностей, заснованій на Скаутській Обіцянці та Скаутському
-                Законі. Через Скаутинг ми будуємо кращий світ, де люди
-                самореалізуються як особистості та відіграють конструктивну роль
-                у суспільстві.
+                <span class="about-scouts-text-bold">Скаути України</span> - це
+                молодіжна громадська організація, що сприяє розвитку молодих
+                людей через Скаутинг. Ми прагнемо виховувати лідерів та
+                відповідальних громадян, надаючи можливості для пригод, навчання
+                та самовдосконалення.
               </p>
             </div>
           </div>
@@ -166,26 +172,27 @@
           />
           <div class="main-iformation-block">
             <div class="iformation-block">
-              <p class="number-iformation">1326</p>
+              <p class="information-numbers">1320+</p>
               <p class="text-iformation">Освітніх заходів</p>
             </div>
             <div class="iformation-block">
-              <p class="number-iformation">173</p>
+              <p class="information-numbers">173</p>
               <p class="text-iformation">Країни - партнери</p>
             </div>
             <div class="iformation-block">
-              <p class="number-iformation">35</p>
+              <p class="information-numbers">35+</p>
               <p class="text-iformation">Об‘єднань в Україні</p>
             </div>
           </div>
         </section>
         <section class="events">
-          <h2 class="events-title">Наші заходи</h2>
+          <h2 class="sub-title events-title">Наші заходи</h2>
           <ul class="events-list">
             <li class="events-item">
               <h3 class="events-item-title">Табори</h3>
               <div class="events-img">
                 <img
+                  class="events-img-picture"
                   src="./images/Camps.jpg"
                   alt="Camps"
                   width="370px"
@@ -249,107 +256,140 @@
             </li>
           </ul>
         </section>
-        <section class="invitation">
-          <div class="invitation-information">
-            <h2 class="invitation-title">
-              Запрошуємо стати Скаутом або Скаут-Лідером!
-            </h2>
-            <p class="invitation-text">
-              Членом Національної Організації Скаутів України може стати
-              кожний, незалежно від віку, походження, раси, гендеру чи
-              віросповідання!
-            </p>
+        <section class="reviews">
+          <div class="container reviews-section">
+            <h2 class="reviews-title">Відгуки про Скаутинг</h2>
+            <div class="reviews-list">
+              <div class="reviews-item">
+                <p class="reviews-text">Для мене Скаутинг - це місце, де цікаво все: я знаходжу нових друзів, граю в активні ігри, дізнаюсь нове, подорожую та беру участь у таборах. А ще, я почала старанніше вчити англійську, бо вона потрібна на міжнародних івентах. Бути Скаутом захоплює!</p>
+                <p class="reviewer-name">Кевін Маккалістер</p>
+                <p lass="reviewer-status">Скаут СО Тотем </p>
+              </div>
+              <div class="reviews-stiled">
+                <div class="reviews-item">
+                  <p class="reviews-text"> Це дійсно унікальна можливість для саморозвитку та формування характеру. Я пишаюся дивовижними молодими людьми, які виросли з дітей моїх знайомих, що в НОСУ з дитинства. Моя дочка щойно пройшла посвяту у Скаути, і я не памʼятаю, що бачив її щасливішою.</p>
+                  <p class="reviewer-name">Пітер МакКалістер</p>
+                  <p lass="reviewer-status">Батько </p>
+                </div>
+                <div class="reviews-item">
+                  <p class="reviews-text">Міжнародні поїздки- фантастика, тусовка-двіж і трошки користі! </p>
+                  <p class="reviewer-name">Ніка Горовська </p>
+                  <p lass="reviewer-status">Живе своє найкраще життя </p>
+                </div>
+              </div>
+              <div class="reviews-item">
+                <p class="reviews-text">Я працюю у ____, однак після роботи я завжди рада прийти до своєї Скаутської групи, бо знаю, що там завжди на мене чекають. Популярний стереотип - Скаутинг - це лише для дітей. Але ні, я навчилась у цьому Русі того, що мені не дала ні школа, ні університет, ні робота. Окрім того, я знаю, що роблю внесок у розвиток майбутнього України, це дуже важливо, особливо зараз, і я хочу, аби якомога більше людей розуміли важливість цієї діяльності і теж долучалися.
+                </p>
+                <p class="reviewer-name">Анастасія Ратушняк</p>
+                <p lass="reviewer-status">Лідер СО ......</p>
+              </div>
+            </div>
           </div>
-          <div class="invitation-section-img">
-            <img
-              class="invitation-img"
-              src="./images/invite-sektion1.jpg"
-              alt="bikes riding"
-              width="314px"
-              height="472px"
-            />
-            <img
-              class="invitation-img"
-              src="./images/invite-sektion2.jpg"
-              alt="team building"
-              width="314px"
-              height="472px"
-            />
+        </section>
+        <section class="invitation-section">
+          <div class="container invitation">
+            <div class="invitation-information">
+              <h2 class="invitation-title">
+                Запрошуємо стати Скаутом або Скаут-Лідером!
+              </h2>
+              <p class="invitation-text">
+                Членом Національної Організації Скаутів України може стати
+                кожний, незалежно від віку, походження, раси, гендеру чи
+                віросповідання!
+              </p>
+            </div>
+            <div class="invitation-section-img">
+              <img
+                class="invitation-img"
+                src="./images/invite-sektion1.jpg"
+                alt="bikes riding"
+                width="314px"
+                height="472px"
+              />
+              <img
+                class="invitation-img"
+                src="./images/invite-sektion2.jpg"
+                alt="team building"
+                width="314px"
+                height="472px"
+              />
+            </div>
           </div>
         </section>
       </div>
     </main>
     <footer class="footer">
-      <div class="footer-white-part">
-        <p class="footer-white-part-text">РОБИМО СВІТ КРАЩЕ</p>
-      </div>
-      <div class="footer-dark-part">
-        <div class="contact-footer-part">
-          <div class="footer-logo">
-            <svg class="footer-logo-icon" width="151px" height="153px">
-              <use href="./images/sprite-title-page.svg#Logo-img-part"></use>
-            </svg>
-            <svg class="footer-logo-text" width="220px" height="92px">
-              <use href="./images/sprite-title-page.svg#Logo-text-part"></use>
-            </svg>
+      <div class="container footer-section">
+     
+          <div class="contact-footer-part">
+            <div class="footer-logo">
+              <svg class="footer-logo-icon" width="151px" height="153px">
+                <use href="./images/sprite-title-page.svg#Logo-img-part"></use>
+              </svg>
+              <svg class="footer-logo-text" width="220px" height="92px">
+                <use href="./images/sprite-title-page.svg#Logo-text-part"></use>
+              </svg>
+            </div>
+            <ul class="social-media-footer-list">
+              <li class="social-media-link">
+                <a href="" class="social-media-item">
+                  <svg class="social-media-item-icon" width="56" height="56">
+                    <use href="./images/sprite-title-page.svg#telegram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-link">
+                <a href="" class="social-media-item">
+                  <svg class="social-media-item-icon" width="56" height="56">
+                    <use href="./images/sprite-title-page.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-link">
+                <a href="" class="social-media-item">
+                  <svg class="social-media-item-icon" width="56" height="56">
+                    <use href="./images/sprite-title-page.svg#telegram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <p class="footer-social-media-text">
+                  Підпишіться на нас у соціальних мережах
+                </p>
+              </li>
+            </ul>
           </div>
-          <ul class="social-media-list">
-            <li class="social-media-link">
-              <a href="" class="social-media-item">
-                <svg class="social-media-item-icon" width="56" height="56">
-                  <use href="./images/sprite-title-page.svg#telegram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-media-link">
-              <a href="" class="social-media-item">
-                <svg class="social-media-item-icon" width="56" height="56">
-                  <use href="./images/sprite-title-page.svg#instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-media-link">
-              <a href="" class="social-media-item">
-                <svg class="social-media-item-icon" width="56" height="56">
-                  <use href="./images/sprite-title-page.svg#telegram"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <p class="footer-social-media-text">
-                Підпишіться на нас у соціальних мережах
-              </p>
-            </li>
-          </ul>
-        </div>
-        <div class="nav-footer-part">
-          <ul class="nav-footer-list">
-            <li>
-              <h4>Проєкти:</h4>
-              <ul>
-                <li>Заходи</li>
-                <li>Програма</li>
-                <li>Допомога Українцям</li>
-              </ul>
-            </li>
-            <li>
-              <h4>Про Нас:</h4>
-              <ul>
-                <li>Місія</li>
-                <li>Історія</li>
-                <li>Скаутський Метод</li>
-                <li>Команда</li>
-              </ul>
-            </li>
-            <li>
-              <h4>Приєднатись до нас:</h4>
-              <ul>
-                <li>Стати Скаутом</li>
-                <li>Стати Лідером</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+          <div class="nav-footer-part">
+            <ul class="nav-footer-list">
+              <li>
+                <h4 class="nav-footer-list-title">Проєкти:</h4>
+                <ul>
+                  <li class="nav-footer-list-items">Заходи</li>
+                  <li class="nav-footer-list-items">Програма</li>
+                  <li class="nav-footer-list-items">Допомога Українцям</li>
+                </ul>
+              </li>
+              <li>
+               
+                <h4 class="nav-footer-list-title">Про Нас:</h4>
+                <ul>
+                  <li class="nav-footer-list-items">Місія</li>
+                  <li class="nav-footer-list-items">Історія</li>
+                  <li class="nav-footer-list-items">Скаутський Метод</li>
+                  <li class="nav-footer-list-items">Команда</li>
+                </ul>
+               
+              </li>
+              <li>
+                <h4 class="nav-footer-list-title">Приєднатись до нас:</h4>
+                <ul>
+                  <li class="nav-footer-list-items">Стати Лідером</li>
+                  <li class="nav-footer-list-items">Стати Скаутом</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        
       </div>
     </footer>
   </body>
