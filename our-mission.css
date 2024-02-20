@@ -64,7 +64,7 @@ a {
 }
 .container {
   /* width: 100%; */
-  width: 1778px;
+  width: 1246px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 16px;
@@ -102,14 +102,7 @@ a {
 
 
 
-
-/* BOРС  запозичені стилі, бо продублюються */
-
-.mission-vision-wrapper {
-  width: 1244px;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* main */
 .main-title {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 600;
@@ -120,129 +113,91 @@ a {
   text-align: center;
   margin-top: 24px;
 }
-.link {
-  font-size: 16px;
-  line-height: 1.5;
-  font-style: italic;
-  text-decoration: underline; 
-  color: rgb(91,91,108);
-  
-  align-self: flex-end;
-}
 
-
-.mission-vision-list::before{
+.main-title::after{
   display: block;
   content: "";
   width: 1564px;
-  /* height: 1px; */
-  border: 1px solid rgba(64, 61, 68, 0.2);
-  /* background-color: rgba(64, 61, 68, 0.2); */
-  margin-top: 35px;
+  height: 1px;
+  border: 1px solid rgba(64, 61, 68, 0.2); 
+  text-align: center;
+  margin-top: 78px;
+   margin-bottom: 22px;
 }
-.mission-vision-list {
+.our-mission-wrapper {
   display: flex;
-  flex-wrap: wrap;
-  column-gap: 16px;
-  row-gap: 24px;
+  gap: 24px;
+  margin-bottom: 54px;
 }
-.mission-vision-item {
-  width: 614px;
-  /* display: flex;
-  gap: 24px; */
-}
-.mission-vision-item-img {
-  width: 612px;
-}
-
-.mission-vision-item-title {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.5;
-  color: var(--accent-color);
-}
-.mission-vision-item-text {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-
-/*headquarters */
-.headquarters {
-width: 1587px;
-height: 718px;
-margin-left: auto;
-margin-right: auto;
-background-color: rgb(242,242,242);
-display: flex;
-padding: 105px 60px 80px 180px;
-gap: 85px;
-} 
-.headquarters-information {
-  width: 612px;
+.our-mission-text {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  align-items: center;
+  gap: 15px;
+  font-size: 18px;
+  line-height: 1.52;
+  width: 611px;
+  text-align: start; 
 }
-.headquarters-information-title {
-  font-weight: 600;
-  font-size: 30px;
-  color: var(--accent-color)
+.our-mission-text-part:not(:last-child) {
+  margin-bottom: 20px;
 }
-.headquarters-information-text {
-  font-size: 20px;
+.organization-title {
+  color: var(--main-font);
+}
+.organization-title::after{
+  display: none;
+}
+.organization-text {
+  font-size: 24px;
   line-height: 1.5;
   text-align: center;
 }
-.headquarters-address-bord {
- width: 557px;
-}
-.headquarters-address-bord-list{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-.headquarters-address-bord-item {
-  width: 270px;
-  height: 165px;
-  background-color: rgba(98,37,153, 0.8);
-  border-radius: 20px;
-  padding: 32px 24px;
-}
-.headquarters-address-bord-item:nth-child(3) {
-  width:559px ;
-}
-.headquarters-address-bord-item:first-child {
-  background-color: rgb(213,201,90);
- 
-}
-.headquarters-address-bord-item:first-child > .address-bord-item-region {
-  color: var(--accent-color);
- 
-}
-.headquarters-address-bord-item:first-child > .address-bord-item-country {
-  color: var(--accent-color);
- 
+.narrow-container {
+  width: 944px;
 }
 
-.address-bord-item-region {
+
+.additional-text {
   font-size: 24px;
-  line-height: 1;
-  color: rgb(243,243,243);
-  text-transform: uppercase;
-  text-align: start;
-}
-.address-bord-item-country {
-  font-size: 20px;
-  color: rgb(243,243,243);
-  letter-spacing: 0.00098em; 
-  text-align: start;
+  line-height: 1.2;
+  letter-spacing: 0.000101em; 
+  font-style: italic;
+  width: 1211px;
+  text-align: center;
 }
 
 
+/* projects */
+.organization-projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 67px;
+}
+.organization-projects-item {
+  display: flex;
+  gap: 24px;
+}
+.organization-projects-item-img {
+  width: 612px;
+}
+.organization-projects-item-wrapper {
+  width: 611px;
+}
+.organization-projects-item-text  {
+  font-size: 18px;
+  line-height: 1.52;
+  width: 611px;
+  text-align: start; 
+}
 
-
+.organization-projects-item-title{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.000101em; 
+}
 
 
 

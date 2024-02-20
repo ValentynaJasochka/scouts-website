@@ -406,6 +406,10 @@ margin-bottom: 100px;
 .invitation-section-img {
   display: flex;
 }
+
+
+
+
 .footer {
   background-color:  rgb(91,41,147)
   /* width: 1920px; */
@@ -441,6 +445,9 @@ margin-bottom: 100px;
   display: flex;
   gap: 20px;
   align-items: center;
+}
+.social-media-item-icon {
+  fill: white;
 }
 .footer-social-media-text {
   width: 250px;

@@ -4,22 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Our events</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./our-events.css" />
   </head>
   <body>
-    <header class="container">
-      <div class="header">
-        <nav class="navigation">
-          <a class="logo" href="./index.html">
-            <svg class="logo-icon" width="151px" height="153px">
+    <header class="header">
+      <div class="container">
+        <nav class="header-navigation">
+          <a class="header-logo" href="./index.html">
+            <svg class="header-logo-icon" width="151px" height="153px">
               <use href="./images/sprite-title-page.svg#Logo-img-part"></use>
             </svg>
-            <svg class="logo-text" width="220px" height="92px">
+            <svg class="header-logo-text" width="220px" height="92px">
               <use href="./images/sprite-title-page.svg#Logo-text-part"></use>
             </svg>
           </a>
-          <ul class="nav-list">
-            <li>
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
               Про нас
               <ul>
                 <li class="">
@@ -33,12 +39,20 @@
                 </li>
               </ul>
             </li>
-            <li>
+            <li class="header-nav-item">
               Всесвітній Скаутинг
-              <ul></ul>
+              <ul>
+                <li class="">
+                  <a class="" href="./mission-vision.html">ВОСР</a>
+                </li>
+
+                <li class="">
+                  <a class="" href="./our-history.html">Історія Скаутингу</a>
+                </li>
+              </ul>
             </li>
-            <li>Допомога українцям</li>
-            <li>
+            <li class="header-nav-item">Допомога українцям</li>
+            <li class="header-nav-item">
               Приєднатись
               <ul>
                 <li class="">
@@ -58,12 +72,6 @@
         <h1 class="our-events-header">Наші заходи</h1>
         <ul>
           <li class="event-item">
-            <img
-              class="event-item-img"
-              src="./images/history/International-recognition.jpg"
-              alt=""
-              width="612"
-            />
             <div class="event-item-wrapper">
               <h3 class="event-item-title">Світ пригод чекає на тебе</h3>
               <p class="event-item-text">
@@ -79,40 +87,38 @@
                 людей та дорослих
               </p>
             </div>
+            <img
+              class="event-item-img"
+              src="./images/history/International-recognition.jpg"
+              alt=""
+              width="612"
+              height="370"
+            />
           </li>
           <li class="event-item">
+            <img
+              class="event-item-img"
+              src="./images/history/International-recognition.jpg"
+              alt=""
+              width="612"
+              height="370"
+            />
             <div class="event-item-wrapper">
               <h3 class="event-item-title">Тренінги</h3>
               <p class="event-item-text">
                 Наші тренінги орієнтовані на Скаутів та Скаутських лідерів на
                 різних етапах їхньої Скаутської подорожі та розроблені таким
                 чином, щоб задовольнити потреби й інтереси членів різного віку
-                та сприяти отриманню Скаутських умінь. Ми пропонуємо широкий
-                спектр опцій для прокачування необхідних навичок та знань, від
-                техніки виживання на природі і домедичної допомоги до лідерства,
-                комунікації та командоутворення. Тренінги НОCУ забезпечують
-                винятковий освітній підхід, який виходить за рамки традиційного
-                навчання в класі; з відповідними до віку заходами для дітей,
-                семінарами для дорослих та тренінговими курсами.Крім того, ми
-                створюємо сприятливе інклюзивне середовище, де Скаути та лідери
-                можуть навчатися у власному темпі та набувати впевнености у
-                своїх здібностях, незалежно від їхнього віку.
+                та сприяти отриманню Скаутських умінь. Від домедичної допомоги
+                до лідерських навичок і комунікації, ми пропонуємо винятковий
+                освітній підхід до навчання, який виходить за рамки традиційного
+                навчання в класі. НОCУ створює інклюзивне середовище для
+                ефективного освоєння нових навичок, необхідних для особистого
+                зростання, дозволяючи кожному розвиватися власним темпом.
               </p>
             </div>
-            <img
-              class="event-item-img"
-              src="./images/history/International-recognition.jpg"
-              alt=""
-              width="612"
-            />
           </li>
           <li class="event-item">
-            <img
-              class="event-item-img"
-              src="./images/history/International-recognition.jpg"
-              alt=""
-              width="612"
-            />
             <div class="event-item-wrapper">
               <h3 class="event-item-title">Онлайн-заходи:</h3>
               <p class="event-item-text">
@@ -131,99 +137,80 @@
                 зустрітися особисто. 
               </p>
             </div>
+            <img
+              class="event-item-img"
+              src="./images/history/International-recognition.jpg"
+              alt=""
+              width="612"
+              height="370"
+            />
           </li>
           <li class="event-item">
+            <img
+              class="event-item-img"
+              src="./images/history/International-recognition.jpg"
+              alt=""
+              width="612"
+              height="370"
+            />
             <div class="event-item-wrapper">
               <h3 class="event-item-title">Міжнародні заходи:</h3>
               <p class="event-item-text">
-                Як гідні члени світової Скаутської спільноти, ми беремо активну
-                участь у міжнародних заходах, які сприяють міжкультурному обміну
-                та співпраці між Скаутами усіх вікових секцій з різних куточків
-                планети. Ці події варіюються від міжнародних Джамборі, де Скаути
-                з усього світу збираються, щоб поділитися своїми навичками,
-                традиціями та історіями, до закордонних проєктів, що підтримують
-                громади, які потребують допомоги, сприяючи сталому розвитку та
-                культурному збагаченню. Ми гарантуємо, що наші інтернаціональні
-                події є інклюзивними та задовольняють різноманітні інтереси
-                наших членів, пропонуючи релевантні активности для дітей,
-                молодих людей та дорослих лідерів. Саме завдяки таким заходам за
-                кордоном українські Скаути усіх вікових секцій мають змогу
-                формувати дружбу на все життя, дізнаватися про особливости инших
-                держав та розвивати глобальну перспективу. Багатоманітні
-                воркшопи та спільні проєкти заохочують їх цінувати багате
-                розмаїття культур, що складають наш світ. Спілкуючись зі
-                Скаутами різного походження, наші члени виховують повагу,
-                емпатію та міцне почуття всебічної відповідальности. Єдність
-                нашого Руху відкриває схожість між Братами і Сестрами з усієї
-                Землі, але також показує їм різноманітність, а отже, вчить
-                пошані та розумінню відмінностей.
+                Ми беремо активну участь у міжнародних заходах, які сприяють
+                міжкультурному обміну та співпраці між Скаутами усіх вікових
+                секцій з різних куточків планети. Наші інтернаціональні події є
+                інклюзивними та задовольняють різноманітні інтереси наших
+                членів, пропонуючи релевантні активности для дітей, молодих
+                людей та дорослих лідерів. Саме завдяки таким заходам за
+                кордоном українські Скаути мають змогу формувати дружбу на все
+                життя, дізнаватися про особливости инших держав та розвивати
+                глобальну перспективу. Єдність нашого Руху відкриває нашу
+                схожість зі Скаутами інших країн, але також показує їм
+                різноманітність, а отже, вчить пошані та розумінню відмінностей.
               </p>
             </div>
-            <img
-              class="event-item-img"
-              src="./images/history/International-recognition.jpg"
-              alt=""
-              width="612"
-            />
           </li>
           <li class="event-item">
-            <img
-              class="event-item-img"
-              src="./images/history/International-recognition.jpg"
-              alt=""
-              width="612"
-            />
             <div class="event-item-wrapper">
               <h3 class="event-item-title">Табори</h3>
               <p class="event-item-text">
                 Табори є невідʼємною частиною Скаутингу та функціонування
                 Скаутських груп. Вони дозволяють учасникам безпосередньо втілити
-                в життя один з головних елементів Скаутського методу – природу,
-                а також розгорнути діяльність малих команд  та навчитися
-                незалежности та самостійности. Крім того, під час розбиття та
-                проведення табору діти посилюють соціальні навички, такі як
-                спілкування та співпраця з однолітками та дорослими лідерами, що
-                допомагає їм стати більш впевненими. Табори зазвичай тривають
-                від 7 до 14 днів і проводяться на природі – у лісі, в горах або
-                біля водойм. Впродовж цього часу таборів Скаути навчаються
-                самостійно ставити намети, готувати їжу на вогнищі,
-                застосовувати знання з вузлів на практиці та здобувати нові
-                навички, необхідні для комфортного існування в польових умовах.
-                Ними можуть бути перша домедична допомога, збір та ідентифікація
-                рослин, фільтрація води, орієнтування на місцевости, будівництво
-                примітивних жител тощо. Зимові табори можуть бути більш
-                спрямовані на навчання виживання в умовах сильних морозів та
-                вітру.  Протягом таборів діти можуть підтвердити знання,
-                необхідні для отримання Скаутських умінь, та отримати нашивки за
-                проходження Скаутських випробувань, які є частиною системи
-                Руху.  Зокрема збори-походи надають дітям можливість розвивати
-                свої інтереси та xобі. Літні табори зазвичай містять
-                різноманітні активности, такі як скелелазіння, стрільба з лука,
-                каякінг, сплави на байдарках, творчі майстер-класи тощо. Зимові
-                табори можуть пропонувати такі види розваг, як катання на лижах
-                та сноубордах. Кожен табір має свої особливости та відповідає
-                певній тематиці, що дозволяє дітям розвиватись в різних
-                напрямках.
+                в життя один з елементів Скаутського методу – природу, а також
+                навчитися незалежности та самостійности. Табори зазвичай
+                тривають від 7 до 14 днів і проводяться на природі – у лісі, в
+                горах або біля водойм. Впродовж цього часу таборів Скаути
+                навчаються самостійно ставити намети, готувати їжу та здобувати
+                нові навички. Також діти можуть підтвердити знання та отримати
+                нашивки за проходження Скаутських випробувань. Кожен табір має
+                свої особливости та відповідає певній тематиці, що дозволяє
+                дітям розвиватись в різних напрямках. Літні табори зазвичай
+                містять скелелазіння, каякінг, сплави на байдарках, творчі
+                майстер-класи тощо. Зимові табори можуть пропонувати такі види
+                розваг, як катання на лижах та сноубордах.
               </p>
             </div>
+            <img
+              class="event-item-img"
+              src="./images/history/International-recognition.jpg"
+              alt=""
+              width="612"
+              height="370"
+            />
           </li>
         </ul>
-       <div class="join-wrapper">
-        <p class="join-text">
-          Хочеш долучитись? Розпочни свою Скаутську подорож сьогодні та відкрий
-          безмежні можливості, що вже чекають на тебе!
-        </p>
-       
-          <a class="join-link">Хочу стати Скаутом!</a>
-        
-       </div>
+        <div class="join-wrapper">
+          <p class="join-text">
+            Хочеш долучитись? Розпочни свою Скаутську подорож сьогодні та
+            відкрий безмежні можливості, що вже чекають на тебе!
+          </p>
+
+          <a class="join-link">Приєднатись до нас </a>
+        </div>
       </div>
     </main>
     <footer class="footer">
-      <div class="footer-white-part">
-        <p class="footer-white-part-text">РОБИМО СВІТ КРАЩЕ</p>
-      </div>
-      <div class="footer-dark-part">
+      <div class="container footer-section">
         <div class="contact-footer-part">
           <div class="footer-logo">
             <svg class="footer-logo-icon" width="151px" height="153px">
@@ -233,7 +220,7 @@
               <use href="./images/sprite-title-page.svg#Logo-text-part"></use>
             </svg>
           </div>
-          <ul class="social-media-list">
+          <ul class="social-media-footer-list">
             <li class="social-media-link">
               <a href="" class="social-media-item">
                 <svg class="social-media-item-icon" width="56" height="56">
@@ -265,27 +252,27 @@
         <div class="nav-footer-part">
           <ul class="nav-footer-list">
             <li>
-              <h4>Проєкти:</h4>
+              <h4 class="nav-footer-list-title">Проєкти:</h4>
               <ul>
-                <li>Заходи</li>
-                <li>Програма</li>
-                <li>Допомога Українцям</li>
+                <li class="nav-footer-list-items">Заходи</li>
+                <li class="nav-footer-list-items">Програма</li>
+                <li class="nav-footer-list-items">Допомога Українцям</li>
               </ul>
             </li>
             <li>
-              <h4>Про Нас:</h4>
+              <h4 class="nav-footer-list-title">Про Нас:</h4>
               <ul>
-                <li>Місія</li>
-                <li>Історія</li>
-                <li>Скаутський Метод</li>
-                <li>Команда</li>
+                <li class="nav-footer-list-items">Місія</li>
+                <li class="nav-footer-list-items">Історія</li>
+                <li class="nav-footer-list-items">Скаутський Метод</li>
+                <li class="nav-footer-list-items">Команда</li>
               </ul>
             </li>
             <li>
-              <h4>Приєднатись до нас:</h4>
+              <h4 class="nav-footer-list-title">Приєднатись до нас:</h4>
               <ul>
-                <li>Стати Скаутом</li>
-                <li>Стати Лідером</li>
+                <li class="nav-footer-list-items">Стати Лідером</li>
+                <li class="nav-footer-list-items">Стати Скаутом</li>
               </ul>
             </li>
           </ul>

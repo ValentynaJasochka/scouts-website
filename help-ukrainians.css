@@ -102,13 +102,22 @@ a {
 
 
 
-
-/* BOРС  запозичені стилі, бо продублюються */
-
-.mission-vision-wrapper {
-  width: 1244px;
+/* main */
+.main-section {
+  width: 1246px;
   margin-left: auto;
   margin-right: auto;
+}
+.help-projects{
+  width: 1246px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.volunteering {
+  width: 1246px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(242,242,242);
 }
 .main-title {
   font-family: "Montserrat Alternates", sans-serif;
@@ -120,134 +129,99 @@ a {
   text-align: center;
   margin-top: 24px;
 }
-.link {
-  font-size: 16px;
-  line-height: 1.5;
-  font-style: italic;
-  text-decoration: underline; 
-  color: rgb(91,91,108);
-  
-  align-self: flex-end;
-}
 
-
-.mission-vision-list::before{
+.main-title::after{
   display: block;
   content: "";
   width: 1564px;
   /* height: 1px; */
-  border: 1px solid rgba(64, 61, 68, 0.2);
-  /* background-color: rgba(64, 61, 68, 0.2); */
-  margin-top: 35px;
+  border: 1px solid rgba(64, 61, 68, 0.2); 
+  text-align: center;
+  margin-top: 78px;
+   margin-bottom: 22px;
 }
-.mission-vision-list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 16px;
-  row-gap: 24px;
-}
-.mission-vision-item {
-  width: 614px;
-  /* display: flex;
-  gap: 24px; */
-}
-.mission-vision-item-img {
-  width: 612px;
-}
-
-.mission-vision-item-title {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.5;
-  color: var(--accent-color);
-}
-.mission-vision-item-text {
+.main-text {
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.52; 
+  width: 1265px;
+  text-align: center;
+  margin-bottom: 65px;
 }
 
 
-/*headquarters */
-.headquarters {
-width: 1587px;
-height: 718px;
-margin-left: auto;
-margin-right: auto;
-background-color: rgb(242,242,242);
-display: flex;
-padding: 105px 60px 80px 180px;
-gap: 85px;
-} 
-.headquarters-information {
-  width: 612px;
+
+/* projects */
+.help-projects-list {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  align-items: center;
+  gap: 48px;
+  margin-bottom: 67px;
 }
-.headquarters-information-title {
+.help-projects-item {
+  display: flex;
+  gap: 24px;
+}
+.help-projects-item-img {
+  width: 612px;
+}
+.help-projects-item-wrapper {
+  width: 611px;
+}
+.help-projects-item-text  {
+  font-size: 18px;
+  line-height: 1.52;
+  width: 611px;
+  text-align: start; 
+}
+
+.help-projects-item-title{
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 600;
-  font-size: 30px;
-  color: var(--accent-color)
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.000101em; 
 }
-.headquarters-information-text {
-  font-size: 20px;
+
+
+/* volunteering */
+.volunteering-description {
+display: flex;
+gap: 75px;
+
+}
+.volunteering-description-text {
+  display: flex;
+  flex-direction: column;
+  gap: 61px;
+  width: 613px;
+}
+.volunteering-text {
+  font-weight: 600;
+  font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  
 }
-.headquarters-address-bord {
- width: 557px;
+.bold-text {
+  font-weight: 800;
 }
-.headquarters-address-bord-list{
+.donation-description {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  flex-direction: column;
+  align-items: center;
 }
-.headquarters-address-bord-item {
-  width: 270px;
-  height: 165px;
-  background-color: rgba(98,37,153, 0.8);
-  border-radius: 20px;
-  padding: 32px 24px;
+.volunteering-link {
+  box-sizing: border-box;
+  display: block;
+  padding: 28px 68px; 
+  font-weight: 600;
+  font-size: 20px; 
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+  border-radius: 1000px;
+
 }
-.headquarters-address-bord-item:nth-child(3) {
-  width:559px ;
-}
-.headquarters-address-bord-item:first-child {
-  background-color: rgb(213,201,90);
- 
-}
-.headquarters-address-bord-item:first-child > .address-bord-item-region {
-  color: var(--accent-color);
- 
-}
-.headquarters-address-bord-item:first-child > .address-bord-item-country {
-  color: var(--accent-color);
- 
-}
-
-.address-bord-item-region {
-  font-size: 24px;
-  line-height: 1;
-  color: rgb(243,243,243);
-  text-transform: uppercase;
-  text-align: start;
-}
-.address-bord-item-country {
-  font-size: 20px;
-  color: rgb(243,243,243);
-  letter-spacing: 0.00098em; 
-  text-align: start;
-}
-
-
-
-
-
-
-
-
-
+  
 
 
 

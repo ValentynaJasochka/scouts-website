@@ -102,14 +102,7 @@ a {
 
 
 
-
-/* BOРС  запозичені стилі, бо продублюються */
-
-.mission-vision-wrapper {
-  width: 1244px;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* main */
 .main-title {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 600;
@@ -120,134 +113,36 @@ a {
   text-align: center;
   margin-top: 24px;
 }
-.link {
-  font-size: 16px;
-  line-height: 1.5;
-  font-style: italic;
-  text-decoration: underline; 
-  color: rgb(91,91,108);
-  
-  align-self: flex-end;
-}
 
-
-.mission-vision-list::before{
+.main-title::after{
   display: block;
   content: "";
   width: 1564px;
-  /* height: 1px; */
-  border: 1px solid rgba(64, 61, 68, 0.2);
-  /* background-color: rgba(64, 61, 68, 0.2); */
-  margin-top: 35px;
-}
-.mission-vision-list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 16px;
-  row-gap: 24px;
-}
-.mission-vision-item {
-  width: 614px;
-  /* display: flex;
-  gap: 24px; */
-}
-.mission-vision-item-img {
-  width: 612px;
-}
-
-.mission-vision-item-title {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.5;
-  color: var(--accent-color);
-}
-.mission-vision-item-text {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-
-/*headquarters */
-.headquarters {
-width: 1587px;
-height: 718px;
-margin-left: auto;
-margin-right: auto;
-background-color: rgb(242,242,242);
-display: flex;
-padding: 105px 60px 80px 180px;
-gap: 85px;
-} 
-.headquarters-information {
-  width: 612px;
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  align-items: center;
-}
-.headquarters-information-title {
-  font-weight: 600;
-  font-size: 30px;
-  color: var(--accent-color)
-}
-.headquarters-information-text {
-  font-size: 20px;
-  line-height: 1.5;
+  height: 1px;
+  border: 1px solid rgba(64, 61, 68, 0.2); 
   text-align: center;
+  margin-top: 78px;
+   margin-bottom: 22px;
 }
-.headquarters-address-bord {
- width: 557px;
-}
-.headquarters-address-bord-list{
+
+/* team */
+.team-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 30px;
+  width: 1361px;
+  justify-content: start;
 }
-.headquarters-address-bord-item {
-  width: 270px;
-  height: 165px;
-  background-color: rgba(98,37,153, 0.8);
-  border-radius: 20px;
-  padding: 32px 24px;
+.team-member {
+  width: 246px;
 }
-.headquarters-address-bord-item:nth-child(3) {
-  width:559px ;
+.member-position {
+  font-size: 12px;
+  color: rgb(91,91,108);
 }
-.headquarters-address-bord-item:first-child {
-  background-color: rgb(213,201,90);
- 
+.name {
+  font-size: 22px;
 }
-.headquarters-address-bord-item:first-child > .address-bord-item-region {
-  color: var(--accent-color);
- 
-}
-.headquarters-address-bord-item:first-child > .address-bord-item-country {
-  color: var(--accent-color);
- 
-}
-
-.address-bord-item-region {
-  font-size: 24px;
-  line-height: 1;
-  color: rgb(243,243,243);
-  text-transform: uppercase;
-  text-align: start;
-}
-.address-bord-item-country {
-  font-size: 20px;
-  color: rgb(243,243,243);
-  letter-spacing: 0.00098em; 
-  text-align: start;
-}
-
-
-
-
-
-
-
-
-
 
 
 
