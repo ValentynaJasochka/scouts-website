@@ -126,7 +126,7 @@ a {
   display: block;
   content: "";
   width: 1564px;
-  height: 1px;
+  /* height: 1px; */
   border: 1px solid rgba(64, 61, 68, 0.2); 
   text-align: center;
   margin-top: 78px;
