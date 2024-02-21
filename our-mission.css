@@ -6,7 +6,7 @@
   --main-font: "Montserrat", sans-serif;
   --main-font-color: rgb(64,61,68);
   --white-text-color: rgb(255,255,255);
-  --transition: 350ms cubic-bezier(.12,.54,.97,.43);
+  --transition: 200ms cubic-bezier(.12,.54,.97,.43);
 }
 
 * {
@@ -194,29 +194,59 @@ a {
 .age-groups {
   width: 1246px;
   display: flex;
-  gap: 20px;
+  gap: 40px;
   margin-left: auto;
   margin-right: auto;
+  height: 570px;
 }
 .age-groups-item {
   position: relative;
-  /* width: 345px;
-  height: 567px; */
+
  
 }
 .age-group-wrapper {
   position: relative;
-  overflow: hidden;
-  width: 345px;
-  height: 567px;
+  overflow: hidden;  
   border-radius: 7px;
+  transform-origin: top left;
+  /* transform: scale(1); */
+  transition: all var(--transition);
+}
+.age-group-wrapper:hover {
+  /* transform: scale(1.15);   */
+  z-index: 1;
+  /* transition: all var(--transition); */
 }
 .visible-category-age-group {
   position: relative;
-  /* overflow: hidden; */
   width: 272px;
-  height: 483px;
+  /* height: 483px; */
   border-radius: 7px;
+  transition: all var(--transition);
+   
+
+}
+.age-group-wrapper:hover .visible-category-age-group {
+  width: 340px;
+  /* height: 525px; */
+
+}
+
+
+.visible-category-age-group >.visible-category-age-group-img {
+  /* object-fit: contain; */
+  /* height: 100%; */
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: white;
+  opacity: 0.5;
 }
 .visible-category-text {
   font-weight: 600;
@@ -225,29 +255,39 @@ a {
   width: 100%;
   position: absolute;
   bottom: 0;
-  /* padding-top: 19px; */
+  z-index: 2; 
   padding-bottom: 22px; 
   height: 70px;
   text-align: center;
+  opacity: 1;
+  transition: all var(--transition);
 }
 .hidden-category-age-group {
   position: absolute;
-  top: 0;
-  
-  /* transform: translate(-50%, -50%);; */
-  transform: scale(0.1);
-  transform: scale(0) translatey(-100%);
-  transition: transform var(--transition);
+  top: 0; 
  
   width: 345px;
   border-radius: 7px;
 }
-.age-group-wrapper:hover .hidden-category-age-group,
+.age-group-wrapper:hover .overlay {
+  opacity: 0;
+  transition: opacity var(--transition);
+}
+.age-group-wrapper:hover .visible-category-text {
+ opacity: 0;
+
+}
+
+
+
+
+
+/* .age-group-wrapper:hover .hidden-category-age-group,
 .age-group-wrapper:focus .hidden-category-age-group {
  
   transform: scale(1);
   transform: scale(1) translatey(0);
-}
+} */
 .hidden-category-text {
   position: absolute;
   bottom: 0;
@@ -256,7 +296,15 @@ a {
   width: 100%;
   height: 120px;
   background-color: rgba(91,41,147, 0.8);
+  opacity: 0;
+  transition: opacity var(--transition);
 }
+.age-group-wrapper:hover .hidden-category-text {
+  opacity: 1;
+  transition: opacity var(--transition);
+}
+
+
 .hidden-category-age-group-name {
   font-weight: 700;
   font-size: 24px;
