@@ -209,12 +209,14 @@ a {
   overflow: hidden;
   width: 345px;
   height: 567px;
+  border-radius: 7px;
 }
 .visible-category-age-group {
   position: relative;
   /* overflow: hidden; */
   width: 272px;
   height: 483px;
+  border-radius: 7px;
 }
 .visible-category-text {
   font-weight: 600;
@@ -238,6 +240,7 @@ a {
   transition: transform var(--transition);
  
   width: 345px;
+  border-radius: 7px;
 }
 .age-group-wrapper:hover .hidden-category-age-group,
 .age-group-wrapper:focus .hidden-category-age-group {
