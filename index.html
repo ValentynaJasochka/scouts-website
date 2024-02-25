@@ -20,9 +20,10 @@
               <img src="./images/logo-heder.svg" alt="Logo Scouts" />           
           </a>
           <ul class="header-nav-list">
-            <li class="header-nav-item">
+            <li class="header-nav-item" menu-open-first>
+              <!-- <button class="header-nav-btn" type="button">Про нас</button> -->
               Про нас
-              <ul class="nav-table">
+              <ul class="nav-table is-hidden" data-menu-first>
                 <li class="nav-table-item">
                   <a class="nav-table-link" href="./our-history.html">Наша історія</a>
                 </li>
@@ -37,17 +38,17 @@
                 </li>
               </ul>
             </li>
-            <li class="header-nav-item">
+            <li class="header-nav-item" menu-open-second>
               Діяльність
-              <ul class="nav-table">
+              <ul class="nav-table is-hidden" data-menu-second>
                 <li class="nav-table-item">
                   <a class="nav-table-link" href="./our-events.html">Наші заходи </a>
                 </li>
               </ul>
             </li>
-            <li class="header-nav-item">
+            <li class="header-nav-item" menu-open-third>
               Всесвітній Скаутинг
-              <ul class="nav-table">
+              <ul class="nav-table is-hidden" data-menu-third>
                 <li class="nav-table-item">
                   <a class="nav-table-link" href="./mission-vision.html">ВОСР</a>
                 </li>
@@ -409,5 +410,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/nav-menu.js"></script>
   </body>
 </html>

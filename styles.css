@@ -96,10 +96,16 @@ a {
 /* .nav-table {
   display: none;
 } */
-.header-nav-item >.nav-table,
+
+.nav-table.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+/* .header-nav-item >.nav-table,
 .header-nav-item> .nav-table {
   display: none;
-}
+} */
 .header-nav-item {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
@@ -108,11 +114,20 @@ a {
   letter-spacing: 0.00em; 
   position: relative;
 }
+/* .header-nav-btn {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.208; 
+  letter-spacing: 0.00em; 
+  border: none;
+  background-color: none;
+} */
 
-.header-nav-item:hover >.nav-table,
+/* .header-nav-item:hover >.nav-table,
 .header-nav-item:focus > .nav-table {
 display: block;
-}
+} */
 .nav-table {
   position: absolute; 
   transform: translateY(45px);
