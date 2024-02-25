@@ -8,54 +8,60 @@
     menuSecond: document.querySelector("[data-menu-second]"),
     menuThird: document.querySelector("[data-menu-third]"),
   };
-  
-  
+
   refs.openMenuFirst.addEventListener("click", toggleFirstModal);
   refs.openMenuSecond.addEventListener("click", toggleSecondModal);
   refs.openMenuThird.addEventListener("click", toggleThirdModal);
-  // refs.closeModalBtn.addEventListener("click", toggleModal);
-  function onEscPress(e) {
-  if (e.code === 'Escape') {
-    onCloseModalBtnClick();
+
+  function onEscPressFirst(e) {
+    if (e.code === "Escape") {
+      refs.menuFirst.classList.add("is-hidden");
+    }
   }
-}
+  function onCloseFirstMenu(e) {
+    if (!e.target.classList.contains("menu-first")) {
+      refs.menuFirst.classList.add("is-hidden");
+      document.removeEventListener("keydown", onEscPressFirst);
+    }
+  }
 
-  function onCloseModalBtnClick() {
-  refs.menuFirst.classList.add('is-hidden');  
-  document.removeEventListener('keydown', onEscPress); 
-}
-
-  function toggleFirstModal(e) {   
+  function toggleFirstModal() {
     refs.menuFirst.classList.toggle("is-hidden");
-    console.log(e.currentTarget);
-    console.log(e.target);
-    // if (e.currentTarget === e.target) {
-    //   onCloseModalBtnClick();
-    // }
-    document.addEventListener('keydown', onEscPress);
+    document.addEventListener("keydown", onEscPressFirst);
+    document.addEventListener("click", onCloseFirstMenu);
+  }
+
+  function onEscPressSecond(e) {
+    if (e.code === "Escape") {
+      refs.menuSecond.classList.add("is-hidden");
+    }
+  }
+  function onCloseSecondMenu(e) {
+    if (!e.target.classList.contains("menu-second")) {
+      refs.menuSecond.classList.add("is-hidden");
+      document.removeEventListener("keydown", onEscPressSecond);
+    }
   }
   function toggleSecondModal() {
     refs.menuSecond.classList.toggle("is-hidden");
+    document.addEventListener("keydown", onEscPressSecond);
+    document.addEventListener("click", onCloseSecondMenu);
+  }
+  function onEscPressThird(e) {
+    if (e.code === "Escape") {
+      refs.menuThird.classList.add("is-hidden");
+    }
+  }
+  function onCloseThirdMenu(e) {
+    if (!e.target.classList.contains("menu-third")) {
+      refs.menuThird.classList.add("is-hidden");
+      document.removeEventListener("keydown", onEscPressThird);
+    }
   }
   function toggleThirdModal() {
     refs.menuThird.classList.toggle("is-hidden");
+    document.addEventListener("keydown", onEscPressThird);
+    document.addEventListener("click", onCloseThirdMenu);
   }
 })();
 
-// function onCloseModalBtnClick() {
-//   refs.backdrop.classList.add('is-hidden');
-//   document.body.style.overflow = '';
-//   document.removeEventListener('keydown', onEscPress);
-//   refs.backdrop.removeEventListener('click', onBackdropClick);
-// }
-
-// function onBackdropClick(e) {
-//   if (e.currentTarget === e.target) {
-//     onCloseModalBtnClick();
-//   }
-// }
-
-// function onEscPress(e) {
-//   if (e.code === 'Escape') {
-//     onCloseModalBtnClick();
-//   }
