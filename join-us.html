@@ -14,59 +14,6 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <nav class="header-navigation">
-          <a class="header-logo" href="./index.html">           
-              <img src="./images/logo-heder.svg" alt="Logo Scouts" />           
-          </a>
-          <ul class="header-nav-list">
-            <li class="header-nav-item menu-first" menu-open-first>
-              <!-- <button class="header-nav-btn" type="button">Про нас</button> -->
-              Про нас
-              <ul class="nav-table  is-hidden" data-menu-first>
-                <li class="nav-table-item">
-                  <a class="nav-table-link" href="./our-history.html">Наша історія</a>
-                </li>
-                <li class="nav-table-item">
-                  <a class="nav-table-link" href="./our-mission.html">Наша місія</a>
-                </li>
-                <li class="nav-table-item">
-                  <a class="nav-table-link" href="./scout-method.html">Скаутський Метод</a>
-                </li>
-                <li class="nav-table-item">
-                  <a class="nav-table-link" href="./our-team.html">Наша команда </a>
-                </li>
-              </ul>
-            </li>
-            <li class="header-nav-item menu-second" menu-open-second>
-              Діяльність
-              <ul class="nav-table is-hidden" data-menu-second>
-                <li class="nav-table-item">
-                  <a class="nav-table-link" href="./our-events.html">Наші заходи </a>
-                </li>
-              </ul>
-            </li>
-            <li class="header-nav-item menu-third" menu-open-third>
-              Всесвітній Скаутинг
-              <ul class="nav-table is-hidden menu-third" data-menu-third>
-                <li class="nav-table-item">
-                  <a class="nav-table-link" href="./mission-vision.html">ВОСР</a>
-                </li>
-
-                <li class="nav-table-item">
-                  <a class="nav-table-link" href="./our-history.html">Історія Скаутингу</a>
-                </li>
-              </ul>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav-item-link" href="./join-us.html"> Приєднатись</a>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav-item-link" href="./help-ukrainians.html">Задонатити</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
     </header>
     <main>
       <div class="banner container"></div>
@@ -329,5 +276,10 @@
       </div>
     </footer>
     <script src="./js/nav-menu.js"></script>
+    <script src="./js/init-header.js"></script>
+    <script>
+      getHeader(document.querySelector('header'))
+              .then(() => runMenu());
+    </script>
   </body>
 </html>
