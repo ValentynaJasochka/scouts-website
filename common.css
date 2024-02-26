@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--main-font);
+    font-weight: 500;
+    color: var(--main-font-color);
+}
+
+.montserrat-alternates-semibold {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.montserrat-alternates-bold {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.montserrat-semibold {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+ul,
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+}
+
+.container {
+    /* width: 100%; */
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 36px 32px;
+}
+
+.header-navigation {
+    height: 120px;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 495px;
+    align-items: center;
+}
+
+/* .header-logo {
+  display: flex;
+  align-items: center;
+}
+.header-logo-icon {
+  fill: rgb(91,41,147);
+  margin-right: 20px;
+}
+.header-logo-text {
+  fill: 413D45;
+  margin-bottom: 17px;
+} */
+.header-nav-list {
+    display: flex;
+    gap: 40px;
+    padding: 0 16px;
+}
+
+
+.nav-table.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.header-nav-item {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.208;
+    letter-spacing: 0.00em;
+    position: relative;
+}
+
+.header-nav-item-link:visited {
+    color: inherit;
+}
+
+/* .header-nav-item:hover >.nav-table,
+.header-nav-item:focus > .nav-table {
+display: block;
+} */
+.nav-table {
+    position: absolute;
+    transform: translateY(45px);
+    width: 302px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: var(--accent-color);
+}
+
+.nav-table-item {
+    padding-top: 15px;
+    padding-left: 16px;
+    padding-bottom: 15px;
+}
+
+.nav-table-link {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--white-text-color);
+}
+
+.nav-table-link:hover,
+.nav-table-link:focus {
+    color: rgb(213, 201, 90);
+}
