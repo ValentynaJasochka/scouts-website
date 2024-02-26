@@ -1,4 +1,4 @@
-(() => {
+const runMenu = () => {
   const refs = {
     openMenuFirst: document.querySelector("[menu-open-first]"),
     openMenuSecond: document.querySelector("[menu-open-second]"),
@@ -63,5 +63,7 @@
     document.addEventListener("keydown", onEscPressThird);
     document.addEventListener("click", onCloseThirdMenu);
   }
-})();
+}
+
+// runMenu();
 
