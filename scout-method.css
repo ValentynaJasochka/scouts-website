@@ -1,212 +1,82 @@
 :root {
-  --accent-color: rgb(91,41,147); 
-  /* --accent-button-background: #404bbf;
-  --btn-background: #4d5ae5;
-  --hero-font-color: #ffffff; */ 
-  --main-font: "Montserrat", sans-serif;
-  --main-font-color: rgb(64,61,68);
-  --white-text-color: rgb(255,255,255)
- 
-}
+    --accent-color: rgb(91, 41, 147);
+    /* --accent-button-background: #404bbf;
+    --btn-background: #4d5ae5;
+    --hero-font-color: #ffffff; */
+    --main-font: "Montserrat", sans-serif;
+    --main-font-color: rgb(64, 61, 68);
+    --white-text-color: rgb(255, 255, 255)
 
-* {
-  box-sizing: border-box;
 }
-body {
-  font-family: var(--main-font);
-  font-weight: 500;
-  color: var(--main-font-color);
-}
-.montserrat-alternates-semibold {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.montserrat-alternates-bold {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-.montserrat-semibold {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}
-h1,
-h2,
-h3,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-img {
-  display: block;
-}
-
-ul,
-li {
-  list-style: none;
-  text-decoration: none;
-}
-a {
-  text-decoration: none;
-}
-
-.header {
-  width: 100%;
-}
-.container {
-  /* width: 100%; */
-  width: 1920px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 36px 32px;
-}
-.header-navigation {
-  height: 120px;
-  display: flex;
-  /* justify-content: space-around; */
-  gap: 495px;
-  align-items: center;
-}
-/* .header-logo {
-  display: flex;
-  align-items: center;
-}
-.header-logo-icon {
-  fill: rgb(91,41,147);
-  margin-right: 20px;
-}
-.header-logo-text {
-  fill: 413D45;
-  margin-bottom: 17px;
-} */
-.header-nav-list {
-  display: flex;
-  gap: 40px;
-  padding: 0 16px;
-}
-
-
-.nav-table.is-hidden {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-}
-
-.header-nav-item {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.208; 
-  letter-spacing: 0.00em; 
-  position: relative;
-}
-.header-nav-item-link:visited {
-  color: inherit;
-}
-
-/* .header-nav-item:hover >.nav-table,
-.header-nav-item:focus > .nav-table {
-display: block;
-} */
-.nav-table {
-  position: absolute; 
-  transform: translateY(45px);
-  width: 302px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  background-color: var(--accent-color);
-}
-.nav-table-item {
-  padding-top: 15px;
-  padding-left: 16px;
-  padding-bottom: 15px;
-}
-.nav-table-link {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  color: var(--white-text-color);
-}
-.nav-table-link:hover,
-.nav-table-link:focus {
-  color: rgb(213,201,90);
-}
-
-
-
 
 /* scouts-methods */
 .scouts-methods {
-  width: 1558px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.main-title {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 1.1; 
-  letter-spacing: 0.00098em; 
-  color: var(--accent-color) ;
-  text-align: center;
-  margin-top: 24px;
+    width: 1558px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.main-title::after{
-  display: block;
-  content: "";
-  /* width: 1564px; */
-  height: 1px;
-  border: 1px solid rgba(64, 61, 68, 0.2); 
-  text-align: center;
-  margin-top: 78px;
-   margin-bottom: 22px;
+.main-title {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: 0.00098em;
+    color: var(--accent-color);
+    text-align: center;
+    margin-top: 24px;
 }
+
+.main-title::after {
+    display: block;
+    content: "";
+    /* width: 1564px; */
+    height: 1px;
+    border: 1px solid rgba(64, 61, 68, 0.2);
+    text-align: center;
+    margin-top: 78px;
+    margin-bottom: 22px;
+}
+
 .main-text {
-  font-size: 18px;
-  line-height: 1.52; 
-  width: 1265px;
-  text-align: center;
-  margin-bottom: 65px;
+    font-size: 18px;
+    line-height: 1.52;
+    width: 1265px;
+    text-align: center;
+    margin-bottom: 65px;
 }
+
 /* scouts-methods-elements */
 /* .scouts-methods-elements {
 width: 1558px;
 } */
 .scouts-methods-elements-list {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  column-gap: 43px;
-  height: 933px;
-  margin-bottom: 94px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 43px;
+    height: 933px;
+    margin-bottom: 94px;
 }
+
 .scouts-methods-elements-item {
-width: 595px;
-height: 224px;
+    width: 595px;
+    height: 224px;
 }
+
 .scouts-methods-item-wrapper {
-  width: 449px;
+    width: 449px;
 }
+
 .scouts-methods-item-title {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 1.52;  
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.52;
 }
+
 .scouts-methods-item-text {
-  font-size: 20px;
-  line-height: 1.37;  
+    font-size: 20px;
+    line-height: 1.37;
 }
 
 /* scouts-promises*/
@@ -224,180 +94,180 @@ height: 224px;
   display: flex;
 } */
 .scouts-promises-wrapper {
-  display: flex;
+    display: flex;
 }
+
 .scouts-promises-text {
-  font-size: 18px;
-  line-height: 1.52;
-  width: 577px;
-  text-align: start; 
+    font-size: 18px;
+    line-height: 1.52;
+    width: 577px;
+    text-align: start;
 }
+
 .scouts-promises-text-part:not(:last-child) {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 .scouts-promises-text-additional-part {
-  font-family: "Montserrat Alternates", sans-serif; 
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.2;
-  letter-spacing: 0.00101em;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.00101em;
 }
+
 .scouts-promises-main {
-  background-color: rgb(245,245,245);
+    background-color: rgb(245, 245, 245);
 }
+
 .scouts-promises-header {
-  font-family: "Montserrat Alternates", sans-serif; 
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.2;
-  letter-spacing: 0.00101em;
-  text-align: center;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.00101em;
+    text-align: center;
 }
-.scouts-promises-main-text{
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.5;
-  font-style: italic;
-  text-align: center;
-  margin-bottom: 34px;
+
+.scouts-promises-main-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 34px;
 }
-.scouts-promise-title{
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.2;
-  letter-spacing: 0.00101em;
-  margin-bottom: 34px;
+
+.scouts-promise-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.00101em;
+    margin-bottom: 34px;
 }
+
 .law-text-item {
-  text-align: left;
-  margin-bottom: 0;
+    text-align: left;
+    margin-bottom: 0;
 }
 
 
-
-
-.need-to-know-title{
-  font-size: 24px;
-} */
-
+.need-to-know-title {
+    font-size: 24px;
+}
 
 /* scouts-principles-header */
 
-
-
 .scouts-principles-item::before {
-  display: block;
-  content: "";
-  width: 330px;
-  height: 1px;
-  border: 1px solid rgba(64, 61, 68, 0.6);  
-   margin-bottom: 40px;
+    display: block;
+    content: "";
+    width: 330px;
+    height: 1px;
+    border: 1px solid rgba(64, 61, 68, 0.6);
+    margin-bottom: 40px;
 }
 
 .scouts-principles-list {
-  display: flex;
-  gap: 89px;
-  justify-content: center;
+    display: flex;
+    gap: 89px;
+    justify-content: center;
 }
+
 .scouts-principles-item {
-  width: 330px;
+    width: 330px;
 }
+
 .scouts-principles-item::before {
-  display: block;
-  content: "";
-  width: 330px;
-  border: 1px solid rgba(64, 61, 68, 0.2);
-  margin-bottom: 40px;
-}
-.scouts-principles-title{
-  font-size: 24px;
-  color: rgb(64, 61, 68);
-  margin-bottom: 40px;
-}
-.scouts-principles-text{
-  font-size: 18px;
-  color: rgba(64, 61, 68, 0.6);
+    display: block;
+    content: "";
+    width: 330px;
+    border: 1px solid rgba(64, 61, 68, 0.2);
+    margin-bottom: 40px;
 }
 
+.scouts-principles-title {
+    font-size: 24px;
+    color: rgb(64, 61, 68);
+    margin-bottom: 40px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.scouts-principles-text {
+    font-size: 18px;
+    color: rgba(64, 61, 68, 0.6);
+}
 
 
 .footer {
-  background-color:  rgb(91,41,147)
-  /* width: 1920px; */
+    background-color: rgb(91, 41, 147)
+    /* width: 1920px; */
 }
 
 
 .footer-section {
-  /* height: 572px; */
-  background-color:  rgb(91,41,147) ;
-  display: flex;
-  gap: 145px;
+    /* height: 572px; */
+    background-color: rgb(91, 41, 147);
+    display: flex;
+    gap: 145px;
 }
+
 .contact-footer-part {
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
-  align-items: baseline;
-  margin-left: 338px;
-  margin-top: 66px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: baseline;
+    margin-left: 338px;
+    margin-top: 66px;
 }
+
 .footer-logo {
-  display: flex;
-  gap: 16px;
-  align-items: center;
+    display: flex;
+    gap: 16px;
+    align-items: center;
 }
+
 .footer-logo-icon {
-  fill: white;
+    fill: white;
 }
+
 .footer-logo-text {
-  fill: white;
+    fill: white;
 }
+
 .social-media-footer-list {
-  display: flex;
-  gap: 20px;
-  align-items: center;
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
+
 .social-media-item-icon {
-  fill: white;
+    fill: white;
 }
+
 .footer-social-media-text {
-  width: 250px;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.2; 
-  color: var(--white-text-color);
+    width: 250px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--white-text-color);
 }
+
 .nav-footer-list {
-  display: flex;
-  gap: 10px;
-  margin-top: 149px;
-  color: white;
+    display: flex;
+    gap: 10px;
+    margin-top: 149px;
+    color: white;
 }
+
 .nav-footer-list-title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.55; 
-  color: var(--white-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--white-text-color);
 }
+
 .nav-footer-list-items {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.55; 
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.55;
 }
