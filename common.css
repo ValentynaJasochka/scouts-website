@@ -152,19 +152,18 @@ display: block;
 /* Footer */
 .footer {
     background-color: rgb(91, 41, 147);
-    /* width: 1920px; */
-}
-
-.footer-section {
-    /* height: 572px; */
-    /* background-color: rgb(91, 41, 147); */
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 340px;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    /*width: 100%;*/
+    flex-basis: 1530px;
+}
+
 
 .contact-footer-part {
     display: flex;
