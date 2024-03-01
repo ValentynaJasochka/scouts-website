@@ -1,14 +1,12 @@
 :root {
-    --accent-color: rgb(91, 41, 147);
-    /* --accent-button-background: #404bbf;
+  --accent-color: rgb(91, 41, 147);
+  /* --accent-button-background: #404bbf;
     --btn-background: #4d5ae5;
     --hero-font-color: #ffffff; */
-    --main-font: "Montserrat", sans-serif;
-    --main-font-color: rgb(64, 61, 68);
-    --white-text-color: rgb(255, 255, 255);
+  --main-font: "Montserrat", sans-serif;
+  --main-font-color: rgb(64, 61, 68);
+  --white-text-color: rgb(255, 255, 255);
 }
-
-
 
 * {
   box-sizing: border-box;
@@ -119,7 +117,7 @@ a {
     left: 0;
     background-color: rgb(255, 255, 255);
     z-index: 100;
-    box-shadow: inset 0 4px 4px rgba(0,0,0, 0.25);
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
     /* bottom: 30px; */
   }
   .header-nav-item-container {
@@ -128,9 +126,9 @@ a {
   }
   .heder-nav-text {
     font-family: "Montserrat Alternates", sans-serif;
-    font-size:  14px;
+    font-size: 14px;
     color: black;
-    text-shadow:  0 4px 4px rgba(0,0,0, 0.25);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     padding-left: 12px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -147,12 +145,13 @@ a {
     opacity: 0;
     pointer-events: none;
   } */
+ 
   .nav-table-item {
     font-family: "Montserrat Alternates", sans-serif;
-    font-size:  14px;
+    font-size: 14px;
     color: var(--accent-color);
     padding-left: 32px;
-    
+
     margin-right: auto;
   }
   .header-nav-item-link {
@@ -162,24 +161,45 @@ a {
     padding: 0;
     line-height: 0;
     border: none;
-    /* width: 20px;
-    height: 10px;
-    border: 1px; */
-    box-shadow:  0 4px 4px rgba(0,0,0, 0.25);
+    width: 13px;
+    height: 17px;
+    /* border: 1px; */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     align-self: center;
+  }
+  .inner-mobile-menu-close-btn {
+    padding: 0;
+    line-height: 0;
+    border: none;
+    width: 13px;
+    background-color: white;
+    height: 17px;
+    align-self: center;
+  }
+  .nav-table.menu-none {
+    display: none;
+  }
+  .inner-mobile-menu-close-btn.menu-none {
+    display: none;
   }
 }
 
 @media screen and (min-width: 1200px) {
-    .container {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 36px 32px;
-      }
-      
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 36px 32px;
+  }
+
   .mobile-menu-open {
     display: none;
+  }
+   .nav-table.is-hidden {
+    visibility: hidden;
+    display: none;
+    opacity: 0;
+    pointer-events: none;
   }
 }
 

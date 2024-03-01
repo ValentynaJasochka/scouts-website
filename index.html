@@ -15,7 +15,139 @@
   </head>
   <body>
     <header class="header">
-      <div class="start"></div>
+      <div class="container page-header-container">
+        <nav class="header-navigation">
+          <a class="header-logo" href="./index.html">
+            <img
+              class="header-logo-img"
+              src="./images/logo-heder.svg"
+              alt="Logo Scouts"
+            />
+          </a>
+          <ul class="header-nav-list">
+            <li class="header-nav-item menu-first" menu-open-first>
+              <div class="header-nav-item-container">
+                <p class="heder-nav-text ">Про нас</p>
+                <button class="inner-mobile-menu-open-btn" type="button" open-mobile-first>
+                  <svg class="inner-mobile-menu-open-icon" width="13" height="17">
+                    <use
+                      href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                    ></use>
+                  </svg>
+                </button>
+                <button class="inner-mobile-menu-close-btn menu-none " type="button" close-mobile-first>
+                  <svg class="inner-mobile-menu-close-icon" width="13" height="17">
+                    <use
+                      href="./images/sprite-title-page.svg#inner-mobile-close-btn"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+              <ul class="nav-table menu-none" data-menu-first>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-history.html">Наша історія</a>
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-mission.html">Наша місія</a>
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./scout-method.html"
+                    >Скаутський Метод</a
+                  >
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-team.html">Команда </a>
+                </li>
+              </ul>
+            </li>
+            <li class="header-nav-item menu-second" menu-open-second>
+              <div class="header-nav-item-container">
+                <p class="heder-nav-text">Діяльність</p>
+                <button class="inner-mobile-menu-open-btn" type="button" open-mobile-second>
+                  <svg class="inner-mobile-menu-open-icon" width="13" height="17">
+                    <use
+                      href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                    ></use>
+                  </svg>
+                </button>
+                <button class="inner-mobile-menu-close-btn menu-none " type="button" close-mobile-second>
+                  <svg class="inner-mobile-menu-close-icon" width="13" height="17">
+                    <use
+                      href="./images/sprite-title-page.svg#inner-mobile-close-btn"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+      
+              <ul class="nav-table menu-none " data-menu-second>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-events.html"
+                    >Наша програма
+                  </a>
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-events.html">Проєкти </a>
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-events.html">Заходи </a>
+                </li>
+              </ul>
+            </li>
+            <li class="header-nav-item menu-third" menu-open-third>
+              <div class="header-nav-item-container">
+                <p class="heder-nav-text">Всесвітній Скаутинг</p>
+                <button class="inner-mobile-menu-open-btn" type="button" open-mobile-third>
+                  <svg class="inner-mobile-menu-open-icon" width="13" height="17">
+                    <use
+                      href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                    ></use>
+                  </svg>
+                </button>
+                <button class="inner-mobile-menu-close-btn menu-none " type="button" close-mobile-third>
+                  <svg class="inner-mobile-menu-close-icon" width="13" height="17">
+                    <use
+                      href="./images/sprite-title-page.svg#inner-mobile-close-btn"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+      
+              <ul class="nav-table menu-none  menu-third" data-menu-third>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./mission-vision.html">ВОСР</a>
+                </li>
+      
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-history.html"
+                    >Історія Скаутингу</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="header-nav-item heder-nav-text">
+              <div class="header-nav-item-container">
+                <a class="header-nav-item-link" href="./join-us.html"> Приєднатись</a>
+               
+              </div>
+            </li>
+            <li class="header-nav-item heder-nav-text">
+              <div class="header-nav-item-container">
+                <a class="header-nav-item-link" href="./help-ukrainians.html"
+                  >Задонатити</a
+                >
+              
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <button class="mobile-menu-open" type="button">
+          <svg class="mobile-menu-open-icon" width="24" height="24">
+            <use href="./images//sprite-title-page.svg#burger-icon"></use>
+          </svg>
+        </button>
+      </div>
+      
+      
     </header>
     <main>
       <div class="container">
@@ -428,12 +560,13 @@
     </footer>
     <script src="./js/nav-menu.js"></script>
     <script src="./js/init-header.js"></script>
+    <script src="./js/modal-nav-menu.js"></script>
     <script>
-      getInclude('header', document.querySelector('header'))
-              .then(() => {
-                runMenu()
-                document.querySelector('header').classList.remove('start')
-              });
+      // getInclude('header', document.querySelector('header'))
+      //         .then(() => {
+      //           runMenu()
+      //           document.querySelector('header').classList.remove('start')
+      //         });
       getInclude('footer', document.querySelector('footer'))
     </script>
   </body>
