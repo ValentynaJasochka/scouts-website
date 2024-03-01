@@ -8,7 +8,7 @@ const runMenu = () => {
     menuSecond: document.querySelector("[data-menu-second]"),
     menuThird: document.querySelector("[data-menu-third]"),
   };
-
+  console.log("HOHOHO");
   refs.openMenuFirst.addEventListener("click", toggleFirstModal);
   refs.openMenuSecond.addEventListener("click", toggleSecondModal);
   refs.openMenuThird.addEventListener("click", toggleThirdModal);
@@ -63,7 +63,6 @@ const runMenu = () => {
     document.addEventListener("keydown", onEscPressThird);
     document.addEventListener("click", onCloseThirdMenu);
   }
-}
+};
 
 // runMenu();
-
