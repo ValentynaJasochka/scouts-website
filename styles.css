@@ -1,15 +1,393 @@
 :root {
-    --accent-color: rgb(91, 41, 147);
-    /* --accent-button-background: #404bbf;
+  --accent-color: rgb(91, 41, 147);
+  /* --accent-button-background: #404bbf;
     --btn-background: #4d5ae5;
     --hero-font-color: #ffffff; */
-    --main-font: "Montserrat", sans-serif;
-    --main-font-color: rgb(64, 61, 68);
-    --white-text-color: rgb(255, 255, 255);
+  --main-font: "Montserrat", sans-serif;
+  --main-font-color: rgb(64, 61, 68);
+  --white-text-color: rgb(255, 255, 255);
+}
+
+/* .container {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+} */
+@media screen and (min-width: 390px) {
+  .container {
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .main-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero {
+    display: flex;
+    width: 390px;
+    height: 264px;
+    padding: 132px 0 47px 18px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("./images/mobile/main-page/banner-mobile.jpg");
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 0;
+  }
+  .hero-text-container {
+    width: 179px;
+    text-align: center;
+  }
+
+  .hero-text {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+  }
+  .social-media-list {
+    display: flex;
+    gap: 8px;
+  }
+  .social-media-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .social-media-item-icon {
+    width: 22px;
+    height: 22px;
+    fill: white;
+  }
+
+  .social-media-item-icon:hover {
+    fill: rgb(222, 213, 233);
+  }
+  .subscribing-link {
+    align-self: end;
+    border-radius: 1000px;
+    background-color: rgb(91, 41, 147);
+    padding: 15px;
+  }
+
+  .subscribing-link:hover {
+    background-image: linear-gradient(
+      to right,
+      rgb(91, 41, 147),
+      rgb(155, 104, 212)
+    );
+  }
+  .subscribing-link-icon {
+    display: none;
+  }
+  .subscribing-link-text {
+    font-weight: 600;
+    font-size: 9px;
+    color: var(--white-text-color);
+  }
+
+  /* ABOUT SCOUTS */
+  .about-scouts {
+    padding-top: 10px;
+  }
+
+  .about-scouts-background-block {
+    width: 351px;
+    height: 232px;
+    border-radius: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    background-image: url("./images/background-img2.jpg");
+  }
+  .sub-title {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.1;
+    letter-spacing: 0.00098em;
+    margin-bottom: 24px;
+    text-align: center;
+    color: var(--accent-color);
+    margin-bottom: 8px;
+  }
+  .about-scouts-text {
+    display: none;
+  }
+  .about-scouts-cards-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    margin-top: -80px;
+    justify-content: center;
+  }
+  .about-scouts-card {
+    width: 358px;
+    border-radius: 6px;
+    padding: 8px 16px;
+    background-color: rgb(245, 245, 245);
+  }
+  .about-scouts-header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .about-scouts-card-img {
+    width: 58px;
+    height: 58px;
+    border-radius: 1000px;
+    overflow: hidden;
+    background-size: contain;
+    background-position: center;
+  }
+  .about-scouts-card-nav {
+    display: none;
+  }
+  .scouts-card-title {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.00098em;
+    color: var(--accent-color);
+  }
+
+  .scouts-card-text {
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: 0.00098em;
+  }
+
+  /* MAIN PART */
+  .main-part {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center left, top right;
+    background-image: url("./images/mobile/main-page/main-banner-background1.png"), url("./images/mobile/main-page/main-banner-background2.png");
+  }
+
+  .main-title {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.01;
+    letter-spacing: 0.00091em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .main-part-section-img {    
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 16px;
+  }
+  .main-information-block {
+    display: flex;
+    max-width: 100%;
+    /* width: 1564px; */
+    justify-content: space-between;
+}
+.information-block {
+  display: flex;
+  width: 119px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.information-numbers {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.8;
+  letter-spacing: 0.00097em;
+  color: rgb(91, 41, 147);
+ 
+}
+.text-information {
+  font-size: 13px;
+  text-align: center;
+} 
+
+/* EVENTS */
+.events {
+  padding-top: 16px;
+  padding-bottom: 26px;
+  /* box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25); */
+}
+.events-title {
+  display: none;
+}
+
+.events-list {
+ display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+ column-gap: 24px;
+ row-gap: 16px;
+}
+.events-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 159px;
+  /* height: 716px; */
+  border-radius: 20px;
+  /* background-color: rgb(245, 245, 245); */
+  /* padding: 40px 16px; */
+  /* max-width: 50%; */
+  gap: 8px;
+}
+.events-item-title {
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.00098em;
+  text-align: center;
+  
+}
+.events-img {
+  width: 159px;
+  height: 155px;
+ 
+}
+.events-item-text {
+  font-size: 13px;
+  line-height: 1.4;
+  letter-spacing: 0.00098em;
+}
+
+/* reviews */
+
+.reviews {
+  background-color: var(--accent-color);
+  width: 100%;
+  padding-top: 24px;
+  padding-bottom: 16px;
+ }
+.reviews-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.00098em;
+  color: var(--white-text-color);
+  
+  text-align: center;
+  margin-bottom: 16px;
+}
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+.reviews-item {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: rgba(245,245,245, 0.8);
+  border-radius:  10px;
+  width: 358px;
+  /* height: 224px; */
+  padding: 8px;
+  gap: 8px;
+}
+.reviews-individuo-wrapper {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.reviewer-photo {
+  border-radius: 14px;
+  overflow: hidden;
+  background-size: cover;
+}
+.reviews-text {
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.00098em;
+}
+.reviewer-name {
+  font-size: 13px;
+  line-height: 1.4;
+  letter-spacing: 0.00098em;
+}
+
+.reviewer-status {
+      font-size: 13px;
+  line-height: 1.4;
+  letter-spacing: 0.00098em;
+ 
+  color: rgb(133,111,150)
+}
+
+/* invitation */
+.invitation-information {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+.invitation-title {
+  font-weight: 600;
+  font-size: 15px;
+ 
+  color: var(--accent-color);
+  text-align: center;
+}
+.invitation-text {
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+
+}
+.invitation-section-img,
+.subscribing-link-icon {
+  display: none;
+}
+.subscribing-link-invitation {
+  display: inline-block;
+  background-color: var(--accent-color);
+  padding: 18px 44px;
+  border-radius: 14px;
+}
+.subscribing-link-invitation-text {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--white-text-color);
+  
+}
+
+ 
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 36px 32px;
+  }
 }
 
 /* main */
-.hero {
+/* .hero {
     margin: 113px auto 106px;
     display: flex;
     justify-content: space-between;
@@ -52,7 +430,7 @@
 
 .social-media-item-icon {
     fill: white;
-    /* stroke: white; */
+   
 }
 
 .social-media-item-icon:hover {
@@ -82,10 +460,10 @@
     font-weight: 600;
     font-size: 20px;
     color: var(--white-text-color);
-}
+} */
 
 /* ABOUT SCOUTS */
-.about-scouts {
+/* .about-scouts {
     position: relative;
     width: 100%;
     height: 860px;
@@ -101,9 +479,7 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    /* margin-top: 116px; */
-    /* padding-left: 337px;
-    padding-right: 337px; */
+    
 }
 
 .about-scouts-background-block {
@@ -113,9 +489,7 @@
     background-image: url("./images/background-img2.jpg");
 }
 
-/* .about-scouts-discribing-block {
 
-} */
 .sub-title {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 700;
@@ -138,10 +512,7 @@
 }
 
 .about-scouts-cards-list {
-    /*position: absolute;*/
-    /*z-index: 10;*/
-    /*top: 383px;*/
-    /*left: 153px;*/
+  
     display: flex;
     gap: 24px;
     margin-top: -213px;
@@ -170,7 +541,7 @@
     height: 100px;
     border-radius: 1000px;
     overflow: hidden;
-    /* background-image: url("./images/about-us/photo-1.jpg") ; */
+
     background-size: cover;
 }
 
@@ -191,11 +562,11 @@
     position: absolute;
     left: 30px;
     bottom: 25px;
-}
+} */
 
 /* MAIN SECTION */
-.main-part {
-    /* width: 1778px; */
+/* .main-part {
+  
     margin-left: auto;
     margin-right: auto;
     padding-top: 107px;
@@ -215,8 +586,7 @@
     line-height: 1.01;
     letter-spacing: 0em;
     text-transform: uppercase;
-    /* text-align: center; */
-    /* color: rgb(91,41,147); */
+   
     margin-bottom: 44px;
 }
 
@@ -252,16 +622,13 @@
 
 .text-iformation {
     font-size: 35px;
-}
+} */
 
 /* EVENTS */
-.events {
-    /* width: 1778px; */
-    /* margin-left: auto;
-    margin-right: auto; */
+/* .events {
+   
     display: flex;
-    /*flex-direction: column;*/
-    /*align-items: center;*/
+   
     justify-content: center;
 }
 
@@ -277,7 +644,7 @@
 
 .events-list {
     display: flex;
-    /*gap: 40px;*/
+   
     width:100%;
     justify-content: space-between;
     margin-bottom: 100px;
@@ -315,20 +682,14 @@
     letter-spacing: 0.00098em;
 }
 
-/* .events-img>img {
-  height: 100%;
-  width: 100%;
-}
-.events-img img {
-  object-fit: cover;
-} */
+
 .events-img > .events-img-picture {
     object-fit: cover;
-}
+} */
 
 /* reviews */
 
-.reviews {
+/* .reviews {
     background-color: var(--accent-color);
     overflow: hidden;
 }
@@ -420,10 +781,10 @@
 
 .reviews-item-styled.second {
     border-radius: 24px 24px 0 0;
-}
+} */
 
 /* invitation */
-.invitation {
+/* .invitation {
     height: 684px;
     background-color: rgb(245, 245, 245);
     display: flex;
@@ -452,7 +813,7 @@
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
-    /* letter-spacing: 0.00098em;  */
+
 }
 
 .invitation-section-img {
@@ -463,4 +824,4 @@
 .invitation-img-second {
     position: absolute;
     left: 270px;
-}
+} */
