@@ -206,7 +206,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    align-items: start;
+    align-self: start;
   }
   .nav-footer-list-title {
     font-weight: 400;
