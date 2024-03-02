@@ -20,26 +20,32 @@
     margin-right: auto;
   } */
 }
-@media screen and (max-width: 1777px) {
+
+@media screen and (max-width: 1024px) {
   .container {
-    width: 390px;
+    max-width: 390px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
   }
+
   .main-group {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .hero {
     display: flex;
-    width: 390px;
     height: 264px;
     padding: 132px 0 47px 18px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url("./images/mobile/main-page/banner-mobile.jpg");
   }
+
   .hero-container {
     display: flex;
     flex-direction: column;
@@ -47,6 +53,7 @@
     gap: 16px;
     padding: 0;
   }
+
   .hero-text-container {
     width: 179px;
     text-align: center;
@@ -59,10 +66,12 @@
     text-transform: uppercase;
     color: var(--white-text-color);
   }
+
   .social-media-list {
     display: flex;
     gap: 8px;
   }
+
   .social-media-item {
     display: flex;
     align-items: center;
@@ -77,6 +86,7 @@
   .social-media-item-icon:hover {
     fill: rgb(222, 213, 233);
   }
+
   .subscribing-link {
     align-self: end;
     border-radius: 1000px;
@@ -86,14 +96,16 @@
 
   .subscribing-link:hover {
     background-image: linear-gradient(
-      to right,
-      rgb(91, 41, 147),
-      rgb(155, 104, 212)
+        to right,
+        rgb(91, 41, 147),
+        rgb(155, 104, 212)
     );
   }
+
   .subscribing-link-icon {
     display: none;
   }
+
   .subscribing-link-text {
     font-weight: 600;
     font-size: 9px;
@@ -103,32 +115,39 @@
   /* ABOUT SCOUTS */
   .about-scouts {
     padding-top: 10px;
+    margin-bottom: 20px;
   }
 
   .about-scouts-background-block {
-    width: 351px;
+    width: 100%;
     height: 232px;
-    border-radius: 24px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
     background-image: url("./images/background-img2.jpg");
   }
+
   .sub-title {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.1;
     letter-spacing: 0.00098em;
-    margin-bottom: 24px;
     text-align: center;
     color: var(--accent-color);
     margin-bottom: 8px;
   }
+
   .about-scouts-text {
     display: none;
   }
+
+  .about-scouts-cards-list-container {
+    display: flex;
+    justify-content: center;
+  }
+
   .about-scouts-cards-list {
     display: flex;
     flex-direction: column;
@@ -137,12 +156,14 @@
     margin-top: -80px;
     justify-content: center;
   }
+
   .about-scouts-card {
-    width: 358px;
+    width: 100%;
     border-radius: 6px;
     padding: 8px 16px;
     background-color: rgb(245, 245, 245);
   }
+
   .about-scouts-header {
     display: flex;
     justify-content: start;
@@ -150,19 +171,20 @@
     gap: 8px;
     margin-bottom: 8px;
   }
+
   .about-scouts-card-img {
     width: 58px;
     height: 58px;
     border-radius: 1000px;
     overflow: hidden;
-  
+
   }
-  
-  .about-scouts-card-img >.about-scouts-card-picture {
+
+  .about-scouts-card-img > .about-scouts-card-picture {
     display: block;
     height: 100%;
     width: 100%;
-  
+
     object-fit: cover;
     background-position: center;
   }
@@ -170,6 +192,7 @@
   .about-scouts-card-nav {
     display: none;
   }
+
   .scouts-card-title {
     font-weight: 600;
     font-size: 15px;
@@ -194,7 +217,7 @@
     background-repeat: no-repeat;
     background-position: center left, top right;
     background-image: url("./images/mobile/main-page/main-banner-background1.png"),
-      url("./images/mobile/main-page/main-banner-background2.png");
+    url("./images/mobile/main-page/main-banner-background2.png");
   }
 
   .main-title {
@@ -206,17 +229,20 @@
     text-transform: uppercase;
     margin-bottom: 16px;
   }
+
   .main-part-section-img {
     border-radius: 6px;
     overflow: hidden;
     margin-bottom: 16px;
   }
+
   .main-information-block {
     display: flex;
     max-width: 100%;
     /* width: 1564px; */
     justify-content: space-between;
   }
+
   .information-block {
     display: flex;
     width: 119px;
@@ -224,6 +250,7 @@
     align-items: center;
     gap: 8px;
   }
+
   .information-numbers {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 700;
@@ -232,6 +259,7 @@
     letter-spacing: 0.00097em;
     color: rgb(91, 41, 147);
   }
+
   .text-information {
     font-size: 13px;
     text-align: center;
@@ -243,6 +271,7 @@
     padding-bottom: 26px;
     /* box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25); */
   }
+
   .events-title {
     display: none;
   }
@@ -251,21 +280,24 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    column-gap: 24px;
-    row-gap: 16px;
+    grid-gap: 16px;
   }
+
+
   .events-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 159px;
-    /* height: 716px; */
-    border-radius: 20px;
-    /* background-color: rgb(245, 245, 245); */
-    /* padding: 40px 16px; */
-    /* max-width: 50%; */
     gap: 8px;
+    border-radius: 20px;
+    margin-bottom: 8px;
   }
+
+  .events-item:nth-child(2n + 1),
+  .events-item:nth-child(2n + 2) {
+    flex: 0 0 calc(50% - 10px);
+  }
+
   .events-item-title {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
@@ -273,6 +305,7 @@
     letter-spacing: 0.00098em;
     text-align: center;
   }
+
   .events-img-wrapper {
     width: 159px;
     height: 155px;
@@ -280,17 +313,17 @@
     overflow: hidden;
     box-shadow: 4px 4px 40px 4px rgba(0, 0, 0, 0.25);
   }
-  
-  .events-img-wrapper  >.events-img {
+
+  .events-img-wrapper > .events-img {
     display: block;
     height: 100%;
     width: 100%;
-  
+
     object-fit: cover;
     background-position: center;
   }
 
- 
+
   .events-item-text {
     font-size: 13px;
     line-height: 1.4;
@@ -298,13 +331,13 @@
   }
 
   /* reviews */
-
   .reviews {
     background-color: var(--accent-color);
     width: 100%;
     padding-top: 24px;
     padding-bottom: 16px;
   }
+
   .reviews-title {
     font-weight: 600;
     font-size: 16px;
@@ -315,23 +348,28 @@
     text-align: center;
     margin-bottom: 16px;
   }
+
   .reviews-list {
     display: flex;
     flex-direction: column;
     gap: 8px;
     align-items: center;
   }
+
   .reviews-stiled:nth-child(2) {
     display: flex;
     flex-direction: column;
     gap: 8px;
   }
+
   .first {
     display: none;
   }
+
   .second {
     display: none;
   }
+
   .reviews-item {
     display: flex;
     flex-direction: column-reverse;
@@ -340,13 +378,15 @@
     width: 358px;
     /* height: 224px; */
     padding: 8px;
-    
+
   }
+
   .reviews-individuo-wrapper {
     display: flex;
     gap: 8px;
     align-items: center;
   }
+
   .reviewer-photo-wrapper {
     width: 75px;
     height: 75px;
@@ -354,12 +394,12 @@
     overflow: hidden;
     box-shadow: 4px 4px 40px 4px rgba(0, 0, 0, 0.25);
   }
-  
-  .reviewer-photo-wrapper  >.reviewer-photo  {
+
+  .reviewer-photo-wrapper > .reviewer-photo {
     display: block;
     height: 100%;
     width: 100%;
-  
+
     object-fit: cover;
     background-position: center;
   }
@@ -369,6 +409,7 @@
     line-height: 1.4;
     letter-spacing: 0.00098em;
   }
+
   .reviewer-name {
     font-size: 13px;
     line-height: 1.4;
@@ -401,15 +442,18 @@
     color: var(--accent-color);
     text-align: center;
   }
+
   .invitation-text {
     font-size: 13px;
     line-height: 1.5;
     text-align: center;
   }
+
   .invitation-section-img,
   .subscribing-link-icon {
     display: none;
   }
+
   .subscribing-link-invitation {
     display: inline-block;
     background-color: var(--accent-color);
@@ -417,6 +461,7 @@
     border-radius: 14px;
     align-self: center;
   }
+
   .subscribing-link-invitation-text {
     font-weight: 600;
     font-size: 16px;
@@ -424,15 +469,15 @@
   }
 }
 
-@media screen and (min-width: 1778px) {
+@media screen and (min-width: 1024px) {
   .container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 0px 0px;
   }
-  /* main */
 
+  /* main */
   .hero {
     margin-top: 16px;
     margin-bottom: 16px;
@@ -450,6 +495,7 @@
     background-position: center;
     background-image: url("./images/background-img.jpg");
   }
+
   .hero-container {
     display: flex;
     flex-direction: column;
@@ -461,12 +507,14 @@
     width: 750px;
     text-align: center;
   }
+
   .hero-text {
     font-weight: 700;
     font-size: 50px;
     text-transform: uppercase;
     color: var(--white-text-color);
   }
+
   .social-media-list {
     display: flex;
     gap: 19px;
@@ -481,6 +529,7 @@
   .social-media-item-icon:hover {
     fill: rgb(222, 213, 233);
   }
+
   .subscribing-link {
     display: flex;
     display: flex;
@@ -499,9 +548,9 @@
 
   .subscribing-link:hover {
     background-image: linear-gradient(
-      to right,
-      rgb(91, 41, 147),
-      rgb(155, 104, 212)
+        to right,
+        rgb(91, 41, 147),
+        rgb(155, 104, 212)
     );
   }
 
@@ -516,17 +565,20 @@
     padding-top: 32px;
     padding-bottom: 48px;
   }
+
   .about-scouts-block {
     display: flex;
     gap: 32px;
     justify-content: center;
   }
+
   .about-scouts-background-block {
     width: 772px;
     height: 601px;
     border-radius: 24px;
     background-image: url("./images/background-img2.jpg");
   }
+
   .sub-title {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 600;
@@ -534,6 +586,7 @@
     line-height: 1.1;
     letter-spacing: 0.00098em;
   }
+
   .about-scouts-text {
     width: 442px;
     height: 216px;
@@ -545,17 +598,25 @@
   .about-scouts-text-bold {
     font-weight: 700;
   }
-  .about-scouts-cards-list {
+
+  .about-scouts-cards-list-container {
     display: flex;
-    gap: 24px;
+    justify-content: center;
+
+    width: 100%;
+  }
+
+  .about-scouts-cards-list {
+    max-width: 1556px;
+    display: flex;
+    grid-gap: 24px;
     margin-top: -213px;
     justify-content: center;
   }
 
   .about-scouts-card {
     position: relative;
-    width: 371px;
-    height: 477px;
+    width: 100%;
     border-radius: 10px;
     padding: 30px;
     background-color: rgb(245, 245, 245);
@@ -574,18 +635,22 @@
     height: 100px;
     border-radius: 1000px;
     overflow: hidden;
-  
+    flex-shrink: 0;
+    background-size: cover;
   }
-  
-  .about-scouts-card-img >.about-scouts-card-picture {
+
+  .about-scouts-card-img > .about-scouts-card-picture {
     display: block;
     height: 100%;
     width: 100%;
-  
+
     object-fit: cover;
     background-position: center;
   }
 
+  .about-scouts-card-img img {
+    height: 100%;
+  }
 
   .scouts-card-title {
     font-weight: 600;
@@ -598,6 +663,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.00098em;
+    margin-bottom: 40px;
   }
 
   .about-scouts-card-nav {
@@ -633,6 +699,7 @@
     overflow: hidden;
     max-width: 100%;
   }
+
   .main-information-block {
     display: flex;
     max-width: 100%;
@@ -659,6 +726,7 @@
   .text-information {
     font-size: 35px;
   }
+
   /* EVENTS */
   .events {
     padding-bottom: 32px;
@@ -668,25 +736,38 @@
     align-items: center;
   }
 
+  .events-wrapper {
+    width: 100%;
+  }
+
   .events-title {
     /* margin-bottom: 69px; */
     text-align: center;
     margin-bottom: 48px;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   }
+
+  .events-list-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
   .events-list {
     display: flex;
-    gap: 24px;
-
-    /* width:100%; */
+    grid-gap: 32px;
+    max-width: 1558px;
+    width: 100%;
   }
+
   .events-item {
+    max-width: 381px;
+    width: 100%;
+    border-radius: 20px;
+    gap: 32px;
+    flex: 1 1 381px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 32px;
-    width: 381px;
-    border-radius: 20px;
   }
 
   .events-item-title {
@@ -696,24 +777,33 @@
     letter-spacing: 0.00098em;
     text-align: center;
   }
+
   .events-img-wrapper {
-    width: 370px;
-    height: 370px;
-    border-radius: 24px;
+    width: 100%;
+    aspect-ratio: 1;
+    text-align: center;
     overflow: hidden;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
     box-shadow: 4px 4px 30px 10px rgba(0, 0, 0, 0.25);
+    margin-bottom: 16px;
   }
-  
-  .events-img-wrapper  >.events-img {
+
+  .events-img-wrapper > .events-img {
     display: block;
     height: 100%;
     width: 100%;
-  
+
     object-fit: cover;
     background-position: center;
   }
 
- 
+  .events-img {
+    height: 100%;
+    border-radius: 24px;
+  }
+
   .events-item-text {
     font-size: 16px;
     line-height: 1.4;
@@ -729,16 +819,19 @@
     background-color: var(--accent-color);
     overflow: hidden;
   }
+
   .reviews-section {
-    width: 1778px;
+    max-width: 1778px;
+    width: 100%;
     height: 842px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
+    gap: 20px;
     padding-left: 164px;
     padding-right: 164px;
   }
+
   .reviews-title {
     font-weight: 600;
     font-size: 36px;
@@ -746,137 +839,154 @@
     width: 398px;
     text-align: center;
   }
+
   .reviews-list {
     display: flex;
     gap: 17px;
     align-items: center;
-}
-.reviews-item {
-  display: flex;
-  flex-direction: column;
-  width: 380px;
-  gap: 40px;
-  padding: 40px;
-  background-color: white;
-  border-radius: 26.67px;
-}
+  }
 
-.reviews-text {
-  font-size: 16px;
-  line-height: 1.3;
-  letter-spacing: 0.00098em;
-}
+  .reviews-item {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    gap: 40px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 26.67px;
+  }
 
-.reviews-individuo-wrapper {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-.reviewer-photo-wrapper {
-  width: 75px;
-  height: 75px;
-  border-radius: 1000px;
-  overflow: hidden;
-  box-shadow: 4px 4px 40px 4px rgba(0, 0, 0, 0.25);
-}
+  .reviews-text {
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: 0.00098em;
+  }
 
-.reviewer-photo-wrapper  >.reviewer-photo  {
-  display: block;
-  height: 100%;
-  width: 100%;
+  .reviews-individuo-wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
 
-  object-fit: cover;
-  background-position: center;
-}
+  .reviewer-photo-wrapper {
+    width: 75px;
+    height: 75px;
+    border-radius: 1000px;
+    overflow: hidden;
+    box-shadow: 4px 4px 40px 4px rgba(0, 0, 0, 0.25);
+  }
 
+  .reviewer-photo-wrapper > .reviewer-photo {
+    display: block;
+    height: 100%;
+    width: 100%;
 
-
-.reviews-individuo {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-}
-
-.reviewer-name {
-  font-size: 18px;
-  line-height: 1.3;
-}
-
-.reviewer-status {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.4;
-  width: 194px;
-  color: rgb(125, 125, 125);
-}
-.reviews-stiled {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-.reviews-item-styled {
-  background-color: rgba(213, 201, 90, 0.1);
-  width: 380px;
-  height: 220px;
-}
-.reviews-item-styled.first {
-  border-radius: 0 0 24px 24px;
-}
-
-.reviews-item-styled.second {
-  border-radius: 24px 24px 0 0;
-}
-  
+    object-fit: cover;
+    background-position: center;
+  }
 
 
+  .reviews-individuo {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
 
-/* invitation */
-.invitation {
-  background-color: rgb(245, 245, 245);
-}
-.invitation-section {
-  width: 1576px;
-  height: 684px; 
-  display: flex; 
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 130px;
-  padding-right: 82px;
+  .reviewer-name {
+    font-size: 18px;
+    line-height: 1.3;
+  }
 
-}
-.invitation-information {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  width: 600px;
-  align-items: center;
-}
+  .reviewer-status {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    width: 194px;
+    color: rgb(125, 125, 125);
+  }
 
-.invitation-title {
-  font-weight: 600;
-  font-size: 36px;
-  color: var(--accent-color);
-  text-align: center;
-}
+  .reviews-stiled {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
 
-.invitation-text {
-  font-size: 20px;
-  line-height: 1.5;
-  text-align: center;
+  .reviews-item-styled {
+    background-color: rgba(213, 201, 90, 0.1);
+    width: 380px;
+    height: 220px;
+  }
 
-}
-.subscribing-link-invitation {
-  align-self: center;
-}
-.invitation-section-img {
-  display: flex;
-  position: relative;
-}
+  .reviews-item-styled.first {
+    border-radius: 0 0 24px 24px;
+  }
 
-.invitation-img{
-  position: absolute;
-  right: 270px;
-}
+  .reviews-item-styled.second {
+    border-radius: 24px 24px 0 0;
+  }
+
+
+  /* invitation */
+  .invitation {
+    background-color: rgb(245, 245, 245);
+  }
+
+  .invitation-section {
+    max-width: 1576px;
+    width: 100%;
+    height: 684px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 82px;
+
+  }
+
+  .invitation-information {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 600px;
+    align-items: center;
+  }
+
+  .invitation-title {
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--accent-color);
+    text-align: center;
+  }
+
+  .invitation-text {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+
+  }
+
+  .subscribing-link-invitation {
+    align-self: center;
+  }
+
+  .invitation-section-img {
+    display: flex;
+    position: relative;
+  }
+
+  .invitation-img {
+    position: relative;
+    z-index: 2;
+    width: 50%;
+  }
+
+  .invitation-img-second {
+    position: relative;
+    z-index: 1;
+    margin-left: -40px;
+    width: 50%;
+
+  }
 
 }
 
