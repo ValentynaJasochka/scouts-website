@@ -59,7 +59,7 @@
                   </svg>
                 </button>
               </div>
-              <ul class="nav-table menu-none" data-menu-first>
+              <ul class="nav-table menu-none is-hidden" data-menu-first>
                 <li class="nav-table-item">
                   <a class="nav-table-link" href="./our-history.html"
                     >Наша історія</a
@@ -115,7 +115,7 @@
                 </button>
               </div>
 
-              <ul class="nav-table menu-none" data-menu-second>
+              <ul class="nav-table menu-none is-hidden" data-menu-second>
                 <li class="nav-table-item">
                   <a class="nav-table-link" href="./our-events.html"
                     >Наша програма
@@ -166,7 +166,7 @@
                 </button>
               </div>
 
-              <ul class="nav-table menu-none menu-third" data-menu-third>
+              <ul class="nav-table menu-none is-hidden" data-menu-third>
                 <li class="nav-table-item">
                   <a class="nav-table-link" href="./mission-vision.html"
                     >ВОСР</a
@@ -369,7 +369,7 @@
           <picture>
             <source
               srcset="./images/content-img.jpg 1x"
-              media="(min-width: 1200px)"
+              media="(min-width: 1778px)"
             />
 
             <source
@@ -483,7 +483,7 @@
                     <picture class="reviewer-photo">
                       <source
                         srcset="./images/about-us/Base-1.jpg 1x"
-                        media="(min-width: 1200px)"
+                        media="(min-width: 1778px)"
                       />
 
                       <source
@@ -502,9 +502,10 @@
                     </div>
                   </div>
                 </div>
+                <div class="reviews-item-styled second"></div>
               </li>
               <li class="reviews-stiled">
-                <div class="reviews-item-styled second"></div>
+                <div class="reviews-item-styled first"></div>
                 <div class="reviews-item">
                   <p class="reviews-text">
                     Це дійсно унікальна можливість для саморозвитку та
@@ -517,7 +518,7 @@
                     <picture class="reviewer-photo">
                       <source
                         srcset="./images/about-us/Base-2.jpg 1x"
-                        media="(min-width: 1200px)"
+                        media="(min-width: 1778px)"
                       />
 
                       <source
@@ -536,9 +537,6 @@
                     </div>
                   </div>
                 </div>
-              </li>
-              <li class="reviews-stiled">
-                <div class="reviews-item-styled third"></div>
                 <div class="reviews-item">
                   <p class="reviews-text">
                     В моєму патрулі - всі мої найкращі друзі! Я з нетерпінням
@@ -549,7 +547,7 @@
                     <picture class="reviewer-photo">
                       <source
                         srcset="./images/about-us/Base-3.jpg 1x"
-                        media="(min-width: 1200px)"
+                        media="(min-width: 1778px)"
                       />
 
                       <source
@@ -568,9 +566,11 @@
                     </div>
                   </div>
                 </div>
-              </li>
-              <li class="reviews-stiled">
                 <div class="reviews-item-styled second"></div>
+              </li>
+
+              <li class="reviews-stiled">
+                <div class="reviews-item-styled first"></div>
                 <div class="reviews-item">
                   <p class="reviews-text">
                     На вихідних я завжди з посмішкою вирушаю до своєї Cкаутської
@@ -587,7 +587,7 @@
                     <picture class="reviewer-photo">
                       <source
                         srcset="./images/about-us/Base-4.jpg 1x"
-                        media="(min-width: 1200px)"
+                        media="(min-width: 1778px)"
                       />
 
                       <source
@@ -608,32 +608,41 @@
                     </div>
                   </div>
                 </div>
+                <div class="reviews-item-styled second"></div>
               </li>
             </ul>
           </div>
         </section>
-        <section class="container invitation-section">
-          <div class="invitation">
+        <section class="invitation">
+          <div class="container invitation-section">
             <div class="invitation-information">
               <h2 class="invitation-title">
-                Запрошуємо стати <br/> Скаутом або Скаут-Лідером!
+                Запрошуємо стати <br />
+                Скаутом або Скаут-Лідером!
               </h2>
               <p class="invitation-text">
                 Членом Національної Організації Скаутів України може стати
                 кожний, незалежно від віку, походження, раси, гендеру чи
                 віросповідання!
               </p>
-              <a href="" class="subscribing-link-invitation">
+              <a href="" class="subscribing-link subscribing-link-invitation">
                 <img
                   class="subscribing-link-icon"
                   src="./images/btn-vector.png"
                   width="30"
                   height="30"
                 />
-                <p class="subscribing-link-invitation-text">Приєднатись</p>
+                <p class="subscribing-link-text">Приєднатись до нас</p>
               </a>
             </div>
             <div class="invitation-section-img">
+              <img
+              class="invitation-img-second"
+              src="./images/about-us/Photo9.png"
+              alt="team building"
+              width="314px"
+              height="472px"
+            />
               <img
                 class="invitation-img"
                 src="./images/about-us/Photo8.png"
@@ -641,93 +650,80 @@
                 width="314px"
                 height="472px"
               />
-              <img
-                class="invitation-img-second"
-                src="./images/about-us/Photo9.png"
-                alt="team building"
-                width="314px"
-                height="472px"
-              />
+            
             </div>
           </div>
         </section>
       </div>
     </main>
     <footer class="footer">
-      <div class="container footer-section">
-        <!-- <div class="contact-footer-part"> -->
-            <svg class="footer-logo" >
-                <use href="./images/sprite-title-page.svg#logo-footer"></use>
-            </svg>
-            <div class="nav-footer-part">
-              <ul class="nav-footer-list">
-                  <li>
-                      <h4 class="nav-footer-list-title">Діяльність:</h4>
-                      <ul>
-                          <li class="nav-footer-list-items">Наша програма</li>
-                          <li class="nav-footer-list-items">Наші проєкти</li>
-      
-                      </ul>
-                  </li>
-                  <li>
-                      <h4 class="nav-footer-list-title">Про Нас:</h4>
-                      <ul>
-                          <li class="nav-footer-list-items">Історія</li>
-                          <li class="nav-footer-list-items">Скаутський Метод</li>
-                          <li class="nav-footer-list-items">Команда</li>
-                      </ul>
-                  </li>
-                  <li>
-                      <h4 class="nav-footer-list-title">Долучитись:</h4>
-                      <ul>
-                          <li class="nav-footer-list-items">Стати Скаутом</li>
-                          <li class="nav-footer-list-items">Стати Лідером</li>
-                          <li class="nav-footer-list-items">Допомога організації</li>
-                      </ul>
-                  </li>
-              </ul>
-            </div>
-          <!-- </div> -->
-          <a href="" class="donation-link">            
-            <p class="donation-link-text">Задонатити</p>
-          </a>
-          <p class="donation-footer-text">
-            Маєш питання або пропозиції? Ми завжди відкриті для спілкування.
-            Пиши нам на secretariat.nosu@gmail.com
-        </p>
-            <ul class="social-media-footer-list">
-                <li class="social-media-link">
-                    <a href="" class="social-media-item">
-                        <svg class="social-media-item-icon" >
-                            <use href="./images/sprite-title-page.svg#telegram"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="social-media-link">
-                    <a href="" class="social-media-item">
-                        <svg class="social-media-item-icon" width="56" height="56">
-                            <use href="./images/sprite-title-page.svg#instagram"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="social-media-link">
-                    <a href="" class="social-media-item">
-                        <svg class="social-media-item-icon" width="56" height="56">
-                            <use href="./images/sprite-title-page.svg#telegram"></use>
-                        </svg>
-                    </a>
-                </li>
-                
-            </ul>
+      <div class=" footer-section">
+        <svg class="footer-logo">
+          <use href="./images/sprite-title-page.svg#logo-footer"></use>
+        </svg>
+        
+          <ul class="nav-footer-list">
             <li>
-              <p class="footer-social-media-text">
-                  Підпишіться на нас у соціальних мережах
-              </p>
+              <h4 class="nav-footer-list-title">Діяльність:</h4>
+              <ul>
+                <li class="nav-footer-list-items">Наша програма</li>
+                <li class="nav-footer-list-items">Наші проєкти</li>
+              </ul>
+            </li>
+            <li>
+              <h4 class="nav-footer-list-title">Про Нас:</h4>
+              <ul>
+                <li class="nav-footer-list-items">Історія</li>
+                <li class="nav-footer-list-items">Скаутський Метод</li>
+                <li class="nav-footer-list-items">Команда</li>
+              </ul>
+            </li>
+            <li>
+              <h4 class="nav-footer-list-title">Долучитись:</h4>
+              <ul>
+                <li class="nav-footer-list-items">Стати Скаутом</li>
+                <li class="nav-footer-list-items">Стати Лідером</li>
+                <li class="nav-footer-list-items">Допомога організації</li>
+              </ul>
+            </li>
+          </ul>
+       
+        <a href="" class="donation-link">
+          <p class="donation-link-text">Задонатити</p>
+        </a>
+        <p class="donation-footer-text">
+          Маєш питання або пропозиції? Ми завжди відкриті для спілкування. Пиши
+          нам на secretariat.nosu@gmail.com
+        </p>
+        <ul class="social-media-footer-list">
+          <li class="social-media-link">
+            <a href="" class="social-media-item">
+              <svg class="social-media-item-icon">
+                <use href="./images/sprite-title-page.svg#telegram"></use>
+              </svg>
+            </a>
           </li>
+          <li class="social-media-link">
+            <a href="" class="social-media-item">
+              <svg class="social-media-item-icon" width="56" height="56">
+                <use href="./images/sprite-title-page.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media-link">
+            <a href="" class="social-media-item">
+              <svg class="social-media-item-icon" width="56" height="56">
+                <use href="./images/sprite-title-page.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        
+          <p class="footer-social-media-text">
+            Підпишіться на нас у соціальних мережах
+          </p>
        
-      
-       
-    </div>
+      </div>
     </footer>
     <script src="./js/nav-menu.js"></script>
     <script src="./js/init-header.js"></script>
