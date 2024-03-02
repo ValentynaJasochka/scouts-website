@@ -347,11 +347,23 @@
     gap: 8px;
     align-items: center;
   }
-  .reviewer-photo {
+  .reviewer-photo-wrapper {
+    width: 75px;
+    height: 75px;
     border-radius: 14px;
     overflow: hidden;
-    background-size: cover;
+    box-shadow: 4px 4px 40px 4px rgba(0, 0, 0, 0.25);
   }
+  
+  .reviewer-photo-wrapper  >.reviewer-photo  {
+    display: block;
+    height: 100%;
+    width: 100%;
+  
+    object-fit: cover;
+    background-position: center;
+  }
+
   .reviews-text {
     font-size: 14px;
     line-height: 1.4;
@@ -562,9 +574,18 @@
     height: 100px;
     border-radius: 1000px;
     overflow: hidden;
-
-    background-size: cover;
+  
   }
+  
+  .about-scouts-card-img >.about-scouts-card-picture {
+    display: block;
+    height: 100%;
+    width: 100%;
+  
+    object-fit: cover;
+    background-position: center;
+  }
+
 
   .scouts-card-title {
     font-weight: 600;
@@ -675,14 +696,24 @@
     letter-spacing: 0.00098em;
     text-align: center;
   }
-
-  .events-img {
+  .events-img-wrapper {
     width: 370px;
     height: 370px;
     border-radius: 24px;
+    overflow: hidden;
     box-shadow: 4px 4px 30px 10px rgba(0, 0, 0, 0.25);
   }
+  
+  .events-img-wrapper  >.events-img {
+    display: block;
+    height: 100%;
+    width: 100%;
+  
+    object-fit: cover;
+    background-position: center;
+  }
 
+ 
   .events-item-text {
     font-size: 16px;
     line-height: 1.4;
@@ -732,7 +763,7 @@
 
 .reviews-text {
   font-size: 16px;
-  line-height: 1.4;
+  line-height: 1.3;
   letter-spacing: 0.00098em;
 }
 
@@ -741,12 +772,24 @@
   gap: 10px;
   align-items: center;
 }
-
-.reviewer-photo {
+.reviewer-photo-wrapper {
+  width: 75px;
+  height: 75px;
   border-radius: 1000px;
   overflow: hidden;
-  background-size: cover;
+  box-shadow: 4px 4px 40px 4px rgba(0, 0, 0, 0.25);
 }
+
+.reviewer-photo-wrapper  >.reviewer-photo  {
+  display: block;
+  height: 100%;
+  width: 100%;
+
+  object-fit: cover;
+  background-position: center;
+}
+
+
 
 .reviews-individuo {
   display: flex;
@@ -769,12 +812,12 @@
 .reviews-stiled {
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  gap: 24px;
 }
 .reviews-item-styled {
   background-color: rgba(213, 201, 90, 0.1);
   width: 380px;
-  height: 210px;
+  height: 220px;
 }
 .reviews-item-styled.first {
   border-radius: 0 0 24px 24px;
