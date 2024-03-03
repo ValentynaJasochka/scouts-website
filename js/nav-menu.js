@@ -1,6 +1,6 @@
 (() => {
-  const body = document.querySelector('body')
-  body.addEventListener('click', handleMenuClick)
+  const body = document.querySelector('body');
+  body.addEventListener('click', handleMenuClick);
   document.addEventListener('keydown', onEscPress);
 
   function handleMenuClick(e) {
@@ -15,21 +15,22 @@
         // CLick on menu item
         const mainNavItemContainer = target.closest('.nav-main-item');
 
-        if(mainNavItemContainer.classList.contains('is-opened')){
+        if (mainNavItemContainer.classList.contains('is-opened')) {
           // Menu is hidden. Show menu
           mainNavItemContainer.classList.remove('is-opened')
           // And hide other
-        }else{
+        } else {
           // Menu is visible. Hide everything
           // hideExcept();
           mainNavItemContainer.classList.add('is-opened');
         }
-          hideExcept(mainNavItemContainer);
+        hideExcept(mainNavItemContainer);
         break;
       }
       target = target.parentElement;
     }
   }
+
   function hideExcept(exceptElement) {
     body.querySelectorAll('.nav-main-item')
       .forEach((el) => el !== exceptElement && el.classList.remove('is-opened'))
@@ -42,3 +43,28 @@
   }
 
 })();
+
+
+(() => {
+  const mobileMenuOpener = document.querySelector('.mobile-menu-handler.open')
+  mobileMenuOpener.addEventListener('click', handleMobileMenuOpen);
+
+
+  function handleMobileMenuOpen(e) {
+    e.currentTarget.classList.add('is-hidden')
+    document.querySelector('.nav-mobile-menu')
+      .classList.add('mobile-menu-is-opened');
+    document.querySelector('.mobile-menu-handler.close').classList.remove('is-hidden')
+  }
+
+  const mobileMenuCloser = document.querySelector('.mobile-menu-handler.close')
+  mobileMenuCloser.addEventListener('click', handleMobileMenuClose);
+
+  function handleMobileMenuClose(e) {
+    e.currentTarget.classList.add('is-hidden')
+    document.querySelector('.nav-mobile-menu')
+      .classList.remove('mobile-menu-is-opened');
+    document.querySelector('.mobile-menu-handler.open').classList.remove('is-hidden')
+  }
+})();
+

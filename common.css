@@ -149,17 +149,19 @@ a {
   }
 
   .nav-table {
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 8px;
   }
 
-  /* .nav-table.is-hidden {
-    visibility: hidden;
-    display: none;
-    opacity: 0;
-    pointer-events: none;
-  } */
+  .is-opened .nav-table {
+    display: flex;
+  }
+
+  .is-opened .inner-mobile-menu-open-icon{
+    transform: rotate(180deg);
+  }
+
   .nav-table-item {
     font-family: "Montserrat Alternates", sans-serif;
     font-size: 14px;
@@ -194,6 +196,14 @@ a {
     align-self: center;
   }
 
+  .nav-mobile-menu {
+    display: none;
+  }
+
+  .nav-mobile-menu.mobile-menu-is-opened {
+    display: block;
+  }
+
   .menu-none {
     display: none;
   }
@@ -206,7 +216,7 @@ a {
     display: none;
   }
 
-  .close-btn-none {
+  .mobile-menu-handler.is-hidden {
     display: none;
   }
 
@@ -314,10 +324,6 @@ a {
   }
 
   /* HEADER */
-  .mobile-menu-open {
-    display: none;
-  }
-
   .header-navigation {
     max-width: 1920px;
     display: flex;
@@ -540,6 +546,7 @@ a {
 
 
 }
+
 
 
 
