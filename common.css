@@ -190,6 +190,9 @@ a {
   .inner-mobile-menu-close-btn.menu-none {
     display: none;
   }
+  .close-btn-none {
+    display: none;
+}
 
   /* FOOTER */
 
@@ -302,7 +305,9 @@ a {
     display: flex;
     gap: 10px;
   }
-
+.close-btn-none {
+    display: none;
+}
   .nav-table.is-hidden {
     visibility: hidden;
     display: none;
