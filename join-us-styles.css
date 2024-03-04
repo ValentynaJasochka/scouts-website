@@ -1,287 +1,422 @@
 :root {
   --accent-color: rgb(91, 41, 147);
   /* --accent-button-background: #404bbf;
-  --btn-background: #4d5ae5;
-  --hero-font-color: #ffffff; */
+    --btn-background: #4d5ae5;
+    --hero-font-color: #ffffff; */
   --main-font: "Montserrat", sans-serif;
   --main-font-color: rgb(64, 61, 68);
   --white-text-color: rgb(255, 255, 255);
 }
 
-/* MAIN */
-.banner {
-  width: 1920px;
-  height: 1022px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url("./images/join-us.jpg");
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
+/* .container {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+} */
+@media screen and (min-width: 390px) {
+  /* .container {
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+  .banner {
+    width: 398px;
+    height: 268px;
+    box-shadow: inset 4px 4px 10px 0.0005px rgba(0, 0, 0, 0.25);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom 0px center, top -10px center;
+    background-size: cover, cover;
+    background-image: url("./images/join-us/banner.png"),
+      url("./images/join-us/banner-background.png");
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .invitation-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .main-title {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.1;
+    letter-spacing: 0.00098em;
+    color: var(--accent-color);
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .main-title::after {
+    display: block;
+    content: "";
+    width: 358px;
+    border: 1px solid rgba(64, 61, 68, 0.2);
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .main-text {
+    font-size: 13px;
+    line-height: 1.52;
+    text-align: center;
+    margin-bottom: 34px;
+  }
+  .color-part {
+    color: var(--accent-color);
+  }
+  .sub-title {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.1;
+    letter-spacing: 0.00098em;
+    color: var(--accent-color);
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .sub-title::after {
+    display: block;
+    content: "";
+    width: 358px;
+    border: 1px solid rgba(64, 61, 68, 0.2);
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .invitation-wrapper {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  .invitation-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .invitation-text {
+    font-size: 13px;
+    line-height: 1.5;
+    width: 358px;
+    text-align: start;
+  }
+  .decorated-background {
+    width: 340px;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./images/join-us/join-us-scouts.png");
+  }
+  .join-btn {
+    background-color: var(--accent-color);
+    align-self: center;
+    border-radius: 1000px;
+    padding: 26px 44px;
+  }
+
+  .join-link {
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--white-text-color);
+  }
+  .second-invitation-wrapper {
+    flex-direction: column;
+  }
+  .second-decorated-background {
+    background-image: url("./images/join-us/join-us-rovers.png");
+  }
+
+  /* advantages */
+
+  .advantages {
+    background-color: rgb(91, 41, 147);
+  }
+  .advantages-wrapper {
+    padding: 24px 16px;
+  }
+  .advantages-title {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.1;
+    letter-spacing: 0.00098em;
+    color: var(--accent-color);
+    text-align: center;
+    color: var(--white-text-color);
+    margin-bottom: 16px;
+  }
+  .advantages-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .advantage-heder-part {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  .sign-advantage-img {
+    width: 85px;
+    height: 85px;
+  }
+  .advantages-item-title {
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+  }
+  .advantages-item-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.6;
+    letter-spacing: 0.00098em;
+    color: white;
+  }
+
+  /* leadership */
+  .leadership {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 0 16px 0;
+  }
+
+  .third-decorated-background {
+    background-image: url("./images/join-us/join-us-scouts-lider.png");
+  }
+  .leadership-points-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .leadership-text-title {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: start;
+    color: var(--accent-color);
+    margin-bottom: 8px;
+  }
+  .leadership-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: start;
+    color: rgb(91, 91, 108);
+  }
+
+  .leadership-img-wrapper {
+    width: 358px;
+    height: 232px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .leadership-img-wrapper > .leadership-img {
+    display: block;
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+    background-position: center;
+  }
+
+  .second-leadership-points-wrapper {
+    flex-direction: column;
+  }
+  .third-join-btn {
+    margin-top: 16px;
+  }
 }
 
-/* Invitation section */
-.invitation-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 115px;
-  padding-bottom: 115px;
-}
-.main-title {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 1.1;
-  letter-spacing: 0.00098em;
-  color: var(--accent-color);
-  text-align: center;
-  /* margin-top: 24px; */
+@media screen and (max-width: 1023px) {
+  /* MAIN */
 }
 
-.main-title::after {
-  display: block;
-  content: "";
-  width: 1564px;
-  /* height: 1px; */
-  border: 1px solid rgba(64, 61, 68, 0.2);
-  text-align: center;
-  margin-top: 78px;
-  margin-bottom: 22px;
-}
-.main-text {
-  font-size: 18px;
-  line-height: 1.52;
-  width: 1265px;
-  text-align: center;
-  margin-bottom: 85px;
-}
-.bold-main-text {
-  font-weight: 600;
-  /* margin-bottom: 65px;   */
-}
-.sub-title {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 1.1;
-  letter-spacing: 0.00098em;
-  margin-bottom: 34px;
-}
-.invitation-wrapper {
-  position: relative;
-  display: flex;
-  gap: 40px;
-}
-.invitation-text-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-}
-.invitation-text {
-  font-size: 18px;
-  line-height: 1.5;
-  width: 730px;
-  text-align: start;
-}
-.invitation-text-part:not(:last-child) {
-  margin-bottom: 20px;
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px;
+  }
+  /* MAIN */
+  .banner {
+    width: 1888px;
+    height: 1022px;
+    background-image: url("./images/join-us//join-us-desktop-banner.png");
+  }
+  .invitation-section {
+    padding-top: 16px;
+    padding-bottom: 48px;
+  }
+  .main-title {
+    font-size: 40px;
+  }
+  .main-title::after {
+    width: 1564px;
+
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .main-text {
+    font-size: 18px;
+    margin-bottom: 64px;
+    width: 1296px;
+  }
+  .color-part {
+    font-weight: 600;
+    color: inherit;
+  }
+  .sub-title {
+    font-size: 40px;
+    color: var(--main-font-color);
+    /* margin-bottom: 24px; */
+  }
+  .sub-title::after {
+    display: none;
+  }
+  .invitation-wrapper {
+    position: relative;
+    flex-direction: row;
+    gap: 40px;
+    margin-bottom: 85px;
+  }
+  .invitation-text-wrapper {
+    gap: 30px;
+  }
+  .invitation-text {
+    font-size: 18px;
+
+    width: 730px;
+    text-align: start;
+    margin-bottom: 32px;
+  }
+  .decorated-background {
+    width: 455px;
+    height: 617px;
+    position: relative;
+    transform: translateY(10%);
+  }
+  .join-btn {
+    padding: 24px 38px;
+    align-self: end;
+  }
+  .second-join-btn {
+    align-self: start;
+  }
+  .join-link {
+    font-size: 16px;
+  }
+  .second-decorated-background {
+    position: relative;
+    transform: translateY(0%);
+  }
+  .second-invitation-text-wrapper {
+    gap: 100px;
+  }
+  .invitation-text-part:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  /* advantages */
+  .advantages {
+    background-image: url("./images/join-us//logo-background.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+  }
+  .advantages-wrapper {
+    width: 1112px;
+    padding: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .advantages-title {
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
+  .advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 128px;
+    row-gap: 32px;
+  }
+  .advantages-item {
+    width: 492px;
+  }
+  .advantage-heder-part {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .advantages-item-title {
+    font-size: 24px;
+  }
+  .advantages-item-text {
+    font-size: 18px;
+  }
+
+
+  /* leadership */
+  .leadership {
+    display: flex;
+   
+    padding: 32px 0 16px 0;
+  }
+  .second-invitation-wrapper {
+    gap: 103px;
+    margin-bottom: 16px;
+  }
+  .third-decorated-background {
+   background-size: 443px 622px;
+   /* position: relative; */
+    transform: translateY(0%);
+  }
+  .second-invitation-text{
+    width: 648px;
+  }
+
+  .leadership-points-wrapper {
+    flex-direction: row;
+    gap: 24px;
+    align-items: start;
+  }
+  .leadership-text-title {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  .leadership-text {
+    font-size: 18px;
+    line-height: 1.52;
+    width: 626px;
+    text-align: start;
+  }
+
+  .leadership-img-wrapper {
+    width: 636px;
+    height: 430px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .leadership-points-wrapper:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .third-join-btn {
+    align-self: center;
+  }
+
 }
 
-.join-btn {
-  background-color: var(--accent-color);
-  align-self: end;
-}
-.second-join-btn {
-  align-self: start;
-}
-.join-link {
-  font-weight: 600;
-  font-size: 20px;
-  color: var(--white-text-color);
-  background-color: var(--accent-color);
-  border-radius: 1000px;
-  padding: 28px 39px;
-}
-.decorated-background {
-  width: 455px;
-  height: 617px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("./images/join-us/join-us-scouts.png");
-  display: flex;
-  gap: 10px;
-}
-.second-invitation-wrapper {
-  width: 1226px;
-}
-.second-decorated-background {
-  position: absolute;
-  transform: translateY(-15%);
-  /* top: -100px; */
-  background-image: url("./images/join-us/join-us-rovers.png");
-}
-.second-invitation-text-wrapper {
-  margin-left: auto;
-}
-.decorated-background-first-part {
-  width: 238px;
-  height: 456px;
-  align-self: start;
-}
-.decorated-background-second-part {
-  width: 238px;
-  height: 456px;
-  align-self: end;
-}
 
-/* advantages */
-.advantages {
-  /* width: 1920px; */
-  background-color: rgb(91, 41, 147);
-  /* padding: 150px 330px 48px 330px; */
-  /* margin-left: auto;
-  margin-right: auto; */
-}
-.advantages-wrapper {
-  width: 1240px;
-  padding: 150px 0px 130px 0px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.advantages-title {
-  color: var(--white-text-color);
-  text-align: center;
-}
-.advantages-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-.advantages-item {
-  width: 609px;
-  padding: 90px 60px 48px 60px;
-}
-.advantages-item-title {
-  font-weight: 600;
-  font-size: 24px;
-  color: white;
-  margin-bottom: 30px;
-}
-.advantages-item-text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.6;
-  letter-spacing: 0.00098em;
-  color: white;
-}
-
-/* leadership */
-.leadership {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 70px 0 70px 0;
-}
-.third-decorated-background {
-  background-image: url("./images/join-us/join-us-scouts-lider.png");
-}
-.leadership-wrapper {
-  display: flex;
-  gap: 24px;
-}
-.leadership-title {
-  text-align: center;
-}
-.leadership-text {
-  font-size: 18px;
-  line-height: 1.52;
-  width: 660px;
-  text-align: start;
-}
-.leadership-text-part:not(:last-child) {
-  margin-bottom: 20px;
-}
-.leadership-text-title {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.2;
-  letter-spacing: 0.000101em;
-}
-.leadership-points-wrapper {
-  display: flex;
-}
-.third-join-btn {
-  align-self: center;
-}
-
-/* Footer */
-.footer {
-  background-color: rgb(91, 41, 147);
-}
-
-.footer-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 340px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-.contact-footer-part {
-  display: flex;
-  flex-direction: column;
-  gap: 52px;
-  align-items: baseline;
-}
-.footer-logo {
-  display: flex;
-  gap: 16px;
-  align-items: center;
-}
-
-.social-media-footer-list {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-}
-.social-media-item-icon {
-  fill: white;
-}
-.footer-social-media-text {
-  width: 250px;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.2;
-  color: var(--white-text-color);
-}
-.nav-footer-part {
-  display: flex;
-  flex-direction: column;
-  gap: 64px;
-}
-.nav-footer-list {
-  display: flex;
-  gap: 53px;
-  color: white;
-}
-.nav-footer-list-title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.55;
-  color: var(--white-text-color);
-}
-.nav-footer-list-items {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.55;
-}
-.nav-footer-text {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.2;
-  width: 604px;
-  color: var(--white-text-color);
-}
