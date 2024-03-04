@@ -347,6 +347,10 @@ a {
     display: none;
   }
 
+  .mobile-menu-handler {
+    display: none;
+  }
+
   .nav-table {
     visibility: hidden;
     display: none;
