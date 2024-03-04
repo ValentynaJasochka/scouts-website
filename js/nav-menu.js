@@ -52,8 +52,8 @@
 
   function handleMobileMenuOpen(e) {
     e.currentTarget.classList.add('is-hidden')
-    document.querySelector('.nav-mobile-menu')
-      .classList.add('mobile-menu-is-opened');
+    document.querySelector('header').classList.add('mobile-menu-is-opened');
+    document.querySelector('.nav-mobile-menu').classList.add('mobile-menu-is-opened');
     document.querySelector('.mobile-menu-handler.close').classList.remove('is-hidden')
   }
 
@@ -62,8 +62,8 @@
 
   function handleMobileMenuClose(e) {
     e.currentTarget.classList.add('is-hidden')
-    document.querySelector('.nav-mobile-menu')
-      .classList.remove('mobile-menu-is-opened');
+    document.querySelector('header').classList.remove('mobile-menu-is-opened');
+    document.querySelector('.nav-mobile-menu').classList.remove('mobile-menu-is-opened');
     document.querySelector('.mobile-menu-handler.open').classList.remove('is-hidden')
   }
 })();
