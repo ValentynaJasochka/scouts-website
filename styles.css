@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 1023px) {
   .container {
-    max-width: 390px;
+    /*max-width: 390px;*/
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -39,11 +39,16 @@
 
   .hero {
     display: flex;
-    height: 264px;
-    padding: 132px 0 47px 18px;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: end;
+
+    /*height: 264px;*/
+    padding: 0 13% 15%;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url("./images/mobile/main-page/banner-mobile.jpg");
+    aspect-ratio: 1.48;
   }
 
   .hero-container {
@@ -55,7 +60,7 @@
   }
 
   .hero-text-container {
-    width: 179px;
+    max-width: 179px;
     text-align: center;
   }
 
@@ -92,6 +97,7 @@
     border-radius: 1000px;
     background-color: rgb(91, 41, 147);
     padding: 15px;
+    white-space: nowrap;
   }
 
   .subscribing-link:hover {
@@ -120,7 +126,8 @@
 
   .about-scouts-background-block {
     width: 100%;
-    height: 232px;
+    /*height: 232px;*/
+    aspect-ratio: 1.68;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -153,7 +160,7 @@
     flex-direction: column;
     gap: 8px;
 
-    margin-top: -80px;
+    margin-top: -20.5%;
     justify-content: center;
   }
 
@@ -234,6 +241,7 @@
     border-radius: 6px;
     overflow: hidden;
     margin-bottom: 16px;
+    max-width: 100%;
   }
 
   .main-information-block {
@@ -307,8 +315,9 @@
   }
 
   .events-img-wrapper {
-    width: 159px;
-    height: 155px;
+    width: 100%;
+    /*height: 155px;*/
+    aspect-ratio: 1.025;
     border-radius: 24px;
     overflow: hidden;
     box-shadow: 4px 4px 40px 4px rgba(0, 0, 0, 0.25);
@@ -370,12 +379,15 @@
     display: none;
   }
 
+  .reviews-section {
+    padding: 0 10px;
+  }
   .reviews-item {
     display: flex;
     flex-direction: column-reverse;
     background-color: rgba(245, 245, 245, 0.8);
     border-radius: 10px;
-    width: 358px;
+    width: 100%;
     /* height: 224px; */
     padding: 8px;
 
