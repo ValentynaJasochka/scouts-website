@@ -158,8 +158,12 @@ a {
     display: flex;
   }
 
-  .is-opened .inner-mobile-menu-open-icon {
+  .inner-mobile-menu-open-icon {
     transform: rotate(180deg);
+  }
+
+  .is-opened .inner-mobile-menu-open-icon {
+    transform: rotate(0);
   }
 
   .nav-table-item {
@@ -365,8 +369,12 @@ a {
     pointer-events: auto;
   }
 
-  .is-opened .inner-mobile-menu-open-icon {
+  .inner-mobile-menu-open-icon {
     transform: rotate(180deg);
+  }
+
+  .is-opened .inner-mobile-menu-open-icon {
+    transform: rotate(0);
   }
 
   .inner-mobile-menu-open-btn {
@@ -399,6 +407,7 @@ a {
   .header-nav-item-container {
     display: flex;
     gap: 10px;
+    cursor: pointer;
   }
 
   .header-nav-item {
