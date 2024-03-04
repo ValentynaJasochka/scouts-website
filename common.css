@@ -185,12 +185,12 @@ a {
     border: none;
     width: 13px;
     height: 17px;
-
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+background-color: white;
+    /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
     align-self: center;
   }
 
-  .inner-mobile-menu-close-btn {
+  /* .inner-mobile-menu-close-btn {
     padding: 0;
     line-height: 0;
     border: none;
@@ -198,7 +198,7 @@ a {
     background-color: white;
     height: 17px;
     align-self: center;
-  }
+  } */
 
   .nav-mobile-menu {
     display: none;
