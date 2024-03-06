@@ -185,7 +185,7 @@ a {
     border: none;
     width: 13px;
     height: 17px;
-background-color: white;
+    background-color: white;
     /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
     align-self: center;
   }
@@ -488,7 +488,6 @@ background-color: white;
     margin-bottom: 30px;
   }
 
-
   .nav-footer-list {
     display: flex;
     gap: 43px;
@@ -501,7 +500,6 @@ background-color: white;
     font-size: 16px;
     line-height: 1.55;
     margin: 0px;
-
   }
 
   .nav-footer-list-items {
@@ -556,8 +554,6 @@ background-color: white;
     color: var(--white-text-color);
     margin-right: 120px;
   }
-
-
 }
 
 @media screen and (max-width: 1023px) {
@@ -565,7 +561,9 @@ background-color: white;
     margin: 0;
   }
 
-  main, header, footer {
+  main,
+  header,
+  footer {
     padding: 8px;
   }
 
@@ -587,13 +585,3 @@ background-color: white;
     padding-top: 0;
   }
 }
-
-
-
-
-
-
-
-
-
-
