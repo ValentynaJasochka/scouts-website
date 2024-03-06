@@ -10,12 +10,14 @@
   --grey-font-color: rgb(91, 91, 108);
   --white-text-color: rgb(255, 255, 255);
 }
+
 @media screen and (min-width: 390px) {
   .main-group {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .container {
     /*max-width: 390px;*/
     width: 100%;
@@ -24,9 +26,11 @@
     padding-left: 0;
     padding-right: 0;
   }
+
   .history-section {
     background-color: var(--shadow-background);
   }
+
   .history-wrapper {
     display: flex;
     flex-direction: column;
@@ -35,20 +39,24 @@
     padding-top: 8px;
     padding-bottom: 8px;
   }
+
   .main-title::after {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
+
   .history-points-list {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
   }
+
   .history-points-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .history-points-wrapper:nth-child(even) {
     flex-direction: column-reverse;
   }
@@ -58,6 +66,7 @@
     border-radius: 10px;
     overflow: hidden;
   }
+
   .history-points-img-wrapper > .history-points-img {
     display: block;
     height: 100%;
@@ -68,6 +77,7 @@
   .history-points-text-wrapper {
     align-self: start;
   }
+
   .history-text-title {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 600;
@@ -76,6 +86,7 @@
     color: var(--accent-color);
     margin-bottom: 5px;
   }
+
   .history-text {
     font-size: 13px;
     line-height: 1.5;
@@ -83,6 +94,7 @@
     text-align: start;
     color: var(--grey-font-color);
   }
+
   .additional-text {
     font-size: 15px;
     line-height: 1.2;
@@ -91,9 +103,11 @@
     /* width: 1211px; */
     text-align: center;
   }
+
   .additional-text-part {
     margin-bottom: 10px;
   }
+
   .additional-text-link {
     color: inherit;
     text-decoration: underline;
@@ -122,20 +136,25 @@
     margin-top: 32px;
     margin-bottom: 16px;
   }
+
   .history-points-list {
     gap: 32px;
   }
+
   .history-points-wrapper {
     flex-direction: row;
     gap: 48px;
   }
+
   .history-points-wrapper:nth-child(even) {
     flex-direction: row;
   }
+
   .history-points-img-wrapper {
     width: 612px;
     height: 428px;
   }
+
   .history-text {
     font-size: 18px;
     line-height: 1.52;
