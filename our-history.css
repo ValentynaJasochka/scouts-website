@@ -64,7 +64,7 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1365px) {
   /* .main-group {
       display: flex;
       flex-direction: column;
@@ -72,7 +72,7 @@
     } */
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1366px) {
   .history-section {
     background-color: var(--white-background-color);
   } 
