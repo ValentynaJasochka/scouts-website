@@ -128,6 +128,45 @@ a {
     font-size: 13px;
     color: var(--white-text-color);
   }
+  .history-points-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .history-points-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .history-points-wrapper:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+  .history-points-text-wrapper {
+    align-self: start;
+  }
+  .history-text-title {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--accent-color);
+    margin-bottom: 5px;
+  }
+  .history-text {
+    font-size: 13px;
+    line-height: 1.5;
+    width: 342px;
+    text-align: start;
+    color: var(--grey-font-color);
+  }
+  .history-text-bold {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.5;
+  }
   .history-points-img-wrapper {
     width: 358px;
     height: 179px;
@@ -403,6 +442,53 @@ a {
  
   .join-link {
     font-size: 16px;
+  }
+  .history-points-list {
+    gap: 32px;
+  }
+
+  .history-points-wrapper {
+    flex-direction: row;
+    gap: 48px;
+  }
+
+  .history-points-wrapper:nth-child(even) {
+    flex-direction: row;
+  }
+
+  .history-points-img-wrapper {
+    width: 612px;
+    height: 428px;
+  }
+
+  .history-text {
+    font-size: 18px;
+    line-height: 1.52;
+    width: 636px;
+    text-align: start;
+  }
+  .history-text-bold {
+    font-weight: 600;
+    font-size: 18px;
+    
+  }
+
+  .history-text-part:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .history-text-title {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .history-points-wrapper {
+    display: flex;
+  }
+
+  .additional-text {
+    font-size: 24px;
   }
 
   /* HEADER */

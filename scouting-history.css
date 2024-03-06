@@ -1,100 +1,66 @@
 :root {
-    --accent-color: rgb(91, 41, 147);
-    /* --accent-button-background: #404bbf;
+  --accent-color: rgb(91, 41, 147);
+  /* --accent-button-background: #404bbf;
       --btn-background: #4d5ae5;
       --hero-font-color: #ffffff; */
-      --white-background-color: rgb(255, 255, 255);
-      --shadow-background: rgba(64,61,68,0.02);
-    --main-font: "Montserrat", sans-serif;
-    --main-font-color: rgb(64, 61, 68);
-    --grey-font-color: rgb(91,91,108);
-    --white-text-color: rgb(255, 255, 255);
-  }
+  --white-background-color: rgb(255, 255, 255);
+  --shadow-background: rgba(64, 61, 68, 0.02);
+  --main-font: "Montserrat", sans-serif;
+  --main-font-color: rgb(64, 61, 68);
+  --grey-font-color: rgb(91, 91, 108);
+  --white-text-color: rgb(255, 255, 255);
+}
 @media screen and (min-width: 390px) {
-    .main-group {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-    .container {
-        /*max-width: 390px;*/
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 0;
-        padding-right: 0;
-      }
-    .our-events {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 16px;
-        padding-top: 8px;
-        padding-bottom: 16px;
-        background-color: var(--shadow-background);
-    }
-    .main-title::after {
-        margin-bottom: 0px;
-    }
-}
-
-/* our-events */
-.our-events {
-    width: 1246px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.scouting-history-section {
+  .main-group {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-
-
-.scouting-history-list {
-    margin-bottom: 79px;
-}
-
-.scouting-history-item {
+  }
+  .container {
+    /*max-width: 390px;*/
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .scouting-history-section {
     display: flex;
-    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding-top: 8px;
+    padding-bottom: 16px;
+    background-color: var(--shadow-background);
+  }
+  .main-title::after {
+    margin-bottom: 0px;
+  }
+  .history-points-wrapper {
+    gap: 16px;
+  }
+  .additional-text {
+    display: none;
+  }
 }
 
-.scouting-history-wrapper {
-    width: 611px;
-}
-
-.scouting-history-title {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 600;
+@media screen and (min-width: 1024px) {
+  .scouting-history-section {
+    padding-top: 16px;
+    background-color: var(--white-background-color);
+  }
+  .main-title::after {
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
+  .additional-text {
+    display: block;
+    width: 750px;
     font-size: 24px;
     line-height: 1.2;
     letter-spacing: 0.000101em;
-}
-
-.scouting-history-text {
-    font-size: 18px;
-    line-height: 1.52;
-    width: 660px;
-    text-align: start;
-}
-
-.history-text-bold {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.52;
-}
-
-/* .history-text-part:not(:last-child) {
-  margin-bottom: 20px;
-} */
-
-.additional-text {
     font-style: italic;
-    font-size: 24px;
-    line-height: 1.2;
-    letter-spacing: 0.000101em;
-    margin-bottom: 79px;
+    
+    text-align: center;
+  }
 }
