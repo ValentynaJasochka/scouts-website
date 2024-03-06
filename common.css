@@ -109,6 +109,25 @@ a {
     margin-top: 8px;
     margin-bottom: 8px;
   }
+  .join-btn {
+    background-color: var(--accent-color);
+    align-self: center;
+    border-radius: 1000px;
+    padding: 26px 44px;
+  }
+  .join-btn:hover {
+    background-image: linear-gradient(
+        to right,
+        rgb(91, 41, 147),
+        rgb(155, 104, 212)
+    );
+  }
+
+  .join-link {
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--white-text-color);
+  }
 }
 
 @media screen and (max-width: 1023px) {
@@ -362,6 +381,15 @@ a {
     width: 1564px;
     margin-top: 24px;
     margin-bottom: 24px;
+  }
+
+  .join-btn {
+    padding: 24px 38px;
+   
+  }
+ 
+  .join-link {
+    font-size: 16px;
   }
 
   /* HEADER */

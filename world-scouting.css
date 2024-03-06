@@ -205,7 +205,7 @@
     padding: 32px;
   }
   .headquarters-information {
-    /* width: 698px; */
+   
     padding: 0px 32px;
   }
   .headquarters-title {
@@ -241,38 +241,3 @@
   }
 }
 
-/*headquarters */
-/* 
-
-
-
-
-.headquarters-address-bord-item:first-child {
-    background-color: rgb(213, 201, 90);
-
-}
-
-.headquarters-address-bord-item:first-child > .address-bord-item-region {
-    color: var(--accent-color);
-
-}
-
-.headquarters-address-bord-item:first-child > .address-bord-item-country {
-    color: var(--accent-color);
-
-}
-
-.address-bord-item-region {
-    font-size: 24px;
-    line-height: 1;
-    color: rgb(243, 243, 243);
-    text-transform: uppercase;
-    text-align: start;
-}
-
-.address-bord-item-country {
-    font-size: 20px;
-    color: rgb(243, 243, 243);
-    letter-spacing: 0.00098em;
-    text-align: start;
-} */

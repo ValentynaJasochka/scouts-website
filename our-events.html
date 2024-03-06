@@ -15,45 +15,192 @@
   </head>
   <body>
     <header class="header">
-      <div class="start"></div>
+      <div class="container page-header-container">
+        <nav class="header-navigation">
+          <a class="header-logo" href="./index.html">
+            <img
+              class="header-logo-img"
+              src="./images/logo-heder.svg"
+              alt="Logo Scouts"
+            />
+          </a>
+          <ul class="header-nav-list nav-mobile-menu">
+            <li
+              class="header-nav-item menu-first nav-main-item"
+              menu-open-first
+            >
+              <div class="header-nav-item-container nav-item-click-listener">
+                <p class="heder-nav-text">Про нас</p>
+                <button
+                  class="inner-mobile-menu-open-btn"
+                  type="button"
+                  open-mobile-first
+                >
+                  <svg
+                    class="inner-mobile-menu-open-icon"
+                    width="13"
+                    height="17"
+                  >
+                    <use
+                      href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+              <ul class="nav-table is-hidden" data-menu-first>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-history.html"
+                    >Наша історія</a
+                  >
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-mission.html"
+                    >Наша місія</a
+                  >
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./scout-method.html"
+                    >Скаутський Метод</a
+                  >
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-team.html">Команда </a>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="header-nav-item menu-second nav-main-item"
+              menu-open-second
+            >
+              <div class="header-nav-item-container nav-item-click-listener">
+                <p class="heder-nav-text">Діяльність</p>
+                <button
+                  class="inner-mobile-menu-open-btn"
+                  type="button"
+                  open-mobile-second
+                >
+                  <svg
+                    class="inner-mobile-menu-open-icon"
+                    width="13"
+                    height="17"
+                  >
+                    <use
+                      href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+
+              <ul class="nav-table is-hidden" data-menu-second>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-mission.html"
+                    >Наша програма
+                  </a>
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./help-ukrainians.html"
+                    >Проєкти
+                  </a>
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-events.html">Заходи </a>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="header-nav-item menu-third nav-main-item"
+              menu-open-third
+            >
+              <div class="header-nav-item-container nav-item-click-listener">
+                <p class="heder-nav-text">Всесвітній Скаутинг</p>
+                <button
+                  class="inner-mobile-menu-open-btn"
+                  type="button"
+                  open-mobile-third
+                >
+                  <svg
+                    class="inner-mobile-menu-open-icon"
+                    width="13"
+                    height="17"
+                  >
+                    <use
+                      href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+
+              <ul class="nav-table is-hidden" data-menu-third>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./world-scouting.html"
+                    >ВОСР</a
+                  >
+                </li>
+
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./scouting-history.html"
+                    >Історія Скаутингу</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="header-nav-item heder-nav-text">
+              <div class="header-nav-item-container">
+                <a class="header-nav-item-link" href="./join-us.html">
+                  Приєднатись</a
+                >
+              </div>
+            </li>
+            <li class="header-nav-item heder-nav-text">
+              <div class="header-nav-item-container">
+                <a class="header-nav-item-link" href="./help-ukrainians.html"
+                  >Задонатити</a
+                >
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <button class="mobile-menu-open mobile-menu-handler open" type="button">
+          <svg class="mobile-menu-open-icon" width="24" height="24">
+            <use href="./images/sprite-title-page.svg#burger-icon"></use>
+          </svg>
+        </button>
+        <button
+          class="mobile-menu-close mobile-menu-handler close is-hidden"
+          type="button"
+        >
+          <img
+            class="mobile-menu-close-icon"
+            src="./images/close-mob-menu.png"
+            alt="close-btn"
+          />
+        </button>
+      </div>
     </header>
-    <main class="container">
-      <div class="our-events">
-        <h1 class="our-events-header">Наші заходи</h1>
-        <ul>
+    <main class="main-group">
+      <div class="container our-events">
+        <h1 class="main-title">Наші заходи</h1>
+        <p class="event-item-text main-text">
+          Ми організовуємо різноманітні та цікаві події для наших членів різного
+          віку, щоб вони могли вчитися, розвиватися та спілкуватися. Наші заходи
+          ретельно розроблені, щоб надихати, кидати виклик та розвивати навички
+          Скаутів, як більш юних, так і старших. Ми пропонуємо унікальний досвід
+          та можливості, які залишають довготривалий вплив на наших членів. У
+          цьому розділі ми раді поділитися з вами деталями наших найпопулярніших
+          категорій заходів: Тренінги, Онлайн-заходи та Міжнародні заходи, які
+          розраховані на різні вікові групи, включаючи дітей, молодих людей та
+          дорослих.
+        </p>
+        <ul class="events-list">
           <li class="event-item">
-            <div class="event-item-wrapper">
-              <h3 class="event-item-title">Світ пригод чекає на тебе</h3>
-              <p class="event-item-text">
-                Ми організовуємо різноманітні та цікаві події для наших членів
-                різного віку, щоб вони могли вчитися, розвиватися та
-                спілкуватися. Наші заходи ретельно розроблені, щоб надихати,
-                кидати виклик та розвивати навички Скаутів, як більш юних, так і
-                старших. Ми пропонуємо унікальний досвід та можливости, які
-                залишають довготривалий вплив на наших членів. У цьому розділі
-                ми раді поділитися з вами деталями наших найпопулярніших
-                категорій заходів: Тренінги, Онлайн-заходи та Міжнародні заходи,
-                які розраховані на різні вікові групи, включаючи дітей, молодих
-                людей та дорослих
-              </p>
+            <div class="event-item-img-wrapper">
+              <img
+                class="event-item-img"
+                src="./images/our-events/photo1.JPG"
+                alt=""
+              />
             </div>
-            <img
-              class="event-item-img"
-              src="./images/history/International-recognition.jpg"
-              alt=""
-              width="612"
-              height="370"
-            />
-          </li>
-          <li class="event-item">
-            <img
-              class="event-item-img"
-              src="./images/history/International-recognition.jpg"
-              alt=""
-              width="612"
-              height="370"
-            />
-            <div class="event-item-wrapper">
+            <div class="event-text-wrapper">
               <h3 class="event-item-title">Тренінги</h3>
               <p class="event-item-text">
                 Наші тренінги орієнтовані на Скаутів та Скаутських лідерів на
@@ -87,22 +234,22 @@
                 зустрітися особисто. 
               </p>
             </div>
-            <img
-              class="event-item-img"
-              src="./images/history/International-recognition.jpg"
-              alt=""
-              width="612"
-              height="370"
-            />
+            <div class="event-item-img-wrapper">
+              <img
+                class="event-item-img"
+                src="./images/our-events/photo2.JPG"
+                alt=""
+              />
+            </div>
           </li>
           <li class="event-item">
-            <img
-              class="event-item-img"
-              src="./images/history/International-recognition.jpg"
-              alt=""
-              width="612"
-              height="370"
-            />
+            <div class="event-item-img-wrapper">
+              <img
+                class="event-item-img"
+                src="./images/our-events/photo3.jpg"
+                alt=""
+              />
+            </div>
             <div class="event-item-wrapper">
               <h3 class="event-item-title">Міжнародні заходи:</h3>
               <p class="event-item-text">
@@ -140,36 +287,148 @@
                 розваг, як катання на лижах та сноубордах.
               </p>
             </div>
-            <img
-              class="event-item-img"
-              src="./images/history/International-recognition.jpg"
-              alt=""
-              width="612"
-              height="370"
-            />
+            <div class="event-item-img-wrapper">
+              <img
+                class="event-item-img"
+                src="./images/our-events/photo4.jpg"
+                alt=""
+              />
+            </div>
           </li>
         </ul>
         <div class="join-wrapper">
-          <p class="join-text">
+          <p class="additional-text">
             Хочеш долучитись? Розпочни свою Скаутську подорож сьогодні та
             відкрий безмежні можливості, що вже чекають на тебе!
           </p>
 
-          <a class="join-link">Приєднатись до нас </a>
+          <div class="join-btn">
+            <a href=" https://forms.gle/43KEMxAFQeGt545cA" class="join-link" target="_blank">Приєднатись до нас </a>
+          </div>
         </div>
       </div>
     </main>
     <footer class="footer">
+      <div class="footer-section">
+        <svg class="footer-logo">
+          <use href="./images/sprite-title-page.svg#logo-footer"></use>
+        </svg>
+
+        <ul class="nav-footer-list">
+          <li>
+            <h4 class="nav-footer-list-title">Діяльність:</h4>
+            <ul>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./our-mission.html"
+                  >Наша програма
+                </a>
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./help-ukrainians.html">
+                  Наші проєкти</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h4 class="nav-footer-list-title">Про Нас:</h4>
+            <ul>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./our-history.html"
+                  >Історія</a
+                >
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./scout-method.html"
+                  >Скаутський Метод</a
+                >
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./our-team.html"
+                  >Команда</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h4 class="nav-footer-list-title">Долучитись:</h4>
+            <ul>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./join-us.html"
+                  >Стати Скаутом</a
+                >
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./join-us.html"
+                  >Стати Лідером</a
+                >
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./scout-method.html"
+                  >Допомога організації</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <a href="" class="donation-link">
+          <p class="donation-link-text">Задонатити</p>
+        </a>
+        <p class="donation-footer-text">
+          Маєш питання або пропозиції? Ми завжди відкриті для спілкування. Пиши
+          нам на secretariat.nosu@gmail.com
+        </p>
+        <ul class="social-media-footer-list">
+          <li class="social-media-link">
+            <a
+              href="https://t.me/ukrscout"
+              class="social-media-item"
+              target="_blank"
+            >
+              <svg class="social-media-item-icon">
+                <use href="./images/sprite-title-page.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media-link">
+            <a
+              href="https://www.instagram.com/ukrscout"
+              class="social-media-item"
+              target="_blank"
+            >
+              <svg class="social-media-item-icon">
+                <use href="./images/sprite-title-page.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media-link">
+            <a
+              href="https://www.facebook.com/ukrscout"
+              class="social-media-item"
+              target="_blank"
+            >
+              <svg class="social-media-item-icon">
+                <use href="./images/sprite-title-page.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <p class="footer-social-media-text">
+          Підпишіться на нас у соціальних мережах
+        </p>
+      </div>
     </footer>
-    <script src="./js/nav-menu.js"></script>
     <script src="./js/init-header.js"></script>
-    <script>
+    <script src="./js/nav-menu.js"></script>
+    <!-- <script>
       getInclude('header', document.querySelector('header'))
               .then(() => {
                 runMenu()
                 document.querySelector('header').classList.remove('start')
               });
       getInclude('footer', document.querySelector('footer'))
-    </script>
+    </script> -->
   </body>
 </html>

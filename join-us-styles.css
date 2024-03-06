@@ -22,7 +22,7 @@
   .banner {
     width: 398px;
     height: 268px;
-    /* box-shadow: inset 4px 4px 10px 0.0005px rgba(0, 0, 0, 0.25); */
+    
     background-repeat: no-repeat, no-repeat;
     background-position: bottom 0px center, top -10px center;
     background-size: cover, cover;
@@ -38,26 +38,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  /* .main-title {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.1;
-    letter-spacing: 0.00098em;
-    color: var(--accent-color);
-    text-align: center;
-    margin-top: 8px;
-    margin-bottom: 8px;
-  }
-  .main-title::after {
-    display: block;
-    content: "";
-    width: 358px;
-    border: 1px solid rgba(64, 61, 68, 0.2);
-    text-align: center;
-    margin-top: 8px;
-    margin-bottom: 8px;
-  } */
+
   .main-text {
     font-size: 13px;
     line-height: 1.52;
@@ -87,7 +68,7 @@
     margin-bottom: 8px;
   }
   .invitation-wrapper {
-    /* position: relative; */
+  
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -113,18 +94,7 @@
     background-position: center;
     background-image: url("./images/join-us/join-us-scouts.png");
   }
-  .join-btn {
-    background-color: var(--accent-color);
-    align-self: center;
-    border-radius: 1000px;
-    padding: 26px 44px;
-  }
-
-  .join-link {
-    font-weight: 600;
-    font-size: 13px;
-    color: var(--white-text-color);
-  }
+  
   .second-invitation-wrapper {
     flex-direction: column;
   }
@@ -302,16 +272,13 @@
     position: relative;
     transform: translateY(10%);
   }
-  .join-btn {
-    padding: 24px 38px;
+  .join-btn {   
     align-self: end;
   }
   .second-join-btn {
     align-self: start;
   }
-  .join-link {
-    font-size: 16px;
-  }
+  
   .second-decorated-background {
     position: relative;
     transform: translateY(0%);
