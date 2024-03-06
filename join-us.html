@@ -29,10 +29,10 @@
               class="header-nav-item menu-first nav-main-item"
               menu-open-first
             >
-              <div class="header-nav-item-container">
+              <div class="header-nav-item-container nav-item-click-listener">
                 <p class="heder-nav-text">Про нас</p>
                 <button
-                  class="inner-mobile-menu-open-btn nav-item-click-listener"
+                  class="inner-mobile-menu-open-btn"
                   type="button"
                   open-mobile-first
                 >
@@ -72,10 +72,10 @@
               class="header-nav-item menu-second nav-main-item"
               menu-open-second
             >
-              <div class="header-nav-item-container">
+              <div class="header-nav-item-container nav-item-click-listener">
                 <p class="heder-nav-text">Діяльність</p>
                 <button
-                  class="inner-mobile-menu-open-btn nav-item-click-listener"
+                  class="inner-mobile-menu-open-btn"
                   type="button"
                   open-mobile-second
                 >
@@ -93,12 +93,12 @@
 
               <ul class="nav-table is-hidden" data-menu-second>
                 <li class="nav-table-item">
-                  <a class="nav-table-link" href="./our-events.html"
+                  <a class="nav-table-link" href="./our-mission.html"
                     >Наша програма
                   </a>
                 </li>
                 <li class="nav-table-item">
-                  <a class="nav-table-link" href="./our-events.html"
+                  <a class="nav-table-link" href="./help-ukrainians.html"
                     >Проєкти
                   </a>
                 </li>
@@ -111,10 +111,10 @@
               class="header-nav-item menu-third nav-main-item"
               menu-open-third
             >
-              <div class="header-nav-item-container">
+              <div class="header-nav-item-container nav-item-click-listener">
                 <p class="heder-nav-text">Всесвітній Скаутинг</p>
                 <button
-                  class="inner-mobile-menu-open-btn nav-item-click-listener"
+                  class="inner-mobile-menu-open-btn"
                   type="button"
                   open-mobile-third
                 >
@@ -138,7 +138,7 @@
                 </li>
 
                 <li class="nav-table-item">
-                  <a class="nav-table-link" href="./our-history.html"
+                  <a class="nav-table-link" href="./scouting-history.html"
                     >Історія Скаутингу</a
                   >
                 </li>
@@ -223,7 +223,7 @@
                 </p>
               </div>
               <div class="join-btn">
-                <a class="join-link">Приєднатись до нас </a>
+                <a href=" https://forms.gle/43KEMxAFQeGt545cA" class="join-link" target="_blank">Приєднатись до нас </a>
               </div>
             </div>
             <div class="decorated-background">
@@ -261,7 +261,7 @@
                 </p>
               </div>
               <div class="join-btn second-join-btn">
-                <a class="join-link">Приєднатись до нас </a>
+                <a href=" https://forms.gle/43KEMxAFQeGt545cA" class="join-link" target="_blank">Приєднатись до нас </a>
               </div>
             </div>
           </div>
@@ -488,7 +488,7 @@
             </div>
           </div>
           <div class="join-btn third-join-btn">
-            <a class="join-link">Приєднатись до нас </a>
+            <a href=" https://forms.gle/43KEMxAFQeGt545cA" class="join-link" target="_blank">Приєднатись до нас </a>
           </div>
         </section>
       
@@ -503,24 +503,30 @@
           <li>
             <h4 class="nav-footer-list-title">Діяльність:</h4>
             <ul>
-              <li class="nav-footer-list-items">Наша програма</li>
-              <li class="nav-footer-list-items">Наші проєкти</li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./our-mission.html">Наша програма </a>
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./help-ukrainians.html">
+                  Наші проєкти</a>
+                </li>
             </ul>
           </li>
           <li>
             <h4 class="nav-footer-list-title">Про Нас:</h4>
             <ul>
-              <li class="nav-footer-list-items">Історія</li>
-              <li class="nav-footer-list-items">Скаутський Метод</li>
-              <li class="nav-footer-list-items">Команда</li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./our-history.html">Історія</a></li>
+              <li class="nav-footer-list-items">   <a class="nav-footer-list-link" href="./scout-method.html">Скаутський Метод</a></li>
+              <li class="nav-footer-list-items"><a class="nav-footer-list-link" href="./our-team.html">Команда</a></li>
             </ul>
           </li>
           <li>
             <h4 class="nav-footer-list-title">Долучитись:</h4>
             <ul>
-              <li class="nav-footer-list-items">Стати Скаутом</li>
-              <li class="nav-footer-list-items">Стати Лідером</li>
-              <li class="nav-footer-list-items">Допомога організації</li>
+              <li class="nav-footer-list-items"><a class="nav-footer-list-link" href="./join-us.html">Стати Скаутом</a></li>
+              <li class="nav-footer-list-items"><a class="nav-footer-list-link" href="./join-us.html">Стати Лідером</a></li>
+              <li class="nav-footer-list-items"><a class="nav-footer-list-link" href="./scout-method.html">Допомога організації</a></li>
             </ul>
           </li>
         </ul>
@@ -534,22 +540,22 @@
         </p>
         <ul class="social-media-footer-list">
           <li class="social-media-link">
-            <a href="" class="social-media-item">
-              <svg class="social-media-item-icon" width="56" height="56">
+            <a href="https://t.me/ukrscout" class="social-media-item" target="_blank">
+              <svg class="social-media-item-icon">
                 <use href="./images/sprite-title-page.svg#telegram"></use>
               </svg>
             </a>
           </li>
           <li class="social-media-link">
-            <a href="" class="social-media-item">
-              <svg class="social-media-item-icon" width="56" height="56">
+            <a href="https://www.instagram.com/ukrscout" class="social-media-item" target="_blank">
+              <svg class="social-media-item-icon" >
                 <use href="./images/sprite-title-page.svg#instagram"></use>
               </svg>
             </a>
           </li>
           <li class="social-media-link">
-            <a href="" class="social-media-item">
-              <svg class="social-media-item-icon" width="56" height="56">
+            <a href="https://www.facebook.com/ukrscout" class="social-media-item" target="_blank">
+              <svg class="social-media-item-icon" >
                 <use href="./images/sprite-title-page.svg#telegram"></use>
               </svg>
             </a>

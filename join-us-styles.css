@@ -22,7 +22,7 @@
   .banner {
     width: 398px;
     height: 268px;
-    box-shadow: inset 4px 4px 10px 0.0005px rgba(0, 0, 0, 0.25);
+    /* box-shadow: inset 4px 4px 10px 0.0005px rgba(0, 0, 0, 0.25); */
     background-repeat: no-repeat, no-repeat;
     background-position: bottom 0px center, top -10px center;
     background-size: cover, cover;

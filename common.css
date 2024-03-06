@@ -86,6 +86,9 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
+  .nav-footer-list-link {
+    color: inherit;
+  }
 }
 
 @media screen and (max-width: 1023px) {
@@ -303,9 +306,14 @@ a {
     align-items: center;
   }
 
-  .social-media-item-icon {
+  /* .social-media-item-icon {
     width: 26px;
     height: 26px;
+    fill: white;
+  } */
+  .social-media-item-icon {
+    width: 22px;
+    height: 22px;
     fill: white;
   }
 
@@ -508,6 +516,7 @@ a {
     font-size: 16px;
     line-height: 1.55;
   }
+  
 
   .donation-link {
     display: inline-block;
@@ -543,8 +552,11 @@ a {
   }
 
   .social-media-item-icon {
+    width: 42px;
+    height: 43px;
     fill: white;
   }
+ 
 
   .footer-social-media-text {
     width: 250px;

@@ -19,6 +19,24 @@
     margin-left: auto;
     margin-right: auto;
   } */
+  .main-part-section-img-wrapper {
+    width: 100%;
+    aspect-ratio: 1.025;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 16px;
+    /* width: 392px; */
+    height: 109px;
+  }
+ 
+
+  .main-part-section-img-wrapper > .main-part-section-img{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+  }
 }
 
 @media screen and (max-width: 1023px) {
@@ -236,13 +254,9 @@
     text-transform: uppercase;
     margin-bottom: 16px;
   }
+ 
 
-  .main-part-section-img {
-    border-radius: 6px;
-    overflow: hidden;
-    margin-bottom: 16px;
-    max-width: 100%;
-  }
+ 
 
   .main-information-block {
     display: flex;
@@ -320,7 +334,7 @@
     aspect-ratio: 1.025;
     border-radius: 24px;
     overflow: hidden;
-    box-shadow: 4px 4px 40px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 4px 4px 40px 4px rgba(0, 0, 0, 0.25); */
   }
 
   .events-img-wrapper > .events-img {
@@ -404,7 +418,7 @@
     height: 75px;
     border-radius: 14px;
     overflow: hidden;
-    box-shadow: 4px 4px 40px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 4px 4px 40px 4px rgba(0, 0, 0, 0.25); */
   }
 
   .reviewer-photo-wrapper > .reviewer-photo {
@@ -531,11 +545,7 @@
     gap: 19px;
   }
 
-  .social-media-item-icon {
-    width: 42px;
-    height: 43px;
-    fill: white;
-  }
+
 
   .social-media-item-icon:hover {
     fill: rgb(222, 213, 233);
@@ -702,11 +712,17 @@
     text-transform: uppercase;
   }
 
-  .main-part-section-img {
+  .main-part-section-img-wrapper {
+   
+    aspect-ratio: 1.025;
     border-radius: 24px;
-    overflow: hidden;
-    max-width: 100%;
+    
+    /* width: 392px; */
+    height: 434px;
   }
+ 
+
+ 
 
   .main-information-block {
     display: flex;
@@ -752,7 +768,7 @@
     /* margin-bottom: 69px; */
     text-align: center;
     margin-bottom: 48px;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    /* text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
   }
 
   .events-list-container {
@@ -794,7 +810,7 @@
     border-radius: 24px;
     display: flex;
     justify-content: center;
-    box-shadow: 4px 4px 30px 10px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 4px 4px 30px 10px rgba(0, 0, 0, 0.25); */
     margin-bottom: 16px;
   }
 
@@ -879,7 +895,7 @@
     height: 75px;
     border-radius: 1000px;
     overflow: hidden;
-    box-shadow: 4px 4px 40px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 4px 4px 40px 4px rgba(0, 0, 0, 0.25); */
   }
 
   .reviewer-photo-wrapper > .reviewer-photo {
