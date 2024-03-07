@@ -39,6 +39,19 @@
   .history-points-wrapper {
     gap: 16px;
   }
+  .scouting-history-img-wrapper {
+    width: 358px;
+    height: 179px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .scouting-history-img-wrapper > .history-points-img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+  }
   .additional-text {
     display: none;
   }
@@ -52,6 +65,10 @@
   .main-title::after {
     margin-top: 32px;
     margin-bottom: 16px;
+  }
+  .scouting-history-img-wrapper {
+    width: 612px;
+    height: 474px;
   }
   .additional-text {
     display: block;
