@@ -1,171 +1,117 @@
 :root {
-    --accent-color: rgb(91, 41, 147);
-    /* --accent-button-background: #404bbf;
+  --accent-color: rgb(91, 41, 147);
+  /* --accent-button-background: #404bbf;
         --btn-background: #4d5ae5;
         --hero-font-color: #ffffff; */
-    --white-background-color: rgb(255, 255, 255);
-    --shadow-background: rgba(64, 61, 68, 0.02);
-    --main-font: "Montserrat", sans-serif;
-    --main-font-color: rgb(64, 61, 68);
-    --grey-font-color: rgb(91, 91, 108);
-    --white-text-color: rgb(255, 255, 255);
-  }
-  
-  @media screen and (min-width: 390px) {
-    .main-group {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .container {
-      /*max-width: 390px;*/
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      padding-left: 0;
-      padding-right: 0;
-    }
-  
-    .help-ukrainians-container {
-      background-color: var(--shadow-background);
-    }
-  
-    .history-wrapper {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 16px;
-      padding-top: 8px;
-      padding-bottom: 8px;
-    }
-  
-    .main-title::after {
-      margin-bottom: 0;
-    }  
+  --white-background-color: rgb(255, 255, 255);
+  --shadow-background: rgba(64, 61, 68, 0.02);
+  --main-font: "Montserrat", sans-serif;
+  --main-font-color: rgb(64, 61, 68);
+  --grey-font-color: rgb(91, 91, 108);
+  --white-text-color: rgb(255, 255, 255);
 }
-
-.help-projects {
-    width: 1246px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.volunteering {
-    width: 1246px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(242, 242, 242);
-}
-
-.main-title {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 1.1;
-    letter-spacing: 0.00098em;
-    color: var(--accent-color);
-    text-align: center;
-    margin-top: 24px;
-}
-
-.main-title::after {
-    display: block;
-    content: "";
-    width: 1564px;
-    /* height: 1px; */
-    border: 1px solid rgba(64, 61, 68, 0.2);
-    text-align: center;
-    margin-top: 78px;
-    margin-bottom: 22px;
-}
-
 .main-text {
-    font-size: 18px;
-    line-height: 1.52;
-    width: 1265px;
-    text-align: center;
-    margin-bottom: 65px;
+  font-size: 13px;
+  line-height: 1.52;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.volunteering-img-wrapper {
+  width: 360px;
+  height: 244px;
 }
 
-
-/* projects */
-.help-projects-list {
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
-    margin-bottom: 67px;
+.volunteering-img-wrapper > .volunteering-img {
+  display: block;
+  height: 100%;
+  width: 100%;
 }
-
-.help-projects-item {
-    display: flex;
-    gap: 24px;
-}
-
-.help-projects-item-img {
-    width: 612px;
-}
-
-.help-projects-item-wrapper {
-    width: 611px;
-}
-
-.help-projects-item-text {
-    font-size: 18px;
-    line-height: 1.52;
-    width: 611px;
-    text-align: start;
-}
-
-.help-projects-item-title {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.2;
-    letter-spacing: 0.000101em;
-}
-
-
-/* volunteering */
-.volunteering-description {
-    display: flex;
-    gap: 75px;
-
-}
-
-.volunteering-description-text {
-    display: flex;
-    flex-direction: column;
-    gap: 61px;
-    width: 613px;
-}
-
-.volunteering-text {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: center;
-
-}
-
-.bold-text {
-    font-weight: 800;
-}
-
 .donation-description {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  background-color: rgb(242, 242, 242);
+}
+.volunteering-text-bold {
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
 }
 
-.volunteering-link {
-    box-sizing: border-box;
-    display: block;
-    padding: 28px 68px;
-    font-weight: 600;
-    font-size: 20px;
-    color: var(--white-text-color);
-    background-color: var(--accent-color);
-    border-radius: 1000px;
+.volunteering-text-part {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+}
+.volunteering-text-part:first-child {
+  margin-bottom: 8px;
+}
+.volunteering-btn {
+  padding: 26px 90px;
+  margin-bottom: 8px;
+}
 
+@media screen and (min-width: 1366px) {
+  .regular-block-main-container {
+    gap: 32px;
+  }
+  .main-text {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .project-img-wrapper {
+    width: 612px;
+    height: 474px;
+  }
+  .project-img-wrapper > .project-img {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  .donation-description {
+    height: 658px;
+  }
+  .volunteering-img-wrapper {
+    width: 529px;
+    height: 358px;
+  }
+  .volunteering-text-bold {
+    font-size: 18px;
+  }
+  .volunteering-text-part {
+    font-size: 18px;
+  }
+  .donation-description {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .donation-description :nth-child(1) {
+    order: 1;
+    width: 613px;
+  }
+  .donation-description :nth-child(2) {
+    order: 3;
+  }
+  .donation-description :nth-child(3) {
+    order: 4;
+    width: 1243px;
+    align-self: center;
+  }
+  .donation-description :nth-child(4) {
+    order: 2;
+    width: 613px;
+  }
+  .donation-description :nth-child(5) {
+    order: 5;
+  }
+
+  .volunteering-btn {
+    padding: 28px 139px;
+    margin-bottom: 0px;
+  }
 }

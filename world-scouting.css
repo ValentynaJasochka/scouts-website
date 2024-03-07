@@ -153,17 +153,25 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1365px) {
   .headquarters-arrow {
     display: none;
   }
+  .world-scouting-logo {
+    display: none;
+  }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1366px) {
   .main-group {
     padding-top: 16px;
     padding-bottom: 16px;
     gap: 16px;
     background-color: var(--white-background-color);
+  }
+  .world-scouting-title {
+    display: flex;
+    gap: 16px;
+    align-items: center;
   }
   .main-title {
     margin-top: 0px;

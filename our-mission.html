@@ -11,11 +11,172 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./common.css" />
+    <link rel="stylesheet" href="./regular-block.css"/>
     <link rel="stylesheet" href="./our-mission.css" />
   </head>
   <body>
     <header class="header">
-      <div class="start"></div>
+      <div class="container page-header-container">
+        <nav class="header-navigation">
+          <a class="header-logo" href="./index.html">
+            <img
+              class="header-logo-img"
+              src="./images/logo-heder.svg"
+              alt="Logo Scouts"
+            />
+          </a>
+          <ul class="header-nav-list nav-mobile-menu">
+            <li
+              class="header-nav-item menu-first nav-main-item"
+              menu-open-first
+            >
+              <div class="header-nav-item-container nav-item-click-listener">
+                <p class="heder-nav-text">Про нас</p>
+                <button
+                  class="inner-mobile-menu-open-btn"
+                  type="button"
+                  open-mobile-first
+                >
+                  <svg
+                    class="inner-mobile-menu-open-icon"
+                    width="13"
+                    height="17"
+                  >
+                    <use
+                      href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+              <ul class="nav-table is-hidden" data-menu-first>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-history.html"
+                    >Наша історія</a
+                  >
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-mission.html"
+                    >Наша місія</a
+                  >
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./scout-method.html"
+                    >Скаутський Метод</a
+                  >
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-team.html">Команда </a>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="header-nav-item menu-second nav-main-item"
+              menu-open-second
+            >
+              <div class="header-nav-item-container nav-item-click-listener">
+                <p class="heder-nav-text">Діяльність</p>
+                <button
+                  class="inner-mobile-menu-open-btn"
+                  type="button"
+                  open-mobile-second
+                >
+                  <svg
+                    class="inner-mobile-menu-open-icon"
+                    width="13"
+                    height="17"
+                  >
+                    <use
+                      href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+
+              <ul class="nav-table is-hidden" data-menu-second>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-mission.html"
+                    >Наша програма
+                  </a>
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./help-ukrainians.html"
+                    >Проєкти
+                  </a>
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-events.html">Заходи </a>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="header-nav-item menu-third nav-main-item"
+              menu-open-third
+            >
+              <div class="header-nav-item-container nav-item-click-listener">
+                <p class="heder-nav-text">Всесвітній Скаутинг</p>
+                <button
+                  class="inner-mobile-menu-open-btn"
+                  type="button"
+                  open-mobile-third
+                >
+                  <svg
+                    class="inner-mobile-menu-open-icon"
+                    width="13"
+                    height="17"
+                  >
+                    <use
+                      href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+
+              <ul class="nav-table is-hidden" data-menu-third>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./world-scouting.html"
+                    >ВОСР</a
+                  >
+                </li>
+
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./scouting-history.html"
+                    >Історія Скаутингу</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="header-nav-item heder-nav-text">
+              <div class="header-nav-item-container">
+                <a class="header-nav-item-link" href="./join-us.html">
+                  Приєднатись</a
+                >
+              </div>
+            </li>
+            <li class="header-nav-item heder-nav-text">
+              <div class="header-nav-item-container">
+                <a class="header-nav-item-link" href="./help-ukrainians.html"
+                  >Задонатити</a
+                >
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <button class="mobile-menu-open mobile-menu-handler open" type="button">
+          <svg class="mobile-menu-open-icon" width="24" height="24">
+            <use href="./images/sprite-title-page.svg#burger-icon"></use>
+          </svg>
+        </button>
+        <button
+          class="mobile-menu-close mobile-menu-handler close is-hidden"
+          type="button"
+        >
+          <img
+            class="mobile-menu-close-icon"
+            src="./images/close-mob-menu.png"
+            alt="close-btn"
+          />
+        </button>
+      </div>
     </header>
     <main>
       <div class="container">
@@ -328,16 +489,126 @@
       </div>
     </main>
     <footer class="footer">
+      <div class="footer-section">
+        <svg class="footer-logo">
+          <use href="./images/sprite-title-page.svg#logo-footer"></use>
+        </svg>
+
+        <ul class="nav-footer-list">
+          <li>
+            <h4 class="nav-footer-list-title">Діяльність:</h4>
+            <ul>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./our-mission.html"
+                  >Наша програма
+                </a>
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./help-ukrainians.html">
+                  Наші проєкти</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h4 class="nav-footer-list-title">Про Нас:</h4>
+            <ul>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./our-history.html"
+                  >Історія</a
+                >
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./scout-method.html"
+                  >Скаутський Метод</a
+                >
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./our-team.html"
+                  >Команда</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h4 class="nav-footer-list-title">Долучитись:</h4>
+            <ul>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./join-us.html"
+                  >Стати Скаутом</a
+                >
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./join-us.html"
+                  >Стати Лідером</a
+                >
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./scout-method.html"
+                  >Допомога організації</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <a href="" class="donation-link">
+          <p class="donation-link-text">Задонатити</p>
+        </a>
+        <p class="donation-footer-text">
+          Маєш питання або пропозиції? Ми завжди відкриті для спілкування. Пиши
+          нам на secretariat.nosu@gmail.com
+        </p>
+        <ul class="social-media-footer-list">
+          <li class="social-media-link">
+            <a
+              href="https://t.me/ukrscout"
+              class="social-media-item"
+              target="_blank"
+            >
+              <svg class="social-media-item-icon">
+                <use href="./images/sprite-title-page.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media-link">
+            <a
+              href="https://www.instagram.com/ukrscout"
+              class="social-media-item"
+              target="_blank"
+            >
+              <svg class="social-media-item-icon">
+                <use href="./images/sprite-title-page.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media-link">
+            <a
+              href="https://www.facebook.com/ukrscout"
+              class="social-media-item"
+              target="_blank"
+            >
+              <svg class="social-media-item-icon">
+                <use href="./images/sprite-title-page.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <p class="footer-social-media-text">
+          Підпишіться на нас у соціальних мережах
+        </p>
+      </div>
     </footer>
-    <script src="./js/nav-menu.js"></script>
     <script src="./js/init-header.js"></script>
-    <script>
+    <script src="./js/nav-menu.js"></script>
+    <!-- <script>
       getInclude('header', document.querySelector('header'))
               .then(() => {
                 runMenu()
                 document.querySelector('header').classList.remove('start')
               });
       getInclude('footer', document.querySelector('footer'))
-    </script>
+    </script> -->
   </body>
 </html>

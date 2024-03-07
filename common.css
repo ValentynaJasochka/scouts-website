@@ -106,7 +106,7 @@ a {
 .main-title::after {
   display: block;
   content: "";
-  width: 100%;
+  width: 358px;
   border: 1px solid rgba(64, 61, 68, 0.2);
   text-align: center;
   margin-top: 8px;
@@ -176,7 +176,7 @@ a {
 
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1366px) {
   .page-header-container {
     display: flex;
     justify-content: space-between;
@@ -430,6 +430,7 @@ a {
   .main-title::after {
     margin-top: 30px;
     margin-bottom: 24px;
+    width: 1296px;
   }
 
   .join-btn {
