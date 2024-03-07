@@ -1,629 +1,629 @@
 <!DOCTYPE html>
 <html lang="ua">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Scouting history</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scouting history</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link
       href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./common.css" />
-    <link rel="stylesheet" href="./regular-block.css"/>
-    <link rel="stylesheet" href="./scouting-history.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="container page-header-container">
-        <nav class="header-navigation">
-          <a class="header-logo" href="./index.html">
-            <img
-              class="header-logo-img"
-              src="./images/logo-heder.svg"
-              alt="Logo Scouts"
-            />
-          </a>
-          <ul class="header-nav-list nav-mobile-menu">
-            <li
-              class="header-nav-item menu-first nav-main-item"
-              menu-open-first
+  />
+  <link rel="stylesheet" href="./common.css"/>
+  <link rel="stylesheet" href="./regular-block.css"/>
+  <link rel="stylesheet" href="./scouting-history.css"/>
+</head>
+<body>
+<header class="header">
+  <div class="container page-header-container">
+    <nav class="header-navigation">
+      <a class="header-logo" href="./index.html">
+        <img
+            class="header-logo-img"
+            src="./images/logo-heder.svg"
+            alt="Logo Scouts"
+        />
+      </a>
+      <ul class="header-nav-list nav-mobile-menu">
+        <li
+            class="header-nav-item menu-first nav-main-item"
+            menu-open-first
+        >
+          <div class="header-nav-item-container nav-item-click-listener">
+            <p class="heder-nav-text">Про нас</p>
+            <button
+                class="inner-mobile-menu-open-btn"
+                type="button"
+                open-mobile-first
             >
-              <div class="header-nav-item-container nav-item-click-listener">
-                <p class="heder-nav-text">Про нас</p>
-                <button
-                  class="inner-mobile-menu-open-btn"
-                  type="button"
-                  open-mobile-first
-                >
-                  <svg
-                    class="inner-mobile-menu-open-icon"
-                    width="13"
-                    height="17"
-                  >
-                    <use
-                      href="./images/sprite-title-page.svg#inner-mobile-open-btn"
-                    ></use>
-                  </svg>
-                </button>
-              </div>
-              <ul class="nav-table is-hidden" data-menu-first>
-                <li class="nav-table-item">
-                  <a class="nav-table-link" href="./our-history.html"
-                    >Наша історія</a
-                  >
-                </li>
-                <li class="nav-table-item">
-                  <a class="nav-table-link" href="./our-mission.html"
-                    >Наша місія</a
-                  >
-                </li>
-                <li class="nav-table-item">
-                  <a class="nav-table-link" href="./scout-method.html"
-                    >Скаутський Метод</a
-                  >
-                </li>
-                <li class="nav-table-item">
-                  <a class="nav-table-link" href="./our-team.html">Команда </a>
-                </li>
-              </ul>
+              <svg
+                  class="inner-mobile-menu-open-icon"
+                  width="13"
+                  height="17"
+              >
+                <use
+                    href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                ></use>
+              </svg>
+            </button>
+          </div>
+          <ul class="nav-table is-hidden" data-menu-first>
+            <li class="nav-table-item">
+              <a class="nav-table-link" href="./our-history.html"
+              >Наша історія</a
+              >
             </li>
-            <li
-              class="header-nav-item menu-second nav-main-item"
-              menu-open-second
-            >
-              <div class="header-nav-item-container nav-item-click-listener">
-                <p class="heder-nav-text">Діяльність</p>
-                <button
-                  class="inner-mobile-menu-open-btn"
-                  type="button"
-                  open-mobile-second
-                >
-                  <svg
-                    class="inner-mobile-menu-open-icon"
-                    width="13"
-                    height="17"
-                  >
-                    <use
-                      href="./images/sprite-title-page.svg#inner-mobile-open-btn"
-                    ></use>
-                  </svg>
-                </button>
-              </div>
-
-              <ul class="nav-table is-hidden" data-menu-second>
-                <li class="nav-table-item">
-                  <a class="nav-table-link" href="./our-mission.html"
-                    >Наша програма
-                  </a>
-                </li>
-                <li class="nav-table-item">
-                  <a class="nav-table-link" href="./help-ukrainians.html"
-                    >Проєкти
-                  </a>
-                </li>
-                <li class="nav-table-item">
-                  <a class="nav-table-link" href="./our-events.html">Заходи </a>
-                </li>
-              </ul>
+            <li class="nav-table-item">
+              <a class="nav-table-link" href="./our-mission.html"
+              >Наша місія</a
+              >
             </li>
-            <li
-              class="header-nav-item menu-third nav-main-item"
-              menu-open-third
-            >
-              <div class="header-nav-item-container nav-item-click-listener">
-                <p class="heder-nav-text">Всесвітній Скаутинг</p>
-                <button
-                  class="inner-mobile-menu-open-btn"
-                  type="button"
-                  open-mobile-third
-                >
-                  <svg
-                    class="inner-mobile-menu-open-icon"
-                    width="13"
-                    height="17"
-                  >
-                    <use
-                      href="./images/sprite-title-page.svg#inner-mobile-open-btn"
-                    ></use>
-                  </svg>
-                </button>
-              </div>
-
-              <ul class="nav-table is-hidden" data-menu-third>
-                <li class="nav-table-item">
-                  <a class="nav-table-link" href="./world-scouting.html"
-                    >ВОСР</a
-                  >
-                </li>
-
-                <li class="nav-table-item">
-                  <a class="nav-table-link" href="./scouting-history.html"
-                    >Історія Скаутингу</a
-                  >
-                </li>
-              </ul>
+            <li class="nav-table-item">
+              <a class="nav-table-link" href="./scout-method.html"
+              >Скаутський Метод</a
+              >
             </li>
-            <li class="header-nav-item heder-nav-text">
-              <div class="header-nav-item-container">
-                <a class="header-nav-item-link" href="./join-us.html">
-                  Приєднатись</a
-                >
-              </div>
-            </li>
-            <li class="header-nav-item heder-nav-text">
-              <div class="header-nav-item-container">
-                <a class="header-nav-item-link" href="./help-ukrainians.html"
-                  >Задонатити</a
-                >
-              </div>
+            <li class="nav-table-item">
+              <a class="nav-table-link" href="./our-team.html">Команда </a>
             </li>
           </ul>
-        </nav>
-        <button class="mobile-menu-open mobile-menu-handler open" type="button">
-          <svg class="mobile-menu-open-icon" width="24" height="24">
-            <use href="./images/sprite-title-page.svg#burger-icon"></use>
-          </svg>
-        </button>
-        <button
-          class="mobile-menu-close mobile-menu-handler close is-hidden"
-          type="button"
+        </li>
+        <li
+            class="header-nav-item menu-second nav-main-item"
+            menu-open-second
         >
+          <div class="header-nav-item-container nav-item-click-listener">
+            <p class="heder-nav-text">Діяльність</p>
+            <button
+                class="inner-mobile-menu-open-btn"
+                type="button"
+                open-mobile-second
+            >
+              <svg
+                  class="inner-mobile-menu-open-icon"
+                  width="13"
+                  height="17"
+              >
+                <use
+                    href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                ></use>
+              </svg>
+            </button>
+          </div>
+
+          <ul class="nav-table is-hidden" data-menu-second>
+            <li class="nav-table-item">
+              <a class="nav-table-link" href="./our-mission.html"
+              >Наша програма
+              </a>
+            </li>
+            <li class="nav-table-item">
+              <a class="nav-table-link" href="./help-ukrainians.html"
+              >Проєкти
+              </a>
+            </li>
+            <li class="nav-table-item">
+              <a class="nav-table-link" href="./our-events.html">Заходи </a>
+            </li>
+          </ul>
+        </li>
+        <li
+            class="header-nav-item menu-third nav-main-item"
+            menu-open-third
+        >
+          <div class="header-nav-item-container nav-item-click-listener">
+            <p class="heder-nav-text">Всесвітній Скаутинг</p>
+            <button
+                class="inner-mobile-menu-open-btn"
+                type="button"
+                open-mobile-third
+            >
+              <svg
+                  class="inner-mobile-menu-open-icon"
+                  width="13"
+                  height="17"
+              >
+                <use
+                    href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                ></use>
+              </svg>
+            </button>
+          </div>
+
+          <ul class="nav-table is-hidden" data-menu-third>
+            <li class="nav-table-item">
+              <a class="nav-table-link" href="./world-scouting.html"
+              >ВОСР</a
+              >
+            </li>
+
+            <li class="nav-table-item">
+              <a class="nav-table-link" href="./scouting-history.html"
+              >Історія Скаутингу</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="header-nav-item heder-nav-text">
+          <div class="header-nav-item-container">
+            <a class="header-nav-item-link" href="./join-us.html">
+              Приєднатись</a
+            >
+          </div>
+        </li>
+        <li class="header-nav-item heder-nav-text">
+          <div class="header-nav-item-container">
+            <a class="header-nav-item-link" href="./help-ukrainians.html"
+            >Задонатити</a
+            >
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <button class="mobile-menu-open mobile-menu-handler open" type="button">
+      <svg class="mobile-menu-open-icon" width="24" height="24">
+        <use href="./images/sprite-title-page.svg#burger-icon"></use>
+      </svg>
+    </button>
+    <button
+        class="mobile-menu-close mobile-menu-handler close is-hidden"
+        type="button"
+    >
+      <img
+          class="mobile-menu-close-icon"
+          src="./images/close-mob-menu.png"
+          alt="close-btn"
+      />
+    </button>
+  </div>
+</header>
+<main class="main-group">
+  <div class="container scouting-history-section">
+    <div class="main-title-container">
+      <h1 class="main-title">Історія Скаутингу</h1>
+    </div>
+    <div class="regular-block-main-container">
+      <div class="regular-block-wrapper">
+        <div class="regular-block-img-wrapper scouting-history-img-wrapper">
           <img
-            class="mobile-menu-close-icon"
-            src="./images/close-mob-menu.png"
-            alt="close-btn"
-          />
-        </button>
-      </div>
-    </header>
-    <main class="main-group">
-     <div class="container scouting-history-section">
-       <div class="main-title-container">
-         <h1 class="main-title">Історія Скаутингу</h1>
-       </div>
-      <div class="regular-block-main-container">
-        <div class="regular-block-wrapper">
-          <div class="regular-block-img-wrapper scouting-history-img-wrapper">
-            <img
               class="regular-block-points-img"
               src="./images/scouting-history/photo1.jpg"
               alt=""
-            />
-          </div>
-          <div class="regular-block-text-wrapper">
-            <h3 class="regular-block-text-title">1907 – 1908</h3>
-            <div class="regular-block-text">
-              <p class="regular-block-text-part">
-                Ранні роки Скаутинг розпочався як програма для хлопчиків віком
-                від 11 до 18 років.
-              </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">1907:</span> Перший
-                експериментальний табір, організований Робертом Бейден-Поуеллом
-                з 20 хлопчиками на острові Браунсі, Велика Британія, мав великий
-                успіх.
-              </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">1908:</span> Бейден-Поеулл
-                опублікував книгу “Скаутинг для хлопчиків”, яка одразу ж стала
-                відомою і з того часу була продана накладом понад 100 мільйонів
-                примірників.
-              </p>
-            </div>
+          />
+        </div>
+        <div class="regular-block-text-wrapper">
+          <h3 class="regular-block-text-title">1907 – 1908</h3>
+          <div class="regular-block-text">
+            <p class="regular-block-text-part">
+              Ранні роки Скаутинг розпочався як програма для хлопчиків віком
+              від 11 до 18 років.
+            </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">1907:</span> Перший
+              експериментальний табір, організований Робертом Бейден-Поуеллом
+              з 20 хлопчиками на острові Браунсі, Велика Британія, мав великий
+              успіх.
+            </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">1908:</span> Бейден-Поеулл
+              опублікував книгу “Скаутинг для хлопчиків”, яка одразу ж стала
+              відомою і з того часу була продана накладом понад 100 мільйонів
+              примірників.
+            </p>
           </div>
         </div>
-        <div class="regular-block-wrapper">
-          <div class="regular-block-text-wrapper">
-            <h3 class="regular-block-text-title">1909 – 1918</h3>
-            <div class="regular-block-text">
-              <p class="regular-block-text-part">
-                Розширення Скаутського Руху
-              </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">1909:</span> “Скаутинг для
-                хлопчиків” був перекладений п’ятьма мовами. Це породило Рух,
-                який швидко взяв назву “Бойскаути”.
-              </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">1909:</span> Скаутський зліт у
-                Лондоні зібрав понад 11 000 Скаутів.
-              </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">1910:</span> Бейден-Поеулл
-                заснував Організацію для дівчат-Гайдів під керівництвом своєї
-                сестри Агнес.
-              </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">1914:</span> Система Патрулів
-                була створена для забезпечення стабільности Скаутингу під час
-                Першої світової війни, оскільки Патрульні Лідери були
-                добровольцями, які замінили дорослих лідерів.
-              </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">1916:</span>Для хлопчиків віком
-                до 11 років було започатковано вікову секцію «Кабскаутинг», який
-                підтримувався публікацією “Посібника для вовченяти” та
-                використанням “Книги джунглів” Редьярда Кіплінга як основи для
-                Скаутингу.
-              </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">1918:</span> Створено вікову
-                секцію “Роверство” для старших хлопців та молоді.
-              </p>
-            </div>
+      </div>
+      <div class="regular-block-wrapper">
+        <div class="regular-block-text-wrapper">
+          <h3 class="regular-block-text-title">1909 – 1918</h3>
+          <div class="regular-block-text">
+            <p class="regular-block-text-part">
+              Розширення Скаутського Руху
+            </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">1909:</span> “Скаутинг для
+              хлопчиків” був перекладений п’ятьма мовами. Це породило Рух,
+              який швидко взяв назву “Бойскаути”.
+            </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">1909:</span> Скаутський зліт у
+              Лондоні зібрав понад 11 000 Скаутів.
+            </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">1910:</span> Бейден-Поеулл
+              заснував Організацію для дівчат-Гайдів під керівництвом своєї
+              сестри Агнес.
+            </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">1914:</span> Система Патрулів
+              була створена для забезпечення стабільности Скаутингу під час
+              Першої світової війни, оскільки Патрульні Лідери були
+              добровольцями, які замінили дорослих лідерів.
+            </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">1916:</span>Для хлопчиків віком
+              до 11 років було започатковано вікову секцію «Кабскаутинг», який
+              підтримувався публікацією “Посібника для вовченяти” та
+              використанням “Книги джунглів” Редьярда Кіплінга як основи для
+              Скаутингу.
+            </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">1918:</span> Створено вікову
+              секцію “Роверство” для старших хлопців та молоді.
+            </p>
           </div>
-          <div class="regular-block-img-wrapper scouting-history-img-wrapper">
-            <img
+        </div>
+        <div class="regular-block-img-wrapper scouting-history-img-wrapper">
+          <img
               class="regular-block-points-img"
               src="./images/scouting-history/photo2.jpg"
               alt=""
-            />
-          </div>
+          />
         </div>
-        <div class="regular-block-wrapper">
-          <div class="regular-block-img-wrapper scouting-history-img-wrapper">
-            <img
+      </div>
+      <div class="regular-block-wrapper">
+        <div class="regular-block-img-wrapper scouting-history-img-wrapper">
+          <img
               class="regular-block-points-img"
               src="./images/scouting-history/photo3.png"
               alt=""
-            />
-          </div>
-          <div class="regular-block-text-wrapper">
-            <h3 class="regular-block-text-title">1919 – 1922</h3>
-            <div class="regular-block-text">
-              <p class="regular-block-text-part">
-                Всесвітні події та керівництво Скаутингом
-              </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">1920:</span> Перша Всесвітня
-                Скаутська Конференція (тоді відома як Міжнародна Скаутська
-                Конференція) відбулася під час першого Всесвітнього Скаутського
-                Джамборі в Лондоні, Велика Британія, за участю 33 Національних
-                Скаутських Організацій.
-              </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">1920:</span>У Лондоні, Велика
-                Британія, було створено Всесвітнє Скаутське Бюро (тоді відоме як
-                Міжнародне Бюро Бойскаутів).
-              </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">1922:</span> У Парижі, Франція,
-                відбулася друга Всесвітня Скаутська Конференція, на якій була
-                представлена 31 Національна Скаутська Організація. Глобальне
-                членство становило трохи більше 1 мільйона Скаутів.
-              </p>
+          />
+        </div>
+        <div class="regular-block-text-wrapper">
+          <h3 class="regular-block-text-title">1919 – 1922</h3>
+          <div class="regular-block-text">
+            <p class="regular-block-text-part">
+              Всесвітні події та керівництво Скаутингом
+            </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">1920:</span> Перша Всесвітня
+              Скаутська Конференція (тоді відома як Міжнародна Скаутська
+              Конференція) відбулася під час першого Всесвітнього Скаутського
+              Джамборі в Лондоні, Велика Британія, за участю 33 Національних
+              Скаутських Організацій.
+            </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">1920:</span>У Лондоні, Велика
+              Британія, було створено Всесвітнє Скаутське Бюро (тоді відоме як
+              Міжнародне Бюро Бойскаутів).
+            </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">1922:</span> У Парижі, Франція,
+              відбулася друга Всесвітня Скаутська Конференція, на якій була
+              представлена 31 Національна Скаутська Організація. Глобальне
+              членство становило трохи більше 1 мільйона Скаутів.
+            </p>
 
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">1922:</span> Обрано перший
-                Всесвітній Скаутський Комітет (тоді Міжнародний Комітет
-                Бойскаутів).
-              </p>
-            </div>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">1922:</span> Обрано перший
+              Всесвітній Скаутський Комітет (тоді Міжнародний Комітет
+              Бойскаутів).
+            </p>
           </div>
         </div>
-        <div class="regular-block-wrapper">
-          <div class="regular-block-text-wrapper">
-            <h3 class="regular-block-text-title">1914 – 1945</h3>
-            <div class="regular-block-text">
-              <p class="regular-block-text-part">Світові війни</p>
-              <p class="regular-block-text-part">
-                Між двома світовими війнами Скаутинг продовжував процвітати, за
-                винятком тоталітарних регіонів, де Скаутська діяльність була
-                заборонена. В окупованих країнах з тоталітарними режимами
-                Скаутинг продовжував існувати таємно, а Скаути відігравали
-                важливу роль у русі опору.Скаути підтримували свої країни під
-                час світових воєн, годуючи голодних та допомагаючи пораненим.
-                Подекуди морські Скаути виконували функції берегової охорони.
-              </p>
-            </div>
+      </div>
+      <div class="regular-block-wrapper">
+        <div class="regular-block-text-wrapper">
+          <h3 class="regular-block-text-title">1914 – 1945</h3>
+          <div class="regular-block-text">
+            <p class="regular-block-text-part">Світові війни</p>
+            <p class="regular-block-text-part">
+              Між двома світовими війнами Скаутинг продовжував процвітати, за
+              винятком тоталітарних регіонів, де Скаутська діяльність була
+              заборонена. В окупованих країнах з тоталітарними режимами
+              Скаутинг продовжував існувати таємно, а Скаути відігравали
+              важливу роль у русі опору.Скаути підтримували свої країни під
+              час світових воєн, годуючи голодних та допомагаючи пораненим.
+              Подекуди морські Скаути виконували функції берегової охорони.
+            </p>
           </div>
-          <div class="regular-block-img-wrapper scouting-history-img-wrapper">
-            <img
+        </div>
+        <div class="regular-block-img-wrapper scouting-history-img-wrapper">
+          <img
               class="regular-block-points-img"
               src="./images/scouting-history/photo4.png"
               alt=""
-            />
-          </div>
+          />
         </div>
-        <div class="regular-block-wrapper">
-          <div class="regular-block-img-wrapper scouting-history-img-wrapper">
-            <img
+      </div>
+      <div class="regular-block-wrapper">
+        <div class="regular-block-img-wrapper scouting-history-img-wrapper">
+          <img
               class="regular-block-points-img"
               src="./images/scouting-history/photo5.png"
               alt=""
-            />
-          </div>
-          <div class="regular-block-text-wrapper">
-            <h3 class="regular-block-text-title">1945 – 1980</h3>
-            <div class="regular-block-text">
-              <p class="regular-block-text-part">Еволюція Скаутингу </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">1947:</span> Всесвітня
-                Організація Скаутського Руху отримала загальний консультативний
-                статус при Економічній і Соціальній Раді Організації Об’єднаних
-                Націй (ЮНЕСКО).
-              </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">1960-1980:</span>Багато країн
-                здобули незалежність, в результаті чого Національні Скаутські
-                Організації приєдналися або знову стали членами Всесвітньої
-                Організації Скаутського Руху.
-              </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">1980-2007:</span> Скаутинг
-                відродився в усіх країнах, де він існував до Другої світової
-                війни, а також у нових незалежних країнах Співдружності
-                Незалежних Держав після закінчення холодної війни. Скаутинг у
-                країнах, що розвиваються, поступово перетворився на молодіжну
-                програму, яка була розроблена місцевими Скаутськими лідерами для
-                кращого задоволення потреб своїх громад. Скаути стали більш
-                залученими до вирішення соціальних, економічних та екологічних
-                питань у своїх громадах та країнах.
-              </p>
-            </div>
+          />
+        </div>
+        <div class="regular-block-text-wrapper">
+          <h3 class="regular-block-text-title">1945 – 1980</h3>
+          <div class="regular-block-text">
+            <p class="regular-block-text-part">Еволюція Скаутингу </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">1947:</span> Всесвітня
+              Організація Скаутського Руху отримала загальний консультативний
+              статус при Економічній і Соціальній Раді Організації Об’єднаних
+              Націй (ЮНЕСКО).
+            </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">1960-1980:</span>Багато країн
+              здобули незалежність, в результаті чого Національні Скаутські
+              Організації приєдналися або знову стали членами Всесвітньої
+              Організації Скаутського Руху.
+            </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">1980-2007:</span> Скаутинг
+              відродився в усіх країнах, де він існував до Другої світової
+              війни, а також у нових незалежних країнах Співдружності
+              Незалежних Держав після закінчення холодної війни. Скаутинг у
+              країнах, що розвиваються, поступово перетворився на молодіжну
+              програму, яка була розроблена місцевими Скаутськими лідерами для
+              кращого задоволення потреб своїх громад. Скаути стали більш
+              залученими до вирішення соціальних, економічних та екологічних
+              питань у своїх громадах та країнах.
+            </p>
           </div>
         </div>
-        <div class="regular-block-wrapper">
-          <div class="regular-block-text-wrapper">
-            <h3 class="regular-block-text-title">2007</h3>
-            <div class="regular-block-text">
-              <p class="regular-block-text-part">Століття Скаутингу </p>
-              <p class="regular-block-text-part">
-                Скаутський рух відсвяткував своє
-                <span class="regular-block-text-bold">100-річчя,</span> повернувшись
-                до свого коріння у Великій Британії на 21-й Всесвітнє Скаутське
-                Джамборі.
-              </p>
-              <p class="regular-block-text-part">
-                1 серпня мільйони Скаутів з усього світу відсвяткували створення
-                Скаутського Руху та його зростання від скромних початків до
-                глобального Руху з мільйонами членів майже в кожній країні
-                світу.
-              </p>
-            </div>
+      </div>
+      <div class="regular-block-wrapper">
+        <div class="regular-block-text-wrapper">
+          <h3 class="regular-block-text-title">2007</h3>
+          <div class="regular-block-text">
+            <p class="regular-block-text-part">Століття Скаутингу </p>
+            <p class="regular-block-text-part">
+              Скаутський рух відсвяткував своє
+              <span class="regular-block-text-bold">100-річчя,</span> повернувшись
+              до свого коріння у Великій Британії на 21-й Всесвітнє Скаутське
+              Джамборі.
+            </p>
+            <p class="regular-block-text-part">
+              1 серпня мільйони Скаутів з усього світу відсвяткували створення
+              Скаутського Руху та його зростання від скромних початків до
+              глобального Руху з мільйонами членів майже в кожній країні
+              світу.
+            </p>
           </div>
-          <div class="regular-block-img-wrapper scouting-history-img-wrapper">
-            <img
+        </div>
+        <div class="regular-block-img-wrapper scouting-history-img-wrapper">
+          <img
               class="regular-block-points-img"
               src="./images/scouting-history/photo6.png"
               alt=""
-            />
-          </div>
+          />
         </div>
-        <div class="regular-block-wrapper">
-          <div class="regular-block-img-wrapper scouting-history-img-wrapper">
-            <img
+      </div>
+      <div class="regular-block-wrapper">
+        <div class="regular-block-img-wrapper scouting-history-img-wrapper">
+          <img
               class="regular-block-points-img"
               src="./images/scouting-history/photo7.png"
               alt=""
-            />
-          </div>
-          <div class="regular-block-text-wrapper">
-            <h3 class="regular-block-text-title">2010 – 2020</h3>
-            <div class="regular-block-text">
-              <p class="regular-block-text-part">
-                Сприяння миру і сталости 
-              </p>
-              <p class="regular-block-text-part">
-                Скаутинг продовжував розширювати своє членство, охоплюючи навіть
-                віддалені острови в Тихому океані та Карибському басейні,
-                одночасно впроваджуючи інновації та адаптуючи свої освітні
-                пропозиції відповідно до сучасних потреб та прагнень молоді.
-              </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">2011:</span>Ініціатива “Посланці
-                миру” була створена для сприяння розбудови миру та підтримки
-                впливу Скаутингу на місцеві громади.
-              </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">2018:</span>Започатковано
-                ініціативу “Скаути за Цілі Сталого Розвитку (ЦСР)” з метою
-                залучення Скаутського Руху до найбільшого у світі
-                скоординованого внеску молоді у досягнення ЦСР.
-              </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">2020:</span>Створено глобальну
-                молодіжну спільноту “Earth Tribe”, що об’єднує молодь для
-                природоохоронної діяльности та надання можливости молодим людям
-                боротися з наслідками зміни клімату.
-              </p>
-            </div>
+          />
+        </div>
+        <div class="regular-block-text-wrapper">
+          <h3 class="regular-block-text-title">2010 – 2020</h3>
+          <div class="regular-block-text">
+            <p class="regular-block-text-part">
+              Сприяння миру і сталости 
+            </p>
+            <p class="regular-block-text-part">
+              Скаутинг продовжував розширювати своє членство, охоплюючи навіть
+              віддалені острови в Тихому океані та Карибському басейні,
+              одночасно впроваджуючи інновації та адаптуючи свої освітні
+              пропозиції відповідно до сучасних потреб та прагнень молоді.
+            </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">2011:</span>Ініціатива “Посланці
+              миру” була створена для сприяння розбудови миру та підтримки
+              впливу Скаутингу на місцеві громади.
+            </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">2018:</span>Започатковано
+              ініціативу “Скаути за Цілі Сталого Розвитку (ЦСР)” з метою
+              залучення Скаутського Руху до найбільшого у світі
+              скоординованого внеску молоді у досягнення ЦСР.
+            </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">2020:</span>Створено глобальну
+              молодіжну спільноту “Earth Tribe”, що об’єднує молодь для
+              природоохоронної діяльности та надання можливости молодим людям
+              боротися з наслідками зміни клімату.
+            </p>
           </div>
         </div>
-        <div class="regular-block-wrapper">
-          <div class="regular-block-text-wrapper">
-            <h3 class="regular-block-text-title">2020 – 2022</h3>
-            <div class="regular-block-text">
-              <p class="regular-block-text-part">Всесвітня пандемія </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">2020-2022:</span> Скаути по
-                всьому світу продемонстрували стійкість Руху, вживаючи заходів
-                для підтримки своїх громад та адаптуючись до глобальних обмежень
-                через віртуальні програми. 
-              </p>
-              <p class="regular-block-text-part">
-                <span class="regular-block-text-bold">2022:</span>Ініціатива
-                “Глобальна мобілізація молоді” (Global Youth Mobilisation) була
-                започаткована з метою підтримки розвитку молоді у
-                постпандемічному світі. Це партнерство з Великою шісткою
-                молодіжних організацій, до якої входять Всесвітня Організація
-                Скаутського Руху (WOSM), Всесвітня Асоціація дівчат-Гайдів та
-                дівчат-Скаутів (WAGGGS), Всесвітній альянс християнських
-                асоціацій молодих чоловіків (YMCA), Всесвітня християнська
-                асоціація молодих жінок (YWCA), Міжнародна федерація товариств
-                Червоного Хреста і Червоного Півмісяця, (IFRC) а також
-                Міжнародна премія герцога Единбурзького (DofE).
-              </p>
-            </div>
+      </div>
+      <div class="regular-block-wrapper">
+        <div class="regular-block-text-wrapper">
+          <h3 class="regular-block-text-title">2020 – 2022</h3>
+          <div class="regular-block-text">
+            <p class="regular-block-text-part">Всесвітня пандемія </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">2020-2022:</span> Скаути по
+              всьому світу продемонстрували стійкість Руху, вживаючи заходів
+              для підтримки своїх громад та адаптуючись до глобальних обмежень
+              через віртуальні програми. 
+            </p>
+            <p class="regular-block-text-part">
+              <span class="regular-block-text-bold">2022:</span>Ініціатива
+              “Глобальна мобілізація молоді” (Global Youth Mobilisation) була
+              започаткована з метою підтримки розвитку молоді у
+              постпандемічному світі. Це партнерство з Великою шісткою
+              молодіжних організацій, до якої входять Всесвітня Організація
+              Скаутського Руху (WOSM), Всесвітня Асоціація дівчат-Гайдів та
+              дівчат-Скаутів (WAGGGS), Всесвітній альянс християнських
+              асоціацій молодих чоловіків (YMCA), Всесвітня християнська
+              асоціація молодих жінок (YWCA), Міжнародна федерація товариств
+              Червоного Хреста і Червоного Півмісяця, (IFRC) а також
+              Міжнародна премія герцога Единбурзького (DofE).
+            </p>
           </div>
-          <div class="regular-block-img-wrapper scouting-history-img-wrapper">
-            <img
+        </div>
+        <div class="regular-block-img-wrapper scouting-history-img-wrapper">
+          <img
               class="regular-block-points-img"
               src="./images/scouting-history/photo8.png"
               alt=""
-            />
-          </div>
+          />
         </div>
-        <div class="regular-block-wrapper">
-          <div class="regular-block-img-wrapper scouting-history-img-wrapper">
-            <img
+      </div>
+      <div class="regular-block-wrapper">
+        <div class="regular-block-img-wrapper scouting-history-img-wrapper">
+          <img
               class="regular-block-points-img"
               src="./images/scouting-history/photo9.png"
               alt=""
-            />
-          </div>
-          <div class="regular-block-text-wrapper">
-            <h3 class="regular-block-text-title">2022- Сьогодення</h3>
-            <div class="regular-block-text">
-              <p class="regular-block-text-part">Еволюція Скаутингу </p>
-              <p class="regular-block-text-part">
-                Після пандемії COVID-19 Всесвітня Організація Скаутського Руху
-                продовжила розвивати нову стратегію, щоб краще відповідати на
-                виклики сучасного світу та потреби молоді. Одним з головних
-                напрямів розвитку є залучення більшої кількості молоді до
-                Скаутингу та збільшення різноманітності членства, включаючи
-                більш ефективну роботу з молоддю з малозабезпечених та вразливих
-                груп.
-              </p>
-              <p class="regular-block-text-part">
-                Крім того, Скаути активно співпрацюють з урядами та іншими
-                громадськими організаціями для реалізації Цілей сталого розвитку
-                ООН та підтримки збереження навколишнього середовища.
-              </p>
-            </div>
+          />
+        </div>
+        <div class="regular-block-text-wrapper">
+          <h3 class="regular-block-text-title">2022- Сьогодення</h3>
+          <div class="regular-block-text">
+            <p class="regular-block-text-part">Еволюція Скаутингу </p>
+            <p class="regular-block-text-part">
+              Після пандемії COVID-19 Всесвітня Організація Скаутського Руху
+              продовжила розвивати нову стратегію, щоб краще відповідати на
+              виклики сучасного світу та потреби молоді. Одним з головних
+              напрямів розвитку є залучення більшої кількості молоді до
+              Скаутингу та збільшення різноманітності членства, включаючи
+              більш ефективну роботу з молоддю з малозабезпечених та вразливих
+              груп.
+            </p>
+            <p class="regular-block-text-part">
+              Крім того, Скаути активно співпрацюють з урядами та іншими
+              громадськими організаціями для реалізації Цілей сталого розвитку
+              ООН та підтримки збереження навколишнього середовища.
+            </p>
           </div>
         </div>
       </div>
-      <p class="additional-text">
-        Хочеш дізнатися більше про історію Скаутів України?Переходь за
-        посиланням
-      </p>
-     </div>
-    </main>
-    <footer class="footer">
-      <div class="footer-section">
-        <svg class="footer-logo">
-          <use href="./images/sprite-title-page.svg#logo-footer"></use>
-        </svg>
+    </div>
+    <p class="additional-text">
+      Хочеш дізнатися більше про історію Скаутів України?Переходь за
+      посиланням
+    </p>
+  </div>
+</main>
+<footer class="footer">
+  <div class="footer-section">
+    <svg class="footer-logo">
+      <use href="./images/sprite-title-page.svg#logo-footer"></use>
+    </svg>
 
-        <ul class="nav-footer-list">
-          <li>
-            <h4 class="nav-footer-list-title">Діяльність:</h4>
-            <ul>
-              <li class="nav-footer-list-items">
-                <a class="nav-footer-list-link" href="./our-mission.html"
-                  >Наша програма
-                </a>
-              </li>
-              <li class="nav-footer-list-items">
-                <a class="nav-footer-list-link" href="./help-ukrainians.html">
-                  Наші проєкти</a
-                >
-              </li>
-            </ul>
+    <ul class="nav-footer-list">
+      <li>
+        <h4 class="nav-footer-list-title">Діяльність:</h4>
+        <ul>
+          <li class="nav-footer-list-items">
+            <a class="nav-footer-list-link" href="./our-mission.html"
+            >Наша програма
+            </a>
           </li>
-          <li>
-            <h4 class="nav-footer-list-title">Про Нас:</h4>
-            <ul>
-              <li class="nav-footer-list-items">
-                <a class="nav-footer-list-link" href="./our-history.html"
-                  >Історія</a
-                >
-              </li>
-              <li class="nav-footer-list-items">
-                <a class="nav-footer-list-link" href="./scout-method.html"
-                  >Скаутський Метод</a
-                >
-              </li>
-              <li class="nav-footer-list-items">
-                <a class="nav-footer-list-link" href="./our-team.html"
-                  >Команда</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li>
-            <h4 class="nav-footer-list-title">Долучитись:</h4>
-            <ul>
-              <li class="nav-footer-list-items">
-                <a class="nav-footer-list-link" href="./join-us.html"
-                  >Стати Скаутом</a
-                >
-              </li>
-              <li class="nav-footer-list-items">
-                <a class="nav-footer-list-link" href="./join-us.html"
-                  >Стати Лідером</a
-                >
-              </li>
-              <li class="nav-footer-list-items">
-                <a class="nav-footer-list-link" href="./scout-method.html"
-                  >Допомога організації</a
-                >
-              </li>
-            </ul>
+          <li class="nav-footer-list-items">
+            <a class="nav-footer-list-link" href="./help-ukrainians.html">
+              Наші проєкти</a
+            >
           </li>
         </ul>
+      </li>
+      <li>
+        <h4 class="nav-footer-list-title">Про Нас:</h4>
+        <ul>
+          <li class="nav-footer-list-items">
+            <a class="nav-footer-list-link" href="./our-history.html"
+            >Історія</a
+            >
+          </li>
+          <li class="nav-footer-list-items">
+            <a class="nav-footer-list-link" href="./scout-method.html"
+            >Скаутський Метод</a
+            >
+          </li>
+          <li class="nav-footer-list-items">
+            <a class="nav-footer-list-link" href="./our-team.html"
+            >Команда</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h4 class="nav-footer-list-title">Долучитись:</h4>
+        <ul>
+          <li class="nav-footer-list-items">
+            <a class="nav-footer-list-link" href="./join-us.html"
+            >Стати Скаутом</a
+            >
+          </li>
+          <li class="nav-footer-list-items">
+            <a class="nav-footer-list-link" href="./join-us.html"
+            >Стати Лідером</a
+            >
+          </li>
+          <li class="nav-footer-list-items">
+            <a class="nav-footer-list-link" href="./scout-method.html"
+            >Допомога організації</a
+            >
+          </li>
+        </ul>
+      </li>
+    </ul>
 
-        <a href="" class="donation-link">
-          <p class="donation-link-text">Задонатити</p>
+    <a href="" class="donation-link">
+      <p class="donation-link-text">Задонатити</p>
+    </a>
+    <p class="donation-footer-text">
+      Маєш питання або пропозиції? Ми завжди відкриті для спілкування. Пиши
+      нам на secretariat.nosu@gmail.com
+    </p>
+    <ul class="social-media-footer-list">
+      <li class="social-media-link">
+        <a
+            href="https://t.me/ukrscout"
+            class="social-media-item"
+            target="_blank"
+        >
+          <svg class="social-media-item-icon">
+            <use href="./images/sprite-title-page.svg#telegram"></use>
+          </svg>
         </a>
-        <p class="donation-footer-text">
-          Маєш питання або пропозиції? Ми завжди відкриті для спілкування. Пиши
-          нам на secretariat.nosu@gmail.com
-        </p>
-        <ul class="social-media-footer-list">
-          <li class="social-media-link">
-            <a
-              href="https://t.me/ukrscout"
-              class="social-media-item"
-              target="_blank"
-            >
-              <svg class="social-media-item-icon">
-                <use href="./images/sprite-title-page.svg#telegram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-media-link">
-            <a
-              href="https://www.instagram.com/ukrscout"
-              class="social-media-item"
-              target="_blank"
-            >
-              <svg class="social-media-item-icon">
-                <use href="./images/sprite-title-page.svg#instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-media-link">
-            <a
-              href="https://www.facebook.com/ukrscout"
-              class="social-media-item"
-              target="_blank"
-            >
-              <svg class="social-media-item-icon">
-                <use href="./images/sprite-title-page.svg#telegram"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+      </li>
+      <li class="social-media-link">
+        <a
+            href="https://www.instagram.com/ukrscout"
+            class="social-media-item"
+            target="_blank"
+        >
+          <svg class="social-media-item-icon">
+            <use href="./images/sprite-title-page.svg#instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social-media-link">
+        <a
+            href="https://www.facebook.com/ukrscout"
+            class="social-media-item"
+            target="_blank"
+        >
+          <svg class="social-media-item-icon">
+            <use href="./images/sprite-title-page.svg#telegram"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
 
-        <p class="footer-social-media-text">
-          Підпишіться на нас у соціальних мережах
-        </p>
-      </div>
-    </footer>
-    <script src="./js/init-header.js"></script>
-    <script src="./js/nav-menu.js"></script>
+    <p class="footer-social-media-text">
+      Підпишіться на нас у соціальних мережах
+    </p>
+  </div>
+</footer>
+<script src="./js/init-header.js"></script>
+<script src="./js/nav-menu.js"></script>
 
-    <!-- <script>
-      getInclude('header', document.querySelector('header'))
-              .then(() => {
-                runMenu()
-                document.querySelector('header').classList.remove('start')
-              });
-      getInclude('footer', document.querySelector('footer'))
-    </script> -->
-  </body>
+<!-- <script>
+  getInclude('header', document.querySelector('header'))
+          .then(() => {
+            runMenu()
+            document.querySelector('header').classList.remove('start')
+          });
+  getInclude('footer', document.querySelector('footer'))
+</script> -->
+</body>
 </html>
