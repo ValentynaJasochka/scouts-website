@@ -1,158 +1,162 @@
 :root {
-    --accent-color: rgb(91, 41, 147);
-    /* --accent-button-background: #404bbf;
+  --accent-color: rgb(91, 41, 147);
+  /* --accent-button-background: #404bbf;
     --btn-background: #4d5ae5;
     --hero-font-color: #ffffff; */
-    --main-font: "Montserrat", sans-serif;
-    --main-font-color: rgb(64, 61, 68);
-    --white-text-color: rgb(255, 255, 255);
-    --transition: 200ms cubic-bezier(.12, .54, .97, .43);
+  --main-font: "Montserrat", sans-serif;
+  --main-font-color: rgb(64, 61, 68);
+  --white-text-color: rgb(255, 255, 255);
+  --transition: 200ms cubic-bezier(0.12, 0.54, 0.97, 0.43);
 }
 
 /* main */
-.main-title {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 1.1;
-    letter-spacing: 0.00098em;
-    color: var(--accent-color);
-    text-align: center;
-    margin-top: 24px;
-}
-
-.main-title::after {
-    display: block;
-    content: "";
-    width: 1564px;
-    /* height: 1px; */
-    border: 1px solid rgba(64, 61, 68, 0.2);
-    text-align: center;
-    margin-top: 78px;
-    margin-bottom: 22px;
-}
 
 .our-mission-wrapper {
-    display: flex;
-    gap: 24px;
-    margin-bottom: 54px;
+  display: flex;
+  gap: 16px;
 }
-
-.our-mission-img-wrapper {
-    width: 612px;
-    height: 585px;
-}
-
-.our-mission-img-wrapper > .our-mission-img {
-    height: 100%;
-    width: 100%;
-
-    object-fit: cover;
-}
-
-.our-mission-text {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    font-size: 18px;
-    line-height: 1.52;
-    width: 611px;
-    text-align: start;
-}
-
-.our-mission-text-part:not(:last-child) {
-    margin-bottom: 20px;
-}
-
-.organization-title {
-    color: var(--main-font);
-    margin-bottom: 26px;
-}
-
-.organization-title::after {
-    display: none;
-}
-
 .organization-text {
-    font-size: 24px;
-    line-height: 1.5;
-    text-align: center;
-    margin-bottom: 40px;
-    text-align: center;
-}
-
-.narrow-container {
-    width: 944px;
-    margin-left: auto;
-    margin-right: auto;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 
-.additional-text {
+/* .additional-text {
     font-size: 24px;
     line-height: 1.2;
     letter-spacing: 0.000101em;
     font-style: italic;
     width: 1211px;
     text-align: center;
+} */
+.visible-category-age-group-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .visible-category-age-group-img > .visible-category-age-group-picture {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+  }
+
+
+@media screen and (max-width: 1365px) {
+  
+  /* projects */
+.age-groups {
+    width: 390px;
+    height: 132px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(242, 242, 242);
+  }
+  .visible-category-age-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  /* .visible-category-age-group-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .visible-category-age-group-img > .visible-category-age-group-picture {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+  } */
+  .hidden-category-text {
+    display: none;
+  }
+  .visible-category-text {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+  .narrow-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.organization-block-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
 }
 
-
-/* projects */
-.age-groups {
+@media screen and (min-width: 1366px) {
+    .our-mission-img {
+        width: 612px;
+        height: 630px;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .our-mission-text {
+        align-self: start;
+      }
+      
+      .our-mission-img > .regular-block-points-img {
+        display: block;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        background-position: center;
+      }
+  .age-groups {
     width: 1246px;
     display: flex;
     gap: 40px;
     margin-left: auto;
     margin-right: auto;
     height: 570px;
-}
+  }
 
-.age-groups-item {
+  .age-groups-item {
     position: relative;
+  }
 
-
-}
-
-.age-group-wrapper {
+  .age-group-wrapper {
     position: relative;
     overflow: hidden;
     border-radius: 7px;
     transform-origin: top left;
-    /* transform: scale(1); */
     transition: all var(--transition);
-}
+  }
 
-.age-group-wrapper:hover {
-    /* transform: scale(1.15);   */
+  .age-group-wrapper:hover {
     z-index: 1;
-    /* transition: all var(--transition); */
-}
+  }
 
-.visible-category-age-group {
+  .visible-category-age-group {
     position: relative;
     width: 272px;
-    /* height: 483px; */
     border-radius: 7px;
     transition: all var(--transition);
-
-
-}
-
-.age-group-wrapper:hover .visible-category-age-group {
+  }
+  .age-group-wrapper:hover .visible-category-age-group {
     width: 340px;
-    /* height: 525px; */
+  }
 
-}
-
-
-.visible-category-age-group > .visible-category-age-group-img {
-    /* object-fit: contain; */
-    /* height: 100%; */
+  .visible-category-age-group > .visible-category-age-group-img {
     width: 100%;
-}
+  }
 
-.overlay {
+  .overlay {
     position: absolute;
     top: 0;
     right: 0;
@@ -161,9 +165,9 @@
     z-index: 1;
     background-color: white;
     opacity: 0.5;
-}
+  }
 
-.visible-category-text {
+  .visible-category-text {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
@@ -176,34 +180,26 @@
     text-align: center;
     opacity: 1;
     transition: all var(--transition);
-}
+  }
 
-.hidden-category-age-group {
+  .hidden-category-age-group {
     position: absolute;
     top: 0;
 
     width: 345px;
     border-radius: 7px;
-}
+  }
 
-.age-group-wrapper:hover .overlay {
+  .age-group-wrapper:hover .overlay {
     opacity: 0;
     transition: opacity var(--transition);
-}
+  }
 
-.age-group-wrapper:hover .visible-category-text {
+  .age-group-wrapper:hover .visible-category-text {
     opacity: 0;
+  }
 
-}
-
-
-/* .age-group-wrapper:hover .hidden-category-age-group,
-.age-group-wrapper:focus .hidden-category-age-group {
-
-  transform: scale(1);
-  transform: scale(1) translatey(0);
-} */
-.hidden-category-text {
+  .hidden-category-text {
     position: absolute;
     bottom: 0;
     padding-top: 19px;
@@ -213,69 +209,70 @@
     background-color: rgba(91, 41, 147, 0.8);
     opacity: 0;
     transition: opacity var(--transition);
-}
+  }
 
-.age-group-wrapper:hover .hidden-category-text {
+  .age-group-wrapper:hover .hidden-category-text {
     opacity: 1;
     transition: opacity var(--transition);
-}
+  }
 
-
-.hidden-category-age-group-name {
+  .hidden-category-age-group-name {
     font-weight: 700;
     font-size: 24px;
     line-height: 1.2;
     color: rgb(213, 201, 90);
     text-align: center;
-}
+  }
 
-.hidden-category-age-group-age {
-
+  .hidden-category-age-group-age {
     font-size: 20px;
     line-height: 1.2;
     color: rgb(213, 201, 90);
     text-align: center;
+  }
 }
 
+/* organization */
+
 .organization-projects-list {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin-bottom: 67px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 67px;
 }
 
 .organization-projects-item {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 .organization-projects-img-wrapper {
-    width: 612px;
-    height: 349px;
+  width: 612px;
+  height: 349px;
 }
 
 .organization-projects-item-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .organization-projects-item-wrapper {
-    width: 611px;
+  width: 611px;
 }
 
 .organization-projects-item-text {
-    font-size: 18px;
-    line-height: 1.52;
-    width: 611px;
-    text-align: start;
+  font-size: 18px;
+  line-height: 1.52;
+  width: 611px;
+  text-align: start;
 }
 
 .organization-projects-item-title {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.2;
-    letter-spacing: 0.000101em;
-    margin-bottom: 20px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.000101em;
+  margin-bottom: 20px;
 }
