@@ -133,6 +133,8 @@ a {
     font-size: 13px;
     color: var(--white-text-color);
   }
+   
+  
 }
 
 @media screen and (max-width: 1023px) {
