@@ -80,6 +80,33 @@ a {
   padding-right: 16px;
 }
 
+.main-title-container {
+  max-width: 1296px;
+  width: 100%;
+}
+
+.main-title {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.1;
+  letter-spacing: 0.00098em;
+  color: var(--accent-color);
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.main-title::after {
+  display: block;
+  content: "";
+  width: 100%;
+  border: 1px solid rgba(64, 61, 68, 0.2);
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 @media screen and (min-width: 390px) {
   .container {
     width: 390px;
@@ -89,28 +116,6 @@ a {
 
   .nav-footer-list-link {
     color: inherit;
-  }
-
-  .main-title {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.1;
-    letter-spacing: 0.00098em;
-    color: var(--accent-color);
-    text-align: center;
-    margin-top: 8px;
-    margin-bottom: 8px;
-  }
-
-  .main-title::after {
-    display: block;
-    content: "";
-    width: 358px;
-    border: 1px solid rgba(64, 61, 68, 0.2);
-    text-align: center;
-    margin-top: 8px;
-    margin-bottom: 8px;
   }
 
   .join-btn {
@@ -385,8 +390,7 @@ a {
   }
 
   .main-title::after {
-    width: 1564px;
-    margin-top: 24px;
+    margin-top: 30px;
     margin-bottom: 24px;
   }
 

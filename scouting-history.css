@@ -10,12 +10,14 @@
   --grey-font-color: rgb(91, 91, 108);
   --white-text-color: rgb(255, 255, 255);
 }
+
 @media screen and (min-width: 390px) {
   .main-group {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .container {
     /*max-width: 390px;*/
     width: 100%;
@@ -24,6 +26,7 @@
     padding-left: 0;
     padding-right: 0;
   }
+
   .scouting-history-section {
     display: flex;
     flex-direction: column;
@@ -33,18 +36,18 @@
     padding-bottom: 16px;
     background-color: var(--shadow-background);
   }
-  .main-title::after {
-    margin-bottom: 0px;
-  }
+
   .regular-block-wrapper {
     gap: 16px;
   }
+
   .scouting-history-img-wrapper {
     width: 358px;
     height: 179px;
     border-radius: 10px;
     overflow: hidden;
   }
+
   .scouting-history-img-wrapper > .regular-block-points-img {
     display: block;
     height: 100%;
@@ -52,6 +55,7 @@
     object-fit: cover;
     background-position: center;
   }
+
   .additional-text {
     display: none;
   }
@@ -62,14 +66,12 @@
     padding-top: 16px;
     background-color: var(--white-background-color);
   }
-  .main-title::after {
-    margin-top: 32px;
-    margin-bottom: 16px;
-  }
+
   .scouting-history-img-wrapper {
     width: 612px;
     height: 474px;
   }
+
   .additional-text {
     display: block;
     width: 750px;
