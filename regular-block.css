@@ -107,10 +107,6 @@
 
   }
 
-  .regular-block-text-part:not(:last-child) {
-    margin-bottom: 20px;
-  }
-
   .regular-block-text-title {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 600;
