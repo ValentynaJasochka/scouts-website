@@ -36,7 +36,7 @@
   .main-title::after {
     margin-bottom: 0px;
   }
-  .history-points-wrapper {
+  .regular-block-wrapper {
     gap: 16px;
   }
   .scouting-history-img-wrapper {
@@ -45,7 +45,7 @@
     border-radius: 10px;
     overflow: hidden;
   }
-  .scouting-history-img-wrapper > .history-points-img {
+  .scouting-history-img-wrapper > .regular-block-points-img {
     display: block;
     height: 100%;
     width: 100%;
@@ -77,7 +77,7 @@
     line-height: 1.2;
     letter-spacing: 0.000101em;
     font-style: italic;
-    
+
     text-align: center;
   }
 }

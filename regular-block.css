@@ -1,0 +1,105 @@
+@media screen and (min-width: 390px) {
+  .regular-block-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .regular-block-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .regular-block-wrapper:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+  .regular-block-text-wrapper {
+    align-self: start;
+  }
+  .regular-block-text-title {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--accent-color);
+    margin-bottom: 5px;
+  }
+  .regular-block-text {
+    font-size: 13px;
+    line-height: 1.5;
+    width: 342px;
+    text-align: start;
+    color: var(--grey-font-color);
+  }
+  .regular-block-text-bold {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .regular-block-img-wrapper {
+    width: 358px;
+    height: 179px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .regular-block-img-wrapper > .regular-block-points-img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .regular-block-main-container {
+    gap: 32px;
+  }
+
+  .regular-block-wrapper {
+    flex-direction: row;
+    gap: 48px;
+  }
+
+  .regular-block-wrapper:nth-child(even) {
+    flex-direction: row;
+  }
+
+  .regular-block-img-wrapper {
+    width: 612px;
+    height: 428px;
+  }
+
+  .regular-block-text {
+    font-size: 18px;
+    line-height: 1.52;
+    width: 636px;
+    text-align: start;
+  }
+  .regular-block-text-bold {
+    font-weight: 600;
+    font-size: 18px;
+
+  }
+
+  .regular-block-text-part:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .regular-block-text-title {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .regular-block-wrapper {
+    display: flex;
+  }
+
+  .additional-text {
+    font-size: 24px;
+  }
+}
