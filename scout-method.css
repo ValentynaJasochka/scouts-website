@@ -1,70 +1,421 @@
 :root {
-    --accent-color: rgb(91, 41, 147);
-    /* --accent-button-background: #404bbf;
+  --accent-color: rgb(91, 41, 147);
+  /* --accent-button-background: #404bbf;
     --btn-background: #4d5ae5;
     --hero-font-color: #ffffff; */
-    --main-font: "Montserrat", sans-serif;
-    --main-font-color: rgb(64, 61, 68);
-    --white-text-color: rgb(255, 255, 255)
-
+  --main-font: "Montserrat", sans-serif;
+  --main-font-color: rgb(64, 61, 68);
+  --white-text-color: rgb(255, 255, 255);
 }
 
 /* scouts-methods */
 .scouts-methods {
-    width: 1558px;
-    margin-left: auto;
-    margin-right: auto;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  gap: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--shadow-background);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
-
-.main-title {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 1.1;
-    letter-spacing: 0.00098em;
-    color: var(--accent-color);
-    text-align: center;
-    margin-top: 24px;
-}
-
-.main-title::after {
-    display: block;
-    content: "";
-    /* width: 1564px; */
-    height: 1px;
-    border: 1px solid rgba(64, 61, 68, 0.2);
-    text-align: center;
-    margin-top: 78px;
-    margin-bottom: 22px;
-}
-
 .main-text {
-    font-size: 18px;
-    line-height: 1.52;
-    width: 1265px;
-    text-align: center;
-    margin-bottom: 65px;
+  font-size: 13px;
+  line-height: 1.52;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.scouts-methods-elements-banner {
+  width: 320px;
+  height: 300px;
+  overflow: hidden;
+  align-self: center;
+}
+.scouts-methods-elements-banner > .scouts-methods-elements-banner-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-position: center;
 }
 
-/* scouts-methods-elements */
-/* .scouts-methods-elements {
-width: 1558px;
-} */
 .scouts-methods-elements-list {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    column-gap: 43px;
-    height: 933px;
-    margin-bottom: 94px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.scouts-methods-elements-number-wrapper {
+  width: 40px;
+  /* height: 97px; */
+  overflow: hidden;
+  align-self: center;
+}
+.scouts-methods-elements-number-wrapper > .scouts-methods-elements-number {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  background-position: center;
 }
 
 .scouts-methods-elements-item {
-    width: 595px;
-    height: 224px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8px;
+  /* width: 595px;
+    height: 224px; */
+}
+.scouts-methods-elements-item:nth-child(even) {
+  background-color: rgb(242, 242, 242);
 }
 
+.scouts-promises-img-wrapper {
+  width: 360px;
+  height: 236px;
+  overflow: hidden;
+  align-self: center;
+}
+.scouts-promises-img-wrapper > .scouts-promises-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-position: center;
+}
+/* .scouts-methods-elements-number {
+    width: 40px;
+    height: 97px;
+} */
+
 .scouts-methods-item-wrapper {
+  width: 294px;
+  padding: 0 16px 0 16px;
+  display: flex;
+  flex-direction: column;
+}
+.scouts-methods-item-title {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.52;
+}
+.scouts-methods-item-text {
+  font-size: 13px;
+  line-height: 1.37;
+}
+
+/* promises */
+.scouts-promises-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+.scouts-promises-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13px;
+  line-height: 1.52;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: start;
+}
+.scouts-promises-main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px 8px 16px;
+}
+.scouts-promises-header {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.2;
+  letter-spacing: 0.000101em;
+  color: rgb(91, 41, 147);
+  text-align: center;
+}
+.scouts-promises-main-text {
+  font-weight: 600;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+
+/* low */
+
+.scouts-law {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 0 16px 24px 16px;
+}
+.low-img-wrapper {
+  width: 358px;
+  height: 360px;
+  overflow: hidden;
+  align-self: center;
+}
+.low-img-wrapper > .low-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-position: center;
+}
+.low-additional-text {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.tik-btn {
+  width: 33.33px;
+  height: 33.33px;
+}
+.scouts-law-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.scouts-law-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.law-text-item {
+  text-align: start;
+}
+/* principles */
+
+.scouts-principles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 0 16px 0px 16px;
+  background-image: url("./images/scouting-method/icons/logo-background.png");
+  background-repeat: no-repeat;
+  background-position: 100% center;
+}
+.scouts-principles-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.scouts-principles-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.scouts-principles-title {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.2;
+  letter-spacing: 0.000101em;
+  color: rgb(91, 41, 147);
+  text-align: start;
+}
+.scouts-principles-text {
+  text-align: start;
+}
+
+@media screen and (max-width: 1365px) {
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+}
+
+@media screen and (min-width: 1366px) {
+  .scouts-methods {
+    padding-top: 16px;
+    padding-bottom: 32px;
+    gap: 16px;
+    background-color: var(--white-text-color);
+  }
+  .main-text {
+    font-size: 18px;
+  }
+  .scouts-methods-elements-banner {
+    width: 1053px;
+    height: 980px;
+  }
+  .scouts-methods-elements-list {
+    height: 794px;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  .scouts-methods-elements-item {
+    gap: 32px;
+    width: 632px;
+    height: 180px;
+    /* justify-content: ; */
+  }
+  .scouts-methods-elements-number-wrapper {
+    width: 60px;
+  height: 179px;
+  }
+  .scouts-methods-elements-item:nth-child(2n) {
+    height: 162px;
+    background-color: var(--white-text-color);
+  }
+  .scouts-methods-elements-item:nth-child(4n) {
+    height: 149px;
+  }
+  .scouts-methods-item-title {   
+    font-size: 24px;
+      }
+  .scouts-methods-item-text {
+    font-size: 20px;
+       
+  }
+  .scouts-methods-item-wrapper {
+    width: 540px; 
+    align-self: start;
+  }
+  .scouts-promises-img-wrapper {
+    width: 612px;
+    height: 400px;
+    
+  }
+  .scouts-methods-item-wrapper {
+    width: 632px;
+    padding: 0 32px 0 32px;
+    display: flex;
+    flex-direction: column;
+  }
+  .scouts-methods-item-title {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.52;
+  }
+  .scouts-methods-item-text {
+    font-size: 18px;
+    line-height: 1.52;
+  }
+
+
+.scouts-promises {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .scouts-promises-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    padding-top: 8px;
+    padding-bottom: 24px;
+  }
+  .scouts-promises-text {
+    width: 568px;
+   
+    gap: 8px;
+    font-size: 18px;
+   
+    padding-left: 32px;
+    padding-right: 32px;
+    text-align: start;
+  }
+  .scouts-promises-main {
+    background-color:rgb(242, 242, 242); ;
+    padding: 32px 8px 32px 8px;
+    gap: 24px;
+  }
+  .scouts-promises-header {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.000101em;
+    color: var(--main-font);
+    
+  }
+  .scouts-promises-main-text {   
+    font-size: 24px;    
+  }
+.promises-additional-wrapper {
+    position: relative;
+    padding-top: 48px;
+}
+  .promises-additional-title {
+    position: absolute;
+    left: 32px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.000101em;
+    color: var(--main-font);
+  }
+  .promises-additional-title::after {
+    display: none;
+  }
+  .promises-additional-text {
+    padding-top: 24px;
+  }
+
+.scouts-law-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .scouts-law {
+    
+    flex-direction: row;
+   
+    gap: 32px;
+    padding: 16px 0px 16px 0px;
+  }
+  .low-img-wrapper {
+    width: 465px;
+    height: 548px;
+  }
+  .scouts-law-list-wrapper {
+    width: 800px;
+  }
+  .scouts-principles {
+    background-position: center 90%;
+  }
+  .scouts-principles-list {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    
+    align-items: start;
+}
+
+.scouts-principles-item {
+    width: 365px;
+}
+
+.scouts-principles-item::before {
+    display: block;
+    content: "";
+    width: 365px;
+    border: 1px solid rgba(64, 61, 68, 0.2);
+    margin-bottom: 32px;
+}
+
+.scouts-principles-title {
+    font-size: 32px;
+    color: rgb(64, 61, 68);
+    margin-bottom: 40px;
+}
+
+.scouts-principles-text {
+    font-size: 18px;
+    color: rgba(64, 61, 68, 0.6);
+}
+}
+
+/* .scouts-methods-item-wrapper {
     width: 449px;
 }
 
@@ -77,7 +428,7 @@ width: 1558px;
 .scouts-methods-item-text {
     font-size: 20px;
     line-height: 1.37;
-}
+} */
 
 /* scouts-promises*/
 
@@ -93,7 +444,7 @@ width: 1558px;
 /* .scouts-promises-wrapper {
   display: flex;
 } */
-.scouts-promises-wrapper {
+/* .scouts-promises-wrapper {
     display: flex;
 }
 
@@ -154,11 +505,11 @@ width: 1558px;
 
 .need-to-know-title {
     font-size: 24px;
-}
+} */
 
 /* scouts-principles-header */
 
-.scouts-principles-item::before {
+/* .scouts-principles-item::before {
     display: block;
     content: "";
     width: 330px;
@@ -194,4 +545,4 @@ width: 1558px;
 .scouts-principles-text {
     font-size: 18px;
     color: rgba(64, 61, 68, 0.6);
-}
+} */

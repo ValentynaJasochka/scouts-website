@@ -15,26 +15,197 @@
   </head>
   <body>
     <header class="header">
-      <div class="start"></div>
-    </header>
-    <main class="container">
-      <div class="scouts-methods">
-        <h1 class="main-title">Скаутський метод</h1>
-        <p class="main-text">
-          Скаутський Метод є унікальною системою прогресивного самовиховання.
-          Він застосовує різні елементи, які підтримують мету та Принципи
-          Скаутингу, і створює згуртовану та збалансовану систему для молодих
-          людей, щоб вони могли відчути справжній потенціал Скаутингу в
-          безпечному середовищі. 
-        </p>
-        <section>
-          <div class="scouts-methods-elements-banner">
-            <img src = "./images/metod-banner.svg" alt="My Happy SVG"/>
+      <div class="container page-header-container">
+        <nav class="header-navigation">
+          <a class="header-logo" href="./index.html">
+            <img
+              class="header-logo-img"
+              src="./images/logo-heder.svg"
+              alt="Logo Scouts"
+            />
+          </a>
+          <ul class="header-nav-list nav-mobile-menu">
+            <li
+              class="header-nav-item menu-first nav-main-item"
+              menu-open-first
+            >
+              <div class="header-nav-item-container nav-item-click-listener">
+                <p class="heder-nav-text">Про нас</p>
+                <button
+                  class="inner-mobile-menu-open-btn"
+                  type="button"
+                  open-mobile-first
+                >
+                  <svg
+                    class="inner-mobile-menu-open-icon"
+                    width="13"
+                    height="17"
+                  >
+                    <use
+                      href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+              <ul class="nav-table is-hidden" data-menu-first>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-history.html"
+                    >Наша історія</a
+                  >
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-mission.html"
+                    >Наша місія</a
+                  >
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./scout-method.html"
+                    >Скаутський Метод</a
+                  >
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-team.html">Команда </a>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="header-nav-item menu-second nav-main-item"
+              menu-open-second
+            >
+              <div class="header-nav-item-container nav-item-click-listener">
+                <p class="heder-nav-text">Діяльність</p>
+                <button
+                  class="inner-mobile-menu-open-btn"
+                  type="button"
+                  open-mobile-second
+                >
+                  <svg
+                    class="inner-mobile-menu-open-icon"
+                    width="13"
+                    height="17"
+                  >
+                    <use
+                      href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
 
+              <ul class="nav-table is-hidden" data-menu-second>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-mission.html"
+                    >Наша програма
+                  </a>
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./help-ukrainians.html"
+                    >Проєкти
+                  </a>
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-events.html">Заходи </a>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="header-nav-item menu-third nav-main-item"
+              menu-open-third
+            >
+              <div class="header-nav-item-container nav-item-click-listener">
+                <p class="heder-nav-text">Всесвітній Скаутинг</p>
+                <button
+                  class="inner-mobile-menu-open-btn"
+                  type="button"
+                  open-mobile-third
+                >
+                  <svg
+                    class="inner-mobile-menu-open-icon"
+                    width="13"
+                    height="17"
+                  >
+                    <use
+                      href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+
+              <ul class="nav-table is-hidden" data-menu-third>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./world-scouting.html"
+                    >ВОСР</a
+                  >
+                </li>
+
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./scouting-history.html"
+                    >Історія Скаутингу</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="header-nav-item heder-nav-text">
+              <div class="header-nav-item-container">
+                <a class="header-nav-item-link" href="./join-us.html">
+                  Приєднатись</a
+                >
+              </div>
+            </li>
+            <li class="header-nav-item heder-nav-text">
+              <div class="header-nav-item-container">
+                <a class="header-nav-item-link" href="./help-ukrainians.html"
+                  >Задонатити</a
+                >
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <button class="mobile-menu-open mobile-menu-handler open" type="button">
+          <svg class="mobile-menu-open-icon" width="24" height="24">
+            <use href="./images/sprite-title-page.svg#burger-icon"></use>
+          </svg>
+        </button>
+        <button
+          class="mobile-menu-close mobile-menu-handler close is-hidden"
+          type="button"
+        >
+          <img
+            class="mobile-menu-close-icon"
+            src="./images/close-mob-menu.png"
+            alt="close-btn"
+          />
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="main-group">
+        <div class="container scouts-methods">
+          <h1 class="main-title">Скаутський метод</h1>
+          <p class="main-text">
+            Скаутський Метод є унікальною системою прогресивного самовиховання.
+            Він застосовує різні елементи, які підтримують мету та Принципи
+            Скаутингу, і створює згуртовану та збалансовану систему для молодих
+            людей, щоб вони могли відчути справжній потенціал Скаутингу в
+            безпечному середовищі. 
+          </p>
+
+          <div class="scouts-methods-elements-banner">
+            <img
+              class="scouts-methods-elements-banner-img"
+              src="./images/scouting-method/icons/scouting-method-diagram.svg"
+              alt="scouting method diagram"
+            />
           </div>
           <ul class="scouts-methods-elements-list">
             <li class="scouts-methods-elements-item">
-              <svg class="scouts-methods-elements-number"></svg>
+              <div class="scouts-methods-elements-number-wrapper">
+                <img
+                  class="scouts-methods-elements-number"
+                  src="./images/scouting-method/icons/number-1.png"
+                  alt="scouting method diagram"
+                />
+              </div>
+
               <div class="scouts-methods-item-wrapper">
                 <h3 class="scouts-methods-item-title">
                   Скаутська Обіцянка та Закон
@@ -48,7 +219,13 @@
               </div>
             </li>
             <li class="scouts-methods-elements-item">
-              <svg class="scouts-methods-elements-number"></svg>
+              <div class="scouts-methods-elements-number-wrapper">
+                <img
+                  class="scouts-methods-elements-number"
+                  src="./images/scouting-method/icons/number-2.png"
+                  alt="scouting method diagram"
+                />
+              </div>
               <div class="scouts-methods-item-wrapper">
                 <h3 class="scouts-methods-item-title">Навчання через справу</h3>
                 <p class="scouts-methods-item-text">
@@ -59,7 +236,13 @@
               </div>
             </li>
             <li class="scouts-methods-elements-item">
-              <svg class="scouts-methods-elements-number"></svg>
+              <div class="scouts-methods-elements-number-wrapper">
+                <img
+                  class="scouts-methods-elements-number"
+                  src="./images/scouting-method/icons/number-3.png"
+                  alt="scouting method diagram"
+                />
+              </div>
               <div class="scouts-methods-item-wrapper">
                 <h3 class="scouts-methods-item-title">Система малих груп</h3>
                 <p class="scouts-methods-item-text">
@@ -71,7 +254,13 @@
               </div>
             </li>
             <li class="scouts-methods-elements-item">
-              <svg class="scouts-methods-elements-number"></svg>
+              <div class="scouts-methods-elements-number-wrapper">
+                <img
+                  class="scouts-methods-elements-number"
+                  src="./images/scouting-method/icons/number-4.png"
+                  alt="scouting method diagram"
+                />
+              </div>
               <div class="scouts-methods-item-wrapper">
                 <h3 class="scouts-methods-item-title">Залучення до громади</h3>
                 <p class="scouts-methods-item-text">
@@ -81,7 +270,13 @@
               </div>
             </li>
             <li class="scouts-methods-elements-item">
-              <svg class="scouts-methods-elements-number"></svg>
+              <div class="scouts-methods-elements-number-wrapper">
+                <img
+                  class="scouts-methods-elements-number"
+                  src="./images/scouting-method/icons/number-5.png"
+                  alt="scouting method diagram"
+                />
+              </div>
               <div class="scouts-methods-item-wrapper">
                 <h3 class="scouts-methods-item-title">Символічна основа</h3>
                 <p class="scouts-methods-item-text">
@@ -91,9 +286,15 @@
               </div>
             </li>
             <li class="scouts-methods-elements-item">
-              <svg class="scouts-methods-elements-number"></svg>
+              <div class="scouts-methods-elements-number-wrapper">
+                <img
+                  class="scouts-methods-elements-number"
+                  src="./images/scouting-method/icons/number-6.png"
+                  alt="scouting method diagram"
+                />
+              </div>
               <div class="scouts-methods-item-wrapper">
-                <h3>Підтримка дорослих</h3>
+                <h3 class="scouts-methods-item-title">Підтримка дорослих</h3>
                 <p class="scouts-methods-item-text">
                   Дорослі сприяють і підтримують молодих людей у створенні
                   можливостей для навчання, і через культуру партнерства
@@ -102,7 +303,13 @@
               </div>
             </li>
             <li class="scouts-methods-elements-item">
-              <svg class="scouts-methods-elements-number"></svg>
+              <div class="scouts-methods-elements-number-wrapper">
+                <img
+                  class="scouts-methods-elements-number"
+                  src="./images/scouting-method/icons/number-7.png"
+                  alt="scouting method diagram"
+                />
+              </div>
               <div class="scouts-methods-item-wrapper">
                 <h3 class="scouts-methods-item-title">Особистісний розвиток</h3>
                 <p class="scouts-methods-item-text">
@@ -113,7 +320,13 @@
               </div>
             </li>
             <li class="scouts-methods-elements-item">
-              <svg class="scouts-methods-elements-number"></svg>
+              <div class="scouts-methods-elements-number-wrapper">
+                <img
+                  class="scouts-methods-elements-number"
+                  src="./images/scouting-method/icons/number-8.png"
+                  alt="scouting method diagram"
+                />
+              </div>
               <div class="scouts-methods-item-wrapper">
                 <h3 class="scouts-methods-item-title">Природа</h3>
                 <p class="scouts-methods-item-text">
@@ -123,197 +336,406 @@
               </div>
             </li>
           </ul>
-        </section>
-        <section class="scouts-promises">
-          <div class="scouts-promises-wrapper">
-            <div>
-              <h3 class="main-title">Скаутська Обіцянка</h3>
-              <div class="scouts-promises-wrapper">
-                <img
-                  class=""
-                  src="./images/history/history-beginning.jpg"
-                  alt=""
-                  width="612"
-                  height="382"
-                />
 
-                <div class="scouts-promises-text">
-                  <p class="scouts-promises-text-part">
-                    Скаутська Обіцянка – це особисте та соціальне зобов’язання,
-                    яке молода людина дає на початку своєї Скаутської подорожі.
-                    Оскільки кожний Скаут у всьому світі дає подібну обіцянку,
-                    вона підтримує відчуття єдности та знаменує перший крок до
-                    самовиховання та відкриття Скаутського методу. Член
-                    Національної Організації Скаутів України проголошує
-                    Скаутську Обіцянку, зафіксовану Статутом організації.
-                  </p>
-                  <p class="scouts-promises-text-part">
-                    ПРИМІТКИ: Член Національної Організації Скаутів України
-                    проголошує Скаутську Обіцянку, зафіксовану Статутом
-                    Організації. Вона є адаптованим перекладом тексту Скаутської
-                    обіцянки з Конституції Всесвітньої Організації Скаутського
-                    Руху.
-                  </p>
-                  <p class="scouts-promises-text-additional-part">
-                    Рішення про складання Скаутської обіцянки може прийняти
-                    винятково та особа, яка прагне приєднатись до Скаутського
-                    Руху.
-                  </p>
-                </div>
+          <section class="scouts-promises">
+            <h3 class="main-title">Скаутська Обіцянка</h3>
+            <div class="scouts-promises-wrapper">
+              <div class="scouts-promises-img-wrapper">
+                <img
+                  class="scouts-promises-img"
+                  src="./images/scouting-method/photo1.jpg"
+                  alt="scouts promises"
+                />
               </div>
-            </div>
-          </div>
-          <div class="scouts-promises-main">
-            <h2 class="scouts-promises-header">Скаутська обіцянка НОСУ:</h2>
-            <p class="scouts-promises-main-text">
-              «Обіцяю зробити все від мене залежне, щоб з честю виконати свій
-              обов’язок перед Богом і моєю країною, скрізь і повсякчас
-              допомагати іншим та жити за Скаутським законом».
-            </p>
-          </div>
-          <div class="scouts-promises-wrapper">
-            <div>
-              <h3 class="scouts-promise-title">Обіцянка перед собою:</h3>
+
               <div class="scouts-promises-text">
                 <p class="scouts-promises-text-part">
-                  Молода людина складає Обіцянку не дорослому лідеру чи своєму
-                  патрулю, а перед самим собою. Тим не менше, потрібно
-                  пам’ятати, що протягом всього Скаутського життя Скаут
-                  взаємодіє з командою однодумців – в патрулі, а отже,
-                  присутність членів патруля, їхня підтримка та допомога в
-                  процесі підготовки до складання Обіцянки є важливим. Кожен
-                  Скаут проголошує Обіцянку під час урочистої посвяти в колі
-                  друзів свого формування, таким чином засвідчує готовність
-                  дотримуватись та жити за Скаутськими принципами та Скаутським
-                  законом.
+                  Скаутська Обіцянка – це особисте та соціальне зобов’язання,
+                  яке молода людина дає на початку своєї Скаутської подорожі.
+                  Оскільки кожний Скаут у всьому світі дає подібну обіцянку,
+                  вона підтримує відчуття єдности та знаменує перший крок до
+                  самовиховання та відкриття Скаутського методу. Член
+                  Національної Організації Скаутів України проголошує Скаутську
+                  Обіцянку, зафіксовану Статутом організації.
+                </p>
+                <p class="scouts-promises-text-part">
+                  ПРИМІТКИ: Член Національної Організації Скаутів України
+                  проголошує Скаутську Обіцянку, зафіксовану Статутом
+                  Організації. Вона є адаптованим перекладом тексту Скаутської
+                  обіцянки з Конституції Всесвітньої Організації Скаутського
+                  Руху.
+                </p>
+                <p class="scouts-promises-text-additional-part">
+                  Рішення про складання Скаутської обіцянки може прийняти
+                  винятково та особа, яка прагне приєднатись до Скаутського
+                  Руху.
                 </p>
               </div>
             </div>
-            <img
-              class=""
-              src="./images/history/International-recognition.jpg"
-              alt=""
-              width="612"
-              height="382"
-            />
-          </div>
-        </section>
-        <section class="scouts-law">
-          <div>
-            <div>
-              <h3 class="main-title">Скаутський Закон</h3>
-              <p class="main-text">
-                Скаутський закон – єдиний та складається з десяти пунктів, кожен
-                з яких сформульований коротко, але має глибоку суть. Текст
-                Закону може несуттєво відрізнятися в різних Національних
-                Скаутських Організаціях, що обумовлено специфікою культури і
-                традицій країни. Однак, все одно в основі кожного формулювання
-                лежить найперший Закон, сформульований засновником Скаутингу –
-                лордом Бейден-Поуеллом.
+
+            <div class="scouts-promises-main">
+              <h2 class="scouts-promises-header">Скаутська обіцянка НОСУ:</h2>
+              <p class="scouts-promises-main-text">
+                «Обіцяю зробити все від мене залежне, щоб з честю виконати свій
+                обов’язок перед Богом і моєю країною, скрізь і повсякчас
+                допомагати іншим та жити за Скаутським законом».
               </p>
             </div>
-            <div>
-              <p class="main-text law-text-item">
-                Кожен пункт Закону сформульований коротко, але він має дуже
-                глибоку суть:
+            <div class="promises-additional-wrapper">
+              <h3 class="main-title promises-additional-title">Обіцянка перед собою:</h3>
+            <div class="scouts-promises-wrapper reverse">
+              <div>
+                <div class="scouts-promises-text promises-additional-text">
+                  <p class="scouts-promises-text-part">
+                    Молода людина складає Обіцянку не дорослому лідеру чи своєму
+                    патрулю, а перед самим собою. Тим не менше, потрібно
+                    пам’ятати, що протягом всього Скаутського життя Скаут
+                    взаємодіє з командою однодумців – в патрулі, а отже,
+                    присутність членів патруля, їхня підтримка та допомога в
+                    процесі підготовки до складання Обіцянки є важливим. Кожен
+                    Скаут проголошує Обіцянку під час урочистої посвяти в колі
+                    друзів свого формування, таким чином засвідчує готовність
+                    дотримуватись та жити за Скаутськими принципами та
+                    Скаутським законом.
+                  </p>
+                </div>
+              </div>
+              <div class="scouts-promises-img-wrapper">
+                <img
+                  class="scouts-promises-img"
+                  src="./images/scouting-method/photo2.png"
+                  alt="scouts promises"
+                />
+              </div>
+            </div>
+            </div>
+          </section>
+          <section class="scouts-law-wrapper">
+            <h3 class="main-title">Скаутський Закон</h3>
+            <p class="main-text low-additional-text">
+              Скаутський закон – єдиний та складається з десяти пунктів, кожен
+              з яких сформульований коротко, але має глибоку суть. Текст
+              Закону може несуттєво відрізнятися в різних Національних
+              Скаутських Організаціях, що обумовлено специфікою культури і
+              традицій країни. Однак, все одно в основі кожного формулювання
+              лежить найперший Закон, сформульований засновником Скаутингу –
+              лордом Бейден-Поуеллом.
+            </p>
+            <div class="scouts-law">
+             
+              
+              <div class="low-img-wrapper">
+                <img
+                  class="low-img"
+                  src="./images/scouting-method/photo3.png"
+                  alt="scouts promises"
+                />
+              </div>
+
+              <div class="scouts-law-list-wrapper">
+                <p class="main-text law-text-item">
+                  Кожен пункт Закону сформульований коротко, але він має дуже
+                  глибоку суть:
+                </p>
+                <ul class="scouts-law-list">
+                  <li class="scouts-law-item">
+                    <div class="tik-btn">
+                      <img
+                        class="tik-btn"
+                        src="./images/scouting-method/icons/tik-btn.png"
+                        alt="scouts promises"
+                      />
+                    </div>
+                    <p class="main-text law-text-item">
+                      Честі Скаута слід довіряти
+                    </p>
+                  </li>
+                  <li class="scouts-law-item">
+                    <div class="tik-btn">
+                      <img
+                        class="tik-btn"
+                        src="./images/scouting-method/icons/tik-btn.png"
+                        alt="scouts promises"
+                      />
+                    </div>
+                    <p class="main-text law-text-item">Скаут – вірний</p>
+                  </li>
+                  <li class="scouts-law-item">
+                    <div class="tik-btn">
+                      <img
+                        class="tik-btn"
+                        src="./images/scouting-method/icons/tik-btn.png"
+                        alt="scouts promises"
+                      />
+                    </div>
+                    <p class="main-text law-text-item">
+                      Обов’язок Скаута бути корисним та допомагати іншим
+                    </p>
+                  </li>
+                  <li class="scouts-law-item">
+                    <div class="tik-btn">
+                      <img
+                        class="tik-btn"
+                        src="./images/scouting-method/icons/tik-btn.png"
+                        alt="scouts promises"
+                      />
+                    </div>
+                    <p class="main-text law-text-item">
+                      Скаут дружній з усіма та братерський зі Скаутами
+                    </p>
+                  </li>
+                  <li class="scouts-law-item">
+                    <div class="tik-btn">
+                      <img
+                        class="tik-btn"
+                        src="./images/scouting-method/icons/tik-btn.png"
+                        alt="scouts promises"
+                      />
+                    </div>
+                    <p class="main-text law-text-item">Скаут – ввічливий</p>
+                  </li>
+                  <li class="scouts-law-item">
+                    <div class="tik-btn">
+                      <img
+                        class="tik-btn"
+                        src="./images/scouting-method/icons/tik-btn.png"
+                        alt="scouts promises"
+                      />
+                    </div>
+                    <p class="main-text law-text-item">Скаут – друг природи</p>
+                  </li>
+                  <li class="scouts-law-item">
+                    <div class="tik-btn">
+                      <img
+                        class="tik-btn"
+                        src="./images/scouting-method/icons/tik-btn.png"
+                        alt="scouts promises"
+                      />
+                    </div>
+                    <p class="main-text law-text-item">
+                      Скаут уважний до настанов своїх батьків, патрульного
+                      лідера та Скаут-лідерів, без зайвих питань;
+                    </p>
+                  </li>
+                  <li class="scouts-law-item">
+                    <div class="tik-btn">
+                      <img
+                        class="tik-btn"
+                        src="./images/scouting-method/icons/tik-btn.png"
+                        alt="scouts promises"
+                      />
+                    </div>
+                    <p class="main-text law-text-item">
+                      Скаут усміхається і наспівує за будь-яких обставин
+                    </p>
+                  </li>
+                  <li class="scouts-law-item">
+                    <div class="tik-btn">
+                      <img
+                        class="tik-btn"
+                        src="./images/scouting-method/icons/tik-btn.png"
+                        alt="scouts promises"
+                      />
+                    </div>
+                    <p class="main-text law-text-item">Скаут – ощадливий</p>
+                  </li>
+                  <li class="scouts-law-item">
+                    <div class="tik-btn">
+                      <img
+                        class="tik-btn"
+                        src="./images/scouting-method/icons/tik-btn.png"
+                        alt="scouts promises"
+                      />
+                    </div>
+                    <p class="main-text law-text-item">
+                      Скаут чистий думками, словами та діям
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="scouts-principles">
+              <h2 class="main-title">Скаутські Принципи</h2>
+              <p class="main-text">
+                В Скаутингу все символічно та тісно взаємопов’язано, саме тому
+                три Скаутські принципи відображені в Скаутській емблемі (три
+                пелюстки лілії) та в Скаутському знакові (три прямі пальці).
+                Скаутинг залишається єдиним цілим, зокрема завдяки тому, що
+                Скаутські принципи є неподільними та застосовуються разом.
               </p>
-              <ul>
-                <li>
-                  <p class="main-text law-text-item">Честі Скаута слід довіряти</p>
-                </li>
-                <li>
-                  <p class="main-text law-text-item">Скаут – вірний</p>
-                </li>
-                <li>
-                  <p class="main-text  law-text-item">Обов’язок Скаута бути корисним та допомагати іншим</p>
-                </li>
-                <li>
-                  <p class="main-text law-text-item">Скаут дружній з усіма та братерський зі Скаутами</p>
-                </li>
-                <li>
-                  <p class="main-text law-text-item">Скаут – ввічливий</p>
-                </li>
-                <li>
-                  <p class="main-text law-text-item">Скаут – друг природи</p>
-                </li>
-                <li>
-                  <p class="main-text law-text-item">
-                    Скаут уважний до настанов своїх батьків, патрульного лідера
-                    та Скаут-лідерів, без зайвих питань;
+              <ul class="scouts-principles-list">
+                <li class="scouts-principles-item">
+                  <h3 class="scouts-principles-title">Обов’язок перед Богом</h3>
+                  <p class="main-text scouts-principles-text">
+                    Цей принцип не має на меті нав‘язати певну релігію та
+                    релігійні обовʼязки, як-от регулярне відвідування церкви
+                    тощо. Обов’язок перед Богом - це про розвиток духовности,
+                    духовних принципів, пошук віри у Бога чи у Вищу Істоту, а
+                    також у визнанні вищих за людину сил. Важливий аспект
+                    вищесказаного полягає у відносинах людини з духовними
+                    цінностями життя. Невідʼємною частиною є повага до прав тих,
+                    чиї вірування відрізняються.
                   </p>
                 </li>
-                <li>
-                  <p class="main-text law-text-item">Скаут усміхається і наспівує за будь-яких обставин</p>
+                <li class="scouts-principles-item">
+                  <h3 class="scouts-principles-title">
+                    Обов’язок перед іншими
+                  </h3>
+                  <p class="main-text scouts-principles-text">
+                    Вірність своїй країні, пропагування на місцевому,
+                    національному та міжнародному рівні принципів
+                    взаєморозуміння та співпраці. Участь у розвитку суспільства
+                    з визнанням та повагою до гідности людства і цілісности
+                    природного світу. Цей принцип спрямовує молоду людину до
+                    відносин із суспільством і формує відповідальність перед
+                    ним. Суспільство в цьому контексті має найширший сенс цього
+                    слова та означає: сім’ю, місцеву громаду, країну і весь
+                    світ, а також повагу до всього людства і до світу природи в
+                    цілому.
+                  </p>
                 </li>
-                <li>
-                  <p class="main-text law-text-item">Скаут – ощадливий</p>
-                </li>
-                <li>
-                  <p class="main-text law-text-item">Скаут чистий думками, словами та діям</p>
+                <li class="scouts-principles-item">
+                  <h3 class="scouts-principles-title">Обов’язок перед собою</h3>
+                  <p class="main-text scouts-principles-text">
+                    Скаутський принцип, який нагадує про відповідальність людини
+                    за розвиток свого потенціалу як найкращого втілення своїх
+                    здібностей. Це означає прагнення до самовдосконалення і
+                    відповідального ставлення до особистого розвитку. Скаути
+                    вчаться встановлювати та досягати особисті цілі, виховуючи в
+                    собі впевненість, незалежність та самодисципліну, які
+                    служать фундаментом для успішного життя.
+                  </p>
                 </li>
               </ul>
             </div>
-          </div>
-        </section>
-        <section class="scouts-principles">
-          <h2 class="main-title">Скаутські Принципи</h2>
-          <p class="main-text">
-            В Скаутингу все символічно та тісно взаємопов’язано, саме тому три
-            Скаутські принципи відображені в Скаутській емблемі (три пелюстки
-            лілії) та в Скаутському знакові (три прямі пальці). Скаутинг
-            залишається єдиним цілим, зокрема завдяки тому, що Скаутські
-            принципи є неподільними та застосовуються разом.
-          </p>
-          <ul class="scouts-principles-list">
-            <li class="scouts-principles-item">
-              <h3 class="scouts-principles-title">Обов’язок перед Богом</h3>
-              <p class="scouts-principles-text">
-                Цей принцип не має на меті нав‘язати певну релігію та релігійні
-                обовʼязки, як-от регулярне відвідування церкви тощо. Обов’язок
-                перед Богом - це про розвиток духовности, духовних принципів,
-                пошук віри у Бога чи у Вищу Істоту, а також у визнанні вищих за
-                людину сил. Важливий аспект вищесказаного полягає у відносинах
-                людини з духовними цінностями життя. Невідʼємною частиною є
-                повага до прав тих, чиї вірування відрізняються.
-              </p>
-            </li>
-            <li class="scouts-principles-item">
-              <h3 class="scouts-principles-title">Обов’язок перед іншими</h3>
-              <p class="scouts-principles-text">
-                Вірність своїй країні, пропагування на місцевому, національному
-                та міжнародному рівні принципів взаєморозуміння та співпраці.
-                Участь у розвитку суспільства з визнанням та повагою до гідности
-                людства і цілісности природного світу. Цей принцип спрямовує
-                молоду людину до відносин із суспільством і формує
-                відповідальність перед ним. Суспільство в цьому контексті має
-                найширший сенс цього слова та означає: сім’ю, місцеву громаду,
-                країну і весь світ, а також повагу до всього людства і до світу
-                природи в цілому.
-              </p>
-            </li>
-            <li class="scouts-principles-item">
-              <h3 class="scouts-principles-title">Обов’язок перед собою</h3>
-              <p class="scouts-principles-text">
-                Скаутський Принцип, який нагадує про відповідальність людини за
-                розвиток свого потенціалу як найкращого втілення своїх
-                здібностей.
-              </p>
-            </li>
-          </ul>
-        </section>
+          </section>
+        </div>
       </div>
     </main>
     <footer class="footer">
+      <div class="footer-section">
+        <svg class="footer-logo">
+          <use href="./images/sprite-title-page.svg#logo-footer"></use>
+        </svg>
+
+        <ul class="nav-footer-list">
+          <li>
+            <h4 class="nav-footer-list-title">Діяльність:</h4>
+            <ul>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./our-mission.html"
+                  >Наша програма
+                </a>
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./help-ukrainians.html">
+                  Наші проєкти</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h4 class="nav-footer-list-title">Про Нас:</h4>
+            <ul>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./our-history.html"
+                  >Історія</a
+                >
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./scout-method.html"
+                  >Скаутський Метод</a
+                >
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./our-team.html"
+                  >Команда</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h4 class="nav-footer-list-title">Долучитись:</h4>
+            <ul>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./join-us.html"
+                  >Стати Скаутом</a
+                >
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./join-us.html"
+                  >Стати Лідером</a
+                >
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./scout-method.html"
+                  >Допомога організації</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <a href="" class="donation-link">
+          <p class="donation-link-text">Задонатити</p>
+        </a>
+        <p class="donation-footer-text">
+          Маєш питання або пропозиції? Ми завжди відкриті для спілкування. Пиши
+          нам на secretariat.nosu@gmail.com
+        </p>
+        <ul class="social-media-footer-list">
+          <li class="social-media-link">
+            <a
+              href="https://t.me/ukrscout"
+              class="social-media-item"
+              target="_blank"
+            >
+              <svg class="social-media-item-icon">
+                <use href="./images/sprite-title-page.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media-link">
+            <a
+              href="https://www.instagram.com/ukrscout"
+              class="social-media-item"
+              target="_blank"
+            >
+              <svg class="social-media-item-icon">
+                <use href="./images/sprite-title-page.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media-link">
+            <a
+              href="https://www.facebook.com/ukrscout"
+              class="social-media-item"
+              target="_blank"
+            >
+              <svg class="social-media-item-icon">
+                <use href="./images/sprite-title-page.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <p class="footer-social-media-text">
+          Підпишіться на нас у соціальних мережах
+        </p>
+      </div>
     </footer>
-    <script src="./js/nav-menu.js"></script>
     <script src="./js/init-header.js"></script>
-    <script>
+    <script src="./js/nav-menu.js"></script>
+
+    <!-- <script>
       getInclude('header', document.querySelector('header'))
               .then(() => {
                 runMenu()
                 document.querySelector('header').classList.remove('start')
               });
       getInclude('footer', document.querySelector('footer'))
-    </script>
+    </script> -->
   </body>
 </html>
