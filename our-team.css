@@ -9,47 +9,97 @@
 
 }
 
-/* main */
-.main-title {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 1.1;
-    letter-spacing: 0.00098em;
-    color: var(--accent-color);
-    text-align: center;
-    margin-top: 24px;
-}
 
-.main-title::after {
-    display: block;
-    content: "";
-    width: 1564px;
-    height: 1px;
-    border: 1px solid rgba(64, 61, 68, 0.2);
-    text-align: center;
-    margin-top: 78px;
-    margin-bottom: 22px;
-}
-
-/* team */
 .team-list {
     display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    width: 1361px;
-    justify-content: start;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 16px;    
 }
 
 .team-member {
-    width: 246px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 248px;
+    height: 302px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
+.member-img-wrapper {
+    width: 248px;
+    height: 206px;
+    overflow: hidden;
+       align-self: center;
+    padding: 8px;
+  }
+  .member-img-wrapper > .member-img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  .member-text-wrapper {
+    height: 87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 .member-position {
     font-size: 12px;
-    color: rgb(91, 91, 108);
+    color: var(--grey-font-color);
+    text-align: center;
 }
 
 .name {
+    text-align: center;
     font-size: 22px;
 }
+.additional-text-wrapper {
+    padding: 16px;
+}
+.additional-text {
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+@media screen and (min-width: 1366px) {
+    .team-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .team-list {
+       flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        width: 1296px;
+    }
+    .team-member {
+        padding-bottom: 12px;
+    }
+   .member-img-wrapper {
+    margin-bottom: 20px;
+   }
+   .additional-text-wrapper {
+    width: 850px;
+    padding: 32px;
+    
+}
+.additional-text {
+    font-size: 18px;
+   
+}
+
+}
+
+

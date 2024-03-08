@@ -381,7 +381,7 @@
     width: 800px;
   }
   .scouts-principles {
-    background-position: center 90%;
+    background-position: center 160%;
   }
   .scouts-principles-list {
     display: flex;
@@ -404,9 +404,9 @@
 }
 
 .scouts-principles-title {
-    font-size: 32px;
+    font-size: 24px;
     color: rgb(64, 61, 68);
-    margin-bottom: 40px;
+    margin-bottom: 32px;
 }
 
 .scouts-principles-text {
