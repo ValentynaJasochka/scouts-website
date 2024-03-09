@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our team</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./common.css" />
+    <link rel="stylesheet" href="./donation.css" />
+    <link rel="stylesheet" href="./regular-block.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container page-header-container">
+        <nav class="header-navigation">
+          <a class="header-logo" href="./index.html">
+            <img
+              class="header-logo-img"
+              src="./images/logo-heder.svg"
+              alt="Logo Scouts"
+            />
+          </a>
+          <ul class="header-nav-list nav-mobile-menu">
+            <li
+              class="header-nav-item menu-first nav-main-item"
+              menu-open-first
+            >
+              <div class="header-nav-item-container nav-item-click-listener">
+                <p class="heder-nav-text">Про нас</p>
+                <button
+                  class="inner-mobile-menu-open-btn"
+                  type="button"
+                  open-mobile-first
+                >
+                  <svg
+                    class="inner-mobile-menu-open-icon"
+                    width="13"
+                    height="17"
+                  >
+                    <use
+                      href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+              <ul class="nav-table is-hidden" data-menu-first>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-history.html"
+                    >Наша історія</a
+                  >
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-mission.html"
+                    >Наша місія</a
+                  >
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./scout-method.html"
+                    >Скаутський Метод</a
+                  >
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-team.html">Команда </a>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="header-nav-item menu-second nav-main-item"
+              menu-open-second
+            >
+              <div class="header-nav-item-container nav-item-click-listener">
+                <p class="heder-nav-text">Діяльність</p>
+                <button
+                  class="inner-mobile-menu-open-btn"
+                  type="button"
+                  open-mobile-second
+                >
+                  <svg
+                    class="inner-mobile-menu-open-icon"
+                    width="13"
+                    height="17"
+                  >
+                    <use
+                      href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+
+              <ul class="nav-table is-hidden" data-menu-second>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-mission.html"
+                    >Наша програма
+                  </a>
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./help-ukrainians.html"
+                    >Проєкти
+                  </a>
+                </li>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./our-events.html">Заходи </a>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="header-nav-item menu-third nav-main-item"
+              menu-open-third
+            >
+              <div class="header-nav-item-container nav-item-click-listener">
+                <p class="heder-nav-text">Всесвітній Скаутинг</p>
+                <button
+                  class="inner-mobile-menu-open-btn"
+                  type="button"
+                  open-mobile-third
+                >
+                  <svg
+                    class="inner-mobile-menu-open-icon"
+                    width="13"
+                    height="17"
+                  >
+                    <use
+                      href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+
+              <ul class="nav-table is-hidden" data-menu-third>
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./world-scouting.html"
+                    >ВОСР</a
+                  >
+                </li>
+
+                <li class="nav-table-item">
+                  <a class="nav-table-link" href="./scouting-history.html"
+                    >Історія Скаутингу</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="header-nav-item heder-nav-text">
+              <div class="header-nav-item-container">
+                <a class="header-nav-item-link" href="./join-us.html">
+                  Приєднатись</a
+                >
+              </div>
+            </li>
+            <li class="header-nav-item heder-nav-text">
+              <div class="header-nav-item-container">
+                <a class="header-nav-item-link" href="./help-ukrainians.html"
+                  >Задонатити</a
+                >
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <button class="mobile-menu-open mobile-menu-handler open" type="button">
+          <svg class="mobile-menu-open-icon" width="24" height="24">
+            <use href="./images/sprite-title-page.svg#burger-icon"></use>
+          </svg>
+        </button>
+        <button
+          class="mobile-menu-close mobile-menu-handler close is-hidden"
+          type="button"
+        >
+          <img
+            class="mobile-menu-close-icon"
+            src="./images/close-mob-menu.png"
+            alt="close-btn"
+          />
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="main-group">
+        <div class="container donation-section">
+          <h1 class="main-title">Допомога організації</h1>
+          <div class="donation">
+            <p class="donation-additional-text">
+              Ми робимо світ кращим! Приєднуйтесь і підтримайте нас!
+            </p>
+            <div class="donation-block-wrapper">
+              <div class="regular-block-img-wrapper">
+                <img
+                  class="regular-block-points-img"
+                  src="./images/donation/photo1.png"
+                  alt=""
+                />
+              </div>
+              <div class="donation-block-text">
+                <p class="donation-block-text-part">
+                  Кожного дня ми - Скаути України - робимо нашу країну кращою!
+                  Ми створюємо та реалізовуємо соціальні та гуманітарні проєкти,
+                  навчаємо та виховуємо дітей, організовуємо табори, а ще мріємо
+                  про найкрутіший Скаутський центр - дім для всіх Скаутів в
+                  Україні.
+                </p>
+                <p class="donation-block-text-part">
+                  Для того, щоб дізнатися більше про проєкти, які ми реалізуємо
+                  завдяки вашій підтримці, переходьте за цим посиланням (стр
+                  наші проєкти). Тут ви зможете побачити, як саме ваш внесок
+                  допомагає нам змінювати життя українців на краще.
+                </p>
+              </div>
+            </div>
+            <div class="donation-block-wrapper">
+              <div class="regular-block-img-wrapper">
+                <img
+                  class="regular-block-points-img"
+                  src="./images/donation/photo2.png"
+                  alt=""
+                />
+              </div>
+              <div class="donation-block-text">
+                <p class="donation-block-text-part">
+                  Ваші пожертви допомагають підтримати важливі гуманітарні та
+                  соціальні проєкти Національної Організації Скаутів України.
+                  Наразі ми зосереджені на зборі 500.000 гривень протягом 2024
+                  року, які спрямовуються на допомогу українським родинам у час
+                  повномасштабної війни, а саме:
+                </p>
+              </div>
+              <ul class="scouts-law-list">
+                <li class="scouts-law-item">
+                  <div class="tik-btn">
+                    <img
+                      class="tik-btn"
+                      src="./images/scouting-method/icons/tik-btn.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="main-text law-text-item">
+                    Розвиток Скаутських груп у деокупованих територіях України
+                    та в малих містах.
+                  </p>
+                </li>
+                <li class="scouts-law-item">
+                  <div class="tik-btn">
+                    <img
+                      class="tik-btn"
+                      src="./images/scouting-method/icons/tik-btn.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="main-text law-text-item">
+                    Підготовку дорослих лідерів для їхньої ефективної роботи з
+                    дітьми у Скаутах України.
+                  </p>
+                </li>
+                <li class="scouts-law-item">
+                  <div class="tik-btn">
+                    <img
+                      class="tik-btn"
+                      src="./images/scouting-method/icons/tik-btn.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="main-text law-text-item">
+                    Підтримку дітей, які змушені були змінити місце проживання
+                    через війну.
+                  </p>
+                </li>
+                <li class="scouts-law-item">
+                  <div class="tik-btn">
+                    <img
+                      class="tik-btn"
+                      src="./images/scouting-method/icons/tik-btn.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="main-text law-text-item">
+                    Організацію адаптаційних Скаутських таборів для дітей,
+                    постраждалих від війни.
+                  </p>
+                </li>
+              </ul>
+              <div class="donation-block-text">
+                <p class="donation-block-text-part">
+                  У випадку, якщо зібрані кошти перевищать потреби конкретного
+                  проєкту або якщо проєкт з якихось причин не буде реалізований,
+                  залишкові кошти будуть перенаправлені на інші актуальні
+                  проєкти Скаутів України. Таким чином, ми гарантуємо, що ваша
+                  допомога завжди буде використана там, де це найбільш потрібно.
+                </p>
+              </div>
+              <div class="donate-btn">
+                <a href="" class="donate-link" target="_blank">Задонатити</a>
+              </div>
+              <div class="donation-block-text">
+                <p class="donation-block-text-part">
+                  Роблячи пожертву через платіжний сервіс LiqPay, ви
+                  підтверджуєте свою згоду на використання коштів для підтримки
+                  інших проєктів Скаутів України у цій категорії. Також ви
+                  погоджуєтесь, що сума вашої пожертви не підлягає поверненню.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="questions">
+            <p class="questions-title">Часті запитання:</p>
+            <ul class="questions-list">
+              <li class="questions-list-item">
+                <div class="questions-heder-wrapper">
+                  <p class="questions-heder">ЩЕ НЕ ПІЗНО ДОПОМАГАТИ?</p>
+                  <btn class="questions-heder-open-btn" open-question>
+                    <img
+                      class="open-btn"
+                      src="./images/donation/plus.png"
+                      alt=""
+                      width="13"
+                      height="13"
+                    />
+                  </btn>
+                  <btn
+                    class="questions-heder-close-btn is-hidden"
+                    close-question
+                  >
+                    <img
+                      class="close-btn"
+                      src="./images/donation/close-btn.png"
+                      width="13"
+                      height="13"
+                    />
+                  </btn>
+                </div>
+                <div class="answer-wrapper is-hidden" answer-data>
+                  <p class="answer">
+                    Ми гарантуємо, що жодна частина пожертв не буде використана
+                    на воєнні потреби, так як це суперечить Скаутським
+                    Принципам.
+                  </p>
+                </div>
+              </li>
+              <li class="questions-list-item">
+                <div class="questions-heder-wrapper">
+                  <p class="questions-heder">
+                    ЯК МОЯ ПОЖЕРТВА МОЖЕ БУТИ ВИКОРИСТАНА?
+                  </p>
+                  <btn
+                    class="questions-heder-open-btn"
+                    type="button"
+                    open-question
+                  >
+                    <img
+                      class="open-btn"
+                      src="./images/donation/plus.png"
+                      alt=""
+                      width="13"
+                      height="13"
+                    />
+                  </btn>
+                  <btn
+                    class="questions-heder-close-btn is-hidden"
+                    close-question
+                  >
+                    <img
+                      class="close-btn"
+                      src="./images/donation/close-btn.png"
+                      width="13"
+                      height="13"
+                    />
+                  </btn>
+                </div>
+                <div class="answer-wrapper is-hidden" answer-data>
+                  <p class="answer">
+                    Ваші кошти можуть будуть спрямовані на організаційний
+                    розвиток, створення нових Скаутських осередків, навчання
+                    дорослих лідерів, виготовлення Скаутської форми, участь
+                    Скаутів в міжнародних заходах, літніх таборах у безпечних
+                    місцях тощо. Окрім цього, ми продовжуємо проводити
+                    гуманітарні та соціальні проєкти, такі як допомога
+                    переселенцям та інші ініціативи, спрямовані на підтримку
+                    громади.
+                  </p>
+                </div>
+              </li>
+              <li class="questions-list-item">
+                <div class="questions-heder-wrapper">
+                  <p class="questions-heder">
+                    ЧИ МОЖНА ВАМ ДОПОМОГТИ ВІД ІМЕНІ КОМПАНІЇ?
+                  </p>
+                  <btn class="questions-heder-open-btn" open-question>
+                    <img
+                      class="open-btn"
+                      src="./images/donation/plus.png"
+                      alt=""
+                      width="13"
+                      height="13"
+                    />
+                  </btn>
+                  <btn
+                    class="questions-heder-close-btn is-hidden"
+                    close-question
+                  >
+                    <img
+                      class="close-btn"
+                      src="./images/donation/close-btn.png"
+                      width="13"
+                      height="13"
+                    />
+                  </btn>
+                </div>
+                <div class="answer-wrapper is-hidden" answer-data>
+                  <p class="answer">
+                    Так, ми завжди відкриті до співпраці та вдячні за будь-яку
+                    підтримку від компаній, які поділяють наші цінності та
+                    бажають долучитися до нашої місії. Партнерство із Скаутами
+                    України дозволяє створити якісне середовище для розвитку
+                    молодих людей, особливо у такий важкий час. Якщо ваша
+                    компанія бажає стати частиною нашої спільноти та допомогти у
+                    реалізації важливих ініціатив, будь ласка, зв'яжіться з
+                    нами.
+                  </p>
+                </div>
+              </li>
+              <li class="questions-list-item">
+                <div class="questions-heder-wrapper">
+                  <p class="questions-heder">
+                    ЧИ Є МОЖЛИВІСТЬ ВИЗНАЧИТИ КОНКРЕТНИЙ ПРОЄКТ ДЛЯ МОЄЇ
+                    ПОЖЕРТВИ?
+                  </p>
+                  <btn class="questions-heder-open-btn" open-question>
+                    <img
+                      class="open-btn"
+                      src="./images/donation/plus.png"
+                      alt=""
+                      width="13"
+                      height="13"
+                    />
+                  </btn>
+                  <btn
+                    class="questions-heder-close-btn is-hidden"
+                    close-question
+                  >
+                    <img
+                      class="close-btn"
+                      src="./images/donation/close-btn.png"
+                      width="13"
+                      height="13"
+                    />
+                  </btn>
+                </div>
+                <div class="answer-wrapper is-hidden" answer-data>
+                  <p class="answer">
+                    Так, ви маєте можливість вказати конкретний проєкт, на який
+                    ви хотіли б спрямувати вашу пожертву. Після здійснення
+                    пожертви ми залишимося на зв'язку з вами, щоб інформувати
+                    про прогрес та вплив вашого внеску на обраний проєкт.
+                  </p>
+                </div>
+              </li>
+              <li class="questions-list-item">
+                <div class="questions-heder-wrapper">
+                  <p class="questions-heder">
+                    ЯК МОЯ ПОЖЕРТВА МОЖЕ БУТИ ВИКОРИСТАНА?
+                  </p>
+                  <btn class="questions-heder-open-btn" open-question>
+                    <img
+                      class="open-btn"
+                      src="./images/donation/plus.png"
+                      alt=""
+                      width="13"
+                      height="13"
+                    />
+                  </btn>
+                  <btn
+                    class="questions-heder-close-btn is-hidden"
+                    close-question
+                  >
+                    <img
+                      class="close-btn"
+                      src="./images/donation/close-btn.png"
+                      width="13"
+                      height="13"
+                    />
+                  </btn>
+                </div>
+                <div class="answer-wrapper is-hidden" answer-data>
+                  <p class="answer">
+                    Ваші кошти можуть будуть спрямовані на організаційний
+                    розвиток, створення нових Скаутських осередків, навчання
+                    дорослих лідерів, виготовлення Скаутської форми, участь
+                    Скаутів в міжнародних заходах, літніх таборах у безпечних
+                    місцях тощо. Окрім цього, ми продовжуємо проводити
+                    гуманітарні та соціальні проєкти, такі як допомога
+                    переселенцям та інші ініціативи, спрямовані на підтримку
+                    громади.
+                  </p>
+                </div>
+              </li>
+              <li class="questions-list-item">
+                <div class="questions-heder-wrapper">
+                  <p class="questions-heder">
+                    ЧИ МОЖУ Я ДОПОМОГТИ НЕ ТІЛЬКИ ФІНАНСОВО, АЛЕ Й
+                    ВОЛОНТЕРСТВОМ?
+                  </p>
+                  <btn class="questions-heder-open-btn" open-question>
+                    <img
+                      class="open-btn"
+                      src="./images/donation/plus.png"
+                      alt=""
+                      width="13"
+                      height="13"
+                    />
+                  </btn>
+                  <btn
+                    class="questions-heder-close-btn is-hidden"
+                    close-question
+                  >
+                    <img
+                      class="close-btn"
+                      src="./images/donation/close-btn.png"
+                      width="13"
+                      height="13"
+                    />
+                  </btn>
+                </div>
+                <div class="answer-wrapper is-hidden" answer-data>
+                  <p class="answer">
+                    Так, ваша допомога може бути не лише фінансовою. Ми вітаємо
+                    всіх, хто хоче долучитися до нашої діяльності як волонтер.
+                    Відвідайте нашу сторінку про те, як приєднатися до нас у
+                    ролі Скаут-лідера (лінк)
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-section">
+        <svg class="footer-logo">
+          <use href="./images/sprite-title-page.svg#logo-footer"></use>
+        </svg>
+
+        <ul class="nav-footer-list">
+          <li>
+            <h4 class="nav-footer-list-title">Діяльність:</h4>
+            <ul>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./our-mission.html"
+                  >Наша програма
+                </a>
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./help-ukrainians.html">
+                  Наші проєкти</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h4 class="nav-footer-list-title">Про Нас:</h4>
+            <ul>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./our-history.html"
+                  >Історія</a
+                >
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./scout-method.html"
+                  >Скаутський Метод</a
+                >
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./our-team.html"
+                  >Команда</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h4 class="nav-footer-list-title">Долучитись:</h4>
+            <ul>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./join-us.html"
+                  >Стати Скаутом</a
+                >
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./join-us.html"
+                  >Стати Лідером</a
+                >
+              </li>
+              <li class="nav-footer-list-items">
+                <a class="nav-footer-list-link" href="./scout-method.html"
+                  >Допомога організації</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <a href="" class="donation-link">
+          <p class="donation-link-text">Задонатити</p>
+        </a>
+        <p class="donation-footer-text">
+          Маєш питання або пропозиції? Ми завжди відкриті для спілкування. Пиши
+          нам на secretariat.nosu@gmail.com
+        </p>
+        <ul class="social-media-footer-list">
+          <li class="social-media-link">
+            <a
+              href="https://t.me/ukrscout"
+              class="social-media-item"
+              target="_blank"
+            >
+              <svg class="social-media-item-icon">
+                <use href="./images/sprite-title-page.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media-link">
+            <a
+              href="https://www.instagram.com/ukrscout"
+              class="social-media-item"
+              target="_blank"
+            >
+              <svg class="social-media-item-icon">
+                <use href="./images/sprite-title-page.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media-link">
+            <a
+              href="https://www.facebook.com/ukrscout"
+              class="social-media-item"
+              target="_blank"
+            >
+              <svg class="social-media-item-icon">
+                <use href="./images/sprite-title-page.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <p class="footer-social-media-text">
+          Підпишіться на нас у соціальних мережах
+        </p>
+      </div>
+    </footer>
+    <script src="./js/init-header.js"></script>
+    <script src="./js/nav-menu.js"></script>
+    <script src="./js/questions-list.js"></script>
+    <!-- <script>
+      getInclude('header', document.querySelector('header'))
+              .then(() => {
+                runMenu()
+                document.querySelector('header').classList.remove('start')
+              });
+      getInclude('footer', document.querySelector('footer'))
+    </script> -->
+  </body>
+</html>

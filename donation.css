@@ -1,0 +1,128 @@
+
+/* reputing styles*/
+.tik-btn {
+  width: 33.33px;
+  height: 33.33px;
+}
+.scouts-law-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.scouts-law-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.law-text-item {
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: start;
+}
+
+/* reputing styles*/
+
+.donation-section {
+  background-color: var(--shadow-background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+.donation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px
+}
+.donation-additional-text {
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.00095em;
+    text-align: center;   
+}
+.donation-block-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px
+}
+.donation-block-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.donation-block-text-part {
+  font-size: 13px;
+  letter-spacing: 0.00098em;
+}
+.donate-btn {
+  background-color: var(--accent-color);
+  align-self: center;
+  border-radius: 1000px;
+  padding: 18px 65px;
+}
+.donate-link {
+  color: var(--white-text-color);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.donate-btn:hover {
+  background-image: linear-gradient(
+      to right,
+      rgb(91, 41, 147),
+      rgb(155, 104, 212)
+  );}
+
+
+
+
+/* questions */
+.questions-title {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.questions-heder-wrapper {
+  width:  358px;
+  height: 62px;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.questions-list-item:first-child:before {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 3px; 
+background-color: rgb(215,222,240);
+  text-align: center;
+}
+.questions-list-item::after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 3px; 
+background-color: rgb(215,222,240);
+  text-align: center;
+  /* margin-top: 8px; */
+}
+.questions-heder {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.is-hidden {
+  display: none;
+}
