@@ -144,6 +144,7 @@
   line-height: 1.2;
 }
 .answer {
+  width: 326px;
   padding-left: 16px;
   padding-right: 16px;
   font-weight: 400;
