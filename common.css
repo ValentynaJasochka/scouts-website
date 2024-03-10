@@ -11,9 +11,6 @@
 }
 
 
-
-
-
 * {
   box-sizing: border-box;
 }
@@ -22,6 +19,10 @@ body {
   font-family: var(--main-font);
   font-weight: 500;
   color: var(--main-font-color);
+}
+
+main {
+  padding: 0;
 }
 
 .montserrat-alternates-semibold {
@@ -101,26 +102,16 @@ a {
   text-align: center;
   margin-top: 8px;
   margin-bottom: 8px;
+  width: 100%;
 }
 
 .main-title::after {
   display: block;
   content: "";
-  /* width: 358px; */
   border: 1px solid rgba(64, 61, 68, 0.2);
   text-align: center;
-  /* align-self: center; */
   margin-top: 8px;
   margin-bottom: 8px;
-}
-
-.regular-section-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-  padding-top: 8px;
-  padding-bottom: 8px;
 }
 
 .main-group {
@@ -139,12 +130,6 @@ a {
 }
 
 @media screen and (min-width: 390px) {
-  .container {
-    width: 390px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .regular-section {
     background-color: var(--shadow-background);
   }
@@ -177,7 +162,7 @@ a {
 
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1279px) {
   .page-header-container {
     display: flex;
     justify-content: space-between;
@@ -230,7 +215,7 @@ a {
   .heder-nav-text {
     font-family: "Montserrat Alternates", sans-serif;
     font-size: 14px;
-    color: black;   
+    color: black;
     padding-left: 12px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -262,10 +247,11 @@ a {
 
     margin-right: auto;
   }
+
   .nav-table-link:link {
     color: var(--accent-color);
   }
- 
+
   .header-nav-item-link {
     color: inherit;
   }
@@ -411,12 +397,13 @@ a {
     text-align: center;
     color: var(--white-text-color);
   }
+
   .email-text {
-    color: rgb(213,201,90);
+    color: rgb(213, 201, 90);
   }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1280px) {
   .container {
     max-width: 1778px;
     width: 100%;
@@ -431,12 +418,12 @@ a {
 
   .main-title {
     font-size: 40px;
+    max-width: 1296px;
   }
 
   .main-title::after {
     margin-top: 30px;
     margin-bottom: 24px;
-    /* width: 1296px; */
   }
 
   .join-btn {
@@ -681,12 +668,11 @@ a {
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
   body {
     margin: 0;
   }
 
-  main,
   header,
   footer {
     padding: 8px;
