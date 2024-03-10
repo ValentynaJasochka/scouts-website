@@ -43,21 +43,14 @@
 .scouts-methods-elements-list {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 8px;
 }
-.scouts-methods-elements-number-wrapper {
-  width: 40px;
-  /* height: 97px; */
-  overflow: hidden;
-  align-self: center;
+.scouts-methods-elements-number {
+  font-weight: 700;
+  font-size: 64px;
+  color: rgba(137,107,172, 0.5) ;
 }
-.scouts-methods-elements-number-wrapper > .scouts-methods-elements-number {
-  display: block;
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-  background-position: center;
-}
+
 
 .scouts-methods-elements-item {
   display: flex;
@@ -111,9 +104,9 @@
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  padding-top: 8px;
-  padding-bottom: 24px;
+  padding-top: 8px; 
 }
+
 .scouts-promises-text {
   display: flex;
   flex-direction: column;
@@ -127,7 +120,8 @@
 .scouts-promises-main {
   display: flex;
   flex-direction: column;
-  padding: 0 16px 8px 16px;
+  padding: 16px 16px 8px 16px;
+  gap: 8px;
 }
 .scouts-promises-header {
   font-weight: 600;
@@ -142,6 +136,7 @@
   font-size: 13px;
   font-style: italic;
   line-height: 1.5;
+  text-align: center;
 }
 
 
@@ -198,7 +193,7 @@
   padding: 0 16px 0px 16px;
   background-image: url("./images/scouting-method/icons/logo-background.png");
   background-repeat: no-repeat;
-  background-position: 100% center;
+  background-position: 108% center;
 }
 .scouts-principles-list {
   display: flex;

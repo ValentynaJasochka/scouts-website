@@ -19,6 +19,9 @@
     margin-left: auto;
     margin-right: auto;
   } */
+  .additional-main-title::after {
+    display: none;
+  }
   .main-part-section-img-wrapper {
     width: 100%;
     aspect-ratio: 1.025;
@@ -101,8 +104,8 @@
   }
 
   .social-media-item-icon {
-    width: 22px;
-    height: 22px;
+    width: 26px;
+    height: 26px;
     fill: white;
   }
 
@@ -402,6 +405,7 @@
     background-color: rgba(245, 245, 245, 0.8);
     border-radius: 10px;
     width: 100%;
+    gap: 8px;
     /* height: 224px; */
     padding: 8px;
 
@@ -425,9 +429,9 @@
     display: block;
     height: 100%;
     width: 100%;
-
     object-fit: cover;
-    background-position: center;
+    /* background-position: center; */
+    background-position: right 35% bottom 45%;
   }
 
   .reviews-text {

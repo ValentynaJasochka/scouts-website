@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 8px;
 }
 
 .regular-block-wrapper:nth-child(even) {
@@ -25,7 +26,7 @@
   font-size: 15px;
   line-height: 1.5;
   color: var(--accent-color);
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .regular-block-text {
