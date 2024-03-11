@@ -42,7 +42,7 @@
   }
 }
 
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 1280px) {
   .container {
     /*max-width: 390px;*/
     width: 100%;
@@ -499,7 +499,7 @@
   }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1280px) {
   .container {
     width: 100%;
     margin-left: auto;
@@ -590,6 +590,7 @@
 
   .about-scouts-block {
     display: flex;
+    flex-direction: row-reverse;
     gap: 32px;
     justify-content: center;
   }
@@ -607,9 +608,13 @@
     font-size: 40px;
     line-height: 1.1;
     letter-spacing: 0.00098em;
+    text-align: start;
+    color: var(--main-font-color);
+    margin-bottom: 16px;
   }
 
   .about-scouts-text {
+    display: block;
     width: 442px;
     height: 216px;
     font-size: 18px;
@@ -631,9 +636,12 @@
   .about-scouts-cards-list {
     max-width: 1556px;
     display: flex;
+    flex-direction: row;
     grid-gap: 24px;
     margin-top: -213px;
     justify-content: center;
+    padding-left: 31px;
+    padding-right: 31px;
   }
 
   .about-scouts-card {
@@ -689,6 +697,7 @@
   }
 
   .about-scouts-card-nav {
+    display: block;
     position: absolute;
     left: 30px;
     bottom: 25px;
@@ -696,11 +705,12 @@
 
   /* MAIN SECTION */
   .main-part {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 46px;
+    padding-bottom: 46px;
     display: flex;
     flex-direction: column;
-    gap: 64px;
+    /* gap: 64px; */
+    gap: 46px;
     align-items: center;
     background-repeat: no-repeat;
     background-position: center;
@@ -770,8 +780,9 @@
 
   .events-title {
     /* margin-bottom: 69px; */
+    display: block;
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 46px;
     /* text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
   }
 
@@ -783,6 +794,7 @@
 
   .events-list {
     display: flex;
+    flex-wrap: nowrap;
     grid-gap: 32px;
     max-width: 1558px;
     width: 100%;
@@ -796,6 +808,9 @@
     flex: 1 1 381px;
     display: flex;
     flex-direction: column;
+  }
+  .events-item:nth-child(2n+1), .events-item:nth-child(2n+2) {
+    flex: auto;
   }
 
   .events-item-title {
@@ -844,30 +859,36 @@
 
   /* reviews */
   .reviews {
+    width: 100%;
     background-color: var(--accent-color);
     overflow: hidden;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .reviews-section {
     max-width: 1550px;
     width: 100%;
-    height: 842px;
+    height: 964px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 20px;
+    padding-right: 32px;
+    padding-left: 32px;
   }
 
   .reviews-title {
     font-weight: 600;
     font-size: 36px;
     color: var(--white-text-color);
-    width: 398px;
+    width: 286px;
     text-align: center;
   }
 
   .reviews-list {
     display: flex;
+    flex-direction: row;
     gap: 17px;
     align-items: center;
   }
@@ -875,16 +896,17 @@
   .reviews-item {
     display: flex;
     flex-direction: column;
-    width: 380px;
+    /* width: 380px; */
+    width: 286px;
     gap: 40px;
-    padding: 40px;
+    padding: 40px 24px;
     background-color: white;
     border-radius: 27px;
   }
 
   .reviews-text {
     font-size: 16px;
-    line-height: 1.3;
+    line-height: 1.4;
     letter-spacing: 0.00098em;
   }
 
@@ -921,13 +943,15 @@
   .reviewer-name {
     font-size: 18px;
     line-height: 1.3;
+    letter-spacing: 0.00098em;
   }
 
   .reviewer-status {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.4;
-    width: 194px;
+    letter-spacing: 0.00098em;
+    /* width: 194px; */
     color: rgb(125, 125, 125);
   }
 
@@ -939,21 +963,25 @@
 
   .reviews-item-styled {
     background-color: rgba(213, 201, 90, 0.1);
-    width: 380px;
-    height: 220px;
+    width: 286px;
+    height: 240px;
   }
 
   .reviews-item-styled.first {
     border-radius: 0 0 24px 24px;
+    display: block;
   }
 
   .reviews-item-styled.second {
     border-radius: 24px 24px 0 0;
+    
+    display: block;
   }
 
 
   /* invitation */
   .invitation {
+    width: 100%;
     background-color: rgb(245, 245, 245);
   }
 
@@ -993,6 +1021,9 @@
 
   .subscribing-link-invitation {
     align-self: center;
+  }
+  .subscribing-link-icon {
+    display: block;
   }
 
   .invitation-section-img {
