@@ -9,9 +9,8 @@
 }
 
 /* scouts-methods */
-.scouts-methods {
-  padding-top: 8px;
-  padding-bottom: 16px;
+.scouts-methods { 
+  padding: 8px 8px 16px 8px;
   gap: 16px;
   margin-left: auto;
   margin-right: auto;
@@ -83,7 +82,7 @@
 } */
 
 .scouts-methods-item-wrapper {
-  width: 294px;
+  width: 100%;
   padding: 0 16px 0 16px;
   display: flex;
   flex-direction: column;
@@ -99,12 +98,18 @@
 }
 
 /* promises */
+.scouts-promises {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
 .scouts-promises-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  padding-top: 8px; 
+ 
 }
 
 .scouts-promises-text {
@@ -120,8 +125,11 @@
 .scouts-promises-main {
   display: flex;
   flex-direction: column;
-  padding: 16px 16px 8px 16px;
+  padding: 16px 0px 8px 0px;
   gap: 8px;
+  background-color: rgb(242, 242, 242);
+  margin-bottom: 16px;
+  margin-top: 16px;
 }
 .scouts-promises-header {
   font-weight: 600;
@@ -147,7 +155,7 @@
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  padding: 0 16px 24px 16px;
+  padding: 0 16px 16px 16px;
 }
 .low-img-wrapper {
   width: 358px;
@@ -193,7 +201,8 @@
   padding: 0 16px 0px 16px;
   background-image: url("./images/scouting-method/icons/logo-background.png");
   background-repeat: no-repeat;
-  background-position: 108% center;
+  background-size: contain;
+  background-position:center center;
 }
 .scouts-principles-list {
   display: flex;
@@ -219,14 +228,14 @@
   text-align: start;
 }
 
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 1279px) {
     .reverse {
         display: flex;
         flex-direction: column-reverse;
       }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1280px) {
   .scouts-methods {
     padding-top: 16px;
     padding-bottom: 32px;
@@ -295,11 +304,11 @@
   }
 
 
-.scouts-promises {
+/* .scouts-promises {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
   .scouts-promises-wrapper {
     display: flex;
     flex-direction: row;
@@ -319,7 +328,7 @@
     text-align: start;
   }
   .scouts-promises-main {
-    background-color:rgb(242, 242, 242); ;
+   
     padding: 32px 8px 32px 8px;
     gap: 24px;
   }
@@ -365,7 +374,7 @@
     
     flex-direction: row;
    
-    gap: 32px;
+    gap: 24px;
     padding: 16px 0px 16px 0px;
   }
   .low-img-wrapper {
@@ -381,7 +390,7 @@
   .scouts-principles-list {
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 80px;
     
     align-items: start;
 }

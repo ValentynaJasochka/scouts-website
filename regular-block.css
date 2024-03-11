@@ -107,10 +107,10 @@
     padding: 0;
   }
 
-  /* .regular-block-wrapper.reverse,
+  .regular-block-wrapper.reverse,
   .regular-block-wrapper:nth-child(even) {
     flex-direction: row-reverse;
-  } */
+  }
 
   .regular-block-img-wrapper {
     aspect-ratio: 1.43;
