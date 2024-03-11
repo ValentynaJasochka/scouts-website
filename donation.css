@@ -3,6 +3,7 @@
   width: 33.33px;
   height: 33.33px;
 }
+
 .scouts-law-list {
   display: flex;
   flex-direction: column;
@@ -10,11 +11,13 @@
   padding-left: 16px;
   padding-right: 16px;
 }
+
 .scouts-law-item {
   display: flex;
   align-items: center;
   gap: 16px;
 }
+
 .law-text-item {
   font-size: 13px;
   line-height: 1.5;
@@ -32,27 +35,32 @@
   padding-top: 8px;
   padding-bottom: 24px;
 }
+
 .donation {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
 }
+
 .donation-additional-text {
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 0.00095em;
   text-align: center;
 }
+
 .second-additional-text {
   display: none;
 }
+
 .donation-block-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
 }
+
 .donation-block-img-wrapper {
   width: 358px;
   height: 179px;
@@ -67,12 +75,14 @@
   object-fit: cover;
   background-position: center;
 }
+
 .side-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
 }
+
 .donation-block-text {
   display: flex;
   flex-direction: column;
@@ -80,16 +90,19 @@
   padding-left: 16px;
   padding-right: 16px;
 }
+
 .donation-block-text-part {
   font-size: 13px;
   letter-spacing: 0.00098em;
 }
+
 .donate-btn {
   background-color: var(--accent-color);
   align-self: center;
   border-radius: 1000px;
   padding: 18px 65px;
 }
+
 .donate-link {
   color: var(--white-text-color);
   font-weight: 600;
@@ -98,13 +111,18 @@
 
 .donate-btn:hover {
   background-image: linear-gradient(
-    to right,
-    rgb(91, 41, 147),
-    rgb(155, 104, 212)
+      to right,
+      rgb(91, 41, 147),
+      rgb(155, 104, 212)
   );
 }
 
 /* questions */
+.questions {
+  width: 100%;
+  padding: 0 16px;
+}
+
 .questions-title {
   font-weight: 600;
   font-size: 15px;
@@ -112,15 +130,17 @@
   margin-bottom: 24px;
   text-align: center;
 }
-.questions-heder-wrapper {
-  width: 358px;
+
+.questions-header-wrapper {
   height: 62px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 16px;
   padding-left: 16px;
   padding-right: 16px;
 }
+
 .questions-list-item:first-child:before {
   display: block;
   content: "";
@@ -129,6 +149,7 @@
   background-color: rgb(215, 222, 240);
   text-align: center;
 }
+
 .questions-list-item::after {
   display: block;
   content: "";
@@ -138,11 +159,13 @@
   text-align: center;
   /* margin-top: 8px; */
 }
-.questions-heder {
+
+.questions-header {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
 }
+
 .answer {
   width: 326px;
   padding-left: 16px;
@@ -153,23 +176,46 @@
   color: rgba(60, 60, 67, 0.85);
   padding-bottom: 19px;
 }
+
 .is-hidden {
   display: none;
 }
-@media screen and (min-width: 1366px) {
+
+.questions-header-open-close-btn {
+  border: none;
+  width: 24px;
+  height: 24px;
+  background: none no-repeat center;
+  cursor: pointer;
+}
+
+.questions-header-open-close-btn.open {
+  background-image: url("./images/donation/plus.png");
+}
+
+.questions-header-open-close-btn.close {
+  background-image: url("./images/donation/close-btn.png");
+}
+
+@media screen and (min-width: 1280px) {
   .donation-section {
     gap: 24px;
     background-color: var(--white-text-color);
   }
+
   .donation {
     gap: 24px;
+    max-width: 1296px;
   }
+
   .second-additional-text {
     display: block;
   }
+
   .first-additional-text {
     display: none;
   }
+
   .donation-additional-text {
     font-size: 24px;
   }
@@ -179,25 +225,26 @@
     flex-direction: column;
     gap: 32px;
   }
+
   .donation-block-wrapper {
     flex-direction: row;
   }
+
   .first-donation-block-wrapper {
     display: flex;
     flex-direction: row-reverse;
   }
-  .side-wrapper {
-    width: 640px;
-  }
+
   .donation-block-img-wrapper {
     width: 576px;
     height: 264px;
   }
+
   .second-img-wrapper {
-    width: 640px;
     height: 811px;
     border-radius: 10px;
     overflow: hidden;
+    flex: 1 0 640px;
   }
 
   .second-img-wrapper > .donation-block-points-img {
@@ -207,35 +254,48 @@
     object-fit: cover;
     background-position: center;
   }
+
   .donation-block-text-part {
     font-size: 18px;
     line-height: 1.52;
   }
+
   .law-text-item {
     font-size: 18px;
     line-height: 1.52;
   }
+
   .donate-btn {
     padding: 23px 75px;
   }
+
   .donate-link {
     font-size: 16px;
   }
 
   /* questions */
-  .questions-heder-wrapper {
+  .questions-header-wrapper {
     width: 1270px;
     height: 56px;
   }
+
   .questions-title {
     font-size: 24px;
     text-align: start;
   }
-  .questions-heder {
+
+  .questions-header {
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .answer {
+    width: 1234px;
     font-size: 18px;
   }
-  .answer {
-   width: 1234px;
-    font-size: 18px;
+
+  .questions {
+    padding: 0;
+    max-width: 1296px;
   }
 }
