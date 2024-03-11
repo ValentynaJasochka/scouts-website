@@ -167,7 +167,6 @@
 }
 
 .answer {
-  width: 326px;
   padding-left: 16px;
   padding-right: 16px;
   font-weight: 400;
@@ -290,7 +289,6 @@
   }
 
   .answer {
-    width: 1234px;
     font-size: 18px;
   }
 
