@@ -170,6 +170,9 @@ a {
     font-size: 13px;
     color: var(--white-text-color);
   }
+  .email-text {
+    color: rgb(213, 201, 90);
+  }
 
 
 }
@@ -410,9 +413,7 @@ a {
     color: var(--white-text-color);
   }
 
-  .email-text {
-    color: rgb(213, 201, 90);
-  }
+ 
 }
 
 @media screen and (min-width: 1280px) {
@@ -595,6 +596,7 @@ a {
     row-gap: 50px;
     padding-top: 32px;
     padding-bottom: 32px;
+    padding-left: 100px;
   }
 
   .footer-section :nth-child(5) {
@@ -612,7 +614,7 @@ a {
   .footer-logo {
     width: 312px;
     height: 121px;
-    margin-right: 145px;
+    margin-right: 89px;
     margin-bottom: 30px;
   }
 

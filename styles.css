@@ -540,6 +540,7 @@
   .hero-text {
     font-weight: 700;
     font-size: 50px;
+    line-height: 1;
     text-transform: uppercase;
     color: var(--white-text-color);
   }
