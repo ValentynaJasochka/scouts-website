@@ -111,7 +111,9 @@
   gap: 8px;
  
 }
-
+.promises-additional-title {
+  display: none;
+}
 .scouts-promises-text {
   display: flex;
   flex-direction: column;

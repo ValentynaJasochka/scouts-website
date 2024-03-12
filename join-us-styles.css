@@ -8,24 +8,17 @@
   --white-text-color: rgb(255, 255, 255);
 }
 
-/* .container {
-  width: 100%;
-  padding-left: 16px;
-  padding-right: 16px;
-} */
+
 @media screen and (min-width: 390px) {
-  /* .container {
-    width: 390px;
-    margin-left: auto;
-    margin-right: auto;
-  } */
+
   .banner {
-    width: 398px;
-    height: 268px;
-    
+    width: 917px;
+    height: 416px;    
     background-repeat: no-repeat, no-repeat;
-    background-position: bottom 0px center, top -10px center;
-    background-size: cover, cover;
+   
+   
+    background-position: bottom 0px center, bottom 0px center;
+    background-size: contain, contain;
     background-image: url("./images/join-us/banner.png"),
       url("./images/join-us/banner-background.png");
     margin-left: auto;
@@ -57,11 +50,11 @@
     color: var(--accent-color);
     text-align: center;
     margin-bottom: 8px;
+    width: 100%;
   }
   .sub-title::after {
     display: block;
-    content: "";
-    width: 358px;
+    content: "";   
     border: 1px solid rgba(64, 61, 68, 0.2);
     text-align: center;
     margin-top: 8px;
@@ -83,7 +76,7 @@
   .invitation-text {
     font-size: 13px;
     line-height: 1.5;
-    width: 358px;
+    /* width: 358px; */
     text-align: start;
   }
   .decorated-background {
@@ -200,7 +193,11 @@
     width: 100%;
 
     object-fit: cover;
-    background-position: center;
+    object-position: 50% 40%;
+  }
+  .leadership-img-wrapper > .second {
+    
+    object-position: 50% 60%;
   }
 
   .second-leadership-points-wrapper {
@@ -209,13 +206,13 @@
   .third-join-btn {
     margin-top: 16px;
   }
+  /* .join-us-btn {
+    padding: 26px 249px 26px 249px;
+  } */
 }
 
-@media screen and (max-width: 1365px) {
-  /* MAIN */
-}
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1280px) {
   .container {
     width: 100%;
     margin-left: auto;
@@ -224,8 +221,10 @@
   }
   /* MAIN */
   .banner {
-    width: 1888px;
+    width: 100%;
     height: 1022px;
+    background-position: bottom 0px center, bottom 40% center;
+    background-size: contain, contain;
     background-image: url("./images/join-us//join-us-desktop-banner.png");
   }
   .invitation-section {
@@ -236,7 +235,8 @@
   .main-text {
     font-size: 18px;
     margin-bottom: 64px;
-    width: 1296px;
+   width: 100%;
+   text-align: center;
   }
   .color-part {
     font-weight: 600;
@@ -292,9 +292,12 @@
 
   /* advantages */
   .advantages {
-    background-image: url("./images/join-us//logo-background.png");
+    background-color: var(--accent-color);
+    background-image: url("./images/join-us/logo-background.png");
+    
     background-repeat: no-repeat;
-    background-position: 100% 0;
+    background-position: 100% 100%;
+    background-size: contain;
   }
   .advantages-wrapper {
     width: 1112px;
@@ -337,7 +340,7 @@
     padding: 32px 0 16px 0;
   }
   .second-invitation-wrapper {
-    gap: 103px;
+    gap: 60px;
     margin-bottom: 16px;
   }
   .third-decorated-background {
@@ -361,12 +364,12 @@
   .leadership-text {
     font-size: 18px;
     line-height: 1.52;
-    width: 626px;
+    width: 596px;
     text-align: start;
   }
 
   .leadership-img-wrapper {
-    width: 636px;
+    width: 596px;
     height: 430px;
     border-radius: 10px;
     overflow: hidden;

@@ -74,7 +74,7 @@
     text-align: center;
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1280px) {
     .team-section {
         display: flex;
         flex-direction: column;
