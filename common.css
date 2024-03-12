@@ -553,7 +553,7 @@ a {
   .header-nav-item {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.208;
     letter-spacing: 0;
     position: relative;
@@ -566,6 +566,7 @@ a {
   .heder-nav-text {
     font-weight: 700;
     font-size: 20px;
+    padding-left: 0px;
 
   }
   .nav-table {
