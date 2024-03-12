@@ -12,7 +12,7 @@
 @media screen and (min-width: 390px) {
 
   .banner {
-    width: 917px;
+    width: 100%;
     height: 416px;    
     background-repeat: no-repeat, no-repeat;
    
@@ -224,7 +224,7 @@
     width: 100%;
     height: 1022px;
     background-position: bottom 0px center, bottom 40% center;
-    background-size: contain, contain;
+    background-size: cover, contain;
     background-image: url("./images/join-us//join-us-desktop-banner.png");
   }
   .invitation-section {
