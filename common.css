@@ -174,7 +174,11 @@ a {
     color: rgb(213, 201, 90);
   }
 
-
+  .social-media-item-icon {
+    width: 22px;
+    height: 22px;
+    fill: white;
+  }
 }
 
 @media screen and (max-width: 1280px) {
@@ -399,11 +403,11 @@ a {
     height: 26px;
     fill: white;
   } */
-  .social-media-item-icon {
+  /* .social-media-item-icon {
     width: 22px;
     height: 22px;
     fill: white;
-  }
+  } */
 
   .footer-social-media-text {
     font-weight: 600;
@@ -602,10 +606,12 @@ a {
   .footer-section {
     width: 1268px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     /* column-gap: 140px; */
-    row-gap: 50px;
+    /* row-gap: 50px; */
+    gap: 0px;
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 100px;
@@ -626,15 +632,18 @@ a {
   .footer-logo {
     width: 312px;
     height: 121px;
+    margin-left: 25px;
     margin-right: 89px;
-    margin-bottom: 30px;
+    margin-bottom: 52px;
   }
 
   .nav-footer-list {
     display: flex;
-    gap: 43px;
+    gap: 24px;
     color: white;
-    margin-right: 40px;
+    margin-right: 32px;
+    align-self: flex-end;
+    margin-bottom: 49px;
   }
 
   .nav-footer-list-title {
@@ -658,7 +667,8 @@ a {
     background-color: rgb(224, 215, 134);
 
     border-radius: 10px;
-    align-self: center;
+    align-self: flex-end;
+    margin-bottom: 108px;
   }
 
   .donation-link-text {
@@ -698,7 +708,7 @@ a {
     font-size: 16px;
     line-height: 1.2;
     color: var(--white-text-color);
-    margin-right: 120px;
+    /* margin-right: 120px; */
   }
 }
 
