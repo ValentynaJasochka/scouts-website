@@ -416,6 +416,17 @@ a {
 
 }
 
+@media screen and (min-width: 800px) {
+
+  .nav-footer-list {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    color: white;
+   
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1778px;
