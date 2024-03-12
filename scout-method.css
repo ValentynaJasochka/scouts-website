@@ -314,7 +314,6 @@
     flex-direction: row;
     align-items: center;
     gap: 40px;
-    padding-top: 8px;
     padding-bottom: 24px;
   }
   .scouts-promises-text {
@@ -345,18 +344,23 @@
     font-size: 24px;    
   }
 .promises-additional-wrapper {
-    position: relative;
+   position: relative;
     padding-top: 48px;
 }
+.promises-none-title {
+  display: none;
+}
   .promises-additional-title {
-    position: absolute;
-    left: 32px;
+   position: absolute;
+   top: 48px;
+   left: 32px;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 600;
     font-size: 24px;
     line-height: 1.2;
     letter-spacing: 0.000101em;
     color: var(--main-font);
+    margin-bottom: 16px;
   }
   .promises-additional-title::after {
     display: none;
