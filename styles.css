@@ -103,11 +103,11 @@
     align-items: center;
   }
 
-  .social-media-item-icon {
+  /* .social-media-item-icon {
     width: 26px;
     height: 26px;
     fill: white;
-  }
+  } */
 
   .social-media-item-icon:hover {
     fill: rgb(222, 213, 233);
