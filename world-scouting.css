@@ -16,7 +16,7 @@
     align-items: center;
     padding-top: 8px;
     padding-bottom: 27px;
-    gap: 24px;
+    /* gap: 24px; */
     background-color: var(--shadow-background);
   }
   .container {
@@ -56,6 +56,7 @@
   .mission-vision-list {
     display: flex;
     flex-direction: column;
+    width: 100%;
     /* align-items: center; */
     row-gap: 16px;
   }
@@ -64,8 +65,10 @@
   }
 
   .mission-vision-img-wrapper {
-    width: 358px;
-    height: 179px;
+    /* width: 358px;
+    height: 179px; */
+    width: 100%;
+    aspect-ratio: 2;
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 16px;
@@ -87,6 +90,7 @@
   .mission-vision-item-text {
     font-size: 13px;
     line-height: 1.5;
+    width: 100%;
   }
   /* .headquarters  */
   .headquarters {
@@ -153,7 +157,7 @@
   }
 }
 
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 1280px) {
   .headquarters-arrow {
     display: none;
   }
@@ -161,7 +165,7 @@
     display: none;
   }
 }
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1280px) {
   .main-group {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -176,6 +180,12 @@
   .main-title {
     margin-top: 0px;
     margin-bottom: 16px;
+  }
+  .headquarters-arrow {
+    display: block;
+  }
+  .world-scouting-logo {
+    display: block;
   }
   .world-scouting-link {
     font-size: 16px;
@@ -213,7 +223,6 @@
     padding: 32px;
   }
   .headquarters-information {
-   
     padding: 0px 32px;
   }
   .headquarters-title {
@@ -248,4 +257,3 @@
     height: 183px;
   }
 }
-

@@ -17,81 +17,19 @@
         align-items: center;
       }
     .container {
-        /*max-width: 390px;*/
-        width: 100%;
+               width: 100%;
         margin-left: auto;
         margin-right: auto;
         padding-left: 0;
         padding-right: 0;
       }
-    .our-events {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 16px;
-        padding-top: 8px;
-        padding-bottom: 16px;
-        background-color: var(--shadow-background);
-    }
-    .main-title::after {
-        margin-bottom: 0px;
-    }
-
     .event-item-text {
         font-size: 13px;
         line-height: 1.52;
         text-align: start;
-    }
-    .main-text {
         text-align: center;
     }
-    .events-list {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-    }
-    .event-item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-    }
-    .event-item:nth-child(even) {
-        flex-direction: column-reverse;
-    }
-    .event-item-img-wrapper {
-        width: 358px;
-        height: 179px;
-        border-radius: 10px;
-        overflow: hidden;
-      }
-      .event-item-img-wrapper > .event-item-img{
-        display: block;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        background-position: center;
-      }
-      .event-text-wrapper {
-        align-self: start;
-      }
-      .event-item-title {
-        font-family: "Montserrat Alternates", sans-serif;
-        font-weight: 600;
-        font-size: 15px;
-        line-height: 1.5;
-        color: var(--accent-color);
-        margin-bottom: 5px;
-    }
-    .event-item-text {
-        font-size: 13px;
-        line-height: 1.5;
-        /* width: 342px; */
-        text-align: center;
-        color: var(--grey-font-color);
 
-    }
     .join-wrapper {
         display: flex;
         flex-direction: column;
@@ -102,131 +40,23 @@
         line-height: 1.2;
         letter-spacing: 0.000101em;
         font-style: italic;
-
         text-align: center;
     }
 }
-@media screen and (min-width: 1366px) {
-    .our-events {
-        padding-top: 16px;
-      padding-bottom: 16px;
-      background-color: var(--white-background-color);
-    }
+@media screen and (min-width: 1280px) {
+  
     .main-title::after {
       margin-top: 32px;
-      margin-bottom: 16px;
-      
-    }
-    .events-list  {
-      gap: 32px;
-    }
-    .event-item  {
-      flex-direction: row;
-      gap: 48px;
-    }
-    .event-item:nth-child(even) {
-      flex-direction: row;
-    }
-    .event-item-img-wrapper {
-      width: 612px;
-      height: 428px;
-    }
+      margin-bottom: 16px;      
+    }   
     .event-item-text {
       font-size: 18px;
-      width: 636px;
-
+      text-align: center;
+      width: 100%;
+      margin-bottom: 24px;
     }
-    .main-text {
-        text-align: center;
-        width: 100%;
-    }
-
-
-
-    .event-item-title {
-      font-family: "Montserrat Alternates", sans-serif;
-      font-weight: 600;
-      font-size: 24px;
-    }
-
-    .history-points-wrapper {
-      display: flex;
-    }
-
-    .additional-text {
-      font-size: 24px;
+  
+    .join-text {
+      font-size: 24px;      
     }
   }
-/* our-events */
-
-
-
-
-/*
-
-.event-list {
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
-    margin-bottom: 67px;
-}
-
-.event-item {
-    display: flex;
-    gap: 24px;
-}
-
-.event-item-img {
-    width: 612px;
-}
-
-.event-item-wrapper {
-    width: 611px;
-}
-
-.event-item-text {
-    font-size: 18px;
-    line-height: 1.52;
-    width: 611px;
-    text-align: start;
-}
-
-.event-item-title {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.2;
-    letter-spacing: 0.000101em;
-}
-
-.join-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 67px;
-    margin-bottom: 79px;
-
-}
-
-.join-text {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.2;
-    letter-spacing: 0.000101em;
-    text-align: center;
-}
-
-.join-link {
-    box-sizing: border-box;
-    display: block;
-    padding: 28px 68px;
-
-    font-weight: 600;
-    font-size: 20px;
-
-    color: var(--white-text-color);
-    background-color: var(--accent-color);
-    border-radius: 1000px;
-
-} */
