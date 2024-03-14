@@ -26,6 +26,7 @@
     height: 302px;
   border-radius: 20px;
   overflow: hidden;
+  padding-bottom: 8px;
 }
 
 .member-img-wrapper {
@@ -33,37 +34,48 @@
     height: 206px;
     overflow: hidden;
        align-self: center;
-    padding: 8px;
+    /* padding: 8px; */
   }
   .member-img-wrapper > .member-img {
     display: block;
+    
     height: 100%;
     width: 100%;
     object-fit: cover;
-    background-position: center;
+    object-position: 50% 10%;;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
   }
   .member-text-wrapper {
     height: 87px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-left: 40px;
-    padding-right: 40px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
   }
+
 .member-position {
     font-size: 12px;
     color: var(--grey-font-color);
     text-align: center;
     text-transform: capitalize;
-
+    
+    /* text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    cursor: pointer;
+    -webkit-box-orient: vertical;   
+    display: -webkit-box;
+    overflow: hidden; */
 }
 
 
 .name {
     text-align: center;
     font-size: 22px;
+      padding-left: 40px;
+    padding-right: 40px;
+  
 }
 .additional-text-wrapper {
     padding: 16px;
@@ -88,10 +100,15 @@
         width: 1296px;
     }
     .team-member {
-        padding-bottom: 12px;
+        height: 324px;
+        padding-bottom: 8px;
     }
    .member-img-wrapper {
     margin-bottom: 20px;
+   }
+   .member-img-wrapper > .member-img {
+    width: 248px;
+    height: 206px;
    }
    .additional-text-wrapper {
     width: 850px;

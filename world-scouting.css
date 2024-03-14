@@ -207,7 +207,12 @@
   }
 
   .mission-vision-img-wrapper {
-    aspect-ratio: 1.53;
+    aspect-ratio: 1;
+  }
+  .mission-vision-img-wrapper {
+    width: 632px;
+    height: 415px;
+    
   }
 
   .mission-vision-item-title {

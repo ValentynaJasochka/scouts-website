@@ -84,7 +84,8 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-  object-position: 50% 5%;;
+  object-position: 50% 5%;
+  border-radius: 10px;
 }
 .second-img-wrapper > .donation-block-points-img {
   display: block;
@@ -175,7 +176,7 @@
   height: 3px;
   background-color: rgb(215, 222, 240);
   text-align: center;
-  /* margin-top: 8px; */
+ 
 }
 
 .questions-header {
@@ -224,6 +225,12 @@
     gap: 24px;
     max-width: 1296px;
   }
+  .side-wrapper {
+   width: 640px;
+  
+    gap: 16px;
+  }
+
 
   .second-additional-text {
     display: block;
@@ -241,10 +248,16 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+  
+    padding-right: 0;
   }
 
   .donation-block-wrapper {
     flex-direction: row;
+    
+  }
+  .donation-block-text {
+    padding-left: 0px;
   }
 
   .first-donation-block-wrapper {
@@ -253,11 +266,18 @@
   }
 
   .donation-block-img-wrapper {
-    width: 576px;
-    height: 264px;
+    width: 640px;
+    height: 328px;
+    
+    aspect-ratio: 1;
+  }
+  .first-img-wrapper {
+    padding: 32px 32px 32px 16px;
   }
 
   .second-img-wrapper {
+    width: 640px;
+    max-width: 640px;
     height: 811px;
     border-radius: 10px;
     overflow: hidden;

@@ -16,16 +16,15 @@
   text-align: center;
   margin-bottom: 8px;
 }
-.volunteering-img-wrapper {
+/* .volunteering-img-wrapper {
   width: 360px;
   height: 244px;
+} */
+.column-revers {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
-.volunteering-img-wrapper > .volunteering-img {
-  display: block;
-  height: 100%;
-  width: 100%;
-}
 .donation-description {
   display: flex;
   flex-direction: column;
@@ -36,9 +35,14 @@
 }
 .volunteering-text-bold {
   font-weight: 800;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.5;
   text-align: center;
+  color: rgb(91,91,108);
+  padding-bottom: 16px;
+}
+.mobile-none {
+  display: none;
 }
 
 .volunteering-text-part {
@@ -46,22 +50,41 @@
   font-size: 13px;
   line-height: 1.5;
   text-align: center;
+  color: rgb(91,91,108);
 }
 .volunteering-text-part:first-child {
   margin-bottom: 8px;
+}
+.volunteering-img-wrapper {
+  width: 100%;
+  aspect-ratio: 2;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 16px;
+}
+.volunteering-img-wrapper > .volunteering-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-position: center;
 }
 .volunteering-btn {
   padding: 26px 90px;
   margin-bottom: 8px;
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1280px) {
   .regular-block-main-container {
     gap: 32px;
   }
   .main-text {
     font-size: 18px;
     margin-bottom: 16px;
+  }
+  .column-revers {
+    display: flex;
+    flex-direction: row;
   }
   .project-img-wrapper {
     width: 612px;
@@ -78,36 +101,52 @@
   .volunteering-img-wrapper {
     width: 529px;
     height: 358px;
+    margin-bottom: 41px;
   }
   .volunteering-text-bold {
     font-size: 18px;
+    margin-bottom: 32px;
   }
   .volunteering-text-part {
     font-size: 18px;
   }
   .donation-description {
     flex-direction: column;
-    flex-wrap: wrap;
+    width: 100%;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .mobile-none {
+    display: block;
+  }
+  .display-none {
+    display: none;
+  }
+  .donation-first-desktop-part {
+    display: flex;
+    gap: 64px;
     align-items: center;
   }
-  .donation-description :nth-child(1) {
-    order: 1;
+  .donation-text-desktop-part {
+    /* order: 1; */
     width: 613px;
   }
-  .donation-description :nth-child(2) {
-    order: 3;
-  }
-  .donation-description :nth-child(3) {
-    order: 4;
-    width: 1243px;
-    align-self: center;
-  }
+ 
+  /* .donation-text-desktop-part:first-child {
+  margin-bottom: 32px;
+  } */
   .donation-description :nth-child(4) {
-    order: 2;
-    width: 613px;
+    /* order: 2; */
+    /* width: 613px; */
   }
   .donation-description :nth-child(5) {
-    order: 5;
+    /* order: 5; */
+  }
+  .volunteering-img-wrapper > .volunteering-img {
+    width: 529px;
+    height: 358px;
   }
 
   .volunteering-btn {
