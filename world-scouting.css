@@ -85,7 +85,8 @@
   gap: 16px;
   align-items: center;
 }
-.headquarters-information:first-child{
+
+.headquarters-information:first-child {
   padding: 0 16px;
 }
 
@@ -176,7 +177,7 @@
   }
 
   .main-title {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 16px;
   }
 
@@ -196,7 +197,7 @@
   .mission-vision-list {
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: stretch;
     grid-gap: 32px;
     padding: 0;
   }
@@ -207,12 +208,9 @@
   }
 
   .mission-vision-img-wrapper {
-    aspect-ratio: 1;
-  }
-  .mission-vision-img-wrapper {
-    width: 632px;
-    height: 415px;
-    
+    width: 100%;
+    aspect-ratio: 1.5;
+    height: auto;
   }
 
   .mission-vision-item-title {
