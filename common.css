@@ -178,6 +178,10 @@ a {
     fill: white;
   }
 }
+.donation-hover {
+  display: none;
+  position: absolute;
+}
 
 @media screen and (max-width: 1280px) {
   .page-header-container {

@@ -40,10 +40,6 @@
     object-fit: cover;
     background-position: center;
   }
-  .donation-hover {
-    display: none;
-    position: absolute;
-  }
 }
 
 @media screen and (max-width: 1280px) {
