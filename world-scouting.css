@@ -27,7 +27,6 @@
   display: block;
   content: "";
   border: 1px solid rgba(64, 61, 68, 0.2);
-  margin-bottom: 32px;
 }
 
 .mission-vision-list {
@@ -162,6 +161,19 @@
   margin-bottom: 24px;
 }
 
+.scouting-title{
+  width: 100%;
+  padding: 0 8px;
+  margin-bottom: 24px;
+  max-width: 1296px;
+  width: 100%;
+}
+
+.more-about-scouting{
+  text-align: right;
+  margin-bottom: 8px;
+}
+
 @media screen and (min-width: 1280px) {
   .main-group {
     padding-top: 16px;
@@ -174,6 +186,8 @@
     display: flex;
     gap: 16px;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
   }
 
   .main-title {
@@ -273,5 +287,16 @@
   .headquarter-container {
     flex-direction: row;
     align-items: center;
+  }
+
+  .more-about-scouting{
+    margin-bottom: 16px;
+  }
+  .scouting-title{
+    padding: 0;
+  }
+  .scouting-title .main-title{
+    width: auto;
+    margin-bottom: 0;
   }
 }
