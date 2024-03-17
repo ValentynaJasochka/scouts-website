@@ -31,7 +31,7 @@
     /* width: 392px; */
     height: 109px;
   }
- 
+
 
   .main-part-section-img-wrapper > .main-part-section-img{
     display: block;
@@ -178,6 +178,7 @@
   .about-scouts-cards-list-container {
     display: flex;
     justify-content: center;
+    padding: 0 16px;
   }
 
   .about-scouts-cards-list {
@@ -261,9 +262,9 @@
     text-transform: uppercase;
     margin-bottom: 16px;
   }
- 
 
- 
+
+
 
   .main-information-block {
     display: flex;
@@ -501,6 +502,10 @@
     font-size: 16px;
     color: var(--white-text-color);
   }
+
+  .events-list-container{
+    padding: 0 16px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -552,7 +557,7 @@
   .social-media-list {
     display: flex;
     gap: 19px;
-    
+
   }
 
 
@@ -635,7 +640,7 @@
   .about-scouts-cards-list-container {
     display: flex;
     justify-content: center;
-
+    padding: 0;
     width: 100%;
   }
 
@@ -733,16 +738,16 @@
   }
 
   .main-part-section-img-wrapper {
-   
+
     aspect-ratio: 1.025;
     border-radius: 24px;
-    
+
     /* width: 392px; */
     height: 434px;
   }
- 
 
- 
+
+
 
   .main-information-block {
     display: flex;
@@ -796,6 +801,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 0;
   }
 
   .events-list {
@@ -868,8 +874,8 @@
     width: 100%;
     background-color: var(--accent-color);
     overflow: hidden;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .reviews-section {
@@ -980,7 +986,7 @@
 
   .reviews-item-styled.second {
     border-radius: 24px 24px 0 0;
-    
+
     display: block;
   }
 
