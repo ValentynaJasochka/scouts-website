@@ -139,8 +139,16 @@
 
   .subscribing-link-text {
     font-weight: 600;
-    font-size: 9px;
+    font-size: 14px;
     color: var(--white-text-color);
+  }
+
+  .subscribing-link-text.top span {
+    display: none;
+  }
+
+  .subscribing-link-text.bottom {
+    line-height: 68px;
   }
 
   /* ABOUT SCOUTS */
@@ -367,6 +375,7 @@
     width: 100%;
     padding-top: 24px;
     padding-bottom: 16px;
+    margin-bottom: 8px;
   }
 
   .reviews-title {
@@ -489,12 +498,13 @@
     display: none;
   }
 
-  .subscribing-link-invitation {
+  .subscribing-link.subscribing-link-invitation {
     display: inline-block;
     background-color: var(--accent-color);
-    padding: 18px 44px;
-    border-radius: 14px;
     align-self: center;
+    margin: 8px 0;
+    border-radius: 34px;
+    padding: 0 24px;
   }
 
   .subscribing-link-invitation-text {
