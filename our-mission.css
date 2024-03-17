@@ -15,9 +15,6 @@
   display: flex;
   gap: 16px;
 }
-.our-mission-section {
-  padding-top: 16px;
-}
 .mission-title {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 600;
