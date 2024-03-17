@@ -140,9 +140,8 @@ a {
 }
 
 @media screen and (min-width: 390px) {
-  main {
-    box-shadow: inset 0 52px 27px -48px rgba(0, 0, 0, 0.08)
-
+  .header {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.08);
   }
 
   .nav-footer-list-link {
