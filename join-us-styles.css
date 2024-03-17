@@ -1,29 +1,16 @@
-:root {
-  --accent-color: rgb(91, 41, 147);
-  /* --accent-button-background: #404bbf;
-    --btn-background: #4d5ae5;
-    --hero-font-color: #ffffff; */
-  --main-font: "Montserrat", sans-serif;
-  --main-font-color: rgb(64, 61, 68);
-  --white-text-color: rgb(255, 255, 255);
-}
-
-
 @media screen and (min-width: 390px) {
-
   .banner {
     width: 100%;
-    height: 416px;    
+    aspect-ratio: 1.56;
     background-repeat: no-repeat, no-repeat;
-   
-   
-    background-position: bottom 0px center, bottom 0px center;
+    background-position: bottom 0 center, bottom 0 center;
     background-size: contain, contain;
     background-image: url("./images/join-us/banner.png"),
-      url("./images/join-us/banner-background.png");
+    url("./images/join-us/banner-background.png");
     margin-left: auto;
     margin-right: auto;
   }
+
   .invitation-section {
     display: flex;
     flex-direction: column;
@@ -38,9 +25,11 @@
     text-align: center;
     margin-bottom: 34px;
   }
+
   .color-part {
     color: var(--accent-color);
   }
+
   .sub-title {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 600;
@@ -52,33 +41,38 @@
     margin-bottom: 8px;
     width: 100%;
   }
+
   .sub-title::after {
     display: block;
-    content: "";   
+    content: "";
     border: 1px solid rgba(64, 61, 68, 0.2);
     text-align: center;
     margin-top: 8px;
     margin-bottom: 8px;
   }
+
   .invitation-wrapper {
-  
+
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     gap: 16px;
     margin-bottom: 32px;
   }
+
   .invitation-text-wrapper {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
+
   .invitation-text {
     font-size: 13px;
     line-height: 1.5;
     /* width: 358px; */
     text-align: start;
   }
+
   .decorated-background {
     width: 340px;
     height: 360px;
@@ -87,53 +81,59 @@
     background-position: center;
     background-image: url("./images/join-us/join-us-scouts.png");
   }
-  
+
   .second-invitation-wrapper {
     flex-direction: column;
   }
+
   .second-decorated-background {
     background-image: url("./images/join-us/join-us-rovers.png");
   }
 
   /* advantages */
-
   .advantages {
     background-color: rgb(91, 41, 147);
   }
+
   .advantages-wrapper {
     padding: 24px 16px;
   }
+
   .advantages-title {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.1;
     letter-spacing: 0.00098em;
-    color: var(--accent-color);
     text-align: center;
     color: var(--white-text-color);
     margin-bottom: 16px;
   }
+
   .advantages-list {
     display: flex;
     flex-direction: column;
     gap: 16px;
   }
+
   .advantage-heder-part {
     display: flex;
     gap: 8px;
     align-items: center;
     margin-bottom: 8px;
   }
+
   .sign-advantage-img {
     width: 85px;
     height: 85px;
   }
+
   .advantages-item-title {
     font-weight: 600;
     font-size: 15px;
     color: white;
   }
+
   .advantages-item-text {
     font-weight: 400;
     font-size: 13px;
@@ -153,6 +153,7 @@
   .third-decorated-background {
     background-image: url("./images/join-us/join-us-scouts-lider.png");
   }
+
   .leadership-points-wrapper {
     display: flex;
     flex-direction: column-reverse;
@@ -169,6 +170,7 @@
     color: var(--accent-color);
     margin-bottom: 8px;
   }
+
   .leadership-text {
     display: flex;
     flex-direction: column;
@@ -181,12 +183,13 @@
 
   .leadership-img-wrapper {
     width: 100%;
-    
+
     height: 232px;
     aspect-ratio: 1.025;
     border-radius: 10px;
     overflow: hidden;
   }
+
   .leadership-img-wrapper > .leadership-img {
     display: block;
     height: 100%;
@@ -195,17 +198,20 @@
     object-fit: cover;
     object-position: 50% 40%;
   }
+
   .leadership-img-wrapper > .second {
-    
+
     object-position: 50% 60%;
   }
 
   .second-leadership-points-wrapper {
     flex-direction: column;
   }
+
   .third-join-btn {
     margin-top: 16px;
   }
+
   /* .join-us-btn {
     padding: 26px 249px 26px 249px;
   } */
@@ -217,16 +223,18 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 0px;
+    padding: 0;
   }
+
   /* MAIN */
   .banner {
     width: 100%;
     height: 1022px;
-    background-position: bottom 0px center, bottom 40% center;
+    background-position: bottom 0 center, bottom 40% center;
     background-size: cover, contain;
-    background-image: url("./images/join-us//join-us-desktop-banner.png");
+    background-image: url("./images/join-us/join-us-desktop-banner.png");
   }
+
   .invitation-section {
     padding-top: 16px;
     padding-bottom: 48px;
@@ -235,30 +243,36 @@
   .main-text {
     font-size: 18px;
     margin-bottom: 64px;
-   width: 100%;
-   text-align: center;
+    width: 100%;
+    text-align: center;
   }
+
   .color-part {
     font-weight: 600;
     color: inherit;
   }
+
   .sub-title {
     font-size: 40px;
     color: var(--main-font-color);
     /* margin-bottom: 24px; */
   }
+
   .sub-title::after {
     display: none;
   }
+
   .invitation-wrapper {
     position: relative;
     flex-direction: row;
     gap: 40px;
     margin-bottom: 85px;
   }
+
   .invitation-text-wrapper {
     gap: 30px;
   }
+
   .invitation-text {
     font-size: 18px;
 
@@ -266,26 +280,31 @@
     text-align: start;
     margin-bottom: 32px;
   }
+
   .decorated-background {
     width: 455px;
     height: 617px;
     position: relative;
     transform: translateY(10%);
   }
-  .join-btn {   
+
+  .join-btn {
     align-self: end;
   }
+
   .second-join-btn {
     align-self: start;
   }
-  
+
   .second-decorated-background {
     position: relative;
     transform: translateY(0%);
   }
+
   .second-invitation-text-wrapper {
     gap: 100px;
   }
+
   .invitation-text-part:not(:last-child) {
     margin-bottom: 20px;
   }
@@ -294,11 +313,12 @@
   .advantages {
     background-color: var(--accent-color);
     background-image: url("./images/join-us/logo-background.png");
-    
+
     background-repeat: no-repeat;
     background-position: 100% 100%;
     background-size: contain;
   }
+
   .advantages-wrapper {
     width: 1112px;
     padding: 64px 0 50px 0;
@@ -310,24 +330,29 @@
     font-size: 40px;
     margin-bottom: 24px;
   }
+
   .advantages-list {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 128px;
     row-gap: 32px;
   }
+
   .advantages-item {
     width: 492px;
   }
+
   .advantage-heder-part {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 16px;
   }
+
   .advantages-item-title {
     font-size: 24px;
   }
+
   .advantages-item-text {
     font-size: 18px;
   }
@@ -336,19 +361,22 @@
   /* leadership */
   .leadership {
     display: flex;
-   
+
     padding: 32px 0 16px 0;
   }
+
   .second-invitation-wrapper {
     gap: 60px;
     margin-bottom: 16px;
   }
+
   .third-decorated-background {
-   background-size: 443px 622px;
-   /* position: relative; */
+    background-size: 443px 622px;
+    /* position: relative; */
     transform: translateY(0%);
   }
-  .second-invitation-text{
+
+  .second-invitation-text {
     width: 648px;
   }
 
@@ -357,10 +385,12 @@
     gap: 24px;
     align-items: start;
   }
+
   .leadership-text-title {
     font-size: 24px;
     margin-bottom: 24px;
   }
+
   .leadership-text {
     font-size: 18px;
     line-height: 1.52;
@@ -374,9 +404,11 @@
     border-radius: 10px;
     overflow: hidden;
   }
+
   .leadership-points-wrapper:not(:last-child) {
     margin-bottom: 20px;
   }
+
   .third-join-btn {
     align-self: center;
   }
