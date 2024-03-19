@@ -10,8 +10,8 @@
     --grey-font-color: rgb(91,91,108);
     --white-text-color: rgb(255, 255, 255);
   }
-@media screen and (min-width: 390px) {
-    
+@media screen and (min-width: 320px) {
+
     .container {
                width: 100%;
         margin-left: auto;
@@ -45,19 +45,19 @@
     }
 }
 @media screen and (min-width: 1280px) {
-  
+
     .main-title::after {
       margin-top: 32px;
-      margin-bottom: 16px;      
-    }   
+      margin-bottom: 16px;
+    }
     .event-item-text {
       font-size: 18px;
       text-align: center;
       width: 100%;
       margin-bottom: 24px;
     }
-  
+
     .join-text {
-      font-size: 24px;      
+      font-size: 24px;
     }
   }

@@ -121,7 +121,6 @@ a {
 }
 
 .container {
-  /*max-width: 390px;*/
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -140,7 +139,7 @@ a {
   box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 320px) {
   .header {
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.08);
   }
