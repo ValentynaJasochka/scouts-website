@@ -136,7 +136,7 @@
 .scouts-promises-main {
   display: flex;
   flex-direction: column;
-  padding: 16px 0px 8px 0px;
+  padding: 16px 0 8px 0;
   gap: 8px;
   background-color: rgb(242, 242, 242);
   margin-bottom: 16px;
@@ -210,6 +210,7 @@
 
 .law-text-item {
   text-align: start;
+  margin-bottom: 0;
 }
 
 /* principles */
@@ -219,7 +220,7 @@
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  padding: 0 16px 0px 16px;
+  padding: 0 16px 0 16px;
   background-image: url("./images/scouting-method/icons/logo-background.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -428,11 +429,9 @@
   }
 
   .scouts-law {
-
     flex-direction: row;
-
     gap: 24px;
-    padding: 16px 0px 16px 0px;
+    padding: 16px 0 16px 0;
   }
 
   .low-img-wrapper {
