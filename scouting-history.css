@@ -2,11 +2,11 @@
 
 .additional-text-history-link {
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
 }
 @media screen and (min-width: 1366px) {
   .scouting-history-section  .regular-block-img-wrapper {
     height: 474px;
   }
- 
+
 }
