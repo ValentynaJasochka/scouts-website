@@ -73,6 +73,9 @@
   padding: 26px 90px;
   margin-bottom: 8px;
 }
+.main-title-container.beginning{
+  margin-bottom: 24px;
+}
 
 @media screen and (min-width: 1280px) {
   .regular-block-main-container {
@@ -133,7 +136,7 @@
     /* order: 1; */
     width: 613px;
   }
- 
+
   /* .donation-text-desktop-part:first-child {
   margin-bottom: 32px;
   } */

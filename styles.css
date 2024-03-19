@@ -150,7 +150,6 @@
   /* ABOUT SCOUTS */
   .about-scouts {
     padding-top: 10px;
-    margin-bottom: 20px;
   }
 
   .about-scouts-background-block {
@@ -246,7 +245,6 @@
 
   /* MAIN PART */
   .main-part {
-    padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
     flex-direction: column;
