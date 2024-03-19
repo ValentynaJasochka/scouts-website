@@ -77,7 +77,7 @@ a {
 }
 
 .header .start {
-  height: 192px;
+  height: 64px;
 }
 
 .container {
@@ -391,16 +391,6 @@ a {
     align-items: center;
   }
 
-  /* .social-media-item-icon {
-    width: 26px;
-    height: 26px;
-    fill: white;
-  } */
-  /* .social-media-item-icon {
-    width: 22px;
-    height: 22px;
-    fill: white;
-  } */
   .footer-social-media-text {
     font-weight: 600;
     font-size: 13px;
@@ -422,6 +412,10 @@ a {
 @media screen and (min-width: 1280px) {
   .header {
     box-shadow: none;
+  }
+
+  .header .start {
+    height: 118px;
   }
 
   .container {

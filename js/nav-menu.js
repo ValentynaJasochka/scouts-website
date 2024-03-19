@@ -1,4 +1,4 @@
-(() => {
+const runMenu = () => {
   const body = document.querySelector('body');
   body.addEventListener('click', handleMenuClick);
   document.addEventListener('keydown', onEscPress);
@@ -42,10 +42,9 @@
     }
   }
 
-})();
+};
 
-
-(() => {
+const runMenuMobile = () => {
   const mobileMenuOpener = document.querySelector('.mobile-menu-handler.open')
   mobileMenuOpener.addEventListener('click', handleMobileMenuOpen);
 
@@ -66,5 +65,4 @@
     document.querySelector('.nav-mobile-menu').classList.remove('mobile-menu-is-opened');
     document.querySelector('.mobile-menu-handler.open').classList.remove('is-hidden')
   }
-})();
-
+};
