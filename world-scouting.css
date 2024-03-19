@@ -161,15 +161,14 @@
   margin-bottom: 24px;
 }
 
-.scouting-title{
+.scouting-title {
   width: 100%;
   padding: 0 8px;
   margin-bottom: 24px;
   max-width: 1296px;
-  width: 100%;
 }
 
-.more-about-scouting{
+.more-about-scouting {
   text-align: right;
   margin-bottom: 8px;
 }
@@ -289,13 +288,15 @@
     align-items: center;
   }
 
-  .more-about-scouting{
+  .more-about-scouting {
     margin-bottom: 16px;
   }
-  .scouting-title{
+
+  .scouting-title {
     padding: 0;
   }
-  .scouting-title .main-title{
+
+  .scouting-title .main-title {
     width: auto;
     margin-bottom: 0;
   }

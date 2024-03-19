@@ -10,12 +10,14 @@
   --grey-font-color: rgb(91, 91, 108);
   --white-text-color: rgb(255, 255, 255);
 }
+
 .main-text {
   font-size: 13px;
   line-height: 1.52;
   text-align: center;
   margin-bottom: 8px;
 }
+
 /* .volunteering-img-wrapper {
   width: 360px;
   height: 244px;
@@ -33,14 +35,16 @@
   padding: 16px;
   background-color: rgb(242, 242, 242);
 }
+
 .volunteering-text-bold {
   font-weight: 800;
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-  color: rgb(91,91,108);
+  color: rgb(91, 91, 108);
   padding-bottom: 16px;
 }
+
 .mobile-none {
   display: none;
 }
@@ -50,11 +54,13 @@
   font-size: 13px;
   line-height: 1.5;
   text-align: center;
-  color: rgb(91,91,108);
+  color: rgb(91, 91, 108);
 }
+
 .volunteering-text-part:first-child {
   margin-bottom: 8px;
 }
+
 .volunteering-img-wrapper {
   width: 100%;
   aspect-ratio: 2;
@@ -62,6 +68,7 @@
   overflow: hidden;
   padding-bottom: 16px;
 }
+
 .volunteering-img-wrapper > .volunteering-img {
   display: block;
   height: 100%;
@@ -69,11 +76,13 @@
   object-fit: cover;
   background-position: center;
 }
+
 .volunteering-btn {
   padding: 26px 90px;
   margin-bottom: 8px;
 }
-.main-title-container.beginning{
+
+.main-title-container.beginning {
   margin-bottom: 24px;
 }
 
@@ -81,38 +90,47 @@
   .regular-block-main-container {
     gap: 32px;
   }
+
   .main-text {
     font-size: 18px;
     margin-bottom: 16px;
   }
+
   .column-revers {
     display: flex;
     flex-direction: row;
   }
+
   .project-img-wrapper {
     width: 612px;
     height: 474px;
   }
+
   .project-img-wrapper > .project-img {
     display: block;
     height: 100%;
     width: 100%;
   }
+
   .donation-description {
     height: 658px;
   }
+
   .volunteering-img-wrapper {
     width: 529px;
     height: 358px;
     margin-bottom: 41px;
   }
+
   .volunteering-text-bold {
     font-size: 18px;
     margin-bottom: 32px;
   }
+
   .volunteering-text-part {
     font-size: 18px;
   }
+
   .donation-description {
     flex-direction: column;
     width: 100%;
@@ -121,17 +139,21 @@
     padding-top: 32px;
     padding-bottom: 32px;
   }
+
   .mobile-none {
     display: block;
   }
+
   .display-none {
     display: none;
   }
+
   .donation-first-desktop-part {
     display: flex;
     gap: 64px;
     align-items: center;
   }
+
   .donation-text-desktop-part {
     /* order: 1; */
     width: 613px;
@@ -144,9 +166,11 @@
     /* order: 2; */
     /* width: 613px; */
   }
+
   .donation-description :nth-child(5) {
     /* order: 5; */
   }
+
   .volunteering-img-wrapper > .volunteering-img {
     width: 529px;
     height: 358px;
@@ -154,6 +178,6 @@
 
   .volunteering-btn {
     padding: 28px 139px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 }

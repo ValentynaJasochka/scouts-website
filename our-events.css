@@ -1,63 +1,54 @@
-:root {
-    --accent-color: rgb(91, 41, 147);
-    /* --accent-button-background: #404bbf;
-      --btn-background: #4d5ae5;
-      --hero-font-color: #ffffff; */
-      --white-background-color: rgb(255, 255, 255);
-      --shadow-background: rgba(64,61,68,0.02);
-    --main-font: "Montserrat", sans-serif;
-    --main-font-color: rgb(64, 61, 68);
-    --grey-font-color: rgb(91,91,108);
-    --white-text-color: rgb(255, 255, 255);
-  }
 @media screen and (min-width: 320px) {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
 
-    .container {
-               width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 0;
-        padding-right: 0;
-      }
-    .our-events {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .event-item-text {
-        font-size: 13px;
-        line-height: 1.52;
-        text-align: start;
-        text-align: center;
-    }
+  .our-events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .join-wrapper {
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
-    }
-    .join-text{
-        font-size: 15px;
-        line-height: 1.2;
-        letter-spacing: 0.000101em;
-        font-style: italic;
-        text-align: center;
-    }
+  .event-item-text {
+    font-size: 13px;
+    line-height: 1.52;
+    text-align: center;
+  }
+
+  .join-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .join-text {
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: 0.000101em;
+    font-style: italic;
+    text-align: center;
+  }
 }
+
 @media screen and (min-width: 1280px) {
 
-    .main-title::after {
-      margin-top: 32px;
-      margin-bottom: 16px;
-    }
-    .event-item-text {
-      font-size: 18px;
-      text-align: center;
-      width: 100%;
-      margin-bottom: 24px;
-    }
-
-    .join-text {
-      font-size: 24px;
-    }
+  .main-title::after {
+    margin-top: 32px;
+    margin-bottom: 16px;
   }
+
+  .event-item-text {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .join-text {
+    font-size: 24px;
+  }
+}

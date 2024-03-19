@@ -560,7 +560,7 @@ a {
   .heder-nav-text {
     font-weight: 700;
     font-size: 20px;
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .nav-table {
@@ -604,9 +604,7 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    /* column-gap: 140px; */
-    /* row-gap: 50px; */
-    gap: 0px;
+    gap: 0;
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 100px;
@@ -710,7 +708,7 @@ a {
     /* margin-right: 120px; */
   }
 
-  .main-title-container{
+  .main-title-container {
     margin-bottom: 0;
     padding: 0;
   }
