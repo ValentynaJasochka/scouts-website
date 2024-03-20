@@ -21,7 +21,7 @@
 }
 
 .main-text {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.52;
   text-align: center;
   margin-bottom: 8px;
@@ -98,7 +98,7 @@
 }
 
 .scouts-methods-item-text {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.37;
 }
 
@@ -126,7 +126,7 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.52;
   padding-left: 16px;
   padding-right: 16px;
@@ -154,7 +154,7 @@
 
 .scouts-promises-main-text {
   font-weight: 600;
-  font-size: 13px;
+  font-size: 14px;
   font-style: italic;
   line-height: 1.5;
   text-align: center;
@@ -210,6 +210,10 @@
 
 .law-text-item {
   text-align: start;
+  margin-bottom: 8px;
+}
+
+ul .main-text.law-text-item {
   margin-bottom: 0;
 }
 
