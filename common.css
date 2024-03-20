@@ -425,6 +425,9 @@ a {
     margin-right: auto;
     padding: 32px 0;
   }
+  .container.page-header-container {
+    padding: 0;
+  }
 
   .regular-section {
     background-color: var(--white-background-color);
