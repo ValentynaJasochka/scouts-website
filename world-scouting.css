@@ -56,14 +56,14 @@
 
 .mission-vision-item-title {
   font-weight: 600;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
   color: var(--accent-color);
   margin-bottom: 8px;
 }
 
 .mission-vision-item-text {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -94,7 +94,7 @@
 }
 
 .headquarters-information-text {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.5;
   text-align: center;
 }
@@ -124,7 +124,7 @@
 }
 
 .address-bord-item-country {
-  font-size: 13px;
+  font-size: 14px;
   color: rgb(243, 243, 243);
   letter-spacing: 0.00098em;
   text-align: start;
