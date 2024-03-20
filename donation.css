@@ -20,7 +20,7 @@
 }
 
 .law-text-item {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.5;
   text-align: start;
 }
@@ -112,7 +112,7 @@
 }
 
 .donation-block-text-part {
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.00098em;
 }
 
@@ -191,7 +191,7 @@
   padding-left: 16px;
   padding-right: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.4;
   color: rgba(60, 60, 67, 0.85);
   padding-bottom: 19px;
@@ -269,7 +269,7 @@
   }
 
   .donation-block-text {
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .first-donation-block-wrapper {
