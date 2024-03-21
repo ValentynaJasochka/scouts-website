@@ -406,8 +406,8 @@
 
   .reviewer-photo-wrapper {
     width: 75px;
-    height: 75px;
-    border-radius: 14px;
+    aspect-ratio: 1;
+    border-radius: 38px;
     overflow: hidden;
     /* box-shadow: 4px 4px 40px 4px rgba(0, 0, 0, 0.25); */
   }
