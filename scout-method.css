@@ -22,7 +22,7 @@
 
 .main-text {
   font-size: 14px;
-  line-height: 1.52;
+  line-height: 1.5;
   text-align: center;
   margin-bottom: 8px;
 }
@@ -94,7 +94,7 @@
 .scouts-methods-item-title {
   font-weight: 700;
   font-size: 15px;
-  line-height: 1.52;
+  line-height: 1.5;
 }
 
 .scouts-methods-item-text {
@@ -350,7 +350,7 @@ ul .main-text.law-text-item {
   .scouts-methods-item-title {
     font-weight: 700;
     font-size: 24px;
-    line-height: 1.52;
+    line-height: 1.5;
   }
 
   .scouts-methods-item-text {
