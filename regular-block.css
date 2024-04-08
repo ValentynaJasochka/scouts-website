@@ -30,6 +30,10 @@
   align-self: start;
 }
 
+.regular-block-text-wrapper p{
+  margin-bottom: 1em;
+}
+
 .regular-block-text-title {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 600;
@@ -45,6 +49,10 @@
   width: 100%;
   text-align: start;
   color: var(--grey-font-color);
+}
+
+.regular-block-text p{
+  margin-bottom: 1em;
 }
 
 .regular-block-text-bold {

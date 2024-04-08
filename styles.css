@@ -5,6 +5,7 @@
 
   .main-title.additional-main-title {
     font-size: 20px;
+    text-transform: capitalize;
   }
 
   .main-part-section-img-wrapper {
