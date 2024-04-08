@@ -278,8 +278,9 @@ ul .main-text.law-text-item {
   }
 
   .scouts-methods-elements-banner {
-    width: 1053px;
-    height: 980px;
+    width: 60%;
+    height: auto;
+    aspect-ratio: 1.07;
   }
 
   .scouts-methods-elements-list {
