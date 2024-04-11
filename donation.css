@@ -239,7 +239,8 @@
 
   .donation {
     gap: 24px;
-    max-width: 1296px;
+    max-width: 1424px;
+    padding: 0 64px;
   }
 
   .side-wrapper {

@@ -460,13 +460,13 @@ ul .main-text.law-text-item {
   }
 
   .scouts-principles-item {
-    width: 365px;
+    width: 100%;
   }
 
   .scouts-principles-item::before {
     display: block;
     content: "";
-    width: 365px;
+    width: 100%;
     border: 1px solid rgba(64, 61, 68, 0.2);
     margin-bottom: 32px;
   }

@@ -1,8 +1,5 @@
 :root {
   --accent-color: rgb(91, 41, 147);
-  /* --accent-button-background: #404bbf;
-    --btn-background: #4d5ae5;
-    --hero-font-color: #ffffff; */
   --main-font: "Montserrat", sans-serif;
   --main-font-color: rgb(64, 61, 68);
   --white-text-color: rgb(255, 255, 255);
@@ -87,7 +84,6 @@ a {
 }
 
 .main-title-container {
-  max-width: 1296px;
   width: 100%;
   padding: 0 16px;
   margin-bottom: 16px;

@@ -5,8 +5,6 @@
     background-repeat: no-repeat, no-repeat;
     background-position: bottom 0 center, bottom 0 center;
     background-size: contain, contain;
-    /* background-image: url("./images/join-us/banner.png"),
-    url("./images/join-us/banner-background.png"); */
     background-image: url("./images/join-us/join-us-desktop-banner.png");
     margin-left: auto;
     margin-right: auto;
@@ -359,10 +357,8 @@
 
 
   /* leadership */
-  .leadership {
-    display: flex;
-
-    padding: 32px 0 16px 0;
+  .container.regular-section.leadership {
+    padding: 32px 64px 16px;
   }
 
   .second-invitation-wrapper {
