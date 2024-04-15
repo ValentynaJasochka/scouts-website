@@ -49,6 +49,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.member-position-not-transform {
+  text-transform: none;
+}
 
 .name {
   text-align: center;
