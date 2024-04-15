@@ -230,7 +230,7 @@
   .banner {
     width: 100%;
     background-position: bottom 0 center, bottom 40% center;
-    background-size: cover, contain;
+    /* background-size: cover, contain; */
     background-image: url("./images/join-us/join-us-desktop-banner.png");
   }
 
