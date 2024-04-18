@@ -1,12 +1,12 @@
 @media screen and (min-width: 320px) {
   .banner {
     width: 100%;
-    aspect-ratio: 1.7;
+    aspect-ratio: 2.5;
     background-repeat: no-repeat;
     background-position:center;
     background-size: contain;
     background-image: url("./images/join-us/join-us-desktop-banner.png");
-   
+   margin-bottom: 32px;
   }
 
   .invitation-section {
