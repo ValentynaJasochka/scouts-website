@@ -6,7 +6,7 @@
     background-position:center;
     background-size: contain;
     background-image: url("./images/join-us/join-us-desktop-banner.png");
-   
+    margin-top: 16px;
   }
 
   .invitation-section {
@@ -230,6 +230,7 @@
     width: 100%;
     background-image: url("./images/join-us/join-us-desktop-banner.png");
     margin-bottom: 32px;
+    margin-top: 0px;
   }
 
   .invitation-section {
