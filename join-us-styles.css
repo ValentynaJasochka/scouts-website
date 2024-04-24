@@ -1,7 +1,7 @@
 @media screen and (min-width: 320px) {
   .banner {
     width: 100%;
-    aspect-ratio: 2.5;
+    aspect-ratio: 2;
     background-repeat: no-repeat;
     background-position:center;
     background-size: contain;
@@ -357,7 +357,7 @@
 
   /* leadership */
   .container.regular-section.leadership {
-    padding: 32px 64px 16px;
+    padding: 64px 64px 16px;
   }
 
   .second-invitation-wrapper {

@@ -110,7 +110,7 @@
   .volunteering-img-wrapper {
     width: 529px;
     height: 358px;
-    margin-bottom: 41px;
+    margin-bottom: 30px;
   }
 
   .volunteering-text-bold {
@@ -133,6 +133,7 @@
 
   .mobile-none {
     display: block;
+    margin-bottom: 16px;
   }
 
   .display-none {
