@@ -231,7 +231,7 @@
     flex-direction: column;
     align-items: center;
     background-repeat: no-repeat;
-    background-position: center left, top right;
+    background-position: bottom 30px left -10px, top -20px right;
     background-image: url("./images/mobile/main-page/main-banner-background1.png"),
     url("./images/mobile/main-page/main-banner-background2.png");
   }
@@ -705,11 +705,11 @@
     padding-bottom: 46px;
     display: flex;
     flex-direction: column;
-    /* gap: 64px; */
     gap: 46px;
     align-items: center;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left bottom;
+    /* background-size: cover;    */
     background-image: url("./images/about-us/background-group.png");
   }
 
