@@ -4,7 +4,6 @@
   --main-font-color: rgb(64, 61, 68);
   --white-text-color: rgb(255, 255, 255);
   --shadow-background: rgba(64, 61, 68, 0.02);
-  --grey-font-color: rgb(91, 91, 108);
 }
 
 * {
@@ -252,7 +251,6 @@ a {
     font-size: 14px;
     color: var(--accent-color);
     padding-left: 32px;
-
     margin-right: auto;
   }
 
@@ -261,7 +259,7 @@ a {
   }
 
   .header-nav-item-link {
-    color: inherit;
+    color: var(--main-font-color);
   }
 
   .inner-mobile-menu-open-btn {

@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  gap: 8px;
   padding: 0 16px;
   margin-bottom: 24px;
   width: 100%;
@@ -47,7 +47,7 @@
   line-height: 1.5;
   width: 100%;
   text-align: start;
-  color: var(--grey-font-color);
+  color: var(--main-font-color);
 }
 
 .regular-block-text p{
@@ -101,6 +101,7 @@
 
   .regular-section-wrapper {
     padding: 0;
+    gap: 32px;
   }
 
   .regular-block-main-container {
