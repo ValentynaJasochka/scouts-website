@@ -549,6 +549,9 @@ a {
   .header-nav-item-link:visited {
     color: inherit;
   }
+  .header-nav-item-link:link {
+    color: inherit;
+  }
 
   .heder-nav-text {
     font-weight: 700;
