@@ -14,7 +14,7 @@
   line-height: 1.5;
 
   font-style: italic;
-  color: var(--grey-font-color);
+  color: var(--main-font-color);
   align-self: end;
   text-decoration: underline;
   margin-bottom: 8px;

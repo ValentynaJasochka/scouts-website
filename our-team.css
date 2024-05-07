@@ -45,7 +45,7 @@
 
 .member-position {
   font-size: 14px;
-  color: var(--grey-font-color);
+  color: var(--main-font-color);
   text-align: center;
   text-transform: capitalize;
 }
