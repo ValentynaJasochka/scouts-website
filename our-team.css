@@ -19,7 +19,7 @@
 
 .member-img-wrapper {
   width: 248px;
-  height: 206px;
+  height: 228px;
   overflow: hidden;
   align-self: center;
   /* padding: 8px; */
@@ -98,18 +98,19 @@
   }
 
   .team-member {
-    height: 324px;
+    /* height: 324px; */
     padding-bottom: 8px;
     gap: unset;
   }
 
   .member-img-wrapper {
     margin-bottom: 20px;
+    height: 372px;
   }
 
   .member-img-wrapper > .member-img {
     width: 248px;
-    height: 206px;
+    height: 372px;
   }
 
   .additional-text-wrapper {

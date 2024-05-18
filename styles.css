@@ -520,13 +520,15 @@
     background-repeat: no-repeat;
     background-position: center;
     background-image: url("./images/about-us/background-img.jpg");
+    background-size: cover;
   }
 
   .hero-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 60px;
+    gap: 52px;
+    padding-top: 16px;
   }
 
   .hero-text-container {
