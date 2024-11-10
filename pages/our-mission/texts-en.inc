@@ -1,7 +1,7 @@
 <?php
   return [
-    "meta-title" => "Our mission",
+    "meta-title" => "Eng Our mission",
     "meta-description" => "Our mission.",
-    "page-title" => "Our mission"
+    "page-title" => "Engl Our mission"
     ]
 ?>

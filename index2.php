@@ -6,16 +6,19 @@
     $requestUri = $_SERVER['REQUEST_URI']; 
     $fileName = basename(parse_url($requestUri, PHP_URL_PATH), ".php");
 
-    $lang = isset($_GET['lang']) ? $_GET['lang'] : 'ukr';
     $uri = strtok($requestUri, '?');
     $pageName = basename($uri, ".php");
-
+    
     
     if ($pageName == 'index' || $pageName == 'scouts-website' || $pageName == '') {
         $pageName = 'home';
     }
+    
+    if (isset($_GET["lang"])){
+        setcookie("lang", $_GET["lang"]);
+    }
 
-
+    $lang = getLang();
     $langFile = __DIR__ . "/pages/{$pageName}/texts-{$lang}.inc";
 
     if (file_exists($langFile)) { 

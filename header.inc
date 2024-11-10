@@ -8,6 +8,8 @@
           alt="Logo Scouts"
         />
       </a>
+      <a href="?lang=ukr">UA</a>
+      <a href="?lang=en">EN</a>
       <ul class="header-nav-list nav-mobile-menu">
         <li class="header-nav-item menu-first nav-main-item">
           <div class="header-nav-item-container nav-item-click-listener">
