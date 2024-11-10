@@ -16,13 +16,8 @@ function getLang() {
   return 'eng';
 }
 
-function getLangText($arr, $lang) {
-  print_r( $arr);
-  echo $lang;
-  if(in_array($lang, $arr)){
-    return $arr[$lang];
-  }
-  return $arr['ukr'];
+function getValue($value, $key) {
+  return isset($value[$key]) ? $value[$key] : 'No text';
 }
 ?>
 

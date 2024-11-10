@@ -50,7 +50,7 @@
     padding: 0 13% 15%;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("./images/mobile/main-page/banner-mobile.jpg");
+    background-image: url("/images/mobile/main-page/banner-mobile.jpg");
     aspect-ratio: 1.48;
   }
 
@@ -141,7 +141,7 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
-    background-image: url("./images/about-us/about-us.jpg");
+    background-image: url("/images/about-us/about-us.jpg");
   }
 
   .sub-title {
@@ -232,8 +232,8 @@
     align-items: center;
     background-repeat: no-repeat;
     background-position: bottom 30px left -10px, top -20px right;
-    background-image: url("./images/mobile/main-page/main-banner-background1.png"),
-    url("./images/mobile/main-page/main-banner-background2.png");
+    background-image: url("/images/mobile/main-page/main-banner-background1.png"),
+    url("/images/mobile/main-page/main-banner-background2.png");
   }
 
   .main-title {
@@ -519,7 +519,7 @@
     padding: 184px 13% 128px 13%;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("./images/about-us/background-img.jpg");
+    background-image: url("/images/about-us/background-img.jpg");
     background-size: cover;
   }
 
@@ -598,7 +598,7 @@
     width: 772px;
     height: 601px;
     border-radius: 24px;
-    background-image: url("./images/about-us/about-us.jpg");
+    background-image: url("/images/about-us/about-us.jpg");
     background-size: contain;
   }
 
@@ -713,7 +713,7 @@
     background-repeat: no-repeat;
     background-position: left bottom;
     /* background-size: cover;    */
-    background-image: url("./images/about-us/background-group.png");
+    background-image: url("/images/about-us/background-group.png");
   }
 
   .main-title {

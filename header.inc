@@ -1,0 +1,118 @@
+<header class="header">
+  <div class="container page-header-container">
+    <nav class="header-navigation">
+      <a class="header-logo" href="./">
+        <img
+          class="header-logo-img"
+          src="./images/logo-heder.svg"
+          alt="Logo Scouts"
+        />
+      </a>
+      <ul class="header-nav-list nav-mobile-menu">
+        <li class="header-nav-item menu-first nav-main-item">
+          <div class="header-nav-item-container nav-item-click-listener">
+            <p class="heder-nav-text">Про нас</p>
+            <button class="inner-mobile-menu-open-btn" type="button">
+              <svg class="inner-mobile-menu-open-icon" width="13" height="17">
+                <use
+                  href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                ></use>
+              </svg>
+            </button>
+          </div>
+          <ul class="nav-table is-hidden" data-menu-first>
+            <li class="nav-table-item">
+              <a class="nav-table-link" href="./our-history">Наша історія</a>
+            </li>
+            <li class="nav-table-item">
+              <a class="nav-table-link" href="./our-mission">Наша місія</a>
+            </li>
+            <li class="nav-table-item">
+              <a class="nav-table-link" href="./scout-method"
+                >Скаутський Метод</a
+              >
+            </li>
+            <li class="nav-table-item">
+              <a class="nav-table-link" href="./our-team">Команда </a>
+            </li>
+          </ul>
+        </li>
+        <li class="header-nav-item menu-second nav-main-item">
+          <div class="header-nav-item-container nav-item-click-listener">
+            <p class="heder-nav-text">Діяльність</p>
+            <button class="inner-mobile-menu-open-btn" type="button">
+              <svg class="inner-mobile-menu-open-icon" width="13" height="17">
+                <use
+                  href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                ></use>
+              </svg>
+            </button>
+          </div>
+
+          <ul class="nav-table is-hidden" data-menu-second>
+            <li class="nav-table-item">
+              <a class="nav-table-link" href="./our-mission#our-program"
+                >Наша програма
+              </a>
+            </li>
+            <li class="nav-table-item">
+              <a class="nav-table-link" href="./help-ukrainians">Проєкти </a>
+            </li>
+            <li class="nav-table-item">
+              <a class="nav-table-link" href="./our-events">Заходи </a>
+            </li>
+          </ul>
+        </li>
+        <li class="header-nav-item menu-third nav-main-item">
+          <div class="header-nav-item-container nav-item-click-listener">
+            <p class="heder-nav-text">Всесвітній Скаутинг</p>
+            <button class="inner-mobile-menu-open-btn" type="button">
+              <svg class="inner-mobile-menu-open-icon" width="13" height="17">
+                <use
+                  href="./images/sprite-title-page.svg#inner-mobile-open-btn"
+                ></use>
+              </svg>
+            </button>
+          </div>
+
+          <ul class="nav-table is-hidden" data-menu-third>
+            <li class="nav-table-item">
+              <a class="nav-table-link" href="./world-scouting">ВОСР</a>
+            </li>
+
+            <li class="nav-table-item">
+              <a class="nav-table-link" href="./scouting-history"
+                >Історія Скаутингу</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="header-nav-item heder-nav-text">
+          <div class="header-nav-item-container">
+            <a class="header-nav-item-link" href="./join-us"> Приєднатись</a>
+          </div>
+        </li>
+        <li class="header-nav-item heder-nav-text" style="display: none">
+          <div class="header-nav-item-container">
+            <a class="header-nav-item-link" href="./donation">Задонатити</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <button class="mobile-menu-open mobile-menu-handler open" type="button">
+      <svg class="mobile-menu-open-icon" width="24" height="24">
+        <use href="./images/sprite-title-page.svg#burger-icon"></use>
+      </svg>
+    </button>
+    <button
+      class="mobile-menu-close mobile-menu-handler close is-hidden"
+      type="button"
+    >
+      <img
+        class="mobile-menu-close-icon"
+        src="./images/close-mob-menu.png"
+        alt="close-btn"
+      />
+    </button>
+  </div>
+</header>
