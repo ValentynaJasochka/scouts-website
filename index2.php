@@ -34,7 +34,7 @@
 
 <body>
     <?php
-    include "header/header.inc";
+    include "header/header.php";
 
     $pageFile = __DIR__ . "/pages/{$pageName}/index.php";
 
