@@ -44,7 +44,7 @@
         include __DIR__ . "/404.php"; // Default to English if the file doesn't exist 
     }
 
-    include "footer.inc"
+    include "footer/footer.inc"
     ?>
 </body>
 

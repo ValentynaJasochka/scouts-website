@@ -16,6 +16,7 @@ $mediaLinks = [
 
 $textsAboutUs = include "texts-about-us.inc";
 $textsOurEvents = include "texts-our-events.inc";
+$textsScoutReviews = include "texts-scout-review.inc";
 ?>
 <main>
   <div class="main-group">
@@ -141,126 +142,52 @@ $textsOurEvents = include "texts-our-events.inc";
     </section>
     <section class="reviews">
       <div class="container reviews-section">
-        <h2 class="reviews-title">Відгуки про Скаутинг</h2>
+        <h2 class="reviews-title"><?= getLangText($texts["sc-review-title"]) ?></h2>
         <ul class="reviews-list">
-          <li class="reviews-stiled">
-            <div class="reviews-item-styled first"></div>
-            <div class="reviews-item">
-              <p class="reviews-text">
-                Для мене Скаутинг - це місце, де цікаво все: я знаходжу
-                нових друзів, граю в активні ігри, дізнаюсь нове, подорожую
-                та беру участь у таборах. А ще, я почала старанніше вчити
-                англійську, бо вона потрібна на міжнародних івентах. Бути
-                Скаутом захоплює!
-              </p>
-              <div class="reviews-individuo-wrapper">
-                <div class="reviewer-photo-wrapper">
-                  <img
-                    class="reviewer-photo"
-                    src="./images/about-us/Base-1.png"
-                    alt="Поліна Прик" />
-                </div>
+          <?php
+          foreach ($textsScoutReviews as $reviews) {
+          ?>
+            <li class="reviews-stiled">
+              <?php
+              foreach ($reviews as $review) {
+                if ($review["subclass"] != "") {
+              ?>
+                  <div class="reviews-item-styled <?= $review["subclass"] ?>"></div>
+                <?php
+                } else {
+                ?>
+                  <div class="reviews-item">
+                    <p class="reviews-text"><?= getLangText($review["text"]) ?></p>
+                    <div class="reviews-individuo-wrapper">
+                      <div class="reviewer-photo-wrapper">
+                        <img
+                          class="reviewer-photo"
+                          src="<?= $review["photo"] ?>"
+                          alt="<?= getLangText($review["photo-alt"]) ?>" />
+                      </div>
 
-                <div class="reviews-individuo">
-                  <p class="reviewer-name">Поліна Прик</p>
-                  <p class="reviewer-status">Скаут СО "Тотем"</p>
-                </div>
-              </div>
-            </div>
-            <div class="reviews-item-styled second"></div>
-          </li>
-          <li class="reviews-stiled">
-            <div class="reviews-item-styled first"></div>
-            <div class="reviews-item">
-              <p class="reviews-text">
-                Це дійсно унікальна можливість для саморозвитку та
-                формування характеру. Я пишаюся дивовижними молодими людьми,
-                які виросли з дітей моїх знайомих, що в НОСУ з дитинства.
-                Мій син - у Скаутах, а дочка нещодавно стала Кабскаутом, і я
-                не памʼятаю її щасливішою.
-              </p>
-              <div class="reviews-individuo-wrapper">
-                <div class="reviewer-photo-wrapper">
-                  <img
-                    class="reviewer-photo"
-                    src="./images/about-us/Base-2.jpg"
-                    alt="Андрій Смиковський" />
-                </div>
-
-                <div class="reviews-individuo">
-                  <p class="reviewer-name">Андрій Смиковський</p>
-                  <p class="reviewer-status">Батько дітей-Скаутів</p>
-                </div>
-              </div>
-            </div>
-            <div class="reviews-item">
-              <p class="reviews-text">
-                В моєму патрулі - всі мої найкращі друзі! Я з нетерпінням
-                чекаю кожної зустрічі, аби проводити час разом та
-                дізнаватися нове.
-              </p>
-              <div class="reviews-individuo-wrapper">
-                <div class="reviewer-photo-wrapper">
-                  <img
-                    class="reviewer-photo"
-                    src="./images/about-us/Base-3.jpg"
-                    alt="Єсенія Пономаренко" />
-                </div>
-
-                <div class="reviews-individuo">
-                  <p class="reviewer-name">Єсенія Пономаренко</p>
-                  <p class="reviewer-status">Кабскаут СО "Асгард"</p>
-                </div>
-              </div>
-            </div>
-            <div class="reviews-item-styled second"></div>
-          </li>
-
-          <li class="reviews-stiled">
-            <div class="reviews-item-styled first"></div>
-            <div class="reviews-item">
-              <p class="reviews-text">
-                На вихідних я завжди з посмішкою вирушаю до своєї Cкаутської
-                групи, бо знаю, що на мене чекають. Популярний стереотип:
-                "Скаутинг - це лише для дітей", однак мій досвід відкрив
-                мені безцінні уроки, яких не змогли надати ані школа, ані
-                університет, ані робота. Окрім цього, я відчуваю, що роблю
-                внесок у формування майбутнього України — це надзвичайно
-                важливо, особливо зараз. Сподіваюся, що все більше людей
-                усвідомлюватимуть значущість цієї справи і приєднаються до
-                нас.
-              </p>
-              <div class="reviews-individuo-wrapper">
-                <div class="reviewer-photo-wrapper">
-                  <img
-                    class="reviewer-photo"
-                    src="./images/about-us/Base-4.jpg"
-                    alt="Анастасія Ратушняк" />
-                </div>
-
-                <div class="reviews-individuo">
-                  <p class="reviewer-name">Анастасія Ратушняк</p>
-                  <p class="reviewer-status">Скаут-лідер</p>
-                </div>
-              </div>
-            </div>
-            <div class="reviews-item-styled second"></div>
-          </li>
+                      <div class="reviews-individuo">
+                        <p class="reviewer-name"><?= getLangText($review["name"]) ?></p>
+                        <p class="reviewer-status"><?= getLangText($review["status"]) ?></p>
+                      </div>
+                    </div>
+                  </div>
+              <?php
+                }
+              }
+              ?>
+            </li>
+          <?php
+          }
+          ?>
         </ul>
       </div>
     </section>
     <section class="invitation">
       <div class="container invitation-section">
         <div class="invitation-information">
-          <h2 class="invitation-title">
-            Запрошуємо стати <br />
-            Скаутом або Скаут-Лідером!
-          </h2>
-          <p class="invitation-text">
-            Членом Національної Організації Скаутів України може стати
-            кожний, незалежно від віку, походження, раси, гендеру чи
-            віросповідання!
-          </p>
+          <h2 class="invitation-title"><?= getLangText($texts["invitation-title"]) ?></h2>
+          <p class="invitation-text"><?= getLangText($texts["invitation-text"]) ?></p>
           <a
             href="./join-us"
             class="subscribing-link subscribing-link-invitation">
@@ -269,7 +196,7 @@ $textsOurEvents = include "texts-our-events.inc";
               src="./images/btn-vector.png"
               width="30"
               height="30" />
-            <p class="subscribing-link-text bottom">Приєднатись до нас</p>
+            <p class="subscribing-link-text bottom"><?= getLangText($texts["join-us-bottom"]) ?></p>
           </a>
         </div>
         <div class="invitation-section-img">
