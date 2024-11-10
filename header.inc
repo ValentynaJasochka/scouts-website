@@ -1,3 +1,7 @@
+<?php
+$dropdowns = include "./header-dropdowns.inc";
+$texts = include "./header-texts.inc";
+?>
 <header class="header">
   <div class="container page-header-container">
     <nav class="header-navigation">
@@ -5,98 +9,50 @@
         <img
           class="header-logo-img"
           src="./images/logo-heder.svg"
-          alt="Logo Scouts"
-        />
+          alt="Logo Scouts" />
       </a>
       <a href="?lang=ukr">UA</a>
       <a href="?lang=en">EN</a>
       <ul class="header-nav-list nav-mobile-menu">
-        <li class="header-nav-item menu-first nav-main-item">
-          <div class="header-nav-item-container nav-item-click-listener">
-            <p class="heder-nav-text">Про нас</p>
-            <button class="inner-mobile-menu-open-btn" type="button">
-              <svg class="inner-mobile-menu-open-icon" width="13" height="17">
-                <use
-                  href="./images/sprite-title-page.svg#inner-mobile-open-btn"
-                ></use>
-              </svg>
-            </button>
-          </div>
-          <ul class="nav-table is-hidden" data-menu-first>
-            <li class="nav-table-item">
-              <a class="nav-table-link" href="./our-history">Наша історія</a>
-            </li>
-            <li class="nav-table-item">
-              <a class="nav-table-link" href="./our-mission">Наша місія</a>
-            </li>
-            <li class="nav-table-item">
-              <a class="nav-table-link" href="./scout-method"
-                >Скаутський Метод</a
-              >
-            </li>
-            <li class="nav-table-item">
-              <a class="nav-table-link" href="./our-team">Команда </a>
-            </li>
-          </ul>
-        </li>
-        <li class="header-nav-item menu-second nav-main-item">
-          <div class="header-nav-item-container nav-item-click-listener">
-            <p class="heder-nav-text">Діяльність</p>
-            <button class="inner-mobile-menu-open-btn" type="button">
-              <svg class="inner-mobile-menu-open-icon" width="13" height="17">
-                <use
-                  href="./images/sprite-title-page.svg#inner-mobile-open-btn"
-                ></use>
-              </svg>
-            </button>
-          </div>
 
-          <ul class="nav-table is-hidden" data-menu-second>
-            <li class="nav-table-item">
-              <a class="nav-table-link" href="./our-mission#our-program"
-                >Наша програма
-              </a>
-            </li>
-            <li class="nav-table-item">
-              <a class="nav-table-link" href="./help-ukrainians">Проєкти </a>
-            </li>
-            <li class="nav-table-item">
-              <a class="nav-table-link" href="./our-events">Заходи </a>
-            </li>
-          </ul>
-        </li>
-        <li class="header-nav-item menu-third nav-main-item">
-          <div class="header-nav-item-container nav-item-click-listener">
-            <p class="heder-nav-text">Всесвітній Скаутинг</p>
-            <button class="inner-mobile-menu-open-btn" type="button">
-              <svg class="inner-mobile-menu-open-icon" width="13" height="17">
-                <use
-                  href="./images/sprite-title-page.svg#inner-mobile-open-btn"
-                ></use>
-              </svg>
-            </button>
-          </div>
+        <?php
+        foreach ($dropdowns as $menuItem) {
+        ?>
 
-          <ul class="nav-table is-hidden" data-menu-third>
-            <li class="nav-table-item">
-              <a class="nav-table-link" href="./world-scouting">ВОСР</a>
-            </li>
+          <li class="header-nav-item nav-main-item">
+            <div class="header-nav-item-container nav-item-click-listener">
+              <p class="heder-nav-text"><?= $menuItem['header'][$lang] ?></p>
+              <button class="inner-mobile-menu-open-btn" type="button">
+                <svg class="inner-mobile-menu-open-icon" width="13" height="17">
+                  <use
+                    href="./images/sprite-title-page.svg#inner-mobile-open-btn"></use>
+                </svg>
+              </button>
+            </div>
+            <ul class="nav-table is-hidden">
+              <?php
 
-            <li class="nav-table-item">
-              <a class="nav-table-link" href="./scouting-history"
-                >Історія Скаутингу</a
-              >
-            </li>
-          </ul>
-        </li>
+              foreach ($menuItem['links'] as $link) {
+              ?>
+                <li class='nav-table-item'>
+                  <a class='nav-table-link' href='<?= $link['link'] ?>'><?= $link['title'][$lang] ?></a>
+                </li>
+              <?php
+              }
+              ?>
+            </ul>
+          </li>
+        <?php
+        }
+        ?>
         <li class="header-nav-item heder-nav-text">
           <div class="header-nav-item-container">
-            <a class="header-nav-item-link" href="./join-us"> Приєднатись</a>
+            <a class="header-nav-item-link" href="./join-us"><?=getLangText($texts['join'])?></a>
           </div>
         </li>
         <li class="header-nav-item heder-nav-text" style="display: none">
           <div class="header-nav-item-container">
-            <a class="header-nav-item-link" href="./donation">Задонатити</a>
+            <a class="header-nav-item-link" href="./donation"><?=getLangText($texts['donation'])?></a>
           </div>
         </li>
       </ul>
@@ -108,13 +64,11 @@
     </button>
     <button
       class="mobile-menu-close mobile-menu-handler close is-hidden"
-      type="button"
-    >
+      type="button">
       <img
         class="mobile-menu-close-icon"
         src="./images/close-mob-menu.png"
-        alt="close-btn"
-      />
+        alt="close-btn" />
     </button>
   </div>
 </header>

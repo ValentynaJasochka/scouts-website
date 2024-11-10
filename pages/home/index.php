@@ -3,7 +3,7 @@
         <section class="container hero">
           <div class="hero-container">
             <div class="hero-text-container">
-              <p class="hero-text">Відкрий світ українського Скаутингу!</p>
+              <p class="hero-text"><?=getValue($texts,"open-world")?></p>
             </div>
             <ul class="social-media-list">
               <li class="social-media-link">
@@ -48,7 +48,7 @@
               width="30"
               height="30"
             />
-            <p class="subscribing-link-text top">Приєднатись <span> до нас</span></p>
+            <p class="subscribing-link-text top"><?=getValue($texts, 'join-us')?></p>
           </a>
         </section>
         <section class="container about-scouts">

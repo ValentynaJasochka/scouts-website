@@ -12,10 +12,10 @@
     <link rel="canonical" href="https://ukrscout.org/"/>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="title" content="<?php echo getValue($texts,"meta-title"); ?>"/>
+    <meta name="title" content="<?=getValue($texts,"meta-title")?>"/>
     <meta name="description"
-      content="<?php echo getValue($texts, 'meta-description'); ?>">
-    <title><?php echo getValue($texts, "page-title"); ?></title>
+      content="<?=getValue($texts, 'meta-description')?>">
+    <title><?=getValue($texts, "page-title")?></title>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link
