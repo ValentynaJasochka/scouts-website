@@ -1,6 +1,6 @@
 <?php
-$dropdowns = include "./header-dropdowns.inc";
-$texts = include "./header-texts.inc";
+$dropdowns = include "header-dropdowns.inc";
+$headerTexts = include "header-texts.inc";
 ?>
 <header class="header">
   <div class="container page-header-container">
@@ -21,7 +21,7 @@ $texts = include "./header-texts.inc";
 
           <li class="header-nav-item nav-main-item">
             <div class="header-nav-item-container nav-item-click-listener">
-              <p class="heder-nav-text"><?= $menuItem['header'][$lang] ?></p>
+              <p class="heder-nav-text"><?= getLangText($menuItem['header']) ?></p>
               <button class="inner-mobile-menu-open-btn" type="button">
                 <svg class="inner-mobile-menu-open-icon" width="13" height="17">
                   <use
@@ -35,7 +35,7 @@ $texts = include "./header-texts.inc";
               foreach ($menuItem['links'] as $link) {
               ?>
                 <li class='nav-table-item'>
-                  <a class='nav-table-link' href='<?= $link['link'] ?>'><?= $link['title'][$lang] ?></a>
+                  <a class='nav-table-link' href='<?= $link['link'] ?>'><?= getLangText($link['title']) ?></a>
                 </li>
               <?php
               }
@@ -47,12 +47,12 @@ $texts = include "./header-texts.inc";
         ?>
         <li class="header-nav-item heder-nav-text">
           <div class="header-nav-item-container">
-            <a class="header-nav-item-link" href="./join-us"><?=getLangText($texts['join'])?></a>
+            <a class="header-nav-item-link" href="./join-us"><?= getLangText($headerTexts['join']) ?></a>
           </div>
         </li>
         <li class="header-nav-item heder-nav-text" style="display: none">
           <div class="header-nav-item-container">
-            <a class="header-nav-item-link" href="./donation"><?=getLangText($texts['donation'])?></a>
+            <a class="header-nav-item-link" href="./donation"><?= getLangText($headerTexts['donation']) ?></a>
           </div>
         </li>
       </ul>

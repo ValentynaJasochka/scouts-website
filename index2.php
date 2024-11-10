@@ -4,6 +4,11 @@
 <head>
     <?php
     include "./inc/utils.inc";
+
+    if (isset($_GET["lang"])) {
+        setcookie("lang", $_GET["lang"]);
+    }
+
     $requestUri = $_SERVER['REQUEST_URI'];
     $fileName = basename(parse_url($requestUri, PHP_URL_PATH), ".php");
 
@@ -15,27 +20,13 @@
         $pageName = 'home';
     }
 
-    if (isset($_GET["lang"])) {
-        setcookie("lang", $_GET["lang"]);
-    }
-
-    $lang = getLang();
-    
     $texts = [];
-    if (file_exists(__DIR__ . "/pages/{$pageName}/texts-ukr.inc")) {
-        $defaultTexts = include __DIR__ . "/pages/{$pageName}/texts-ukr.inc";
+    if (file_exists(__DIR__ . "/pages/{$pageName}/texts.inc")) {
+        $defaultTexts = include __DIR__ . "/pages/{$pageName}/texts.inc";
         $texts = array_merge($texts, $defaultTexts);
     }
-    
-    $langFile = __DIR__ . "/pages/{$pageName}/texts-{$lang}.inc";
 
-    if (file_exists($langFile)) {
-        $langTexts = include $langFile;
-        $texts = array_merge($texts, $langTexts);
-    } 
-
-
-    include "head-html.inc";
+    include "header/head-html.inc";
     ?>
     <link rel="stylesheet" href="<?= "./pages/{$pageName}/styles.css" ?>" />
 
@@ -43,7 +34,7 @@
 
 <body>
     <?php
-    include "header.inc";
+    include "header/header.inc";
 
     $pageFile = __DIR__ . "/pages/{$pageName}/index.php";
 

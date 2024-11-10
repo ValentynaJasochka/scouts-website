@@ -3,15 +3,14 @@
         <section class="container hero">
           <div class="hero-container">
             <div class="hero-text-container">
-              <p class="hero-text"><?=getValue($texts,"open-world")?></p>
+              <p class="hero-text"><?= getLangText($texts["open-world"]) ?></p>
             </div>
             <ul class="social-media-list">
               <li class="social-media-link">
                 <a
                   href="https://www.instagram.com/ukrscout"
                   class="social-media-item"
-                  target="_blank"
-                >
+                  target="_blank">
                   <svg class="social-media-item-icon">
                     <use href="./images/sprite-title-page.svg#instagram"></use>
                   </svg>
@@ -21,8 +20,7 @@
                 <a
                   href="https://www.facebook.com/ukrscout"
                   class="social-media-item"
-                  target="_blank"
-                >
+                  target="_blank">
                   <svg class="social-media-item-icon">
                     <use href="./images/sprite-title-page.svg#facebook"></use>
                   </svg>
@@ -32,8 +30,7 @@
                 <a
                   href="https://t.me/ukrscout"
                   class="social-media-item"
-                  target="_blank"
-                >
+                  target="_blank">
                   <svg class="social-media-item-icon">
                     <use href="./images/sprite-title-page.svg#telegram"></use>
                   </svg>
@@ -46,9 +43,8 @@
               class="subscribing-link-icon"
               src="./images/btn-vector.png"
               width="30"
-              height="30"
-            />
-            <p class="subscribing-link-text top"><?=getValue($texts, 'join-us')?></p>
+              height="30" />
+            <p class="subscribing-link-text top"><?= getLangText($texts['join-us']) ?></p>
           </a>
         </section>
         <section class="container about-scouts">
@@ -72,8 +68,7 @@
                   <div class="about-scouts-card-img">
                     <img
                       class="about-scouts-card-picture"
-                      src="./images/about-us/photo-1.jpg"
-                    />
+                      src="./images/about-us/photo-1.jpg" />
                   </div>
                   <h3 class="scouts-card-title">Наша Історія</h3>
                 </div>
@@ -88,8 +83,7 @@
                     class="about-scouts-card-nav"
                     src="./images/arrow-grey.png"
                     width="32"
-                    height="32"
-                  />
+                    height="32" />
                 </a>
               </li>
               <li class="about-scouts-card">
@@ -99,8 +93,7 @@
                       class="about-scouts-card-picture"
                       src="./images/about-us/photo-2.png"
                       width="100"
-                      height="100"
-                    />
+                      height="100" />
                   </div>
                   <h3 class="scouts-card-title">Місія</h3>
                 </div>
@@ -111,21 +104,18 @@
                   самореалізуються як особистості та відіграють конструктивну
                   роль у суспільстві.
                 </p>
-                <a href="./our-mission"
-                ><img
-                  class="about-scouts-card-nav"
-                  src="./images/arrow-grey.png"
-                  width="32"
-                  height="32"
-                /></a>
+                <a href="./our-mission"><img
+                    class="about-scouts-card-nav"
+                    src="./images/arrow-grey.png"
+                    width="32"
+                    height="32" /></a>
               </li>
               <li class="about-scouts-card">
                 <div class="about-scouts-header">
                   <div class="about-scouts-card-img">
                     <img
                       class="about-scouts-card-picture"
-                      src="./images/about-us/photo-3.jpg"
-                    />
+                      src="./images/about-us/photo-3.jpg" />
                   </div>
                   <h3 class="scouts-card-title">Програма</h3>
                 </div>
@@ -136,21 +126,18 @@
                   розвиток особистости задля досягнення свого найвищого
                   потенціалу.
                 </p>
-                <a href="./our-mission"
-                ><img
-                  class="about-scouts-card-nav"
-                  src="./images/arrow-grey.png"
-                  width="32"
-                  height="32"
-                /></a>
+                <a href="./our-mission"><img
+                    class="about-scouts-card-nav"
+                    src="./images/arrow-grey.png"
+                    width="32"
+                    height="32" /></a>
               </li>
               <li class="about-scouts-card">
                 <div class="about-scouts-header">
                   <div class="about-scouts-card-img">
                     <img
                       class="about-scouts-card-picture"
-                      src="./images/about-us/photo-4.jpg"
-                    />
+                      src="./images/about-us/photo-4.jpg" />
                   </div>
                   <h3 class="scouts-card-title">Скаутський Метод</h3>
                 </div>
@@ -165,8 +152,7 @@
                     class="about-scouts-card-nav"
                     src="./images/arrow-grey.png"
                     width="32"
-                    height="32"
-                  /></a>
+                    height="32" /></a>
               </li>
             </ul>
           </div>
@@ -177,8 +163,7 @@
             <img
               class="main-part-section-img"
               src="./images/about-us/main-banner.jpg"
-              alt="Ukrainian scouts"
-            />
+              alt="Ukrainian scouts" />
           </div>
 
           <div class="main-information-block">
@@ -207,8 +192,7 @@
                     <img
                       class="events-img"
                       src="./images/about-us/Photo1.jpg"
-                      alt="Camps"
-                    />
+                      alt="Camps" />
                   </div>
 
                   <p class="events-item-text">
@@ -223,8 +207,7 @@
                     <img
                       class="events-img"
                       src="./images/about-us/Photo2.jpg"
-                      alt="International events"
-                    />
+                      alt="International events" />
                   </div>
 
                   <p class="events-item-text">
@@ -239,8 +222,7 @@
                     <img
                       class="events-img"
                       src="./images/about-us/Photo3.jpg"
-                      alt="tranings"
-                    />
+                      alt="tranings" />
                   </div>
 
                   <p class="events-item-text">
@@ -255,8 +237,7 @@
                     <img
                       class="events-img"
                       src="./images/about-us/Photo4.jpg"
-                      alt="online-events"
-                    />
+                      alt="online-events" />
                   </div>
                   <p class="events-item-text">
                     НОСУ є гнучкою у використанні різноманітних форм в роботі зі
@@ -288,8 +269,7 @@
                       <img
                         class="reviewer-photo"
                         src="./images/about-us/Base-1.png"
-                        alt="Поліна Прик"
-                      />
+                        alt="Поліна Прик" />
                     </div>
 
                     <div class="reviews-individuo">
@@ -315,8 +295,7 @@
                       <img
                         class="reviewer-photo"
                         src="./images/about-us/Base-2.jpg"
-                        alt="Андрій Смиковський"
-                      />
+                        alt="Андрій Смиковський" />
                     </div>
 
                     <div class="reviews-individuo">
@@ -336,8 +315,7 @@
                       <img
                         class="reviewer-photo"
                         src="./images/about-us/Base-3.jpg"
-                        alt="Єсенія Пономаренко"
-                      />
+                        alt="Єсенія Пономаренко" />
                     </div>
 
                     <div class="reviews-individuo">
@@ -368,8 +346,7 @@
                       <img
                         class="reviewer-photo"
                         src="./images/about-us/Base-4.jpg"
-                        alt="Анастасія Ратушняк"
-                      />
+                        alt="Анастасія Ратушняк" />
                     </div>
 
                     <div class="reviews-individuo">
@@ -387,7 +364,7 @@
           <div class="container invitation-section">
             <div class="invitation-information">
               <h2 class="invitation-title">
-                Запрошуємо стати <br/>
+                Запрошуємо стати <br />
                 Скаутом або Скаут-Лідером!
               </h2>
               <p class="invitation-text">
@@ -397,14 +374,12 @@
               </p>
               <a
                 href="./join-us"
-                class="subscribing-link subscribing-link-invitation"
-              >
+                class="subscribing-link subscribing-link-invitation">
                 <img
                   class="subscribing-link-icon"
                   src="./images/btn-vector.png"
                   width="30"
-                  height="30"
-                />
+                  height="30" />
                 <p class="subscribing-link-text bottom">Приєднатись до нас</p>
               </a>
             </div>
@@ -412,16 +387,13 @@
               <img
                 class="invitation-img"
                 src="./images/about-us/Photo8.png"
-                alt="bikes riding"
-              />
+                alt="bikes riding" />
               <img
                 class="invitation-img-second"
                 src="./images/about-us/Photo9.png"
-                alt="team building"
-              />
+                alt="team building" />
             </div>
           </div>
         </section>
       </div>
     </main>
-    
