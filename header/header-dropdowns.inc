@@ -9,28 +9,28 @@ return [
       [
         'link' => './our-history',
         'title' => [
-          'en' => 'Eng Наша історія',
+          'en' => 'History',
           'ukr' => 'Наша історія'
         ]
       ],
       [
         'link' => './our-mission',
         'title' => [
-          'en' => ' enng Наша місія',
+          'en' => 'Mission',
           'ukr' => 'Наша місія'
         ]
       ],
       [
         'link' => './scout-method',
         'title' => [
-          'en' => 'Eng Скаутський Метод',
+          'en' => 'Method',
           'ukr' => 'Скаутський Метод'
         ]
       ],
       [
         'link' => './our-team',
         'title' => [
-          'en' => 'Our Team',
+          'en' => 'Team',
           'ukr' => 'Команда'
         ]
       ]
@@ -39,28 +39,28 @@ return [
 
   [
     'header' => [
-      'en' => 'Eng Діяльність',
+      'en' => 'Activities',
       'ukr' => 'Діяльність'
     ],
     'links' => [
       [
         'link' => './our-mission#our-program',
         'title' => [
-          'en' => 'Eng Наша програма',
+          'en' => 'Programme',
           'ukr' => 'Наша програма'
         ]
       ],
       [
         'link' => './help-ukrainians',
         'title' => [
-          'en' => 'eng Проєкти',
+          'en' => 'Projects',
           'ukr' => 'Проєкти'
         ]
       ],
       [
         'link' => './our-events',
         'title' => [
-          'en' => 'Eng Заходи',
+          'en' => 'Events',
           'ukr' => 'Заходи'
         ]
       ]
@@ -68,21 +68,21 @@ return [
   ],
   [
     'header' => [
-      'en' => 'E Всесвітній Скаутинг',
+      'en' => 'World Scouting',
       'ukr' => 'Всесвітній Скаутинг'
     ],
     'links' => [
       [
         'link' => './world-scouting',
         'title' => [
-          'en' => 'Eng ВОСР',
+          'en' => 'WOSM',
           'ukr' => 'ВОСР'
         ]
       ],
       [
         'link' => './scouting-history',
         'title' => [
-          'en' => 'enng Історія Скаутингу',
+          'en' => 'History of Scouting',
           'ukr' => 'Історія Скаутингу'
         ]
       ]

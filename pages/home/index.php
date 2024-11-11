@@ -105,7 +105,7 @@ $textsScoutReviews = include "texts-scout-review.inc";
           <p class="text-information"><?= getLangText($texts['sc-ua-a']) ?></p>
         </div>
         <div class="information-block">
-          <p class="information-numbers">173</p>
+          <p class="information-numbers">174</p>
           <p class="text-information"><?= getLangText($texts['sc-ua-b']) ?></p>
         </div>
         <div class="information-block">

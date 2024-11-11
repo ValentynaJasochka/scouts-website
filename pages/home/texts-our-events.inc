@@ -3,15 +3,15 @@ return [
   [
     "title" => [
       'ukr' => "Табори",
-      'en' => 'Табори'
+      'en' => "Camps"
     ],
     "text" => [
       'ukr' => "Збори-походи надають дітям можливість розвивати свої
                 інтереси та хобі, а також застосовувати на практиці знання
                 та навички, отримані в Скаутингу протягом року.",
-      'en' => 'Збори-походи надають дітям можливість розвивати свої
-                інтереси та хобі, а також застосовувати на практиці знання
-                та навички, отримані в Скаутингу протягом року.'
+      'en' => "Camps give children the opportunity to develop their interests
+       and hobbies and to put into practice the knowledge and skills they
+        have learnt throughout the year in Scouting."
     ],
     'image' => 'Photo1.jpg',
     'image-alt' => 'Camps'
@@ -19,15 +19,15 @@ return [
   [
     "title" => [
       'ukr' => "Міжнародні заходи",
-      'en' => 'Міжнародні заходи'
+      'en' => "International events"
     ],
     "text" => [
       'ukr' => "Участь у міжнародних подорожах створює умови для пізнання
                 Скаутами навколишнього світу, включаючи все різноманіття
                 культур, мов та країн.",
-      'en' => 'Участь у міжнародних подорожах створює умови для пізнання
-                Скаутами навколишнього світу, включаючи все різноманіття
-                культур, мов та країн.'
+      'en' => "Participation in international trips gives Scouts the
+       opportunity to explore the world around them, including the
+        rich diversity of cultures, languages and countries."
     ],
     'image' => 'Photo2.jpg',
     'image-alt' => 'International events'
@@ -35,15 +35,15 @@ return [
   [
     "title" => [
       'ukr' => "Тренінги",
-      'en' => 'Тренінги'
+      'en' => "Training"
     ],
     "text" => [
       'ukr' => "Орієнтовані на Скаутів та Скаутських лідерів на різних
                 етапах їхньої Скаутської подорожі та розроблені таким чином,
                 щоб задовольнити потреби й інтереси членів різного віку.",
-      'en' => 'Орієнтовані на Скаутів та Скаутських лідерів на різних
-                етапах їхньої Скаутської подорожі та розроблені таким чином,
-                щоб задовольнити потреби й інтереси членів різного віку.'
+      'en' => "They are designed for Scouts and Scout leaders at various
+       stages of their Scouting journey to meet the needs and interests
+        of members of different age."
     ],
     'image' => 'Photo3.jpg',
     'image-alt' => 'tranings'
@@ -51,17 +51,16 @@ return [
   [
     "title" => [
       'ukr' => "Онлайн івенти",
-      'en' => 'Онлайн івенти'
+      'en' => "Online events"
     ],
     "text" => [
       'ukr' => "НОСУ є гнучкою у використанні різноманітних форм в роботі зі
                 Скаутами. Це дає можливість не тільки брати участь у
                 інтерактивних воркшопах та тренінгах, але й у міжнародних
                 заходах, залишаючись в Україні.",
-      'en' => 'НОСУ є гнучкою у використанні різноманітних форм в роботі зі
-                Скаутами. Це дає можливість не тільки брати участь у
-                інтерактивних воркшопах та тренінгах, але й у міжнародних
-                заходах, залишаючись в Україні.'
+      'en' => "NOSU is flexible in using different formats when working with Scouts.
+       This allows them to participate not only in interactive workshops and training sessions,
+        but also in international events while physically staying in Ukraine."
     ],
     'image' => 'Photo4.jpg',
     'image-alt' => 'Online events'

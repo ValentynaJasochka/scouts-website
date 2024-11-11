@@ -3,21 +3,21 @@ return [
   [
     "title" => [
       "ukr" => "Діяльність",
-      "en" => "Діяльність",
+      "en" => "Activities",
     ],
     "links" => [
       [
         "url" => "/our-mission",
         "text" => [
           "ukr" => "Наша програма",
-          "en" => "Наша програма",
+          "en" => "Programme",
         ],
       ],
       [
         "url" => "/help-ukrainians",
         "text" => [
           "ukr" => "Наші проєкти",
-          "en" => "E Наші проєкти",
+          "en" => "Projects",
         ],
       ],
     ]
@@ -26,21 +26,21 @@ return [
   [
     "title" => [
       "ukr" => "Про Нас",
-      "en" => "Про Нас",
+      "en" => "About us",
     ],
     "links" => [
       [
         "url" => "/our-history",
         "text" => [
           "ukr" => "Історія",
-          "en" => "Історія",
+          "en" => "History",
         ],
       ],
       [
         "url" => "/scout-method",
         "text" => [
           "ukr" => "Скаутський Метод",
-          "en" => "E Скаутський Метод",
+          "en" => "Method",
         ],
       ],
       [
@@ -55,28 +55,28 @@ return [
   [
     "title" => [
       "ukr" => "Долучитись",
-      "en" => "Долучитись",
+      "en" => "Join us",
     ],
     "links" => [
       [
         "url" => "/join-us",
         "text" => [
           "ukr" => "Стати Скаутом",
-          "en" => "Стати Скаутом",
+          "en" => "Become a Scout",
         ],
       ],
       [
         "url" => "/join-us#scout-leader",
         "text" => [
           "ukr" => "Стати Лідером",
-          "en" => "E Стати Лідером",
+          "en" => "Become a Scout-Leader",
         ],
       ],
       [
         "url" => "/donation",
         "text" => [
           "ukr" => "Допомога організації",
-          "en" => "Допомога організації",
+          "en" => "Supporting the organization",
         ],
         "hidden" => true,
       ],
