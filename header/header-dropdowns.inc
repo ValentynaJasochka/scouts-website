@@ -85,7 +85,14 @@ return [
           'en' => 'History of Scouting',
           'ukr' => 'Історія Скаутингу'
         ]
-      ]
+        ],
+      [
+        'link' => './join-us',
+        'title' => [
+          'en' => 'Join us',
+          'ukr' => 'Приєднатися'
+        ]
+      ],
     ]
   ]
 ];
