@@ -1,0 +1,304 @@
+.mission-vision-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.main-title::after {
+  display: none;
+}
+
+.world-scouting-link {
+  font-size: 12px;
+  line-height: 1.5;
+
+  font-style: italic;
+  color: var(--main-font-color);
+  align-self: end;
+  text-decoration: underline;
+  margin-bottom: 8px;
+}
+
+.line {
+  width: 100%;
+}
+
+.line::before {
+  display: block;
+  content: "";
+  border: 1px solid rgba(64, 61, 68, 0.2);
+}
+
+.mission-vision-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 16px;
+  padding: 0 8px;
+}
+
+.mission-vision-img-wrapper {
+  height: 179px;
+  width: 100%;
+  aspect-ratio: 2;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.mission-vision-img-wrapper > .mission-vision-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-position: center;
+}
+
+.mission-vision-item-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--accent-color);
+  margin-bottom: 8px;
+}
+
+.mission-vision-item-text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* .headquarters  */
+.headquarters {
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 13px 17px;
+  gap: 16px;
+  margin: 0 24px
+}
+
+.headquarters-information {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.headquarters-information:first-child {
+  padding: 0 16px;
+}
+
+.headquarters-title {
+  text-align: center;
+}
+
+.headquarters-information-text {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.headquarters-address-bord-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 4px;
+  align-items: center;
+}
+
+.headquarters-address-bord-item {
+  width: 100%;
+  background-color: rgba(98, 37, 153, 0.8);
+  border-radius: 5px;
+  padding: 8px 6px;
+}
+
+.address-bord-item-region {
+  font-size: 15px;
+  line-height: 1;
+  color: rgb(243, 243, 243);
+  text-transform: uppercase;
+  text-align: start;
+  margin-bottom: 4px;
+}
+
+.address-bord-item-country {
+  font-size: 14px;
+  color: rgb(243, 243, 243);
+  letter-spacing: 0.00098em;
+  text-align: start;
+}
+
+.headquarters {
+  border-radius: 10px;
+}
+
+.headquarters-address-bord-item:first-child {
+  background-color: rgb(213, 201, 90);
+}
+
+.headquarters-address-bord-item:first-child > .address-bord-item-region {
+  color: var(--accent-color);
+}
+
+.headquarters-address-bord-item:first-child > .address-bord-item-country {
+  color: var(--accent-color);
+}
+
+.headquarters-arrow {
+  display: none;
+}
+
+.world-scouting-logo {
+  display: none;
+}
+
+.headquarter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.scouting-title {
+  width: 100%;
+  padding: 0 8px;
+  margin-bottom: 24px;
+  max-width: 1296px;
+}
+
+.more-about-scouting {
+  text-align: right;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 1280px) {
+  .main-group {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    gap: 16px;
+    background-color: var(--white-background-color);
+  }
+
+  .world-scouting-title {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+
+  .main-title {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+
+  .headquarters-arrow {
+    display: block;
+  }
+
+  .world-scouting-logo {
+    display: block;
+  }
+
+  .world-scouting-link {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  .mission-vision-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    grid-gap: 32px;
+    padding: 0;
+  }
+
+  .mission-vision-item {
+    width: 100%;
+    flex: 500px;
+  }
+
+  .mission-vision-img-wrapper {
+    width: 100%;
+    aspect-ratio: 1.5;
+    height: auto;
+  }
+
+  .mission-vision-item-title {
+    font-size: 24px;
+  }
+
+  .mission-vision-item-text {
+    font-size: 18px;
+  }
+
+  .headquarters {
+    max-width: 1560px;
+    /*width: 100%;*/
+    display: block;
+  }
+
+  .headquarters-information {
+    /*padding: 0px 32px;*/
+    flex: 4 0 400px;
+  }
+
+  .headquarters-title {
+    font-size: 30px;
+    line-height: 1;
+  }
+
+  .headquarters-information-text {
+    font-size: 20px;
+  }
+
+  .headquarters-address-bord-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .headquarters-address-bord-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 100px;
+    height: 165px;
+    border-radius: 20px;
+    padding: 32px 24px;
+  }
+
+  .address-bord-item-region {
+    font-size: 24px;
+  }
+
+  .address-bord-item-country {
+    font-size: 20px;
+  }
+
+  .headquarters-address-bord-item:nth-child(3) {
+    /*width: 698px;*/
+    /*height: 183px;*/
+  }
+
+  .headquarter-container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .more-about-scouting {
+    margin-bottom: 16px;
+  }
+
+  .scouting-title {
+    padding: 0;
+  }
+
+  .scouting-title .main-title {
+    width: auto;
+    margin-bottom: 0;
+  }
+}
