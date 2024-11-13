@@ -3,7 +3,10 @@ return [
 
   [
     "src" => "./images/scouting-history/photo1.jpg",
-    "dates" => "1907 – 1908",
+    "dates" => [
+      'ukr' => "1907 – 1908",
+      'en' => "1907 – 1908"
+    ],
     "title" => [
       'ukr' => "Ранні роки",
       'en' => 'Early Beginnings'
@@ -41,7 +44,10 @@ return [
   ],
   [
     "src" => "./images/scouting-history/photo2.jpg",
-    "dates" => "1909 – 1918",
+   "dates" => [
+      'ukr' => "1909 – 1918",
+      'en' => "1909 – 1918"
+    ],
     "title" => [
       'ukr' => "Розширення Скаутського Руху",
       'en' => 'Expansion of the Scout Movement'
@@ -108,7 +114,10 @@ return [
   ],
   [
     "src" => "./images/scouting-history/photo3.jpg",
-    "dates" => "1919 – 1922",
+    "dates" => [
+      'ukr' => "1919 – 1922",
+      'en' => "1919 – 1922"
+    ],
     "title" => [
       'ukr' => "Всесвітні події та керівництво Скаутингом",
       'en' => 'Scouting’s World Events and Governance '
@@ -161,7 +170,10 @@ return [
   ],
   [
     "src" => "./images/scouting-history/photo4.jpg",
-    "dates" => "1914 – 1945",
+    "dates" => [
+      'ukr' => "1914– 1945",
+      'en' => "1914– 1945"
+    ],
     "title" => [
       'ukr' => "Світові війни",
       'en' => 'The World Wars'
@@ -192,7 +204,10 @@ return [
   ],
   [
     "src" => "./images/scouting-history/photo5.jpg",
-    "dates" => "1945 – 1980",
+    "dates" => [
+      'ukr' => "1945 – 1980",
+      'en' => "1945 – 1980"
+    ],
     "title" => [
       'ukr' => "Еволюція Скаутингу",
       'en' => 'The Evolution of Scouting'
@@ -200,131 +215,224 @@ return [
     "texts" => [
      [
       "text" => [
-        'ukr' => '',
-        'en' => ''
+        'ukr' => '<span class="regular-block-text-bold">1947:</span> Всесвітня
+                Організація Скаутського Руху отримала загальний консультативний
+                статус при Економічній і Соціальній Раді Організації Об’єднаних
+                Націй (ЮНЕСКО).',
+        'en' => '<span class="regular-block-text-bold">1947:</span>
+         World Organization of the Scout Movement was granted General
+          Consultative Status to the United Nations Economic and Social Council (UNESCO).'
       ],
      ] ,
      [
       "text" => [
-        'ukr' => '',
-        'en' => ''
+        'ukr' => '<span class="regular-block-text-bold">1960-1980:</span> Багато країн
+                здобули незалежність, в результаті чого Національні Скаутські
+                Організації приєдналися або знову стали членами Всесвітньої
+                Організації Скаутського Руху.',
+        'en' => '<span class="regular-block-text-bold">1960-1980:</span>
+         Many countries gained their independence, resulting in National Scout Organizations 
+         joining or rejoining as members of World Organization of the Scout Movement. '
       ],
      ],
       ["text" => [
-        'ukr' => '',
-        'en' => ''
+        'ukr' => '<span class="regular-block-text-bold">1980-2007:</span> Скаутинг
+                відродився в усіх країнах, де він існував до Другої світової
+                війни, а також у нових незалежних країнах Співдружності
+                Незалежних Держав після закінчення холодної війни. Скаутинг у
+                країнах, що розвиваються, поступово перетворився на молодіжну
+                програму, яка була розроблена місцевими Скаутськими лідерами для
+                кращого задоволення потреб своїх громад. Скаути стали більш
+                залученими до вирішення соціальних, економічних та екологічних
+                питань у своїх громадах та країнах.',
+        'en' => '<span class="regular-block-text-bold">1980-2007:</span>
+         Scouting re-emerged in every country where it had existed before
+          World War II and started across newly independent countries
+           in the Commonwealth of Independent States following the Cold War. 
+           Scouting in developing countries gradually evolved into a Youth Programme,
+            which was designed by local Scout leaders to better meet the needs
+             of their communities. Scouts became more involved with social, economic,
+              and environmental issues in their communities and countries.'
       ],],
       
     ]
 
   ],
   [
-    "src" => "",
-    "dates" => "",
+    "src" => "./images/scouting-history/photo6.jpg",
+    "dates" => [
+      'ukr' => "2007",
+      'en' => "2007"
+    ],
     "title" => [
-      'ukr' => "",
-      'en' => ''
+      'ukr' => "Століття Скаутингу",
+      'en' => 'A Century of Scouting'
     ],
     "texts" => [
+    
      [
       "text" => [
-        'ukr' => "",
-        'en' => ""
-      ],
-     ] ,
-     [
-      "text" => [
-        'ukr' => '',
-        'en' => ''
+        'ukr' => ' Скаутський рух відсвяткував своє
+                <span class="regular-block-text-bold">100-річчя,</span> повернувшись
+                до свого коріння у Великій Британії на 21-й Всесвітнє Скаутське
+                Джамборі.',
+        'en' => 'The Scout Movement celebrated its <span class="regular-block-text-bold">100th anniversary</span> 
+        by returning to its roots in the United Kingdom for the 21st World Scout Jamboree.'
       ],
      ],
       ["text" => [
-        'ukr' => '',
-        'en' => ''
+        'ukr' => '1 серпня мільйони Скаутів з усього світу відсвяткували створення
+                Скаутського Руху та його зростання від скромних початків до
+                глобального Руху з мільйонами членів майже в кожній країні
+                світу.',
+        'en' => 'On 1 August, millions of Scouts from around the world celebrated 
+        the Scout Movement and its growth from humble beginnings to becoming 
+        a global Movement with millions of members in nearly every country around the world.'
       ],],
       
     ]
 
   ],
   [
-    "src" => "",
-    "dates" => "",
+    "src" => "./images/scouting-history/photo7.jpg",
+    "dates" => [
+      'ukr' => "2010 – 2020",
+      'en' => "2010 – 2020"
+    ],
     "title" => [
-      'ukr' => "",
-      'en' => ''
+      'ukr' => " Сприяння миру і сталости",
+      'en' => 'Promoting Peace and Sustainability'
     ],
     "texts" => [
+      [
+        "text" => [
+          'ukr' => 'Скаутинг продовжував розширювати своє членство, охоплюючи навіть
+                віддалені острови в Тихому океані та Карибському басейні,
+                одночасно впроваджуючи інновації та адаптуючи свої освітні
+                пропозиції відповідно до сучасних потреб та прагнень молоді.',
+          'en' => 'Scouting continued to expand its membership - reaching even 
+          remote islands in the Pacific and Caribbean - while innovating and adapting
+           its educational offerings to reflect the current needs and aspirations of young people.'
+        ],
+       ],
+        ["text" => [
+          'ukr' => ' <span class="regular-block-text-bold">2011:</span> Ініціатива “Посланці
+                миру” була створена для сприяння розбудови миру та підтримки
+                впливу Скаутингу на місцеві громади.',
+          'en' => '<span class="regular-block-text-bold">2011:</span>
+           The Messengers of Peace initiative was created to promote peace
+            building and support Scouting’s impact on local communities.'
+        ],],
      [
       "text" => [
-        'ukr' => "",
-        'en' => ""
-      ],
-     ] ,
-     [
-      "text" => [
-        'ukr' => '',
-        'en' => ''
+        'ukr' => '<span class="regular-block-text-bold">2018:</span> Започатковано
+                ініціативу “Скаути за Цілі Сталого Розвитку (ЦСР)” з метою
+                залучення Скаутського Руху до найбільшого у світі
+                скоординованого внеску молоді у досягнення ЦСР.',
+        'en' => '<span class="regular-block-text-bold">2018:</span>
+         Scouts for SDGs was launched with the aim of engaging the Scout Movement
+          in making the world’s largest coordinated youth contribution to the SDGs.'
       ],
      ],
       ["text" => [
-        'ukr' => '',
-        'en' => ''
+        'ukr' => '<span class="regular-block-text-bold">2020:</span> Створено глобальну
+                молодіжну спільноту “Earth Tribe”, що об’єднує молодь для
+                природоохоронної діяльности та надання можливости молодим людям
+                боротися з наслідками зміни клімату.',
+        'en' => '<span class="regular-block-text-bold">2020:</span>
+         The Earth Tribe was launched as a global youth community for
+          environmental action and to enable young people to tackle the impacts of climate change.'
       ],],
       
     ]
 
   ],
   [
-    "src" => "",
-    "dates" => "",
+    "src" => "./images/scouting-history/photo8.jpg",
+    
+    "dates" => [
+      'ukr' => "2020 – 2022",
+      'en' => "2020 – 2022"
+    ],
     "title" => [
-      'ukr' => "",
-      'en' => ''
+      'ukr' => "Всесвітня пандемія",
+      'en' => 'Global Pandemic'
     ],
     "texts" => [
+     
      [
       "text" => [
-        'ukr' => "",
-        'en' => ""
-      ],
-     ] ,
-     [
-      "text" => [
-        'ukr' => '',
-        'en' => ''
+        'ukr' => '<span class="regular-block-text-bold">2020-2022:</span> Скаути по
+                всьому світу продемонстрували стійкість Руху, вживаючи заходів
+                для підтримки своїх громад та адаптуючись до глобальних обмежень
+                через віртуальні програми. ',
+        'en' => '<span class="regular-block-text-bold">2020-2022:</span> 
+        Scouts around the world showed the Movement`s resilience by taking action
+         to support their communities and adapting to global restrictions through
+          virtual and at-home programmes.'
       ],
      ],
       ["text" => [
-        'ukr' => '',
-        'en' => ''
+        'ukr' => ' <span class="regular-block-text-bold">2022:</span> Ініціатива
+                “Глобальна мобілізація молоді” (Global Youth Mobilisation) була
+                започаткована з метою підтримки розвитку молоді у
+                постпандемічному світі. Це партнерство з Великою шісткою
+                молодіжних організацій, до якої входять Всесвітня Організація
+                Скаутського Руху (WOSM), Всесвітня Асоціація дівчат-Гайдів та
+                дівчат-Скаутів (WAGGGS), Всесвітній альянс християнських
+                асоціацій молодих чоловіків (YMCA), Всесвітня християнська
+                асоціація молодих жінок (YWCA), Міжнародна федерація товариств
+                Червоного Хреста і Червоного Півмісяця, (IFRC) а також
+                Міжнародна премія герцога Единбурзького (DofE).',
+        'en' => '<span class="regular-block-text-bold">2022:</span>
+         The Global Youth Mobilization was launched in an effort
+          to support the development of young people in a post-pandemic world. 
+          It is as a partnership with the Big 6 Youth Organisations, which is
+           comprised of the World Organization of the Scout Movement,
+            World Association of Girl Guides and Girl Scouts, World Alliance of 
+            Young Men’s Christian Association, World Young Women’s Christian Association, 
+            International Federation of Red Cross and Red Crescent Societies, 
+            and The Duke of Edinburgh’s International Award.'
       ],],
       
     ]
 
   ],
   [
-    "src" => "",
-    "dates" => "",
+    "src" => "./images/scouting-history/photo9.jpg",
+    "dates" => [
+      'ukr' => "2022- Сьогодення",
+      'en' => '2022- The present'
+    ],
+     	
+
     "title" => [
-      'ukr' => "",
-      'en' => ''
+      'ukr' => "Еволюція Скаутингу",
+      'en' => 'The evolution of Scouting'
     ],
     "texts" => [
+    
      [
       "text" => [
-        'ukr' => "",
-        'en' => ""
-      ],
-     ] ,
-     [
-      "text" => [
-        'ukr' => '',
-        'en' => ''
+        'ukr' => 'Після пандемії COVID-19 Всесвітня Організація Скаутського Руху
+                продовжила розвивати нову стратегію, щоб краще відповідати на
+                виклики сучасного світу та потреби молоді. Одним з головних
+                напрямів розвитку є залучення більшої кількості молоді до
+                Скаутингу та збільшення різноманітності членства, включаючи
+                більш ефективну роботу з молоддю з малозабезпечених та вразливих
+                груп.',
+        'en' => 'In the wake of the COVID-19 pandemic, the World Organization
+         of the Scout Movement has continued to develop a new strategy to better
+          respond to the challenges of the modern world and the needs of young people.
+           One of the main areas of development is to attract more young people to Scouting and increase the diversity of membership, including more effective work with young people from low-income and vulnerable groups.'
       ],
      ],
       ["text" => [
-        'ukr' => '',
-        'en' => ''
+        'ukr' => 'Крім того, Скаути активно співпрацюють з урядами та іншими
+                громадськими організаціями для реалізації Цілей сталого розвитку
+                ООН та підтримки збереження навколишнього середовища.',
+        'en' => 'n addition, the Scouts actively cooperate with governments 
+        and other NGOs to implement the UN Sustainable Development Goals and support environmental protection.'
       ],],
       
     ]
