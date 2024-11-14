@@ -50,7 +50,8 @@ $headerTexts = include "header-texts.inc";
             <a class="header-nav-item-link" href="./join-us"><?= getLangText($headerTexts['join']) ?></a>
           </div>
         </li>
-        <li class="header-nav-item heder-nav-text" style="display: none">
+        <li class="header-nav-item heder-nav-text" >
+        <!-- <li class="header-nav-item heder-nav-text" style="display: none"> -->
           <div class="header-nav-item-container">
             <a class="header-nav-item-link" href="./donation"><?= getLangText($headerTexts['donation']) ?></a>
           </div>

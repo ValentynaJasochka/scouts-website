@@ -1,0 +1,364 @@
+/* reputing styles*/
+.tik-btn {
+  width: 33.33px;
+  height: 33.33px;
+}
+
+.scouts-law-list {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  gap: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.scouts-law-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.law-text-item {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: start;
+}
+
+/* reputing styles*/
+
+.donation-section {
+  background-color: var(--shadow-background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 24px;
+}
+
+.donation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.donation-additional-text {
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.00095em;
+  text-align: center;
+}
+
+.second-additional-text {
+  display: none;
+}
+
+.donation-block-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+.donation-additional-block-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.donation-block-img-wrapper {
+  /* width: 358px; */
+  height: 179px;
+  width: 100%;
+  aspect-ratio: 2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.second-img-wrapper {
+  height: 179px;
+  /* width: 358px; */
+  max-width: 544px;
+  aspect-ratio: 2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.donation-block-img-wrapper > .donation-block-points-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 5%;
+  border-radius: 10px;
+}
+
+.second-img-wrapper > .donation-block-points-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;;
+}
+
+.side-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.donation-block-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.donation-block-text-part {
+  font-size: 14px;
+  letter-spacing: 0.00098em;
+}
+
+.donate-btn {
+  background-color: var(--accent-color);
+  align-self: center;
+  border-radius: 1000px;
+  padding: 18px 65px;
+}
+
+.donate-link {
+  color: var(--white-text-color);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.donate-btn:hover {
+  background-image: linear-gradient(
+      to right,
+      rgb(91, 41, 147),
+      rgb(155, 104, 212)
+  );
+}
+
+/* questions */
+.questions {
+  width: 100%;
+  padding: 0 16px;
+}
+
+.questions-title {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.questions-header-wrapper {
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.questions-list-item:first-child:before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: rgb(215, 222, 240);
+  text-align: center;
+}
+
+.questions-list-item::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: rgb(215, 222, 240);
+  text-align: center;
+
+}
+
+.questions-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.answer {
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgba(60, 60, 67, 0.85);
+  padding-bottom: 19px;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.questions-header-open-close-btn {
+  border: none;
+  width: 24px;
+  height: 24px;
+  background: none no-repeat center;
+  cursor: pointer;
+}
+
+.questions-list-item .questions-header-open-close-btn {
+  background-image: url("./images/donation/plus.png");
+}
+
+.questions-list-item .answer-wrapper {
+  display: none;
+}
+
+.questions-list-item.opened .questions-header-open-close-btn {
+  background-image: url("./images/donation/close-btn.png");
+}
+
+.questions-list-item.opened .answer-wrapper {
+  display: block;
+}
+
+@media screen and (min-width: 1280px) {
+  .donation-section {
+    gap: 32px;
+    background-color: var(--white-text-color);
+  }
+
+  .donation {
+    gap: 64px;
+    max-width: 1424px;
+    padding: 0 64px;
+  }
+
+  .side-wrapper {
+    width: 640px;
+    gap: 16px;
+   
+  }
+
+
+  .second-additional-text {
+    display: block;
+  }
+
+  .first-additional-text {
+    display: none;
+  }
+
+  .donation-additional-text {
+    font-size: 24px;
+  }
+
+  .first-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    padding-right: 0;
+  }
+
+  .donation-block-wrapper {
+    flex-direction: row;
+
+  }
+.donation-additional-block-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  text-align: center;
+}
+  .donation-block-text {
+    padding-left: 0;
+  }
+
+  .first-donation-block-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: start;
+  }
+
+  .donation-block-img-wrapper {
+    width: 640px;
+    height:415px;
+
+    aspect-ratio: 1;
+  }
+
+  /* .first-img-wrapper {
+    padding: 32px 32px 32px 16px;
+  } */
+
+  .second-img-wrapper {
+    width: 640px;
+    max-width: 640px;
+    height: 399px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex: 1 0 640px;
+  }
+
+  .second-img-wrapper > .donation-block-points-img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+  }
+
+  .donation-block-text-part {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .law-text-item {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .donate-btn {
+    padding: 23px 75px;
+  }
+
+  .donate-link {
+    font-size: 16px;
+  }
+
+  /* questions */
+  .questions-header-wrapper {
+    width: 1270px;
+    height: 56px;
+  }
+
+  .questions-title {
+    font-size: 24px;
+    text-align: start;
+  }
+
+  .questions-header {
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .answer {
+    font-size: 18px;
+  }
+
+  .questions {
+    padding: 0;
+    max-width: 1296px;
+  }
+}

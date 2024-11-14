@@ -1,0 +1,129 @@
+.team-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 248px;
+  border-radius: 20px;
+  overflow: hidden;
+  padding-bottom: 8px;
+  gap: 8px;
+}
+
+.member-img-wrapper {
+  width: 248px;
+  height: 228px;
+  overflow: hidden;
+  align-self: center;
+  /* padding: 8px; */
+}
+
+.member-img-wrapper > .member-img {
+  display: block;
+
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 10%;;
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+}
+
+.member-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.member-position {
+  font-size: 14px;
+  color: var(--main-font-color);
+  text-align: center;
+  text-transform: capitalize;
+}
+.member-position-not-transform {
+  text-transform: none;
+}
+
+.name {
+  text-align: center;
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.additional-text-wrapper {
+  padding: 16px;
+}
+
+.additional-text {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .name {
+    font-size: 22px;
+  }
+
+  .member-position {
+    font-size: 12px;
+  }
+  .member-text-wrapper {
+    height: 87px;
+    gap: unset;
+  }
+
+  .team-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    width: 1296px;
+  }
+
+  .team-member {
+    /* height: 324px; */
+    padding-bottom: 8px;
+    gap: unset;
+  }
+
+  .member-img-wrapper {
+    margin-bottom: 20px;
+    height: 372px;
+  }
+
+  .member-img-wrapper > .member-img {
+    width: 248px;
+    height: 372px;
+  }
+
+  .additional-text-wrapper {
+    width: 850px;
+    padding: 32px;
+
+  }
+
+  .additional-text {
+    font-size: 18px;
+
+  }
+
+}
+
+
