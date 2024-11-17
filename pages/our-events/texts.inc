@@ -1,6 +1,18 @@
 <?php
 return [
+  "page-title" => [
+    'ukr' => "Наші заходи",
+    'en' => "Our Events",
+  ],
 
+  "meta-title" => [
+    'ukr' => "Наші заходи",
+    'en' => 'Our Events'
+  ],
+  "meta-description" => [
+    'ukr' => "Наші заходи.",
+    'en' => 'Our Events.'
+  ],
   "main-title" => [
     'ukr' => "Наші заходи",
     'en' => "Our events",

@@ -6,4 +6,4 @@ RewriteRule ^([^\.]+)$ $1.html [NC,L]
 # Check if the requested file is an HTML or PHP file 
 RewriteCond %{REQUEST_URI} \.(html|php)$
 
-RewriteRule ^(.*)$ index2.php [L]
+RewriteRule ^(.*)$ index.php [L]

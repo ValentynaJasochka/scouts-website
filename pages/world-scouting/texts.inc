@@ -1,6 +1,18 @@
 <?php
 return [
+  "page-title" => [
+    'ukr' => "Більше про ВОСР",
+    'en' => "More about WOSM",
+  ],
 
+  "meta-title" => [
+    'ukr' => "Більше про ВОСР",
+    'en' => 'More about WOSM'
+  ],
+  "meta-description" => [
+    'ukr' => "Більше про ВОСР.",
+    'en' => 'More about WOSM.'
+  ],
   "main-title" => [
     'ukr' => "Всесвітня Організація Скаутського Руху",
     'en' => "World Organization of the Scout Movement",

@@ -1,10 +1,21 @@
 <?php
 return [
+  "page-title" => [
+    'ukr' => "Історія Скаутингу",
+    'en' => "History of Scouting",
+  ],
 
+  "meta-title" => [
+    'ukr' => "Історія Скаутингу",
+    'en' => 'History of Scouting'
+  ],
+  "meta-description" => [
+    'ukr' => "Історія Скаутингу.",
+    'en' => 'History of Scouting.'
+  ],
   "main-title" => [
     'ukr' => "Історія Скаутингу",
-    'en' => "History of Scouting
-",
+    'en' => "History of Scouting",
   ],
   "additional-text" => [
     'ukr' => "Історія Скаутингу",

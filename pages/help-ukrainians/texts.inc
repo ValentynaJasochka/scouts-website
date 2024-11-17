@@ -1,6 +1,20 @@
 <?php
 return [
 
+  "page-title" => [
+    'ukr' => "Допомога українцям",
+    'en' => "Help Ukrainians",
+  ],
+
+  "meta-title" => [
+    'ukr' => "Допомога українцям",
+    'en' => 'Help Ukrainians'
+  ],
+  "meta-description" => [
+    'ukr' => "Допомога українцям.",
+    'en' => 'Help Ukrainians.'
+  ],
+
   "main-title" => [
     'ukr' => "Допомога українцям",
     'en' => "Helping Ukrainians

@@ -1,6 +1,20 @@
 <?php
 return [
 
+  "page-title" => [
+    'ukr' => "Задонатити",
+    'en' => "Donation",
+  ],
+
+  "meta-title" => [
+    'ukr' => "Задонатити",
+    'en' => 'Donation'
+  ],
+  "meta-description" => [
+    'ukr' => "Задонатити.",
+    'en' => 'Donation.'
+  ],
+
   "main-title" => [
     'ukr' => "Допомога організації",
     'en' => "Support Our Organization",

@@ -1,6 +1,18 @@
 <?php
 return [
+  "page-title" => [
+    'ukr' => "Приєднатись до нас",
+    'en' => "Join Us",
+  ],
 
+  "meta-title" => [
+    'ukr' => "Приєднатись до нас",
+    'en' => 'Join Us'
+  ],
+  "meta-description" => [
+    'ukr' => "Приєднатись до нас.",
+    'en' => 'Join Us.'
+  ],
   "main-title" => [
     'ukr' => "Як приєднатись до нас",
     'en' => "How to join us

@@ -1,6 +1,18 @@
 <?php
 return [
+  "page-title" => [
+    'ukr' => "Наша команда",
+    'en' => "Our team",
+  ],
 
+  "meta-title" => [
+    'ukr' => "Наша команда",
+    'en' => 'Our team'
+  ],
+  "meta-description" => [
+    'ukr' => "Наша команда.",
+    'en' => 'Our team.'
+  ],
   "main-title" => [
     'ukr' => "Наша Команда",
     'en' => "Our team 

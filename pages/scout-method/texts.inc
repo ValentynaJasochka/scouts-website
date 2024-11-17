@@ -1,5 +1,18 @@
 <?php
 return [
+  "page-title" => [
+    'ukr' => "Скаутський метод",
+    'en' => "The Scout method",
+  ],
+
+  "meta-title" => [
+    'ukr' => "Скаутський метод",
+    'en' => 'The Scout method'
+  ],
+  "meta-description" => [
+    'ukr' => "Скаутський метод.",
+    'en' => 'The Scout method.'
+  ],
 
   "main-title" => [
     'ukr' => "Скаутський метод",
