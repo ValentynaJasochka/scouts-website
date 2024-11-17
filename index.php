@@ -24,11 +24,20 @@
     if (file_exists(__DIR__ . "/pages/{$pageName}/texts.inc")) {
         $defaultTexts = include __DIR__ . "/pages/{$pageName}/texts.inc";
         $texts = array_merge($texts, $defaultTexts);
+    } else {
+        $NoPageTexts = include __DIR__ . "/pages/404/texts.inc";
+        $texts = array_merge($texts, $NoPageTexts);
     }
 
     include "header/head-html.inc";
+
+    if (file_exists(__DIR__ . "/pages/{$pageName}/styles.css")) {
     ?>
-    <link rel="stylesheet" href="<?= "./pages/{$pageName}/styles.css" ?>" />
+        <link rel="stylesheet" href="<?= "./pages/{$pageName}/styles.css" ?>" />
+    <?php
+
+    }
+    ?>
 
 </head>
 
@@ -41,7 +50,7 @@
     if (file_exists($pageFile)) {
         include $pageFile;
     } else {
-        include __DIR__ . "/404.php"; // Default to English if the file doesn't exist 
+        include __DIR__ . "/pages/404/index.php";
     }
 
     include "footer/footer.inc"

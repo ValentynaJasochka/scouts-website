@@ -216,7 +216,7 @@
 }
 
 .questions-list-item .questions-header-open-close-btn {
-  background-image: url("./images/donation/plus.png");
+  background-image: url("/images/donation/plus.png");
 }
 
 .questions-list-item .answer-wrapper {
@@ -224,7 +224,7 @@
 }
 
 .questions-list-item.opened .questions-header-open-close-btn {
-  background-image: url("./images/donation/close-btn.png");
+  background-image: url("/images/donation/close-btn.png");
 }
 
 .questions-list-item.opened .answer-wrapper {

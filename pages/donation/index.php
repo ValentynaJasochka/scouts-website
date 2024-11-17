@@ -117,3 +117,4 @@ $textsLaw = include "texts-scouts-law.inc";
     </div>
   </div>
 </main>
+<script src="/js/questions-list.js"></script>
