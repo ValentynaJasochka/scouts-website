@@ -15,10 +15,13 @@
     <title>Задонатити</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <link rel="preload"
       href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+      as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+      <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+    </noscript>
     <link rel="stylesheet" href="./common.css" />
     <link rel="stylesheet" href="./donation.css" />
     <link rel="stylesheet" href="./regular-block.css" />
@@ -81,7 +84,7 @@
                       Ваші пожертви допомагають підтримати важливі гуманітарні
                       та соціальні проєкти Національної Організації Скаутів
                       України. Наразі ми зосереджені на зборі 500.000 гривень
-                      протягом 2024 року, які спрямовуються на допомогу
+                      до 31 грудня 2024 року, які спрямовуються на допомогу
                       українським родинам у час повномасштабної війни, а саме:
                     </p>
                   </div>
@@ -160,8 +163,9 @@
                 </div>
                 <div class="donation-block-text">
                   <p class="donation-block-text-part">
-                    Роблячи пожертву через платіжний сервіс LiqPay, ви
-                    підтверджуєте свою згоду на використання коштів для
+                    Роблячи пожертву через платіжний сервіс, Ви погоджуєтесь з умовами 
+                    <a class="regular-block-text additional-text-link" target="_blank" href="./static/donation_oferta.pdf">Оферти</a>.
+                    Ви підтверджуєте свою згоду на використання коштів для
                     підтримки інших проєктів Скаутів України у цій категорії.
                     Також ви погоджуєтесь, що сума вашої пожертви не підлягає
                     поверненню.

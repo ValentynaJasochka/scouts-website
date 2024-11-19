@@ -15,10 +15,13 @@
     <title>Наша місія</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link
+    <link rel="preload"
       href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+      as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+      <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+    </noscript>
     <link rel="stylesheet" href="./common.css"/>
     <link rel="stylesheet" href="./regular-block.css"/>
     <link rel="stylesheet" href="./our-mission.css"/>
@@ -189,7 +192,7 @@
                       </div>
                       <div class="hidden-category-text">
                         <p class="hidden-category-age-group-name">Венчури</p>
-                        <p class="hidden-category-age-group-age">6-10 років</p>
+                        <p class="hidden-category-age-group-age">16-17 років</p>
                       </div>
                     </div>
                   </div>

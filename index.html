@@ -13,16 +13,19 @@
     <link rel="canonical" href="https://ukrscout.org/"/>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="title" content="Скаути України"/>
+    <meta name="title" content="Скаути України | Scouts of Ukraine"/>
     <meta name="description"
       content="Всеукраїнська молодіжна громадська організація заснована у 2007 році. Наша Місія – це сприяння вихованню молоді України за системою цінностей, заснованій на Скаутській Обіцянці та Скаутському Законі.">
     <title>Скаути України</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link
+    <link rel="preload"
       href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+      as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+      <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+    </noscript>
     <link rel="stylesheet" href="./common.css"/>
     <link rel="stylesheet" href="./styles.css"/>
     <link rel="icon" href="./favicon.ico" type="image/icon type">
@@ -33,7 +36,7 @@
     </header>
     <main>
       <div class="main-group">
-        <section class="container hero">
+        <section class="container hero" fetchpriority="high">
           <div class="hero-container">
             <div class="hero-text-container">
               <p class="hero-text">Відкрий світ українського Скаутингу!</p>
