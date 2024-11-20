@@ -1,7 +1,7 @@
 <?php
 return [
   'logo' =>  [
-    'en' => 'logo-footer-en',
+    'en' => 'icon-logo_footer_en',
     'ukr' => 'logo-footer'
   ],
   "questions" => [
