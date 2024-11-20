@@ -1,8 +1,8 @@
 <?php
 return [
   'logo' =>  [
-    'en' => '../images/logo_footer_en.svg',
-    'ukr' => '../images/logo-footer.svg'
+    'en' => 'logo-footer-en',
+    'ukr' => 'logo-footer'
   ],
   "questions" => [
     "ukr" => "Маєш питання або пропозиції? Ми завжди відкриті для спілкування. Пиши

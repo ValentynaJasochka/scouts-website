@@ -5,7 +5,7 @@ $textsFooter = include "texts.inc";
 <footer class="footer">
   <div class="footer-section">
     <svg class="footer-logo">
-      <use href="./images/sprite-title-page.svg#logo-footer"></use>
+      <use href="./images/sprite-title-page.svg#<?= getLangText($textsFooter["logo"]) ?>"></use>
     </svg>
 
     <ul class="nav-footer-list">
