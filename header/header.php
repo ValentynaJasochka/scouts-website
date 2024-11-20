@@ -8,7 +8,7 @@ $headerTexts = include "header-texts.inc";
       <a class="header-logo" href="./">
         <img
           class="header-logo-img"
-          src="./images/logo-heder.svg"
+          src="<?= getLangText($headerTexts["logo"]) ?>"
           alt="Logo Scouts" />
       </a>
       <a href="?lang=ukr">UA</a>
