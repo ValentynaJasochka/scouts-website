@@ -17,7 +17,6 @@
     height: 109px;
   }
 
-
   .main-part-section-img-wrapper > .main-part-section-img {
     display: block;
     height: 100%;
@@ -78,6 +77,7 @@
   .social-media-list {
     display: flex;
     gap: 8px;
+    margin-bottom: 12px;
   }
 
   .social-media-item {
@@ -104,9 +104,9 @@
 
   .subscribing-link:hover {
     background-image: linear-gradient(
-        to right,
-        rgb(91, 41, 147),
-        rgb(155, 104, 212)
+      to right,
+      rgb(91, 41, 147),
+      rgb(155, 104, 212)
     );
   }
 
@@ -194,7 +194,6 @@
     height: 58px;
     border-radius: 1000px;
     overflow: hidden;
-
   }
 
   .about-scouts-card-img > .about-scouts-card-picture {
@@ -233,7 +232,7 @@
     background-repeat: no-repeat;
     background-position: bottom 30px left -10px, top -20px right;
     background-image: url("/images/mobile/main-page/main-banner-background1.png"),
-    url("/images/mobile/main-page/main-banner-background2.png");
+      url("/images/mobile/main-page/main-banner-background2.png");
   }
 
   .main-title {
@@ -245,7 +244,6 @@
     text-transform: uppercase;
     margin-bottom: 16px;
   }
-
 
   .main-information-block {
     display: flex;
@@ -294,7 +292,6 @@
     grid-gap: 16px;
   }
 
-
   .events-item {
     display: flex;
     flex-direction: column;
@@ -334,7 +331,6 @@
     object-fit: cover;
     background-position: center;
   }
-
 
   .events-item-text {
     font-size: 14px;
@@ -396,7 +392,6 @@
     gap: 8px;
     /* height: 224px; */
     padding: 8px;
-
   }
 
   .reviews-individuo-wrapper {
@@ -521,6 +516,7 @@
     background-position: center;
     background-image: url("/images/about-us/background-img.jpg");
     background-size: cover;
+    align-items: flex-end;
   }
 
   .hero-container {
@@ -547,9 +543,8 @@
   .social-media-list {
     display: flex;
     gap: 19px;
-
+    margin-bottom: 18px;
   }
-
 
   .social-media-item-icon:hover {
     fill: rgb(222, 213, 233);
@@ -570,9 +565,9 @@
 
   .subscribing-link:hover {
     background-image: linear-gradient(
-        to right,
-        rgb(91, 41, 147),
-        rgb(155, 104, 212)
+      to right,
+      rgb(91, 41, 147),
+      rgb(155, 104, 212)
     );
   }
 
@@ -726,14 +721,12 @@
   }
 
   .main-part-section-img-wrapper {
-
     aspect-ratio: 1.025;
     border-radius: 24px;
 
     /* width: 392px; */
     height: 434px;
   }
-
 
   .main-information-block {
     display: flex;
@@ -809,7 +802,8 @@
     flex-direction: column;
   }
 
-  .events-item:nth-child(2n+1), .events-item:nth-child(2n+2) {
+  .events-item:nth-child(2n + 1),
+  .events-item:nth-child(2n + 2) {
     flex: auto;
   }
 
@@ -932,7 +926,6 @@
     background-position: center;
   }
 
-
   .reviews-individuo {
     display: flex;
     flex-direction: column;
@@ -977,7 +970,6 @@
     display: block;
   }
 
-
   /* invitation */
   .invitation {
     width: 100%;
@@ -1015,7 +1007,6 @@
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
-
   }
 
   .subscribing-link-invitation {
@@ -1042,9 +1033,7 @@
     z-index: 1;
     margin-left: -40px;
     width: 50%;
-
   }
-
 }
 
 @media screen and (min-width: 1467px) {
