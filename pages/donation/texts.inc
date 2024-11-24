@@ -44,12 +44,12 @@ return [
      follow this link (see Our Projects page). Here, you’ll be able to see how
       your contribution helps us make a positive difference in the lives of Ukrainians.",
   ],
-  
+
   "donation-text" => [
     'ua' => " Ваші пожертви допомагають підтримати важливі гуманітарні
                       та соціальні проєкти Національної Організації Скаутів
                       України. Наразі ми зосереджені на зборі 500.000 гривень
-                      протягом 2024 року, які спрямовуються на допомогу
+                      до 31 грудня 2024 року, які спрямовуються на допомогу
                       українським родинам у час повномасштабної війни, а саме:",
     'en' => "Your Donations Help Support Essential Humanitarian and 
     Social Projects of the National Organization of Ukrainian Scouts. 
@@ -70,11 +70,12 @@ return [
        This ensures that your support will always be used where it is most needed.",
   ],
   "donation-text-third" => [
-    'ua' => " Роблячи пожертву через платіжний сервіс LiqPay, ви
-                    підтверджуєте свою згоду на використання коштів для
+    'ua' => 'Роблячи пожертву через платіжний сервіс, Ви погоджуєтесь з умовами 
+                    <a class="regular-block-text additional-text-link" target="_blank" href="./static/donation_oferta.pdf">Оферти</a>.
+                    Ви підтверджуєте свою згоду на використання коштів для
                     підтримки інших проєктів Скаутів України у цій категорії.
                     Також ви погоджуєтесь, що сума вашої пожертви не підлягає
-                    поверненню.",
+                    поверненню.',
     'en' => "By donating through the LiqPay payment service, you confirm your
      agreement that your funds may be used to support other projects of the
       Scouts of Ukraine within this category. Additionally,

@@ -64,7 +64,7 @@ return [
     [
       "number" => "5",
       "title" => [
-        'ua' => "Символічна основа",
+        'ua' => "Символьна основа",
         'en' => 'Symbolic Framework'
       ],
       "text" => [

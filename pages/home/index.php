@@ -20,7 +20,7 @@ $textsScoutReviews = include "texts-scout-review.inc";
 ?>
 <main>
   <div class="main-group">
-    <section class="container hero">
+    <section class="container hero" fetchpriority="high">
       <div class="hero-container">
         <div class="hero-text-container">
           <p class="hero-text"><?= getLangText($texts["open-world"]) ?></p>

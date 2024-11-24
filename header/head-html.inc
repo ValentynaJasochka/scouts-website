@@ -19,9 +19,13 @@
 <title><?= getLangText($texts['page-title']) ?></title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
+<link rel="preload"
   href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-  rel="stylesheet" />
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+</noscript>
 <link rel="stylesheet" href="/css/common.css" />
 <link rel="stylesheet" href="/css/regular-block.css" />
 <link rel="icon" href="/favicon.ico" type="image/icon type">
