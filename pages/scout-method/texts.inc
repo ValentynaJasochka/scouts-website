@@ -31,8 +31,8 @@ It employs various elements that support the aim and Principles of Scouting,
   ],
   
   "elements-banner-link" => [
-    'ua' => "/images/scouting-method/icons/scouting-method-diagram.svg",
-    'en' => "/images/scouting-method/icons/scouting-method-diagram.svg",
+    'ua' => "/images/scouting-method/scouting-method-diagram.png",
+    'en' => "/images/scouting-method/scouting-method-diagram.png",
   ],
 
   "scouts-promises-title" => [

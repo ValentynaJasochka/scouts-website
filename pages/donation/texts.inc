@@ -76,10 +76,10 @@ return [
                     підтримки інших проєктів Скаутів України у цій категорії.
                     Також ви погоджуєтесь, що сума вашої пожертви не підлягає
                     поверненню.',
-    'en' => "By donating through the LiqPay payment service, you confirm your
+    'en' => 'By donating through the LiqPay payment service, you agree to the terms of the <a class="regular-block-text additional-text-link" target="_blank" href="./static/donation_oferta.pdf">Offer</a>. you confirm your
      agreement that your funds may be used to support other projects of the
       Scouts of Ukraine within this category. Additionally,
-       you agree that your donation amount is non-refundable.",
+       you agree that your donation amount is non-refundable.',
   ],
   "donate-btn" => [
     'ua' => "Задонатити",
