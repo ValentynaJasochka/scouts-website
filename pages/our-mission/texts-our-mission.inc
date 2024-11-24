@@ -2,7 +2,7 @@
 return [
   [
     "text" => [
-      'ukr' => " Головна мета створення НОСУ – об’єднання зусиль молодих людей
+      'ua' => " Головна мета створення НОСУ – об’єднання зусиль молодих людей
                     задля побудови потужного Скаутського Руху в Україні, а також
                     представлення України на міжнародному рівні.",
       'en' => "The main goal of the creation of the Scouts of Ukraine is to unite the efforts of young people in order to build a powerful Scouting Movement in Ukraine, as well as to represent Ukraine at the international level."
@@ -10,7 +10,7 @@ return [
   ],
   [
     "text" => [
-      'ukr' => " “Наша Місія – це сприяння вихованню молоді України за системою
+      'ua' => " “Наша Місія – це сприяння вихованню молоді України за системою
                     цінностей, заснованій на Скаутській Обіцянці та Скаутському
                     Законі.”",
       'en' => '"Our mission is to help educate the youth of Ukraine according to the system of values ​​based on the Scout Promise and the Scout Law."'
@@ -18,7 +18,7 @@ return [
   ],
   [
     "text" => [
-      'ukr' => "Через Скаутинг ми будуємо кращий світ, де люди
+      'ua' => "Через Скаутинг ми будуємо кращий світ, де люди
                     самореалізуються як особистості та відіграють конструктивну
                     роль у суспільстві. Ми хочемо і розвиваємо українське
                     суспільство, створюючи умови для всебічного формування

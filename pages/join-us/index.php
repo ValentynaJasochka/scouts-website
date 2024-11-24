@@ -131,7 +131,7 @@ $textsAdvantages = include "texts-advantages.inc";
         <div class="leadership-img-wrapper">
           <img
             class="leadership-img"
-            src="./images/join-us/work-with-children.jpg"
+            src="/images/join-us/work-with-children.jpg"
             alt="work with children" />
         </div>
       </div>
@@ -140,7 +140,7 @@ $textsAdvantages = include "texts-advantages.inc";
         <div class="leadership-img-wrapper">
           <img
             class="leadership-img second"
-            src="./images/join-us/join-us2.jpg"
+            src="/images/join-us/join-us2.jpg"
             alt="work in organizational management" />
         </div>
         <div>

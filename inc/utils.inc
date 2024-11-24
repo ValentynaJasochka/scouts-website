@@ -3,21 +3,30 @@
 
 function getLang()
 {
-  $lang = '';
+  // Extract language from the URL
+  $requestUri = $_SERVER['REQUEST_URI'];
+  $segments = explode('/', trim($requestUri, '/'));
+  $lang = 'ua';
 
-  if (isset($_COOKIE['lang'])) {
-    $lang = $_COOKIE['lang'];
+  // Default language
+  if (in_array($segments[0], ['en', 'ua'])) {
+    $lang = array_shift($segments);
   }
 
-  if (isset($_GET['lang'])) {
-    $lang = $_GET['lang'];
+  return $lang;
+}
+
+function getAddress()
+{
+  // Extract language from the URL
+  $requestUri = $_SERVER['REQUEST_URI'];
+  $segments = explode('/', trim($requestUri, '/'));
+
+  if (in_array($segments[0], ['en', 'ua'])) {
+    array_shift($segments);
   }
 
-  if (in_array($lang, ['ukr', 'en'])) {
-    return $lang;
-  }
-
-  return 'ukr';
+  return implode('/', $segments);
 }
 
 function getValue($value, $key)
@@ -32,8 +41,8 @@ function getLangText($array)
   }
 
 
-  if (isset($array['ukr'])) {
-    return $array['ukr'];
+  if (isset($array['ua'])) {
+    return $array['ua'];
   }
 
   return 'No text';

@@ -17,7 +17,7 @@ $textsHowWorks = include "texts-how-works.inc";
             <div class="regular-block-img-wrapper our-mission-img">
               <img
                 class="regular-block-points-img"
-                src="./images/our-mission/photo1.JPG"
+                src="/images/our-mission/photo1.JPG"
                 alt="" />
             </div>
             <div class="regular-block-text-wrapper">
@@ -41,7 +41,7 @@ $textsHowWorks = include "texts-how-works.inc";
             <div class="regular-block-img-wrapper our-mission-img">
               <img
                 class="regular-block-points-img"
-                src="./images/our-mission/photo2.jpg"
+                src="/images/our-mission/photo2.jpg"
                 alt="" />
             </div>
             <div class="regular-block-text-wrapper">

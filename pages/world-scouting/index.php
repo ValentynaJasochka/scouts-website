@@ -10,7 +10,7 @@ $textsHeadquarters = include "texts-headquarters.inc";
         <div class="world-scouting-title">
           <img
             class="world-scouting-logo"
-            src="./images/world-scouting-organisation/world-scouts-logo.png"
+            src="/images/world-scouting-organisation/world-scouts-logo.png"
             width="50"
             height="58" />
           <h1 class="main-title"><?= getLangText($texts["main-title"]) ?></h1>
@@ -59,7 +59,7 @@ $textsHeadquarters = include "texts-headquarters.inc";
           </div>
           <img
             class="headquarters-arrow"
-            src="./images/world-scouting-organisation/arrow.png"
+            src="/images/world-scouting-organisation/arrow.png"
             width="67"
             height="85" />
           <div class="headquarters-information">

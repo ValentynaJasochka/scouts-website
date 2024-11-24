@@ -1,22 +1,18 @@
 <!DOCTYPE html>
-<html lang="ua">
+<?php
+include "./inc/utils.inc";
+$lang = getLang();
+?>
+<html lang="<?= $lang ?>">
 
 <head>
     <?php
-    include "./inc/utils.inc";
 
-    if (isset($_GET["lang"])) {
-        setcookie("lang", $_GET["lang"]);
-    }
+    $lang = getLang();
 
-    $requestUri = $_SERVER['REQUEST_URI'];
-    $fileName = basename(parse_url($requestUri, PHP_URL_PATH), ".php");
+    $pageName = getAddress();
 
-    $uri = strtok($requestUri, '?');
-    $pageName = basename($uri, ".php");
-
-
-    if ($pageName == 'index' || $pageName == 'scouts-website' || $pageName == '') {
+    if ($pageName == '' || $pageName == 'index' || $pageName == 'scouts-website') {
         $pageName = 'home';
     }
 
@@ -25,20 +21,18 @@
         $defaultTexts = include __DIR__ . "/pages/{$pageName}/texts.inc";
         $texts = array_merge($texts, $defaultTexts);
     } else {
-        $NoPageTexts = include __DIR__ . "/pages/404/texts.inc";
-        $texts = array_merge($texts, $NoPageTexts);
+        $texts = include __DIR__ . "/pages/404/texts.inc";
     }
 
     include "header/head-html.inc";
-
-    if (file_exists(__DIR__ . "/pages/{$pageName}/styles.css")) {
+    // Include styles if they exist 
+    $stylePath = "/pages/{$pageName}/styles.css";
+    if (file_exists(__DIR__ . $stylePath)) {
     ?>
-        <link rel="stylesheet" href="<?= "./pages/{$pageName}/styles.css" ?>" />
+        <link rel="stylesheet" href="<?= $stylePath ?>" />
     <?php
-
     }
     ?>
-
 </head>
 
 <body>
@@ -46,14 +40,13 @@
     include "header/header.php";
 
     $pageFile = __DIR__ . "/pages/{$pageName}/index.php";
-
     if (file_exists($pageFile)) {
         include $pageFile;
     } else {
         include __DIR__ . "/pages/404/index.php";
     }
 
-    include "footer/footer.inc"
+    include "footer/footer.inc";
     ?>
 </body>
 

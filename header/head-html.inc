@@ -22,6 +22,6 @@
 <link
   href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
   rel="stylesheet" />
-<link rel="stylesheet" href="./css/common.css" />
-<link rel="stylesheet" href="./css/regular-block.css" />
-<link rel="icon" href="./favicon.ico" type="image/icon type">
+<link rel="stylesheet" href="/css/common.css" />
+<link rel="stylesheet" href="/css/regular-block.css" />
+<link rel="icon" href="/favicon.ico" type="image/icon type">

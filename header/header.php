@@ -11,8 +11,8 @@ $headerTexts = include "header-texts.inc";
           src="<?= getLangText($headerTexts["logo"]) ?>"
           alt="Logo Scouts" />
       </a>
-      <a href="?lang=ukr">UA</a>
-      <a href="?lang=en">EN</a>
+      <a href="/<?= getAddress()?>">UA</a>
+      <a href="/en/<?= getAddress()?>">EN</a>
       <ul class="header-nav-list nav-mobile-menu">
 
         <?php
@@ -25,7 +25,7 @@ $headerTexts = include "header-texts.inc";
               <button class="inner-mobile-menu-open-btn" type="button">
                 <svg class="inner-mobile-menu-open-icon" width="13" height="17">
                   <use
-                    href="./images/sprite-title-page.svg#inner-mobile-open-btn"></use>
+                    href="/images/sprite-title-page.svg#inner-mobile-open-btn"></use>
                 </svg>
               </button>
             </div>
@@ -60,7 +60,7 @@ $headerTexts = include "header-texts.inc";
     </nav>
     <button class="mobile-menu-open mobile-menu-handler open" type="button">
       <svg class="mobile-menu-open-icon" width="24" height="24">
-        <use href="./images/sprite-title-page.svg#burger-icon"></use>
+        <use href="/images/sprite-title-page.svg#burger-icon"></use>
       </svg>
     </button>
     <button
@@ -68,7 +68,7 @@ $headerTexts = include "header-texts.inc";
       type="button">
       <img
         class="mobile-menu-close-icon"
-        src="./images/close-mob-menu.png"
+        src="/images/close-mob-menu.png"
         alt="close-btn" />
     </button>
   </div>

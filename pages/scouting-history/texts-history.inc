@@ -2,26 +2,26 @@
 return [
 
   [
-    "src" => "./images/scouting-history/photo1.jpg",
+    "src" => "/images/scouting-history/photo1.jpg",
     "dates" => [
-      'ukr' => "1907 – 1908",
+      'ua' => "1907 – 1908",
       'en' => "1907 – 1908"
     ],
     "title" => [
-      'ukr' => "Ранні роки",
+      'ua' => "Ранні роки",
       'en' => 'Early Beginnings'
     ],
     "texts" => [
      [
       "text" => [
-        'ukr' => "Скаутинг розпочався як програма для хлопчиків віком
+        'ua' => "Скаутинг розпочався як програма для хлопчиків віком
                     від 11 до 18 років.",
         'en' => "Scouting began as a programme for boys aged 11 to 18."
       ],
      ] ,
      [
       "text" => [
-        'ukr' => '<span class="regular-block-text-bold">1907:</span> Перший
+        'ua' => '<span class="regular-block-text-bold">1907:</span> Перший
                     експериментальний табір, організований Робертом Бейден-Поуеллом
                     з 20 хлопчиками на острові Браунсі, Велика Британія, мав великий
                     успіх.',
@@ -31,7 +31,7 @@ return [
       ],
      ],
       ["text" => [
-        'ukr' => '<span class="regular-block-text-bold">1908:</span> Бейден-Поеулл
+        'ua' => '<span class="regular-block-text-bold">1908:</span> Бейден-Поеулл
                     опублікував книгу “Скаутинг для хлопчиків”, яка одразу ж стала
                     відомою і з того часу була продана накладом понад 100 мільйонів
                     примірників.',
@@ -43,19 +43,19 @@ return [
 
   ],
   [
-    "src" => "./images/scouting-history/photo2.jpg",
+    "src" => "/images/scouting-history/photo2.jpg",
    "dates" => [
-      'ukr' => "1909 – 1918",
+      'ua' => "1909 – 1918",
       'en' => "1909 – 1918"
     ],
     "title" => [
-      'ukr' => "Розширення Скаутського Руху",
+      'ua' => "Розширення Скаутського Руху",
       'en' => 'Expansion of the Scout Movement'
     ],
     "texts" => [
      [
       "text" => [
-        'ukr' => '<span class="regular-block-text-bold">1909:</span> “Скаутинг для
+        'ua' => '<span class="regular-block-text-bold">1909:</span> “Скаутинг для
                 хлопчиків” був перекладений п’ятьма мовами. Це породило Рух,
                 який швидко взяв назву “Бойскаути”.',
         'en' => '<span class="regular-block-text-bold">1909:</span> "Scouting for Boys" 
@@ -65,13 +65,13 @@ return [
      ] ,
      [
       "text" => [
-        'ukr' => '<span class="regular-block-text-bold">1909:</span> Скаутський зліт у
+        'ua' => '<span class="regular-block-text-bold">1909:</span> Скаутський зліт у
                 Лондоні зібрав понад 11 000 Скаутів.',
         'en' => '<span class="regular-block-text-bold">1909:</span> A Scout rally in London attracted more than 11,000 Scouts.'
       ],
      ],
       ["text" => [
-        'ukr' => '<span class="regular-block-text-bold">1910:</span> Бейден-Поеулл
+        'ua' => '<span class="regular-block-text-bold">1910:</span> Бейден-Поеулл
                 заснував Організацію для дівчат-Гайдів під керівництвом своєї
                 сестри Агнес.',
         'en' => '<span class="regular-block-text-bold">1910:</span> Baden-Powell 
@@ -80,7 +80,7 @@ return [
     ],
     [
       "text" => [
-        'ukr' => '<span class="regular-block-text-bold">1914:</span> Система Патрулів
+        'ua' => '<span class="regular-block-text-bold">1914:</span> Система Патрулів
                 була створена для забезпечення стабільности Скаутингу під час
                 Першої світової війни, оскільки Патрульні Лідери були
                 добровольцями, які замінили дорослих лідерів.',
@@ -92,7 +92,7 @@ return [
      ] ,
      [
       "text" => [
-        'ukr' => '<span class="regular-block-text-bold">1916:</span> Для хлопчиків віком
+        'ua' => '<span class="regular-block-text-bold">1916:</span> Для хлопчиків віком
                 до 11 років було започатковано вікову секцію «Кабскаутинг», який
                 підтримувався публікацією “Посібника для вовченяти” та
                 використанням “Книги джунглів” Редьярда Кіплінга як основи для
@@ -103,7 +103,7 @@ return [
       ],
      ],
       ["text" => [
-        'ukr' => '<span class="regular-block-text-bold">1918:</span> Створено вікову
+        'ua' => '<span class="regular-block-text-bold">1918:</span> Створено вікову
                 секцію “Роверство” для старших хлопців та молоді.',
         'en' => '<span class="regular-block-text-bold">1918:</span> Rover Scouts
          was formed for older boys and young adults.'
@@ -113,20 +113,20 @@ return [
 
   ],
   [
-    "src" => "./images/scouting-history/photo3.jpg",
+    "src" => "/images/scouting-history/photo3.jpg",
     "dates" => [
-      'ukr' => "1919 – 1922",
+      'ua' => "1919 – 1922",
       'en' => "1919 – 1922"
     ],
     "title" => [
-      'ukr' => "Всесвітні події та керівництво Скаутингом",
+      'ua' => "Всесвітні події та керівництво Скаутингом",
       'en' => 'Scouting’s World Events and Governance '
     ],
     "texts" => [
     
      [
       "text" => [
-        'ukr' => '<span class="regular-block-text-bold">1920:</span> Перша Всесвітня
+        'ua' => '<span class="regular-block-text-bold">1920:</span> Перша Всесвітня
                 Скаутська Конференція (тоді відома як Міжнародна Скаутська
                 Конференція) відбулася під час першого Всесвітнього Скаутського
                 Джамборі в Лондоні, Велика Британія, за участю 33 Національних
@@ -138,7 +138,7 @@ return [
       ],
      ],
       ["text" => [
-        'ukr' => '<span class="regular-block-text-bold">1920:</span> У Лондоні, Велика
+        'ua' => '<span class="regular-block-text-bold">1920:</span> У Лондоні, Велика
                 Британія, було створено Всесвітнє Скаутське Бюро (тоді відоме як
                 Міжнародне Бюро Бойскаутів).',
         'en' => '<span class="regular-block-text-bold">1920:</span>
@@ -147,7 +147,7 @@ return [
       ],],
       [
         "text" => [
-          'ukr' => '<span class="regular-block-text-bold">1922:</span> У Парижі, Франція,
+          'ua' => '<span class="regular-block-text-bold">1922:</span> У Парижі, Франція,
                 відбулася друга Всесвітня Скаутська Конференція, на якій була
                 представлена 31 Національна Скаутська Організація. Глобальне
                 членство становило трохи більше 1 мільйона Скаутів.',
@@ -158,7 +158,7 @@ return [
         ],
        ],
         ["text" => [
-          'ukr' => '<span class="regular-block-text-bold">1922:</span> Обрано перший
+          'ua' => '<span class="regular-block-text-bold">1922:</span> Обрано перший
                 Всесвітній Скаутський Комітет (тоді Міжнародний Комітет
                 Бойскаутів).',
           'en' => '<span class="regular-block-text-bold">1922:</span>
@@ -169,19 +169,19 @@ return [
 
   ],
   [
-    "src" => "./images/scouting-history/photo4.jpg",
+    "src" => "/images/scouting-history/photo4.jpg",
     "dates" => [
-      'ukr' => "1914– 1945",
+      'ua' => "1914– 1945",
       'en' => "1914– 1945"
     ],
     "title" => [
-      'ukr' => "Світові війни",
+      'ua' => "Світові війни",
       'en' => 'The World Wars'
     ],
     "texts" => [
      [
       "text" => [
-        'ukr' => "  Між двома світовими війнами Скаутинг продовжував процвітати, за
+        'ua' => "  Між двома світовими війнами Скаутинг продовжував процвітати, за
                 винятком тоталітарних регіонів, де Скаутська діяльність була
                 заборонена. В окупованих країнах з тоталітарними режимами
                 Скаутинг продовжував існувати таємно, а Скаути відігравали
@@ -203,19 +203,19 @@ return [
 
   ],
   [
-    "src" => "./images/scouting-history/photo5.jpg",
+    "src" => "/images/scouting-history/photo5.jpg",
     "dates" => [
-      'ukr' => "1945 – 1980",
+      'ua' => "1945 – 1980",
       'en' => "1945 – 1980"
     ],
     "title" => [
-      'ukr' => "Еволюція Скаутингу",
+      'ua' => "Еволюція Скаутингу",
       'en' => 'The Evolution of Scouting'
     ],
     "texts" => [
      [
       "text" => [
-        'ukr' => '<span class="regular-block-text-bold">1947:</span> Всесвітня
+        'ua' => '<span class="regular-block-text-bold">1947:</span> Всесвітня
                 Організація Скаутського Руху отримала загальний консультативний
                 статус при Економічній і Соціальній Раді Організації Об’єднаних
                 Націй (ЮНЕСКО).',
@@ -226,7 +226,7 @@ return [
      ] ,
      [
       "text" => [
-        'ukr' => '<span class="regular-block-text-bold">1960-1980:</span> Багато країн
+        'ua' => '<span class="regular-block-text-bold">1960-1980:</span> Багато країн
                 здобули незалежність, в результаті чого Національні Скаутські
                 Організації приєдналися або знову стали членами Всесвітньої
                 Організації Скаутського Руху.',
@@ -236,7 +236,7 @@ return [
       ],
      ],
       ["text" => [
-        'ukr' => '<span class="regular-block-text-bold">1980-2007:</span> Скаутинг
+        'ua' => '<span class="regular-block-text-bold">1980-2007:</span> Скаутинг
                 відродився в усіх країнах, де він існував до Другої світової
                 війни, а також у нових незалежних країнах Співдружності
                 Незалежних Держав після закінчення холодної війни. Скаутинг у
@@ -259,20 +259,20 @@ return [
 
   ],
   [
-    "src" => "./images/scouting-history/photo6.jpg",
+    "src" => "/images/scouting-history/photo6.jpg",
     "dates" => [
-      'ukr' => "2007",
+      'ua' => "2007",
       'en' => "2007"
     ],
     "title" => [
-      'ukr' => "Століття Скаутингу",
+      'ua' => "Століття Скаутингу",
       'en' => 'A Century of Scouting'
     ],
     "texts" => [
     
      [
       "text" => [
-        'ukr' => ' Скаутський рух відсвяткував своє
+        'ua' => ' Скаутський рух відсвяткував своє
                 <span class="regular-block-text-bold">100-річчя,</span> повернувшись
                 до свого коріння у Великій Британії на 21-й Всесвітнє Скаутське
                 Джамборі.',
@@ -281,7 +281,7 @@ return [
       ],
      ],
       ["text" => [
-        'ukr' => '1 серпня мільйони Скаутів з усього світу відсвяткували створення
+        'ua' => '1 серпня мільйони Скаутів з усього світу відсвяткували створення
                 Скаутського Руху та його зростання від скромних початків до
                 глобального Руху з мільйонами членів майже в кожній країні
                 світу.',
@@ -294,19 +294,19 @@ return [
 
   ],
   [
-    "src" => "./images/scouting-history/photo7.jpg",
+    "src" => "/images/scouting-history/photo7.jpg",
     "dates" => [
-      'ukr' => "2010 – 2020",
+      'ua' => "2010 – 2020",
       'en' => "2010 – 2020"
     ],
     "title" => [
-      'ukr' => " Сприяння миру і сталости",
+      'ua' => " Сприяння миру і сталости",
       'en' => 'Promoting Peace and Sustainability'
     ],
     "texts" => [
       [
         "text" => [
-          'ukr' => 'Скаутинг продовжував розширювати своє членство, охоплюючи навіть
+          'ua' => 'Скаутинг продовжував розширювати своє членство, охоплюючи навіть
                 віддалені острови в Тихому океані та Карибському басейні,
                 одночасно впроваджуючи інновації та адаптуючи свої освітні
                 пропозиції відповідно до сучасних потреб та прагнень молоді.',
@@ -316,7 +316,7 @@ return [
         ],
        ],
         ["text" => [
-          'ukr' => ' <span class="regular-block-text-bold">2011:</span> Ініціатива “Посланці
+          'ua' => ' <span class="regular-block-text-bold">2011:</span> Ініціатива “Посланці
                 миру” була створена для сприяння розбудови миру та підтримки
                 впливу Скаутингу на місцеві громади.',
           'en' => '<span class="regular-block-text-bold">2011:</span>
@@ -325,7 +325,7 @@ return [
         ],],
      [
       "text" => [
-        'ukr' => '<span class="regular-block-text-bold">2018:</span> Започатковано
+        'ua' => '<span class="regular-block-text-bold">2018:</span> Започатковано
                 ініціативу “Скаути за Цілі Сталого Розвитку (ЦСР)” з метою
                 залучення Скаутського Руху до найбільшого у світі
                 скоординованого внеску молоді у досягнення ЦСР.',
@@ -335,7 +335,7 @@ return [
       ],
      ],
       ["text" => [
-        'ukr' => '<span class="regular-block-text-bold">2020:</span> Створено глобальну
+        'ua' => '<span class="regular-block-text-bold">2020:</span> Створено глобальну
                 молодіжну спільноту “Earth Tribe”, що об’єднує молодь для
                 природоохоронної діяльности та надання можливости молодим людям
                 боротися з наслідками зміни клімату.',
@@ -348,21 +348,21 @@ return [
 
   ],
   [
-    "src" => "./images/scouting-history/photo8.jpg",
+    "src" => "/images/scouting-history/photo8.jpg",
     
     "dates" => [
-      'ukr' => "2020 – 2022",
+      'ua' => "2020 – 2022",
       'en' => "2020 – 2022"
     ],
     "title" => [
-      'ukr' => "Всесвітня пандемія",
+      'ua' => "Всесвітня пандемія",
       'en' => 'Global Pandemic'
     ],
     "texts" => [
      
      [
       "text" => [
-        'ukr' => '<span class="regular-block-text-bold">2020-2022:</span> Скаути по
+        'ua' => '<span class="regular-block-text-bold">2020-2022:</span> Скаути по
                 всьому світу продемонстрували стійкість Руху, вживаючи заходів
                 для підтримки своїх громад та адаптуючись до глобальних обмежень
                 через віртуальні програми. ',
@@ -373,7 +373,7 @@ return [
       ],
      ],
       ["text" => [
-        'ukr' => ' <span class="regular-block-text-bold">2022:</span> Ініціатива
+        'ua' => ' <span class="regular-block-text-bold">2022:</span> Ініціатива
                 “Глобальна мобілізація молоді” (Global Youth Mobilisation) була
                 започаткована з метою підтримки розвитку молоді у
                 постпандемічному світі. Це партнерство з Великою шісткою
@@ -399,22 +399,22 @@ return [
 
   ],
   [
-    "src" => "./images/scouting-history/photo9.jpg",
+    "src" => "/images/scouting-history/photo9.jpg",
     "dates" => [
-      'ukr' => "2022- Сьогодення",
+      'ua' => "2022- Сьогодення",
       'en' => '2022- The present'
     ],
      	
 
     "title" => [
-      'ukr' => "Еволюція Скаутингу",
+      'ua' => "Еволюція Скаутингу",
       'en' => 'The evolution of Scouting'
     ],
     "texts" => [
     
      [
       "text" => [
-        'ukr' => 'Після пандемії COVID-19 Всесвітня Організація Скаутського Руху
+        'ua' => 'Після пандемії COVID-19 Всесвітня Організація Скаутського Руху
                 продовжила розвивати нову стратегію, щоб краще відповідати на
                 виклики сучасного світу та потреби молоді. Одним з головних
                 напрямів розвитку є залучення більшої кількості молоді до
@@ -428,7 +428,7 @@ return [
       ],
      ],
       ["text" => [
-        'ukr' => 'Крім того, Скаути активно співпрацюють з урядами та іншими
+        'ua' => 'Крім того, Скаути активно співпрацюють з урядами та іншими
                 громадськими організаціями для реалізації Цілей сталого розвитку
                 ООН та підтримки збереження навколишнього середовища.',
         'en' => 'n addition, the Scouts actively cooperate with governments 

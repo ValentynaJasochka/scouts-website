@@ -3,35 +3,35 @@ return [
   [
     'header' => [
       'en' => 'About Us',
-      'ukr' => 'Про нас'
+      'ua' => 'Про нас'
     ],
     'links' => [
       [
         'link' => './our-history',
         'title' => [
           'en' => 'History',
-          'ukr' => 'Наша історія'
+          'ua' => 'Наша історія'
         ]
       ],
       [
         'link' => './our-mission',
         'title' => [
           'en' => 'Mission',
-          'ukr' => 'Наша місія'
+          'ua' => 'Наша місія'
         ]
       ],
       [
         'link' => './scout-method',
         'title' => [
           'en' => 'Method',
-          'ukr' => 'Скаутський Метод'
+          'ua' => 'Скаутський Метод'
         ]
       ],
       [
         'link' => './our-team',
         'title' => [
           'en' => 'Team',
-          'ukr' => 'Команда'
+          'ua' => 'Команда'
         ]
       ]
     ]
@@ -40,28 +40,28 @@ return [
   [
     'header' => [
       'en' => 'Activities',
-      'ukr' => 'Діяльність'
+      'ua' => 'Діяльність'
     ],
     'links' => [
       [
         'link' => './our-mission#our-program',
         'title' => [
           'en' => 'Programme',
-          'ukr' => 'Наша програма'
+          'ua' => 'Наша програма'
         ]
       ],
       [
         'link' => './help-ukrainians',
         'title' => [
           'en' => 'Projects',
-          'ukr' => 'Проєкти'
+          'ua' => 'Проєкти'
         ]
       ],
       [
         'link' => './our-events',
         'title' => [
           'en' => 'Events',
-          'ukr' => 'Заходи'
+          'ua' => 'Заходи'
         ]
       ]
     ]
@@ -69,28 +69,28 @@ return [
   [
     'header' => [
       'en' => 'World Scouting',
-      'ukr' => 'Всесвітній Скаутинг'
+      'ua' => 'Всесвітній Скаутинг'
     ],
     'links' => [
       [
         'link' => './world-scouting',
         'title' => [
           'en' => 'WOSM',
-          'ukr' => 'ВОСР'
+          'ua' => 'ВОСР'
         ]
       ],
       [
         'link' => './scouting-history',
         'title' => [
           'en' => 'History of Scouting',
-          'ukr' => 'Історія Скаутингу'
+          'ua' => 'Історія Скаутингу'
         ]
         ],
       // [
       //   'link' => './join-us',
       //   'title' => [
       //     'en' => 'Join us',
-      //     'ukr' => 'Приєднатися'
+      //     'ua' => 'Приєднатися'
       //   ]
       // ],
     ]

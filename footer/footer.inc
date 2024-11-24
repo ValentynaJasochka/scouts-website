@@ -5,7 +5,7 @@ $textsFooter = include "texts.inc";
 <footer class="footer">
   <div class="footer-section">
     <svg class="footer-logo">
-      <use href="./images/sprite-title-page.svg#<?= getLangText($textsFooter["logo"]) ?>"></use>
+      <use href="/images/sprite-title-page.svg#<?= getLangText($textsFooter["logo"]) ?>"></use>
     </svg>
 
     <ul class="nav-footer-list">
@@ -40,7 +40,7 @@ $textsFooter = include "texts.inc";
           class="social-media-item"
           target="_blank">
           <svg class="social-media-item-icon">
-            <use href="./images/sprite-title-page.svg#instagram"></use>
+            <use href="/images/sprite-title-page.svg#instagram"></use>
           </svg>
         </a>
       </li>
@@ -50,7 +50,7 @@ $textsFooter = include "texts.inc";
           class="social-media-item"
           target="_blank">
           <svg class="social-media-item-icon">
-            <use href="./images/sprite-title-page.svg#facebook"></use>
+            <use href="/images/sprite-title-page.svg#facebook"></use>
           </svg>
         </a>
       </li>
@@ -60,7 +60,7 @@ $textsFooter = include "texts.inc";
           class="social-media-item"
           target="_blank">
           <svg class="social-media-item-icon">
-            <use href="./images/sprite-title-page.svg#telegram"></use>
+            <use href="/images/sprite-title-page.svg#telegram"></use>
           </svg>
         </a>
       </li>
@@ -73,8 +73,8 @@ $textsFooter = include "texts.inc";
     </p>
   </div>
 </footer>
-<script src="./js/init-header.js"></script>
-<script src="./js/nav-menu.js"></script>
+<script src="/js/init-header.js"></script>
+<script src="/js/nav-menu.js"></script>
 <script type="text/javascript">
   runMenu();
   runMenuMobile();

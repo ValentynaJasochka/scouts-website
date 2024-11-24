@@ -35,7 +35,7 @@ $textsScoutReviews = include "texts-scout-review.inc";
                 class="social-media-item"
                 target="_blank">
                 <svg class="social-media-item-icon">
-                  <use href="./images/sprite-title-page.svg#<?= $link['image'] ?>"></use>
+                  <use href="/images/sprite-title-page.svg#<?= $link['image'] ?>"></use>
                 </svg>
               </a>
             </li>
@@ -47,7 +47,7 @@ $textsScoutReviews = include "texts-scout-review.inc";
       <a href="./join-us" class="subscribing-link">
         <img
           class="subscribing-link-icon"
-          src="./images/btn-vector.png"
+          src="/images/btn-vector.png"
           width="30"
           height="30" />
         <p class="subscribing-link-text top"><?= getLangText($texts['join-us']) ?></p>
@@ -71,7 +71,7 @@ $textsScoutReviews = include "texts-scout-review.inc";
                 <div class="about-scouts-card-img">
                   <img
                     class="about-scouts-card-picture"
-                    src="./images/<?= $aboutUs['image'] ?>" />
+                    src="/images/<?= $aboutUs['image'] ?>" />
                 </div>
                 <h3 class="scouts-card-title"><?= getLangText($aboutUs['title']) ?></h3>
               </div>
@@ -79,7 +79,7 @@ $textsScoutReviews = include "texts-scout-review.inc";
               <a href="<?= $aboutUs['url'] ?>">
                 <img
                   class="about-scouts-card-nav"
-                  src="./images/arrow-grey.png"
+                  src="/images/arrow-grey.png"
                   width="32"
                   height="32" />
               </a>
@@ -95,7 +95,7 @@ $textsScoutReviews = include "texts-scout-review.inc";
       <div class="main-part-section-img-wrapper">
         <img
           class="main-part-section-img"
-          src="./images/about-us/main-banner.jpg"
+          src="/images/about-us/main-banner.jpg"
           alt="Ukrainian scouts" />
       </div>
 
@@ -127,7 +127,7 @@ $textsScoutReviews = include "texts-scout-review.inc";
                 <div class="events-img-wrapper">
                   <img
                     class="events-img"
-                    src="./images/about-us/<?= $ourEvent['image'] ?>"
+                    src="/images/about-us/<?= $ourEvent['image'] ?>"
                     alt="<?= $ourEvent['image-alt'] ?>" />
                 </div>
 
@@ -193,7 +193,7 @@ $textsScoutReviews = include "texts-scout-review.inc";
             class="subscribing-link subscribing-link-invitation">
             <img
               class="subscribing-link-icon"
-              src="./images/btn-vector.png"
+              src="/images/btn-vector.png"
               width="30"
               height="30" />
             <p class="subscribing-link-text bottom"><?= getLangText($texts["join-us-bottom"]) ?></p>
@@ -202,11 +202,11 @@ $textsScoutReviews = include "texts-scout-review.inc";
         <div class="invitation-section-img">
           <img
             class="invitation-img"
-            src="./images/about-us/Photo8.png"
+            src="/images/about-us/Photo8.png"
             alt="bikes riding" />
           <img
             class="invitation-img-second"
-            src="./images/about-us/Photo9.png"
+            src="/images/about-us/Photo9.png"
             alt="team building" />
         </div>
       </div>

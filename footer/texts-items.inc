@@ -2,21 +2,21 @@
 return [
   [
     "title" => [
-      "ukr" => "Діяльність",
+      "ua" => "Діяльність",
       "en" => "Activities",
     ],
     "links" => [
       [
         "url" => "/our-mission",
         "text" => [
-          "ukr" => "Наша програма",
+          "ua" => "Наша програма",
           "en" => "Programme",
         ],
       ],
       [
         "url" => "/help-ukrainians",
         "text" => [
-          "ukr" => "Наші проєкти",
+          "ua" => "Наші проєкти",
           "en" => "Projects",
         ],
       ],
@@ -25,28 +25,28 @@ return [
 
   [
     "title" => [
-      "ukr" => "Про Нас",
+      "ua" => "Про Нас",
       "en" => "About us",
     ],
     "links" => [
       [
         "url" => "/our-history",
         "text" => [
-          "ukr" => "Історія",
+          "ua" => "Історія",
           "en" => "History",
         ],
       ],
       [
         "url" => "/scout-method",
         "text" => [
-          "ukr" => "Скаутський Метод",
+          "ua" => "Скаутський Метод",
           "en" => "Method",
         ],
       ],
       [
         "url" => "/our-team",
         "text" => [
-          "ukr" => "Команда",
+          "ua" => "Команда",
           "en" => "Team",
         ],
       ],
@@ -54,28 +54,28 @@ return [
   ],
   [
     "title" => [
-      "ukr" => "Долучитись",
+      "ua" => "Долучитись",
       "en" => "Join us",
     ],
     "links" => [
       [
         "url" => "/join-us",
         "text" => [
-          "ukr" => "Стати Скаутом",
+          "ua" => "Стати Скаутом",
           "en" => "Become a Scout",
         ],
       ],
       [
         "url" => "/join-us#scout-leader",
         "text" => [
-          "ukr" => "Стати Лідером",
+          "ua" => "Стати Лідером",
           "en" => "Become a Scout-Leader",
         ],
       ],
       [
         "url" => "/donation",
         "text" => [
-          "ukr" => "Допомога організації",
+          "ua" => "Допомога організації",
           "en" => "Supporting the organization",
         ],
         "hidden" => true,

@@ -1,25 +1,25 @@
 <?php
 return [
   "page-title" => [
-    'ukr' => "Скаутський метод",
+    'ua' => "Скаутський метод",
     'en' => "The Scout method",
   ],
 
   "meta-title" => [
-    'ukr' => "Скаутський метод",
+    'ua' => "Скаутський метод",
     'en' => 'The Scout method'
   ],
   "meta-description" => [
-    'ukr' => "Скаутський метод.",
+    'ua' => "Скаутський метод.",
     'en' => 'The Scout method.'
   ],
 
   "main-title" => [
-    'ukr' => "Скаутський метод",
+    'ua' => "Скаутський метод",
     'en' => "The Scout method",
   ],
   "main-text" => [
-    'ukr' => "Скаутський Метод є унікальною системою прогресивного самовиховання.
+    'ua' => "Скаутський Метод є унікальною системою прогресивного самовиховання.
               Він застосовує різні елементи, які підтримують мету та Принципи
               Скаутингу, і створює згуртовану та збалансовану систему для молодих
               людей, щоб вони могли відчути справжній потенціал Скаутингу в
@@ -31,31 +31,31 @@ It employs various elements that support the aim and Principles of Scouting,
   ],
   
   "elements-banner-link" => [
-    'ukr' => "./images/scouting-method/icons/scouting-method-diagram.svg",
-    'en' => "./images/scouting-method/icons/scouting-method-diagram.svg",
+    'ua' => "/images/scouting-method/icons/scouting-method-diagram.svg",
+    'en' => "/images/scouting-method/icons/scouting-method-diagram.svg",
   ],
 
   "scouts-promises-title" => [
-    'ukr' => "Скаутська Обіцянка",
+    'ua' => "Скаутська Обіцянка",
     'en' => "The Scout Promise
 ",
   ],
   "scouts-promises-header" => [
-    'ukr' => "Скаутська обіцянка НОСУ:",
+    'ua' => "Скаутська обіцянка НОСУ:",
     'en' => "The Scout Promise of NOSU:",
   ],
   "scouts-promises-main-text" => [
-    'ukr' => '«Обіцяю зробити все від мене залежне, щоб з честю виконати свій
+    'ua' => '«Обіцяю зробити все від мене залежне, щоб з честю виконати свій
               обов’язок перед Богом і моєю країною, скрізь і повсякчас
               допомагати іншим та жити за Скаутським законом»',
     'en' => ' "I promise to do everything in my power to honor my duty to God and my country, to help others everywhere and at all times, and to live by the Scout Law.',
   ],
   "promises-additional-title" => [
-    'ukr' => "Обіцянка перед собою:",
+    'ua' => "Обіцянка перед собою:",
     'en' => "A promise to oneself:",
   ],
   "scouts-promises-text-part" => [
-    'ukr' => " Молода людина складає Обіцянку не дорослому лідеру чи
+    'ua' => " Молода людина складає Обіцянку не дорослому лідеру чи
                     своєму патрулю, а перед самим собою. Тим не менше,
                     потрібно пам’ятати, що протягом всього Скаутського життя
                     Скаут взаємодіє з командою однодумців – в патрулі, а отже,
@@ -76,11 +76,11 @@ It employs various elements that support the aim and Principles of Scouting,
           and live by the Scouting principles and the Scout Law.",
   ],
   "scouts-law-title" => [
-    'ukr' => "Скаутський Закон",
+    'ua' => "Скаутський Закон",
     'en' => "The Scout Law",
   ],
   "scouts-law-text" => [
-    'ukr' => "Скаутський закон – єдиний та складається з десяти пунктів, кожен з
+    'ua' => "Скаутський закон – єдиний та складається з десяти пунктів, кожен з
             яких сформульований коротко, але має глибоку суть. Текст Закону
             може несуттєво відрізнятися в різних Національних Скаутських
             Організаціях, що обумовлено специфікою культури і традицій країни.
@@ -94,16 +94,16 @@ It employs various elements that support the aim and Principles of Scouting,
        Founder of Scouting, Lord Baden-Powell.",
   ],
   "scouts-law-list-text" => [
-    'ukr' => " Кожен пункт Закону сформульований коротко, але він має дуже
+    'ua' => " Кожен пункт Закону сформульований коротко, але він має дуже
                 глибоку суть:",
     'en' => "Every point of the Law is explained briefly, but it has a very deep meaning:",
   ],
   "scouts-principles-title" => [
-    'ukr' => "Скаутські Принципи",
+    'ua' => "Скаутські Принципи",
     'en' => "The Principles of the Scout Movement",
   ],
   "scouts-principles-text" => [
-    'ukr' => " В Скаутингу все символічно та тісно взаємопов’язано, саме тому
+    'ua' => " В Скаутингу все символічно та тісно взаємопов’язано, саме тому
               три Скаутські принципи відображені в Скаутській емблемі (три
               пелюстки лілії) та в Скаутському знакові (три прямі пальці).
               Скаутинг залишається єдиним цілим, зокрема завдяки тому, що
@@ -115,7 +115,7 @@ It employs various elements that support the aim and Principles of Scouting,
  are indivisible and applied together.",
   ],
   "promises-text-part-first" => [
-    'ukr' => 'Скаутська Обіцянка – це особисте та соціальне зобов’язання,
+    'ua' => 'Скаутська Обіцянка – це особисте та соціальне зобов’язання,
                 яке молода людина дає на початку своєї Скаутської подорожі.
                 Оскільки кожний Скаут у всьому світі дає подібну обіцянку,
                 вона підтримує відчуття єдности та знаменує перший крок до
@@ -130,7 +130,7 @@ It employs various elements that support the aim and Principles of Scouting,
        proclaims the Scout Promise, which is fixed in the Constitution of the organization.',
   ],
   "promises-text-part-second" => [
-    'ukr' => 'ПРИМІТКИ: Член Національної Організації Скаутів України проголошує Скаутську Обіцянку, 
+    'ua' => 'ПРИМІТКИ: Член Національної Організації Скаутів України проголошує Скаутську Обіцянку, 
     зафіксовану Статутом Організації. Вона є адаптованим перекладом тексту
      Скаутської обіцянки з Конституції Всесвітньої Організації Скаутського Руху.',
     'en' => "NOTES: A member of the Scouts of Ukraine proclaims the Scout Promise,
@@ -138,7 +138,7 @@ It employs various elements that support the aim and Principles of Scouting,
       of the Scout Promise from the Constitution of the World Organization of the Scout Movement.",
   ],
   "promises-text-part-third" => [
-    'ukr' => 'Рішення про складання Скаутської обіцянки може прийняти
+    'ua' => 'Рішення про складання Скаутської обіцянки може прийняти
                 винятково та особа, яка прагне приєднатись до Скаутського
                 Руху.',
     'en' => "The decision to take the Promise can only be made by the person who wants to join the Scout Movement.",

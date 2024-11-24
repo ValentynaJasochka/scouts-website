@@ -1,24 +1,24 @@
 <?php
 return [
   "page-title" => [
-    'ukr' => "Наші заходи",
+    'ua' => "Наші заходи",
     'en' => "Our Events",
   ],
 
   "meta-title" => [
-    'ukr' => "Наші заходи",
+    'ua' => "Наші заходи",
     'en' => 'Our Events'
   ],
   "meta-description" => [
-    'ukr' => "Наші заходи.",
+    'ua' => "Наші заходи.",
     'en' => 'Our Events.'
   ],
   "main-title" => [
-    'ukr' => "Наші заходи",
+    'ua' => "Наші заходи",
     'en' => "Our events",
   ],
   "main-text" => [
-    'ukr' => "Ми організовуємо різноманітні та цікаві події для наших членів
+    'ua' => "Ми організовуємо різноманітні та цікаві події для наших членів
               різного віку, щоб вони могли вчитися, розвиватися та спілкуватися.
               Наші заходи ретельно розроблені, щоб надихати, кидати виклик та
               розвивати навички Скаутів, як більш юних, так і старших. Ми
@@ -36,14 +36,14 @@ return [
       designed for different age groups, including children, young people and adults.",
   ],
   "additional-text" => [
-    'ukr' => "Хочеш долучитись? Розпочни свою Скаутську подорож сьогодні та
+    'ua' => "Хочеш долучитись? Розпочни свою Скаутську подорож сьогодні та
                 відкрий безмежні <br> можливості, що вже чекають на тебе!",
     'en' => "Want to join? Start your Scouting journey today and discover
 the endless <br> possibilities that are waiting for you",
   ],
   
   "join-btn" => [
-    'ukr' => "Приєднатись до нас",
+    'ua' => "Приєднатись до нас",
     'en' => "Join us",
   ],
   

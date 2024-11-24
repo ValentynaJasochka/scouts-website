@@ -1,19 +1,19 @@
 <?php
 return [
   'logo' =>  [
-    'en' => '../images/logo_header_en.svg',
-    'ukr' => '../images/logo-heder.svg'
+    'en' => '/images/logo_header_en.svg',
+    'ua' => '/images/logo-heder.svg'
   ],
   'join' => [
     'en' => 'Join us',
-    'ukr' => 'Приєднатися'
+    'ua' => 'Приєднатися'
   ],
   'donation' =>  [
     'en' => 'Donation',
-    'ukr' => 'Задонатити'
+    'ua' => 'Задонатити'
   ],
   'donation' =>  [
     'en' => 'Donation',
-    'ukr' => 'Задонатити'
+    'ua' => 'Задонатити'
   ],
 ];

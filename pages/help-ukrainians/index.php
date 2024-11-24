@@ -58,7 +58,7 @@ $textsHelping = include "texts-helping.inc";
             <div class=" volunteering-img-wrapper">
               <img
                 class=" volunteering-img"
-                src="./images/help-ukrainiars/photo5.jpg"
+                src="/images/help-ukrainiars/photo5.jpg"
                 alt="" />
             </div>
           </div>

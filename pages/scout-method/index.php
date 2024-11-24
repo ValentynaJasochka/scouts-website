@@ -54,7 +54,7 @@ $textsPrinciples = include "texts-principles.inc";
             <div class="scouts-promises-img-wrapper">
               <img
                 class="scouts-promises-img"
-                src="./images/scouting-method/photo1.jpg"
+                src="/images/scouting-method/photo1.jpg"
                 alt="scouts promises" />
             </div>
 
@@ -82,7 +82,7 @@ $textsPrinciples = include "texts-principles.inc";
               <div class="scouts-promises-img-wrapper">
                 <img
                   class="scouts-promises-img"
-                  src="./images/scouting-method/photo2.jpg"
+                  src="/images/scouting-method/photo2.jpg"
                   alt="scouts promises" />
               </div>
             </div>
@@ -95,7 +95,7 @@ $textsPrinciples = include "texts-principles.inc";
             <div class="low-img-wrapper">
               <img
                 class="low-img"
-                src="./images/scouting-method/photo3.png"
+                src="/images/scouting-method/photo3.png"
                 alt="scouts promises" />
             </div>
 
@@ -110,7 +110,7 @@ $textsPrinciples = include "texts-principles.inc";
                     <div class="tik-btn">
                       <img
                         class="tik-btn"
-                        src="./images/scouting-method/icons/tik-btn.png"
+                        src="/images/scouting-method/icons/tik-btn.png"
                         alt="scouts promises" />
                     </div>
                     <p class="main-text law-text-item"><?= getLangText($items['item']) ?></p>

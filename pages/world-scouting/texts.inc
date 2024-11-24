@@ -1,32 +1,32 @@
 <?php
 return [
   "page-title" => [
-    'ukr' => "Більше про ВОСР",
+    'ua' => "Більше про ВОСР",
     'en' => "More about WOSM",
   ],
 
   "meta-title" => [
-    'ukr' => "Більше про ВОСР",
+    'ua' => "Більше про ВОСР",
     'en' => 'More about WOSM'
   ],
   "meta-description" => [
-    'ukr' => "Більше про ВОСР.",
+    'ua' => "Більше про ВОСР.",
     'en' => 'More about WOSM.'
   ],
   "main-title" => [
-    'ukr' => "Всесвітня Організація Скаутського Руху",
+    'ua' => "Всесвітня Організація Скаутського Руху",
     'en' => "World Organization of the Scout Movement",
   ],
   "sub-title" => [
-    'ukr' => "Більше про ВОСР",
+    'ua' => "Більше про ВОСР",
     'en' => "More about WOSM",
   ],
   "headquarters-title" => [
-    'ukr' => " Штаб-квартира <br /> Скаутського Бюро",
+    'ua' => " Штаб-квартира <br /> Скаутського Бюро",
     'en' => "Headquarters <br /> of the Scout Bureau",
   ],
   "headquarters-information-first" => [
-    'ukr' => "Штаб-квартира Всесвітнього Скаутського Бюро знаходиться в
+    'ua' => "Штаб-квартира Всесвітнього Скаутського Бюро знаходиться в
               Куала-Лумпурі, Малайзія, і має представництва в шести
               регіональних підрозділах. Кожен регіон дублює всесвітню структуру
               ВОСР та відповідно має Регіональний Скаутський Комітет,
@@ -37,7 +37,7 @@ return [
      a Regional Scout Conference and a Regional Scout Bureau.",
   ],
   "headquarters-information-second" => [
-    'ukr' => "Україна разом з іншими країнами Європи входить до Європейського
+    'ua' => "Україна разом з іншими країнами Європи входить до Європейського
               Регіону.",
     'en' => "Ukraine, along with other European countries, 
     is part of the Europe Region.",

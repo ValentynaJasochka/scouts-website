@@ -17,7 +17,7 @@ $textsLaw = include "texts-scouts-law.inc";
             <div class="donation-block-img-wrapper first-img-wrapper">
               <img
                 class="donation-block-points-img"
-                src="./images/donation/photo1.jpg"
+                src="/images/donation/photo1.jpg"
                 alt="" />
             </div>
             <div class="side-wrapper">
@@ -38,7 +38,7 @@ $textsLaw = include "texts-scouts-law.inc";
             <div class="donation-block-img-wrapper second-img-wrapper">
               <img
                 class="donation-block-points-img"
-                src="./images/donation/photo2.jpg"
+                src="/images/donation/photo2.jpg"
                 alt="" />
             </div>
             <div class="side-wrapper">
@@ -56,7 +56,7 @@ $textsLaw = include "texts-scouts-law.inc";
                     <div class="tik-btn">
                       <img
                         class="tik-btn"
-                        src="./images/scouting-method/icons/tik-btn.png"
+                        src="/images/scouting-method/icons/tik-btn.png"
                         alt="" />
                     </div>
                     <p class="main-text law-text-item">
