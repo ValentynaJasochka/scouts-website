@@ -152,9 +152,9 @@ a {
 
   .join-btn:hover {
     background-image: linear-gradient(
-        to right,
-        rgb(91, 41, 147),
-        rgb(155, 104, 212)
+      to right,
+      rgb(91, 41, 147),
+      rgb(155, 104, 212)
     );
   }
 
@@ -178,6 +178,14 @@ a {
 .donation-hover {
   display: none;
   position: absolute;
+}
+
+.footer {
+  background-color: rgb(91, 41, 147);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -308,9 +316,7 @@ a {
 
   /* FOOTER */
   .footer {
-    background-color: rgb(91, 41, 147);
-    display: flex;
-    justify-content: center;
+    padding: 32px 0;
   }
 
   .footer-section {
@@ -318,7 +324,7 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    padding: 32px;
+    padding: 0 32px;
   }
 
   .footer-logo {
@@ -400,6 +406,7 @@ a {
     flex-direction: row;
     gap: 16px;
     color: white;
+    align-self: center;
   }
 }
 
@@ -587,19 +594,22 @@ a {
 
   /* Footer */
   .footer {
-    background-color: rgb(91, 41, 147);
-    display: flex;
-    justify-content: center;
+    padding: 64px 100px;
   }
 
   .footer-section {
-    width: 1268px;
+    max-width: 1268px;
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     gap: 0;
-    padding: 64px 100px;
+  }
+
+  .footer-section:first-child {
+    gap: 85px;
+    margin-bottom: 16px;
   }
 
   .footer-section :nth-child(5) {
@@ -617,18 +627,13 @@ a {
   .footer-logo {
     width: 312px;
     height: 121px;
-    margin-left: 25px;
-    margin-right: 89px;
-    margin-bottom: 52px;
   }
 
   .nav-footer-list {
     display: flex;
     gap: 24px;
     color: white;
-    margin-right: 32px;
     align-self: flex-end;
-    margin-bottom: 49px;
   }
 
   .nav-footer-list-title {
@@ -673,9 +678,10 @@ a {
     font-weight: 600;
     font-size: 13px;
     line-height: 1.2;
-    width: 598px;
+    width: 500px;
     color: var(--white-text-color);
     text-align: center;
+    order: 3;
   }
 
   .social-media-footer-list {
@@ -683,6 +689,7 @@ a {
     gap: 11px;
     align-items: center;
     margin-right: 22px;
+    order: 1;
   }
 
   .social-media-item-icon {
@@ -698,6 +705,7 @@ a {
     line-height: 1.2;
     color: var(--white-text-color);
     /* margin-right: 120px; */
+    order: 2;
   }
 
   .main-title-container {
@@ -736,8 +744,8 @@ a {
   }
 }
 
-.page404{
-  line-height:400px;
+.page404 {
+  line-height: 400px;
   text-align: center;
   font-size: 24px;
 }

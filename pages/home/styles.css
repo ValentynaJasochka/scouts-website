@@ -538,6 +538,7 @@
     line-height: 1;
     text-transform: uppercase;
     color: var(--white-text-color);
+    max-width: 550px;
   }
 
   .social-media-list {
@@ -552,7 +553,6 @@
 
   .subscribing-link {
     display: flex;
-    width: 350px;
     height: 80px;
     gap: 24px;
     align-items: center;

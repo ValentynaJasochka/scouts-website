@@ -33,6 +33,8 @@ $textsFooter = include "texts.inc";
       }
       ?>
     </ul>
+  </div>
+  <div class="footer-section">
     <ul class="social-media-footer-list">
       <li class="social-media-link">
         <a
@@ -65,6 +67,7 @@ $textsFooter = include "texts.inc";
         </a>
       </li>
     </ul>
+
     <p class="donation-footer-text"><?= getLangText($textsFooter["questions"]) ?>
       <span class="email-text">secretariat@ukrscout.org</span>
     </p>
