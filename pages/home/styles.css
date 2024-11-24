@@ -554,6 +554,7 @@
   .subscribing-link {
     display: flex;
     height: 80px;
+    max-width: 350px;
     gap: 24px;
     align-items: center;
     border-radius: 1000px;
