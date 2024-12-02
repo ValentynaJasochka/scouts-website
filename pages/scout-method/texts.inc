@@ -18,6 +18,7 @@ return [
     'ua' => "Скаутський метод",
     'en' => "The Scout method",
   ],
+ 
   "main-text" => [
     'ua' => "Скаутський Метод є унікальною системою прогресивного самовиховання.
               Він застосовує різні елементи, які підтримують мету та Принципи
@@ -32,7 +33,7 @@ It employs various elements that support the aim and Principles of Scouting,
   
   "elements-banner-link" => [
     'ua' => "/images/scouting-method/scouting-method-diagram.png",
-    'en' => "/images/scouting-method/scouting-method-diagram.png",
+    'en' => "/images/scouting-method/scouting-method-diagram-en.png",
   ],
 
   "scouts-promises-title" => [
