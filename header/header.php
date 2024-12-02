@@ -5,12 +5,14 @@ $languages = [
   [
     'url' => "",
     'text' => "Українська",
-    'not-active-for' => "ua"
+    'not-active-for' => "ua",
+    'icon' => '🇺🇦',
   ],
   [
     'url' => "en/",
     'text' => "English",
-    'not-active-for' => "en"
+    'not-active-for' => "en",
+    'icon' => '🇬🇧',
   ],
 
 ]
@@ -28,7 +30,7 @@ $languages = [
       <div class="lang-list nav-main-item  ">
         <div class="lang nav-item-click-listener">
           <div class="lang-menu">
-            <a class="lang" href="/<?= getAddress() ?>"><?= getLangText($headerTexts['active-lang']) ?></a>
+            <a class="lang" href="/<?= getAddress() ?>"><?= getLangText($headerTexts['active-lang-icon']) ?> <?= getLangText($headerTexts['active-lang']) ?></a>
             <button class="inner-mobile-menu-open-btn" type="button">
               <svg class="inner-mobile-menu-open-icon" width="13" height="17">
                 <use
@@ -42,7 +44,7 @@ $languages = [
               if ($language['not-active-for'] != $lang) {
             ?>
                 <li class="lang-en ">
-                  <a class="lang" href="/<?= $language['url'] ?><?= getAddress() ?>"><?= $language['text'] ?></a>
+                  <a class="lang" href="/<?= $language['url'] ?><?= getAddress() ?>"><?= $language['icon'] ?> <?= $language['text'] ?></a>
                 </li>
 
             <?php

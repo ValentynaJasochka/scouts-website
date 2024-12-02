@@ -19,5 +19,9 @@ return [
   'active-lang' => [
     'en' => "English",
     'ua' => 'Українська'
-  ]
+  ],
+  'active-lang-icon' => [
+    'ua' => '🇺🇦',
+    'en' => '🇬🇧',
+  ],
 ];
