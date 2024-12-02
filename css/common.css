@@ -221,6 +221,15 @@ a {
     width: 24px;
     height: 24px;
   }
+  .header-navigation {
+    display: flex;
+  }
+  .header-navigation :nth-child(2) {
+    order: 3;
+  }
+  .header-navigation :nth-child(3) {
+    order: 2;
+  }
 
   .header-nav-item-container {
     display: flex;
@@ -281,21 +290,48 @@ a {
     align-self: center;
   }
 
-  /* .inner-mobile-menu-close-btn {
-    padding: 0;
-    line-height: 0;
-    border: none;
-    width: 13px;
-    background-color: white;
-    height: 17px;
-    align-self: center;
-  } */
   .nav-mobile-menu {
     display: none;
   }
 
   .nav-mobile-menu.mobile-menu-is-opened {
     display: block;
+  }
+  /* .lang-list .mobile-menu-is-opened {
+    display: none;
+  } */
+  .lang-list {
+    display: none;
+  }
+  .lang-mobile-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .lang-mobile-list::before {
+    content: "";
+    display: inline-block;
+    width: 90%;
+    height: 1px;
+    
+    background-color: black;
+  }
+  .lang-mobile-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;   
+  }
+  .lang {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--accent-color);
+  }
+  
+  .deactivated-lang-mobile {
+    color: var(--main-font-color);
+    opacity: 0.4;
   }
 
   .menu-none {
@@ -419,6 +455,10 @@ a {
     height: 118px;
   }
 
+  .lang-list {
+    width: 300px;
+  }
+
   .container {
     max-width: 1778px;
     width: 100%;
@@ -468,6 +508,7 @@ a {
   .header-logo-img {
     width: 252px;
     height: 98px;
+    margin-right: 50px;
   }
 
   .header-nav-list {
@@ -478,7 +519,27 @@ a {
     box-shadow: none;
     justify-content: flex-end;
   }
+  .lang {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--main-font-color);
+  }
+  .lang:active {
+    color: var(--main-font-color);
+  }
+  .lang-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  .lang-mobile-list {
+    display: none;
+  }
 
+  .is-hidden {
+    display: none;
+  }
   .close-btn-none {
     display: none;
   }
@@ -572,6 +633,17 @@ a {
     flex-direction: column;
     gap: 8px;
     background-color: var(--accent-color);
+  }
+  .lang-nav-table {
+    background-color: white;
+    width: 300px;
+    padding: 0;
+    gap: 0px;
+    transform: translateY(20px);
+  }
+  .lang-en {
+    /* padding-left: 16px; */
+    padding-bottom: 15px;
   }
 
   .nav-table-item {

@@ -16,4 +16,8 @@ return [
     'en' => 'Donation',
     'ua' => 'Задонатити'
   ],
+  'active-lang' => [
+    'en' => "English",
+    'ua' => 'Українська'
+  ]
 ];

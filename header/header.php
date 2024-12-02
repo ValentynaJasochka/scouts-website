@@ -1,7 +1,21 @@
 <?php
 $dropdowns = include "header-dropdowns.inc";
 $headerTexts = include "header-texts.inc";
+$languages = [
+  [
+    'url' => "",
+    'text' => "Українська",
+    'not-active-for' => "ua"
+  ],
+  [
+    'url' => "en/",
+    'text' => "English",
+    'not-active-for' => "en"
+  ],
+
+]
 ?>
+
 <header class="header">
   <div class="container page-header-container">
     <nav class="header-navigation">
@@ -11,8 +25,35 @@ $headerTexts = include "header-texts.inc";
           src="<?= getLangText($headerTexts["logo"]) ?>"
           alt="Logo Scouts" />
       </a>
-      <a href="/<?= getAddress()?>">UA</a>
-      <a href="/en/<?= getAddress()?>">EN</a>
+      <div class="lang-list nav-main-item  ">
+        <div class="lang nav-item-click-listener">
+          <div class="lang-menu">
+            <a class="lang" href="/<?= getAddress() ?>"><?= getLangText($headerTexts['active-lang']) ?></a>
+            <button class="inner-mobile-menu-open-btn" type="button">
+              <svg class="inner-mobile-menu-open-icon" width="13" height="17">
+                <use
+                  href="/images/sprite-title-page.svg#inner-mobile-open-btn"></use>
+              </svg>
+            </button>
+          </div>
+          <ul class="nav-table lang-nav-table is-hidden">
+            <?php
+            foreach ($languages as $language) {
+              if ($language['not-active-for'] != $lang) {
+            ?>
+                <li class="lang-en ">
+                  <a class="lang" href="/<?= $language['url'] ?><?= getAddress() ?>"><?= $language['text'] ?></a>
+                </li>
+
+            <?php
+              }
+            }
+            ?>
+
+          </ul>
+        </div>
+      </div>
+
       <ul class="header-nav-list nav-mobile-menu">
 
         <?php
@@ -50,10 +91,32 @@ $headerTexts = include "header-texts.inc";
             <a class="header-nav-item-link" href="./join-us"><?= getLangText($headerTexts['join']) ?></a>
           </div>
         </li>
-        <li class="header-nav-item heder-nav-text" >
-        <!-- <li class="header-nav-item heder-nav-text" style="display: none"> -->
+        <li class="header-nav-item heder-nav-text">
+
           <div class="header-nav-item-container">
             <a class="header-nav-item-link" href="./donation"><?= getLangText($headerTexts['donation']) ?></a>
+          </div>
+        </li>
+        <li>
+          <div class="lang-mobile-list">
+            <div class="lang-mobile-menu">
+              <?php
+              foreach ($languages as $language) {
+                if ($language['not-active-for'] != $lang) {
+              ?>
+                  <a class="lang deactivated-lang-mobile" href="/<?= $language['url'] ?><?= getAddress() ?>"><?= $language['text'] ?></a>
+
+                <?php
+                } else {
+                ?>
+                  <a class="lang" href="/<?= $language['url'] ?><?= getAddress() ?>"><?= $language['text'] ?></a>
+
+              <?php
+                }
+              }
+              ?>
+
+            </div>
           </div>
         </li>
       </ul>
