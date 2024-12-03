@@ -106,12 +106,12 @@ $languages = [
               foreach ($languages as $language) {
                 if ($language['not-active-for'] != $lang) {
               ?>
-                  <a class="lang deactivated-lang-mobile" href="/<?= $language['url'] ?><?= getAddress() ?>"><?= $language['text'] ?></a>
+                  <a class="lang deactivated-lang-mobile" href="/<?= $language['url'] ?><?= getAddress() ?>">  <?= $language['icon'] ?><?= $language['text'] ?></a>
 
                 <?php
                 } else {
                 ?>
-                  <a class="lang" href="/<?= $language['url'] ?><?= getAddress() ?>"><?= $language['text'] ?></a>
+                  <a class="lang" href="/<?= $language['url'] ?><?= getAddress() ?>"><?= $language['icon'] ?>  <?= $language['text'] ?></a>
 
               <?php
                 }
