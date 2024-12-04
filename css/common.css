@@ -238,7 +238,7 @@ a {
   }
 
   .heder-nav-text {
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     color: black;
     padding-left: 12px;
@@ -265,7 +265,7 @@ a {
   }
 
   .nav-table-item {
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     color: var(--accent-color);
     padding-left: 32px;
@@ -612,7 +612,7 @@ a {
   }
 
   .header-nav-item {
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.208;
@@ -663,7 +663,7 @@ a {
   }
 
   .nav-table-link {
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 24px;
     color: var(--white-text-color);
