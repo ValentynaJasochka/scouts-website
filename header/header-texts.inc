@@ -17,8 +17,8 @@ return [
     'ua' => 'Задонатити'
   ],
   'active-lang' => [
-    'en' => "English",
-    'ua' => 'Українська'
+    'en' => "ENG",
+    'ua' => 'УКР'
   ],
   'active-lang-icon' => [
     'ua' => '🇺🇦',

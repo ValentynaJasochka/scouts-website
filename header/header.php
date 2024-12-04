@@ -4,13 +4,13 @@ $headerTexts = include "header-texts.inc";
 $languages = [
   [
     'url' => "",
-    'text' => "Українська",
+    'text' => "УКР",
     'not-active-for' => "ua",
     'icon' => '🇺🇦',
   ],
   [
     'url' => "en/",
-    'text' => "English",
+    'text' => "ENG",
     'not-active-for' => "en",
     'icon' => '🇬🇧',
   ],
@@ -27,33 +27,25 @@ $languages = [
           src="<?= getLangText($headerTexts["logo"]) ?>"
           alt="Logo Scouts" />
       </a>
-      <div class="lang-list nav-main-item  ">
-        <div class="lang nav-item-click-listener">
-          <div class="lang-menu">
-            <a class="lang" href="/<?= getAddress() ?>"><?= getLangText($headerTexts['active-lang-icon']) ?> <?= getLangText($headerTexts['active-lang']) ?></a>
-            <button class="inner-mobile-menu-open-btn" type="button">
-              <svg class="inner-mobile-menu-open-icon" width="13" height="17">
-                <use
-                  href="/images/sprite-title-page.svg#inner-mobile-open-btn"></use>
-              </svg>
-            </button>
-          </div>
-          <ul class="nav-table lang-nav-table is-hidden">
-            <?php
-            foreach ($languages as $language) {
-              if ($language['not-active-for'] != $lang) {
-            ?>
-                <li class="lang-en ">
-                  <a class="lang" href="/<?= $language['url'] ?><?= getAddress() ?>"><?= $language['icon'] ?> <?= $language['text'] ?></a>
-                </li>
+      <div class="lang-list   ">
+        <ul class="lang-nav-table">
+        <?php
+              foreach ($languages as $language) {
+                if ($language['not-active-for'] != $lang) {
+              ?>
+                  <a class="lang deactivated-lang-mobile" href="/<?= $language['url'] ?><?= getAddress() ?>"><?= $language['text'] ?></a>
 
-            <?php
+                <?php
+                } else {
+                ?>
+                  <a class="lang" href="/<?= $language['url'] ?><?= getAddress() ?>"> <?= $language['text'] ?></a>
+
+              <?php
+                }
               }
-            }
-            ?>
-
-          </ul>
-        </div>
+              ?>
+         
+        </ul>
       </div>
 
       <ul class="header-nav-list nav-mobile-menu">
@@ -99,19 +91,19 @@ $languages = [
             <a class="header-nav-item-link" href="./donation"><?= getLangText($headerTexts['donation']) ?></a>
           </div>
         </li>
-        <li>
+        <li class="mobile-menu-lang">
           <div class="lang-mobile-list">
             <div class="lang-mobile-menu">
               <?php
               foreach ($languages as $language) {
                 if ($language['not-active-for'] != $lang) {
               ?>
-                  <a class="lang deactivated-lang-mobile" href="/<?= $language['url'] ?><?= getAddress() ?>">  <?= $language['icon'] ?><?= $language['text'] ?></a>
+                  <a class="lang deactivated-lang-mobile" href="/<?= $language['url'] ?><?= getAddress() ?>"><?= $language['text'] ?></a>
 
                 <?php
                 } else {
                 ?>
-                  <a class="lang" href="/<?= $language['url'] ?><?= getAddress() ?>"><?= $language['icon'] ?>  <?= $language['text'] ?></a>
+                  <a class="lang" href="/<?= $language['url'] ?><?= getAddress() ?>"> <?= $language['text'] ?></a>
 
               <?php
                 }
